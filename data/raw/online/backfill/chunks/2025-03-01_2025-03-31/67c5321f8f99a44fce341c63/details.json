@@ -1,0 +1,24 @@
+{
+  "date": "2025-03-04T01:40:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67c5321f8f99a44fce341c63",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Card Temple Weekly Battles #3",
+  "organizer": {
+    "id": 2152,
+    "name": "Card Temple"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 76
+}

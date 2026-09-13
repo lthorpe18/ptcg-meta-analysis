@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-03T02:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67bc3fea78c0b3231881ece4",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "SMG Nightly Standard",
+  "organizer": {
+    "id": 778,
+    "name": "Snowy Mountain Guild"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 59
+}
