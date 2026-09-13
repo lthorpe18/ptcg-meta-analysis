@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-27T17:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67b7b4ba0b3322ebaa50f5fe",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏆Moujii's Dojo🏆300x PTCGL Codes!🏆",
+  "organizer": {
+    "id": 35,
+    "name": "Moujii's Dojo"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 114
+}

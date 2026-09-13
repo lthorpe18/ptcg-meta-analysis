@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-02T20:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "679d855697e30145c389082b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Umbral League Inaugural Tournament - CLOSED LIST",
+  "organizer": {
+    "id": 1887,
+    "name": "Darksiders TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 70
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-27T23:15:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67be27470b3322ebaa514a2e",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Victini TCG",
+  "organizer": {
+    "id": 2243,
+    "name": "Victini TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 55
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2025-02-25T01:40:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67bbfd7c78c0b3231881ec53",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Card Temple Weekly Battles #2",
+  "organizer": {
+    "id": 2152,
+    "name": "Card Temple"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 91
+}

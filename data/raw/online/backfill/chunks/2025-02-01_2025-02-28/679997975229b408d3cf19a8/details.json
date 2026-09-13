@@ -1,0 +1,24 @@
+{
+  "date": "2025-02-12T01:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "679997975229b408d3cf19a8",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Jefferson Gym Tuesday Night Standard #21",
+  "organizer": {
+    "id": 1368,
+    "name": "The Jefferson Gym"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 105
+}

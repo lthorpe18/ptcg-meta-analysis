@@ -1,0 +1,36 @@
+{
+  "date": "2025-02-09T19:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67a06e42f1a83f7924eb5db0",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Umbral League Omni Series - Weekly #2 - 35 CODES!",
+  "organizer": {
+    "id": 1887,
+    "name": "Darksiders TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 129
+}

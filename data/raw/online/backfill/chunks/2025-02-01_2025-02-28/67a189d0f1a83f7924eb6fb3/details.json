@@ -1,0 +1,24 @@
+{
+  "date": "2025-02-10T23:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67a189d0f1a83f7924eb6fb3",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Sunny's Weekly #191 The Lumberjack Social Event!",
+  "organizer": {
+    "id": 145,
+    "name": "Sunny's Weekly"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 116
+}
