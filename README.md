@@ -10,7 +10,7 @@ The first phase is deliberately **data audit only**. No live PTCG Tools formula 
 
 ## Phase 1 — Online historical data
 
-The collector uses the public Limitless Tournament API and preserves raw tournament-level evidence.
+The collector uses the public Limitless Tournament API and creates an auditable tournament-level source snapshot.
 
 Initial eligibility rules:
 
@@ -21,7 +21,7 @@ Initial eligibility rules:
 - At least 50 players by default
 - Decklists/standings available
 - Exclude events with custom banned cards or special rules
-- Preserve raw source payloads rather than collapsing them into the current PTCG Tools formula
+- Preserve the source deck classification used at collection time
 
 These rules are intentionally conservative and auditable. Later analysis can test thresholds such as event size, classification coverage, recency, organiser effects, etc.
 
@@ -30,7 +30,7 @@ These rules are intentionally conservative and auditable. Later analysis can tes
 ```text
 data/
   raw/
-    online/       # one folder per Limitless tournament
+    online/       # Limitless source snapshots and audit index
   processed/      # later cleaned analysis tables
 scripts/
   fetch_online.py # historical Online collector
@@ -56,13 +56,14 @@ python scripts/fetch_online.py \
 
 The script writes:
 
-- `data/raw/online/index.json` — discovered eligible/ineligible events and audit reasons
+- `data/raw/online/tournament-index.json` — all in-range PTCG Standard index rows
+- `data/raw/online/index.json` — eligibility audit and rejection reasons
 - `data/raw/online/<tournament-id>/details.json`
 - `data/raw/online/<tournament-id>/standings.json`
 - `data/raw/online/<tournament-id>/tournament.json`
 - `data/raw/online/manifest.json`
 
-Raw responses are kept so later cleaning/model changes remain reproducible.
+`standings.json` is intentionally compact. It preserves research-relevant source fields such as deck classification, country, record, placing and drop metadata, but removes full card-list payloads and player handles. This keeps the historical archive practical while freezing the deck classification evidence used by the model.
 
 ## Run in GitHub Actions
 
@@ -85,4 +86,4 @@ The workflow commits collected JSON back to the repository when data changes.
 
 ## Data policy
 
-This repository is a research dataset, not an app cache. Raw source data should be immutable where practical. Derived tables must be reproducible from raw data and scripts. Avoid retrospectively changing deck identities merely to improve model scores.
+This repository is a research dataset, not an app cache. Source classifications are snapshotted at collection time. Derived tables must be reproducible from those snapshots and scripts. Avoid retrospectively changing deck identities merely to improve model scores.
