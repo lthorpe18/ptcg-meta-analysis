@@ -1,0 +1,45 @@
+name: Full historical Online backfill
+
+on:
+  pull_request:
+    paths:
+      - ".bootstrap-full-online"
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch full Online history
+        run: |
+          python scripts/fetch_online.py \
+            --start-date "2024-09-01" \
+            --end-date "2026-09-13" \
+            --min-players 50
+
+      - name: Commit data if changed
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/online
+          git commit -m "data: backfill historical Online archive"
+          git push origin HEAD:${{ github.head_ref }}
