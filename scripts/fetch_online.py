@@ -29,7 +29,7 @@ from typing import Any
 BASE_URL = "https://play.limitlesstcg.com/api"
 DEFAULT_START = "2024-09-01"
 DEFAULT_MIN_PLAYERS = 50
-USER_AGENT = "ptcg-meta-analysis/0.2 (+historical metagame research)"
+USER_AGENT = "ptcg-meta-analysis/0.3 (+historical metagame research)"
 
 
 @dataclass
@@ -138,6 +138,31 @@ def detail_rejection_reasons(details: dict[str, Any]) -> list[str]:
         reasons.append("decklists_disabled")
 
     return reasons
+
+
+def compact_standings(standings: Any) -> Any:
+    """Remove full card lists while preserving the research-relevant snapshot."""
+    if not isinstance(standings, list):
+        return standings
+
+    compact: list[Any] = []
+    for row in standings:
+        if not isinstance(row, dict):
+            compact.append(row)
+            continue
+        compact.append({
+            key: value
+            for key, value in row.items()
+            if key not in {"decklist", "name", "player"}
+        })
+    return compact
+
+
+def contains_full_decklists(standings: Any) -> bool:
+    return isinstance(standings, list) and any(
+        isinstance(row, dict) and "decklist" in row
+        for row in standings
+    )
 
 
 def classification_stats(standings: Any) -> dict[str, Any]:
@@ -311,10 +336,18 @@ def audit_event(
     standings_path = event_dir / "standings.json"
     standings = load_json(standings_path)
     if standings is None:
-        standings = request_json(f"/tournaments/{tid}/standings", pause=config.pause)
+        raw_standings = request_json(
+            f"/tournaments/{tid}/standings",
+            pause=config.pause,
+        )
+        standings = compact_standings(raw_standings)
         write_json(standings_path, standings)
         counters["standings_fetched"] += 1
         time.sleep(config.pause)
+    elif contains_full_decklists(standings):
+        standings = compact_standings(standings)
+        write_json(standings_path, standings)
+        counters["standings_compacted"] += 1
 
     stats = classification_stats(standings)
     reasons = [] if isinstance(standings, list) and standings else ["no_standings"]
@@ -364,7 +397,7 @@ def main() -> int:
     write_json(config.out_dir / "tournament-index.json", items)
     print(f"Discovered {len(items)} in-range PTCG Standard tournament rows.")
 
-    counters = {"details_fetched": 0, "standings_fetched": 0}
+    counters = {"details_fetched": 0, "standings_fetched": 0, "standings_compacted": 0}
     audit_rows: list[dict[str, Any]] = []
 
     for i, item in enumerate(
@@ -389,7 +422,8 @@ def main() -> int:
     write_json(
         config.out_dir / "manifest.json",
         {
-            "collector_version": "0.2",
+            "collector_version": "0.3",
+            "standings_storage": "compact_without_decklists_or_player_handles",
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "source": BASE_URL,
             "start_date": config.start_date.isoformat(),
@@ -398,6 +432,7 @@ def main() -> int:
             "discovered_index_rows": len(items),
             "details_fetched_this_run": counters["details_fetched"],
             "standings_fetched_this_run": counters["standings_fetched"],
+            "standings_compacted_this_run": counters["standings_compacted"],
             "eligible_first_pass": len(eligible),
             "ineligible_or_failed": len(audit_rows) - len(eligible),
             "note": (
@@ -411,7 +446,8 @@ def main() -> int:
     print(
         f"Done: {len(eligible)} first-pass eligible of {len(audit_rows)} audited; "
         f"{counters['details_fetched']} details and "
-        f"{counters['standings_fetched']} standings fetched."
+        f"{counters['standings_fetched']} standings fetched, and "
+        f"{counters['standings_compacted']} legacy standings compacted."
     )
     return 0
 
