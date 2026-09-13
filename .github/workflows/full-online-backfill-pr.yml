@@ -1,9 +1,9 @@
-name: Full historical Online backfill
+name: Chunked historical Online backfill
 
 on:
   pull_request:
     paths:
-      - ".bootstrap-full-online"
+      - ".bootstrap-full-online-v2"
 
 permissions:
   contents: write
@@ -25,21 +25,57 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch full Online history
+      - name: Configure checkpoint commits
         run: |
-          python scripts/fetch_online.py \
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Discover historical tournament index once
+        run: |
+          set -euo pipefail
+          python scripts/backfill_online_chunked.py \
+            --mode discover \
             --start-date "2024-09-01" \
             --end-date "2026-09-13" \
             --min-players 50
 
-      - name: Commit data if changed
-        run: |
-          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
-            echo "No data changes."
-            exit 0
+          git add data/raw/online/backfill/discovery
+          if ! git diff --cached --quiet; then
+            git commit -m "data: checkpoint Online tournament discovery"
+            git push origin HEAD:${{ github.head_ref }}
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/raw/online
-          git commit -m "data: backfill historical Online archive"
-          git push origin HEAD:${{ github.head_ref }}
+
+      - name: Fetch and commit monthly chunks
+        run: |
+          set -euo pipefail
+          CUR="2024-09-01"
+          FINAL="2026-09-13"
+
+          while [[ "$CUR" < "$FINAL" || "$CUR" == "$FINAL" ]]; do
+            NEXT=$(date -I -d "$CUR +1 month")
+            END=$(date -I -d "$NEXT -1 day")
+            if [[ "$END" > "$FINAL" ]]; then
+              END="$FINAL"
+            fi
+
+            echo "=== Online backfill chunk: $CUR to $END ==="
+            python scripts/backfill_online_chunked.py \
+              --mode chunk \
+              --chunk-start "$CUR" \
+              --chunk-end "$END" \
+              --min-players 50
+
+            CHUNK_DIR="data/raw/online/backfill/chunks/${CUR}_${END}"
+            git add "$CHUNK_DIR"
+            if ! git diff --cached --quiet; then
+              git commit -m "data: Online backfill $CUR to $END"
+              git push origin HEAD:${{ github.head_ref }}
+            else
+              echo "Chunk already checkpointed: $CUR to $END"
+            fi
+
+            if [[ "$END" == "$FINAL" ]]; then
+              break
+            fi
+            CUR="$NEXT"
+          done
