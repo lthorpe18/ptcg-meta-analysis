@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-11T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa0dc1aa4272c53be64b7be",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🟢Jolly Good Weekly #6 | Top Cut! (50 Codes!)",
+  "organizer": {
+    "id": 2774,
+    "name": "Jolly Good TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 73
+}
