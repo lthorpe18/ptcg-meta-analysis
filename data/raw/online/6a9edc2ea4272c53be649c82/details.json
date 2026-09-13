@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-12T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9edc2ea4272c53be649c82",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🇧🇷 Hit Challenge #26 | TCG Live",
+  "organizer": {
+    "id": 2612,
+    "name": "Hit Legends TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 19
+}

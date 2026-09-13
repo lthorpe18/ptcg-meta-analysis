@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-12T10:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9dfcdcab080c8c957fc57d",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "Московская лига Pokémon TCG | X сезон #2",
+  "organizer": {
+    "id": 362,
+    "name": "Pokemon TCG Fun League"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": null,
+  "players": 25
+}

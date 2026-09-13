@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-13T07:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9fec42a4272c53be64aaeb",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "🔥 Giải đấu Devil Club 🔥",
+  "organizer": {
+    "id": 2059,
+    "name": "Pokémon Hanoi"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 3,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": null,
+  "players": 5
+}

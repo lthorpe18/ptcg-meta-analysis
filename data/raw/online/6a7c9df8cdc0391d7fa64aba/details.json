@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-13T10:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a7c9df8cdc0391d7fa64aba",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "Pokemon TCG TOPDECK LEAGUE Hoenn — Stone Badge",
+  "organizer": {
+    "id": 2782,
+    "name": "Pokemon TOPDECK LEAGUE"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": null,
+  "players": 22
+}

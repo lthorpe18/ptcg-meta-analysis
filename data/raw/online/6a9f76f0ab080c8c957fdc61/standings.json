@@ -1,0 +1,249 @@
+[
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "dusknoir"
+      ],
+      "id": "dragapult-dusknoir",
+      "name": "Dragapult Dusknoir"
+    },
+    "drop": null,
+    "name": "Matias Rodriguez [Close Combat]",
+    "placing": 1,
+    "player": "takatomon",
+    "record": {
+      "losses": 0,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "IT",
+    "deck": {
+      "icons": [
+        "excadrill-mega"
+      ],
+      "id": "mega-excadrill-ex",
+      "name": "Mega Excadrill"
+    },
+    "drop": null,
+    "name": "Mariano Dinardi",
+    "placing": 2,
+    "player": "marian_naiki",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "greninja-mega"
+      ],
+      "id": "mega-greninja-ex",
+      "name": "Mega Greninja"
+    },
+    "drop": null,
+    "name": "Maximo LARRAYA",
+    "placing": 3,
+    "player": "dragonice11259",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": null,
+    "deck": {},
+    "drop": null,
+    "name": "William Hernán",
+    "placing": 4,
+    "player": "weel",
+    "record": {
+      "losses": 1,
+      "ties": 1,
+      "wins": 2
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "alakazam",
+        "dudunsparce"
+      ],
+      "id": "alakazam-dudunsparce",
+      "name": "Alakazam Dudunsparce"
+    },
+    "drop": null,
+    "name": "Gisela Bernardini",
+    "placing": 5,
+    "player": "gisela21",
+    "record": {
+      "losses": 1,
+      "ties": 1,
+      "wins": 2
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "grimmsnarl",
+        "froslass"
+      ],
+      "id": "grimmsnarl-froslass",
+      "name": "Grimmsnarl Froslass"
+    },
+    "drop": null,
+    "name": "Beniccio Licciardi",
+    "placing": 6,
+    "player": "inz",
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "dragapult"
+      ],
+      "id": "dragapult-ex",
+      "name": "Dragapult"
+    },
+    "drop": null,
+    "name": "Lucas Coronel [Real Mareep]",
+    "placing": 7,
+    "player": "lucas_coronel_oxido",
+    "record": {
+      "losses": 1,
+      "ties": 2,
+      "wins": 1
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "substitute"
+      ],
+      "id": "other",
+      "name": "Other"
+    },
+    "drop": null,
+    "name": "Lucio Vismara",
+    "placing": 8,
+    "player": "lucio_22",
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "greninja-mega"
+      ],
+      "id": "mega-greninja-ex",
+      "name": "Mega Greninja"
+    },
+    "drop": null,
+    "name": "Julian Villa Abrille [Pokevice]",
+    "placing": 9,
+    "player": "julianvillaabrille",
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "dipplin",
+        "thwackey"
+      ],
+      "id": "festival-lead",
+      "name": "Festival Lead"
+    },
+    "drop": null,
+    "name": "Manuel Ochoa",
+    "placing": 10,
+    "player": "manuel24",
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "excadrill-mega"
+      ],
+      "id": "mega-excadrill-ex",
+      "name": "Mega Excadrill"
+    },
+    "drop": null,
+    "name": "Juan Ignacio Gómez de Saravia",
+    "placing": 11,
+    "player": "bot_tur",
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "grimmsnarl",
+        "froslass"
+      ],
+      "id": "grimmsnarl-froslass",
+      "name": "Grimmsnarl Froslass"
+    },
+    "drop": null,
+    "name": "Daniel Barcala [Close Combat]",
+    "placing": 12,
+    "player": "nekuy",
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "dipplin",
+        "thwackey"
+      ],
+      "id": "festival-lead",
+      "name": "Festival Lead"
+    },
+    "drop": 2,
+    "name": "Lautaro Ruffini [Real Mareep]",
+    "placing": 13,
+    "player": "ruffo0908",
+    "record": {
+      "losses": 0,
+      "ties": 0,
+      "wins": 1
+    }
+  }
+]

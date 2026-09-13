@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-11T22:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa0dd1fab080c8c957fed63",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Amyverse Webcam Wonders #27 💙 Cash Prize!",
+  "organizer": {
+    "id": 2679,
+    "name": "The Amyverse"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "CAM",
+  "players": 18
+}

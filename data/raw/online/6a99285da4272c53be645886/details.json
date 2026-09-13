@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-11T18:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a99285da4272c53be645886",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏆Ling TV ARENA🏆- TOP CUT",
+  "organizer": {
+    "id": 2592,
+    "name": "Ling TV"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 16
+}

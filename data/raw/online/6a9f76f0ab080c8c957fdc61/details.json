@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-11T21:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9f76f0ab080c8c957fdc61",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "FrikioTorneo de Pokémon TCG #11",
+  "organizer": {
+    "id": 2025,
+    "name": "Frikioteca "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    }
+  ],
+  "platform": null,
+  "players": 13
+}

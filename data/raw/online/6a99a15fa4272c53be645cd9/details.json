@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-12T18:10:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a99a15fa4272c53be645cd9",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "💲100 Cash PTCGL Welcome To The HIDEOUT",
+  "organizer": {
+    "id": 2705,
+    "name": "Hideout TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 9,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 355
+}

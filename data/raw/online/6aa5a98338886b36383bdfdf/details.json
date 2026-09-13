@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-13T17:40:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa5a98338886b36383bdfdf",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Domingou #07",
+  "organizer": {
+    "id": 2571,
+    "name": "ZardPoint"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 3,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 8
+}

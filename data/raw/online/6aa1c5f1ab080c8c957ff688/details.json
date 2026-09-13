@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-11T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa1c5f1ab080c8c957ff688",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "The Nightshades Pokemon TCG",
+  "organizer": {
+    "id": 2579,
+    "name": "Nightshades Premier Circuit "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 32
+}

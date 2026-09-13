@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-13T16:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa5fcc238886b36383be514",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Kearney Free Entry Standard Tournament #3",
+  "organizer": {
+    "id": 1063,
+    "name": "PokeCrashers"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 3,
+      "type": "ROUND_ROBIN"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 4
+}

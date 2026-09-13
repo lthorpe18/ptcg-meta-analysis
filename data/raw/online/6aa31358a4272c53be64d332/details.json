@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-10T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa31358a4272c53be64d332",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Sidedeck Online Jueves 10 Septiembre",
+  "organizer": {
+    "id": 2306,
+    "name": "Juanma_TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 19
+}

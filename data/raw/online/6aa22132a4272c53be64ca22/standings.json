@@ -1,0 +1,4116 @@
+[
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "substitute"
+      ],
+      "id": "other",
+      "name": "Other"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 4,
+          "name": "Psychic Energy",
+          "number": "5",
+          "set": "MEE"
+        },
+        {
+          "count": 2,
+          "name": "Darkness Energy",
+          "number": "7",
+          "set": "MEE"
+        },
+        {
+          "count": 2,
+          "name": "Magnetic Metal Energy",
+          "number": "85",
+          "set": "CRI"
+        },
+        {
+          "count": 2,
+          "name": "Telepathic Psychic Energy",
+          "number": "88",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Mist Energy",
+          "number": "161",
+          "set": "TEF"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Elgyem",
+          "number": "40",
+          "set": "BLK"
+        },
+        {
+          "count": 2,
+          "name": "Latias ex",
+          "number": "76",
+          "set": "SSP"
+        },
+        {
+          "count": 2,
+          "name": "Munkidori",
+          "number": "95",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Shieldon",
+          "number": "61",
+          "set": "PBL"
+        },
+        {
+          "count": 3,
+          "name": "Bastiodon",
+          "number": "62",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Jynx",
+          "number": "32",
+          "set": "PBL"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Crispin",
+          "number": "133",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Xerosic's Machinations",
+          "number": "64",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Lana's Aid",
+          "number": "155",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Ruffian",
+          "number": "157",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Hilda",
+          "number": "84",
+          "set": "WHT"
+        },
+        {
+          "count": 4,
+          "name": "Antique Armor Fossil",
+          "number": "72",
+          "set": "PBL"
+        },
+        {
+          "count": 3,
+          "name": "Accompanying Flute",
+          "number": "142",
+          "set": "TWM"
+        },
+        {
+          "count": 2,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Rare Candy",
+          "number": "125",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Boxed Order",
+          "number": "143",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 4,
+          "name": "Gravity Gemstone",
+          "number": "137",
+          "set": "SCR"
+        },
+        {
+          "count": 3,
+          "name": "Fossil Quarry",
+          "number": "76",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Battle Cage",
+          "number": "85",
+          "set": "PFL"
+        },
+        {
+          "count": 1,
+          "name": "Neutralization Zone",
+          "number": "60",
+          "set": "SFA"
+        }
+      ]
+    },
+    "drop": 5,
+    "name": "GraveDigger420",
+    "placing": null,
+    "player": "gravedigger420",
+    "record": {
+      "losses": 4,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "trevenant"
+      ],
+      "id": "hops-trevenant",
+      "name": "Hop's Trevenant"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 4,
+          "name": "Telepathic Psychic Energy",
+          "number": "88",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Mist Energy",
+          "number": "161",
+          "set": "TEF"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Hop's Phantump",
+          "number": "95",
+          "set": "ASC"
+        },
+        {
+          "count": 3,
+          "name": "Hop's Trevenant",
+          "number": "96",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Hop's Snorlax",
+          "number": "117",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Hop's Wooloo",
+          "number": "135",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Hop's Dubwool",
+          "number": "136",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Hop's Cramorant",
+          "number": "138",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Shaymin",
+          "number": "10",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Lillie's Clefairy ex",
+          "number": "56",
+          "set": "JTG"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 3,
+          "name": "Hassel",
+          "number": "151",
+          "set": "TWM"
+        },
+        {
+          "count": 3,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 3,
+          "name": "Pokégear 3.0",
+          "number": "186",
+          "set": "SVI"
+        },
+        {
+          "count": 2,
+          "name": "Hop's Bag",
+          "number": "147",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Secret Box",
+          "number": "163",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Switch",
+          "number": "130",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Hop's Choice Band",
+          "number": "148",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 4,
+          "name": "Postwick",
+          "number": "154",
+          "set": "JTG"
+        }
+      ]
+    },
+    "drop": 1,
+    "name": "Tre A",
+    "placing": null,
+    "player": "treross2010",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "substitute"
+      ],
+      "id": "other",
+      "name": "Other"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 3,
+          "name": "Fighting Energy",
+          "number": "6",
+          "set": "MEE"
+        },
+        {
+          "count": 3,
+          "name": "Rocky Fighting Energy",
+          "number": "87",
+          "set": "POR"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Ralts",
+          "number": "58",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Kirlia",
+          "number": "59",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Mega Gallade ex",
+          "number": "48",
+          "set": "CRI"
+        },
+        {
+          "count": 2,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Lunatone",
+          "number": "74",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Solrock",
+          "number": "75",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Budew",
+          "number": "16",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Wally's Compassion",
+          "number": "132",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Judge",
+          "number": "76",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Crushing Hammer",
+          "number": "71",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Premium Power Pro",
+          "number": "124",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Rare Candy",
+          "number": "125",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Mega Signal",
+          "number": "121",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Hero's Cape",
+          "number": "152",
+          "set": "TEF"
+        }
+      ]
+    },
+    "drop": 1,
+    "name": "Toperinha21",
+    "placing": null,
+    "player": "toperinha21",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "CL",
+    "deck": {
+      "icons": [
+        "toxtricity"
+      ],
+      "id": "toxtricity-pfl",
+      "name": "Toxtricity"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 10,
+          "name": "Darkness Energy",
+          "number": "7",
+          "set": "MEE"
+        },
+        {
+          "count": 2,
+          "name": "Shadowy Darkness Energy",
+          "number": "83",
+          "set": "PBL"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Toxel",
+          "number": "67",
+          "set": "PFL"
+        },
+        {
+          "count": 3,
+          "name": "Toxtricity",
+          "number": "68",
+          "set": "PFL"
+        },
+        {
+          "count": 3,
+          "name": "Mega Darkrai ex",
+          "number": "48",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Munkidori",
+          "number": "95",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Chi-Yu",
+          "number": "59",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Pecharunt ex",
+          "number": "39",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Seviper",
+          "number": "62",
+          "set": "PFL"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Yveltal",
+          "number": "88",
+          "set": "MEG"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Grimsley's Move",
+          "number": "90",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Lisia's Appeal",
+          "number": "179",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Janine's Secret Art",
+          "number": "112",
+          "set": "PRE"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 2,
+          "name": "Dark Bell",
+          "number": "75",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Energy Recycler",
+          "number": "164",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Dangerous Laser",
+          "number": "58",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Binding Mochi",
+          "number": "95",
+          "set": "PRE"
+        },
+        {
+          "count": 2,
+          "name": "Academy at Night",
+          "number": "54",
+          "set": "SFA"
+        }
+      ]
+    },
+    "drop": 5,
+    "name": "Patoto123",
+    "placing": null,
+    "player": "patoto123",
+    "record": {
+      "losses": 4,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "seaking",
+        "thwackey"
+      ],
+      "id": "seaking-pre",
+      "name": "Seaking Festival Lead"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 4,
+          "name": "Mist Energy",
+          "number": "161",
+          "set": "TEF"
+        },
+        {
+          "count": 2,
+          "name": "Fire Energy",
+          "number": "2",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Grookey",
+          "number": "14",
+          "set": "TWM"
+        },
+        {
+          "count": 3,
+          "name": "Thwackey",
+          "number": "15",
+          "set": "TWM"
+        },
+        {
+          "count": 4,
+          "name": "Goldeen",
+          "number": "44",
+          "set": "TWM"
+        },
+        {
+          "count": 4,
+          "name": "Seaking",
+          "number": "21",
+          "set": "PRE"
+        },
+        {
+          "count": 1,
+          "name": "Rellor",
+          "number": "23",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Rabsca",
+          "number": "24",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Shaymin",
+          "number": "10",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Gladion's Final Battle",
+          "number": "77",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Dawn",
+          "number": "87",
+          "set": "PFL"
+        },
+        {
+          "count": 4,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Secret Box",
+          "number": "163",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Hand Trimmer",
+          "number": "150",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Sacred Ash",
+          "number": "168",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 3,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Brave Bangle",
+          "number": "80",
+          "set": "WHT"
+        },
+        {
+          "count": 4,
+          "name": "Festival Grounds",
+          "number": "149",
+          "set": "TWM"
+        }
+      ]
+    },
+    "drop": 4,
+    "name": "Nareik12",
+    "placing": null,
+    "player": "nareik12",
+    "record": {
+      "losses": 4,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "cinccino"
+      ],
+      "id": "cinccino-ex",
+      "name": "Cinccino"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 19,
+          "name": "Metal Energy",
+          "number": "8",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Beldum",
+          "number": "113",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Metang",
+          "number": "114",
+          "set": "TEF"
+        },
+        {
+          "count": 2,
+          "name": "Metagross",
+          "number": "61",
+          "set": "CRI"
+        },
+        {
+          "count": 3,
+          "name": "Minccino",
+          "number": "72",
+          "set": "CRI"
+        },
+        {
+          "count": 3,
+          "name": "Cinccino ex",
+          "number": "73",
+          "set": "CRI"
+        },
+        {
+          "count": 2,
+          "name": "Genesect ex",
+          "number": "67",
+          "set": "BLK"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 2,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Transceiver",
+          "number": "178",
+          "set": "DRI"
+        },
+        {
+          "count": 3,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Energy Recycler",
+          "number": "164",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Precious Trolley",
+          "number": "185",
+          "set": "SSP"
+        },
+        {
+          "count": 4,
+          "name": "Jamming Tower",
+          "number": "153",
+          "set": "TWM"
+        }
+      ]
+    },
+    "drop": 4,
+    "name": "Majestic_axo",
+    "placing": null,
+    "player": "majestic_axo",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "ES",
+    "deck": {
+      "icons": [
+        "toucannon"
+      ],
+      "id": "toucannon-pbl",
+      "name": "Toucannon"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 10,
+          "name": "Fighting Energy",
+          "number": "6",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Pikipek",
+          "number": "66",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Trumbeak",
+          "number": "67",
+          "set": "PBL"
+        },
+        {
+          "count": 4,
+          "name": "Toucannon",
+          "number": "68",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Hoothoot",
+          "number": "114",
+          "set": "SCR"
+        },
+        {
+          "count": 2,
+          "name": "Noctowl",
+          "number": "115",
+          "set": "SCR"
+        },
+        {
+          "count": 2,
+          "name": "Solrock",
+          "number": "75",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Cornerstone Mask Ogerpon ex",
+          "number": "112",
+          "set": "TWM"
+        },
+        {
+          "count": 2,
+          "name": "Lunatone",
+          "number": "74",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Shaymin",
+          "number": "10",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Patrat",
+          "number": "70",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Fan Rotom",
+          "number": "118",
+          "set": "SCR"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 3,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Lana's Aid",
+          "number": "155",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Dawn",
+          "number": "87",
+          "set": "PFL"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Fighting Gong",
+          "number": "116",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Rare Candy",
+          "number": "125",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Glass Trumpet",
+          "number": "135",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Handheld Fan",
+          "number": "150",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Maximum Belt",
+          "number": "154",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Brave Bangle",
+          "number": "80",
+          "set": "WHT"
+        },
+        {
+          "count": 3,
+          "name": "Area Zero Underdepths",
+          "number": "131",
+          "set": "SCR"
+        }
+      ]
+    },
+    "drop": 2,
+    "name": "Krakero22",
+    "placing": null,
+    "player": "krakero22",
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "AR",
+    "deck": {
+      "icons": [
+        "flareon",
+        "noctowl"
+      ],
+      "id": "flareon-noctowl",
+      "name": "Flareon Noctowl"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 2,
+          "name": "Psychic Energy",
+          "number": "5",
+          "set": "MEE"
+        },
+        {
+          "count": 2,
+          "name": "Water Energy",
+          "number": "3",
+          "set": "MEE"
+        },
+        {
+          "count": 2,
+          "name": "Lightning Energy",
+          "number": "4",
+          "set": "MEE"
+        },
+        {
+          "count": 2,
+          "name": "Fire Energy",
+          "number": "2",
+          "set": "MEE"
+        },
+        {
+          "count": 1,
+          "name": "Grass Energy",
+          "number": "1",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Hoothoot",
+          "number": "114",
+          "set": "SCR"
+        },
+        {
+          "count": 4,
+          "name": "Noctowl",
+          "number": "115",
+          "set": "SCR"
+        },
+        {
+          "count": 2,
+          "name": "Eevee",
+          "number": "143",
+          "set": "SSP"
+        },
+        {
+          "count": 2,
+          "name": "Flareon ex",
+          "number": "14",
+          "set": "PRE"
+        },
+        {
+          "count": 1,
+          "name": "Sylveon ex",
+          "number": "86",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Leafeon ex",
+          "number": "6",
+          "set": "PRE"
+        },
+        {
+          "count": 2,
+          "name": "Fan Rotom",
+          "number": "118",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Eevee ex",
+          "number": "75",
+          "set": "PRE"
+        },
+        {
+          "count": 1,
+          "name": "Latias ex",
+          "number": "76",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Chien-Pao",
+          "number": "56",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Terapagos ex",
+          "number": "128",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Wellspring Mask Ogerpon ex",
+          "number": "64",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Lillie's Clefairy ex",
+          "number": "56",
+          "set": "JTG"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 3,
+          "name": "Crispin",
+          "number": "133",
+          "set": "SCR"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Cyrano",
+          "number": "170",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Kieran",
+          "number": "154",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Briar",
+          "number": "132",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Tera Orb",
+          "number": "189",
+          "set": "SSP"
+        },
+        {
+          "count": 2,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Glass Trumpet",
+          "number": "135",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Switch",
+          "number": "130",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Sparkling Crystal",
+          "number": "142",
+          "set": "SCR"
+        },
+        {
+          "count": 2,
+          "name": "Area Zero Underdepths",
+          "number": "131",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Jamming Tower",
+          "number": "153",
+          "set": "TWM"
+        }
+      ]
+    },
+    "drop": 1,
+    "name": "EspectroFB",
+    "placing": null,
+    "player": "espectrofb",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "absol-mega",
+        "kangaskhan-mega"
+      ],
+      "id": "mega-absol-box",
+      "name": "Mega Absol Box"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 8,
+          "name": "Darkness Energy",
+          "number": "7",
+          "set": "MEE"
+        },
+        {
+          "count": 3,
+          "name": "Water Energy",
+          "number": "3",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Munkidori",
+          "number": "95",
+          "set": "TWM"
+        },
+        {
+          "count": 2,
+          "name": "Latias ex",
+          "number": "76",
+          "set": "SSP"
+        },
+        {
+          "count": 2,
+          "name": "Mega Absol ex",
+          "number": "86",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Mega Kangaskhan ex",
+          "number": "104",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Pecharunt ex",
+          "number": "39",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Yveltal",
+          "number": "88",
+          "set": "MEG"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Janine's Secret Art",
+          "number": "112",
+          "set": "PRE"
+        },
+        {
+          "count": 3,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Crispin",
+          "number": "133",
+          "set": "SCR"
+        },
+        {
+          "count": 3,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Xerosic's Machinations",
+          "number": "64",
+          "set": "SFA"
+        },
+        {
+          "count": 4,
+          "name": "Energy Switch",
+          "number": "115",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Mega Signal",
+          "number": "121",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Secret Box",
+          "number": "163",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Binding Mochi",
+          "number": "95",
+          "set": "PRE"
+        },
+        {
+          "count": 1,
+          "name": "Counter Gain",
+          "number": "169",
+          "set": "SSP"
+        },
+        {
+          "count": 2,
+          "name": "Risky Ruins",
+          "number": "127",
+          "set": "MEG"
+        }
+      ]
+    },
+    "drop": 2,
+    "name": "Derrick Smith",
+    "placing": null,
+    "player": "dsmith0012",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "CL",
+    "deck": {
+      "icons": [
+        "honchkrow",
+        "porygon2"
+      ],
+      "id": "rockets-honchkrow",
+      "name": "Rocket's Honchkrow"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 4,
+          "name": "Team Rocket's Energy",
+          "number": "182",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Ignition Energy",
+          "number": "86",
+          "set": "WHT"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Team Rocket's Murkrow",
+          "number": "127",
+          "set": "DRI"
+        },
+        {
+          "count": 3,
+          "name": "Team Rocket's Honchkrow",
+          "number": "127",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Team Rocket's Porygon",
+          "number": "153",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Team Rocket's Porygon2",
+          "number": "154",
+          "set": "DRI"
+        },
+        {
+          "count": 2,
+          "name": "Team Rocket's Articuno",
+          "number": "51",
+          "set": "DRI"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Team Rocket's Ariana",
+          "number": "171",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Archer",
+          "number": "170",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Giovanni",
+          "number": "174",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Proton",
+          "number": "177",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Transceiver",
+          "number": "178",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Roto-Stick",
+          "number": "127",
+          "set": "PRE"
+        },
+        {
+          "count": 3,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Miracle Headset",
+          "number": "183",
+          "set": "SSP"
+        },
+        {
+          "count": 3,
+          "name": "Team Rocket's Factory",
+          "number": "173",
+          "set": "DRI"
+        }
+      ]
+    },
+    "drop": 2,
+    "name": "Diego_19",
+    "placing": null,
+    "player": "diego_19",
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "manectric-mega",
+        "eelektrik"
+      ],
+      "id": "manectric-eelektrik",
+      "name": "Manectric Eelektrik"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 9,
+          "name": "Lightning Energy",
+          "number": "4",
+          "set": "MEE"
+        },
+        {
+          "count": 3,
+          "name": "Voltaic Lightning Energy",
+          "number": "84",
+          "set": "PBL"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Electrike",
+          "number": "49",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Mega Manectric ex",
+          "number": "50",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Manectric",
+          "number": "24",
+          "set": "PBL"
+        },
+        {
+          "count": 3,
+          "name": "Tynamo",
+          "number": "59",
+          "set": "ASC"
+        },
+        {
+          "count": 3,
+          "name": "Eelektrik",
+          "number": "60",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Shaymin",
+          "number": "10",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Stunfisk",
+          "number": "62",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Hilda",
+          "number": "84",
+          "set": "WHT"
+        },
+        {
+          "count": 2,
+          "name": "Canari",
+          "number": "185",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Wally's Compassion",
+          "number": "132",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 3,
+          "name": "Pokégear 3.0",
+          "number": "186",
+          "set": "SVI"
+        },
+        {
+          "count": 3,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Hero's Cape",
+          "number": "152",
+          "set": "TEF"
+        }
+      ]
+    },
+    "drop": 4,
+    "name": "Ashira09",
+    "placing": null,
+    "player": "ashira09",
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "CA",
+    "deck": {
+      "icons": [
+        "ursaluna-bloodmoon",
+        "lunatone"
+      ],
+      "id": "ursaluna-lunatone",
+      "name": "Ursaluna Lunatone"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 12,
+          "name": "Fighting Energy",
+          "number": "6",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Mega Zygarde ex",
+          "number": "47",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Binacle",
+          "number": "42",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Barbaracle",
+          "number": "43",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Bloodmoon Ursaluna",
+          "number": "54",
+          "set": "PRE"
+        },
+        {
+          "count": 1,
+          "name": "Lunatone",
+          "number": "74",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Drilbur",
+          "number": "85",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Solrock",
+          "number": "75",
+          "set": "MEG"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Tarragon",
+          "number": "85",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Fighting Gong",
+          "number": "116",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Jumbo Ice Cream",
+          "number": "91",
+          "set": "PFL"
+        },
+        {
+          "count": 4,
+          "name": "Energy Switch",
+          "number": "115",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Energy Search",
+          "number": "72",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 3,
+          "name": "Core Memory",
+          "number": "70",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Hero's Cape",
+          "number": "152",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Lumiose City",
+          "number": "77",
+          "set": "POR"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "DreamFlame1",
+    "placing": 1,
+    "player": "dreamflame1",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "MX",
+    "deck": {
+      "icons": [
+        "sharpedo-mega",
+        "toxtricity"
+      ],
+      "id": "sharpedo-toxtricity",
+      "name": "Sharpedo Toxtricity"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 11,
+          "name": "Darkness Energy",
+          "number": "7",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Carvanha",
+          "number": "60",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Mega Sharpedo ex",
+          "number": "61",
+          "set": "PFL"
+        },
+        {
+          "count": 3,
+          "name": "Toxel",
+          "number": "67",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Toxtricity",
+          "number": "68",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Okidogi ex",
+          "number": "36",
+          "set": "SFA"
+        },
+        {
+          "count": 2,
+          "name": "Munkidori",
+          "number": "95",
+          "set": "TWM"
+        },
+        {
+          "count": 2,
+          "name": "Pecharunt ex",
+          "number": "39",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Janine's Secret Art",
+          "number": "112",
+          "set": "PRE"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 3,
+          "name": "Mega Signal",
+          "number": "121",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Energy Recycler",
+          "number": "164",
+          "set": "DRI"
+        },
+        {
+          "count": 2,
+          "name": "Binding Mochi",
+          "number": "95",
+          "set": "PRE"
+        },
+        {
+          "count": 1,
+          "name": "Hero's Cape",
+          "number": "152",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Watchtower",
+          "number": "180",
+          "set": "DRI"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "Javier Guzman",
+    "placing": 2,
+    "player": "jarvisguga",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "decidueye"
+      ],
+      "id": "decidueye-ex",
+      "name": "Decidueye"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 10,
+          "name": "Grass Energy",
+          "number": "1",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Rowlet",
+          "number": "3",
+          "set": "SFA"
+        },
+        {
+          "count": 3,
+          "name": "Dartrix",
+          "number": "11",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Decidueye ex",
+          "number": "12",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Scatterbug",
+          "number": "5",
+          "set": "SSP"
+        },
+        {
+          "count": 3,
+          "name": "Spewpa",
+          "number": "6",
+          "set": "SSP"
+        },
+        {
+          "count": 3,
+          "name": "Vivillon",
+          "number": "9",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Celebi",
+          "number": "12",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Dawn",
+          "number": "87",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 3,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Handheld Fan",
+          "number": "150",
+          "set": "TWM"
+        },
+        {
+          "count": 4,
+          "name": "Forest of Vitality",
+          "number": "117",
+          "set": "MEG"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "Doya93",
+    "placing": 3,
+    "player": "doya93",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "ES",
+    "deck": {
+      "icons": [
+        "cinccino"
+      ],
+      "id": "cinccino-ex",
+      "name": "Cinccino"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 21,
+          "name": "Metal Energy",
+          "number": "8",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Beldum",
+          "number": "113",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Metang",
+          "number": "114",
+          "set": "TEF"
+        },
+        {
+          "count": 2,
+          "name": "Metagross",
+          "number": "61",
+          "set": "CRI"
+        },
+        {
+          "count": 3,
+          "name": "Minccino",
+          "number": "72",
+          "set": "CRI"
+        },
+        {
+          "count": 3,
+          "name": "Cinccino ex",
+          "number": "73",
+          "set": "CRI"
+        },
+        {
+          "count": 2,
+          "name": "Genesect ex",
+          "number": "67",
+          "set": "BLK"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Transceiver",
+          "number": "178",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Energy Recycler",
+          "number": "164",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Precious Trolley",
+          "number": "185",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Team Rocket's Factory",
+          "number": "173",
+          "set": "DRI"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "Ekkonomico",
+    "placing": 4,
+    "player": "ekkonomico",
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "CL",
+    "deck": {
+      "icons": [
+        "substitute"
+      ],
+      "id": "other",
+      "name": "Other"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 4,
+          "name": "Telepathic Psychic Energy",
+          "number": "88",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Enriching Energy",
+          "number": "191",
+          "set": "SSP"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Duskull",
+          "number": "35",
+          "set": "PRE"
+        },
+        {
+          "count": 2,
+          "name": "Dusclops",
+          "number": "36",
+          "set": "PRE"
+        },
+        {
+          "count": 4,
+          "name": "Dusknoir",
+          "number": "37",
+          "set": "PRE"
+        },
+        {
+          "count": 2,
+          "name": "Buneary",
+          "number": "83",
+          "set": "PFL"
+        },
+        {
+          "count": 1,
+          "name": "Mega Lopunny ex",
+          "number": "84",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Bronzor",
+          "number": "68",
+          "set": "TEF"
+        },
+        {
+          "count": 2,
+          "name": "Bronzong",
+          "number": "69",
+          "set": "TEF"
+        },
+        {
+          "count": 2,
+          "name": "Mega Kangaskhan ex",
+          "number": "104",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Latias ex",
+          "number": "76",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Flutter Mane",
+          "number": "78",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Budew",
+          "number": "16",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Bloodmoon Ursaluna ex",
+          "number": "141",
+          "set": "TWM"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Hilda",
+          "number": "84",
+          "set": "WHT"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Ciphermaniac's Codebreaking",
+          "number": "145",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Salvatore",
+          "number": "160",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Rare Candy",
+          "number": "125",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Switch",
+          "number": "130",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Festival Grounds",
+          "number": "149",
+          "set": "TWM"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "Nanobros",
+    "placing": 5,
+    "player": "nanobros",
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "CL",
+    "deck": {
+      "icons": [
+        "beedrill"
+      ],
+      "id": "beedrill-ex-cri",
+      "name": "Beedrill"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 6,
+          "name": "Grass Energy",
+          "number": "1",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Weedle",
+          "number": "1",
+          "set": "CRI"
+        },
+        {
+          "count": 4,
+          "name": "Kakuna",
+          "number": "2",
+          "set": "CRI"
+        },
+        {
+          "count": 4,
+          "name": "Beedrill ex",
+          "number": "3",
+          "set": "CRI"
+        },
+        {
+          "count": 2,
+          "name": "Pikipek",
+          "number": "66",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Trumbeak",
+          "number": "67",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Toucannon",
+          "number": "68",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Fan Rotom",
+          "number": "118",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Colress's Tenacity",
+          "number": "57",
+          "set": "SFA"
+        },
+        {
+          "count": 2,
+          "name": "Ciphermaniac's Codebreaking",
+          "number": "145",
+          "set": "TEF"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Bug Catching Set",
+          "number": "143",
+          "set": "TWM"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 3,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Rare Candy",
+          "number": "125",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Max Rod",
+          "number": "116",
+          "set": "PRE"
+        },
+        {
+          "count": 1,
+          "name": "Sacred Ash",
+          "number": "168",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Forest of Vitality",
+          "number": "117",
+          "set": "MEG"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "RichTrBr",
+    "placing": 6,
+    "player": "richtrbr",
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "garchomp"
+      ],
+      "id": "cynthia-garchomp-ex",
+      "name": "Cynthia's Garchomp"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 4,
+          "name": "Rocky Fighting Energy",
+          "number": "87",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Fighting Energy",
+          "number": "6",
+          "set": "MEE"
+        },
+        {
+          "count": 1,
+          "name": "Neo Upper Energy",
+          "number": "162",
+          "set": "TEF"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Cynthia's Gible",
+          "number": "102",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Cynthia's Gabite",
+          "number": "103",
+          "set": "DRI"
+        },
+        {
+          "count": 3,
+          "name": "Cynthia's Garchomp ex",
+          "number": "104",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Cynthia's Roselia",
+          "number": "7",
+          "set": "DRI"
+        },
+        {
+          "count": 4,
+          "name": "Cynthia's Roserade",
+          "number": "8",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Cynthia's Spiritomb",
+          "number": "129",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Shaymin",
+          "number": "10",
+          "set": "DRI"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Hilda",
+          "number": "84",
+          "set": "WHT"
+        },
+        {
+          "count": 1,
+          "name": "Xerosic's Machinations",
+          "number": "64",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Kieran",
+          "number": "154",
+          "set": "TWM"
+        },
+        {
+          "count": 4,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Fighting Gong",
+          "number": "116",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Pokégear 3.0",
+          "number": "186",
+          "set": "SVI"
+        },
+        {
+          "count": 3,
+          "name": "Cynthia's Power Weight",
+          "number": "162",
+          "set": "DRI"
+        },
+        {
+          "count": 2,
+          "name": "Team Rocket's Watchtower",
+          "number": "180",
+          "set": "DRI"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "ToshiroRX",
+    "placing": 7,
+    "player": "toshirorx",
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "CL",
+    "deck": {
+      "icons": [
+        "substitute"
+      ],
+      "id": "other",
+      "name": "Other"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 9,
+          "name": "Grass Energy",
+          "number": "1",
+          "set": "MEE"
+        },
+        {
+          "count": 2,
+          "name": "Growing Grass Energy",
+          "number": "86",
+          "set": "POR"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Chikorita",
+          "number": "8",
+          "set": "ASC"
+        },
+        {
+          "count": 3,
+          "name": "Bayleef",
+          "number": "9",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Mega Meganium ex",
+          "number": "10",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Meganium",
+          "number": "10",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Yanma",
+          "number": "185",
+          "set": "SVP"
+        },
+        {
+          "count": 2,
+          "name": "Yanmega ex",
+          "number": "3",
+          "set": "DRI"
+        },
+        {
+          "count": 2,
+          "name": "Cottonee",
+          "number": "4",
+          "set": "WHT"
+        },
+        {
+          "count": 2,
+          "name": "Whimsicott ex",
+          "number": "5",
+          "set": "WHT"
+        },
+        {
+          "count": 2,
+          "name": "Celebi",
+          "number": "12",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "AZ's Tranquility",
+          "number": "76",
+          "set": "CRI"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Xerosic's Machinations",
+          "number": "64",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Colress's Tenacity",
+          "number": "57",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Judge",
+          "number": "76",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Bug Catching Set",
+          "number": "143",
+          "set": "TWM"
+        },
+        {
+          "count": 3,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Max Rod",
+          "number": "116",
+          "set": "PRE"
+        },
+        {
+          "count": 2,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 4,
+          "name": "Forest of Vitality",
+          "number": "117",
+          "set": "MEG"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "Pancito_26",
+    "placing": 8,
+    "player": "pancito_26",
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "CL",
+    "deck": {
+      "icons": [
+        "seaking",
+        "thwackey"
+      ],
+      "id": "seaking-pre",
+      "name": "Seaking Festival Lead"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 3,
+          "name": "Grass Energy",
+          "number": "1",
+          "set": "MEE"
+        },
+        {
+          "count": 3,
+          "name": "Prism Energy",
+          "number": "216",
+          "set": "ASC"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Goldeen",
+          "number": "44",
+          "set": "TWM"
+        },
+        {
+          "count": 3,
+          "name": "Seaking",
+          "number": "21",
+          "set": "PRE"
+        },
+        {
+          "count": 3,
+          "name": "Grookey",
+          "number": "14",
+          "set": "TWM"
+        },
+        {
+          "count": 4,
+          "name": "Thwackey",
+          "number": "15",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Togepi",
+          "number": "70",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Togetic",
+          "number": "71",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Togekiss",
+          "number": "72",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Swirlix",
+          "number": "89",
+          "set": "TWM"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Gladion's Final Battle",
+          "number": "77",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Kieran",
+          "number": "154",
+          "set": "TWM"
+        },
+        {
+          "count": 4,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Tool Scrapper",
+          "number": "212",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Secret Box",
+          "number": "163",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Sacred Ash",
+          "number": "168",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Switch",
+          "number": "130",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Brave Bangle",
+          "number": "80",
+          "set": "WHT"
+        },
+        {
+          "count": 4,
+          "name": "Festival Grounds",
+          "number": "149",
+          "set": "TWM"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "efevalenzuela",
+    "placing": 9,
+    "player": "efevalenzuela",
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "darkrai-mega"
+      ],
+      "id": "mega-darkrai-ex",
+      "name": "Mega Darkrai"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 12,
+          "name": "Darkness Energy",
+          "number": "7",
+          "set": "MEE"
+        },
+        {
+          "count": 2,
+          "name": "Shadowy Darkness Energy",
+          "number": "83",
+          "set": "PBL"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Mega Darkrai ex",
+          "number": "48",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Toxel",
+          "number": "67",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Toxtricity",
+          "number": "68",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Morpeko ex",
+          "number": "55",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Mega Absol ex",
+          "number": "86",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Brute Bonnet",
+          "number": "118",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Pecharunt ex",
+          "number": "39",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Meowth ex",
+          "number": "62",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Munkidori",
+          "number": "95",
+          "set": "TWM"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Lisia's Appeal",
+          "number": "179",
+          "set": "SSP"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Dark Bell",
+          "number": "75",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Dangerous Laser",
+          "number": "58",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Redeemable Ticket",
+          "number": "156",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Repel",
+          "number": "126",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Risky Ruins",
+          "number": "127",
+          "set": "MEG"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "ciciolol",
+    "placing": 10,
+    "player": "ciciolol",
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "PL",
+    "deck": {
+      "icons": [
+        "sharpedo-mega",
+        "toxtricity"
+      ],
+      "id": "sharpedo-toxtricity",
+      "name": "Sharpedo Toxtricity"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 9,
+          "name": "Darkness Energy",
+          "number": "7",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 4,
+          "name": "Carvanha",
+          "number": "60",
+          "set": "PFL"
+        },
+        {
+          "count": 4,
+          "name": "Mega Sharpedo ex",
+          "number": "61",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Toxel",
+          "number": "67",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Toxtricity",
+          "number": "68",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Munkidori",
+          "number": "95",
+          "set": "TWM"
+        },
+        {
+          "count": 2,
+          "name": "Pecharunt ex",
+          "number": "39",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Tatsugiri",
+          "number": "131",
+          "set": "TWM"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Judge",
+          "number": "76",
+          "set": "POR"
+        },
+        {
+          "count": 2,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Janine's Secret Art",
+          "number": "112",
+          "set": "PRE"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 4,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 3,
+          "name": "Binding Mochi",
+          "number": "95",
+          "set": "PRE"
+        },
+        {
+          "count": 1,
+          "name": "Team Rocket's Watchtower",
+          "number": "180",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Gravity Mountain",
+          "number": "177",
+          "set": "SSP"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "Szymon Draga",
+    "placing": 11,
+    "player": "4zazel13",
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "lopunny-mega"
+      ],
+      "id": "mega-lopunny-ex",
+      "name": "Mega Lopunny"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 4,
+          "name": "Telepathic Psychic Energy",
+          "number": "88",
+          "set": "POR"
+        },
+        {
+          "count": 4,
+          "name": "Prism Energy",
+          "number": "216",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Water Energy",
+          "number": "3",
+          "set": "MEE"
+        },
+        {
+          "count": 1,
+          "name": "Rocky Fighting Energy",
+          "number": "87",
+          "set": "POR"
+        },
+        {
+          "count": 1,
+          "name": "Psychic Energy",
+          "number": "5",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Jynx",
+          "number": "32",
+          "set": "PBL"
+        },
+        {
+          "count": 2,
+          "name": "Buneary",
+          "number": "83",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Mega Lopunny ex",
+          "number": "84",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Latias ex",
+          "number": "76",
+          "set": "SSP"
+        },
+        {
+          "count": 2,
+          "name": "Ethan's Sudowoodo",
+          "number": "93",
+          "set": "DRI"
+        },
+        {
+          "count": 2,
+          "name": "Cubchoo",
+          "number": "25",
+          "set": "BLK"
+        },
+        {
+          "count": 1,
+          "name": "Maractus",
+          "number": "8",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Cornerstone Mask Ogerpon ex",
+          "number": "112",
+          "set": "TWM"
+        },
+        {
+          "count": 1,
+          "name": "Elgyem",
+          "number": "40",
+          "set": "BLK"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 3,
+          "name": "Xerosic's Machinations",
+          "number": "64",
+          "set": "SFA"
+        },
+        {
+          "count": 2,
+          "name": "Hassel",
+          "number": "151",
+          "set": "TWM"
+        },
+        {
+          "count": 2,
+          "name": "Brock's Scouting",
+          "number": "146",
+          "set": "JTG"
+        },
+        {
+          "count": 1,
+          "name": "Lisia's Appeal",
+          "number": "179",
+          "set": "SSP"
+        },
+        {
+          "count": 1,
+          "name": "Colress's Tenacity",
+          "number": "57",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Tyme",
+          "number": "190",
+          "set": "SSP"
+        },
+        {
+          "count": 3,
+          "name": "Crushing Hammer",
+          "number": "71",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Pokégear 3.0",
+          "number": "186",
+          "set": "SVI"
+        },
+        {
+          "count": 1,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Tool Scrapper",
+          "number": "212",
+          "set": "ASC"
+        },
+        {
+          "count": 4,
+          "name": "Gravity Gemstone",
+          "number": "137",
+          "set": "SCR"
+        },
+        {
+          "count": 1,
+          "name": "Amulet of Hope",
+          "number": "162",
+          "set": "SSP"
+        },
+        {
+          "count": 2,
+          "name": "Lively Stadium",
+          "number": "180",
+          "set": "SSP"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "babesbobo",
+    "placing": 12,
+    "player": "babesbobo",
+    "record": {
+      "losses": 2,
+      "ties": 1,
+      "wins": 2
+    }
+  },
+  {
+    "country": "PE",
+    "deck": {
+      "icons": [
+        "toxtricity",
+        "absol-mega"
+      ],
+      "id": "toxtricity-box",
+      "name": "Toxtricity Box"
+    },
+    "decklist": {
+      "energy": [
+        {
+          "count": 10,
+          "name": "Darkness Energy",
+          "number": "7",
+          "set": "MEE"
+        }
+      ],
+      "pokemon": [
+        {
+          "count": 3,
+          "name": "Toxel",
+          "number": "67",
+          "set": "PFL"
+        },
+        {
+          "count": 3,
+          "name": "Toxtricity",
+          "number": "68",
+          "set": "PFL"
+        },
+        {
+          "count": 2,
+          "name": "Munkidori",
+          "number": "95",
+          "set": "TWM"
+        },
+        {
+          "count": 2,
+          "name": "Mega Darkrai ex",
+          "number": "48",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Mega Absol ex",
+          "number": "86",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Fezandipiti ex",
+          "number": "142",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Chi-Yu",
+          "number": "59",
+          "set": "PBL"
+        },
+        {
+          "count": 1,
+          "name": "Yveltal",
+          "number": "88",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Pecharunt ex",
+          "number": "39",
+          "set": "SFA"
+        },
+        {
+          "count": 1,
+          "name": "Brute Bonnet",
+          "number": "118",
+          "set": "TWM"
+        }
+      ],
+      "trainer": [
+        {
+          "count": 4,
+          "name": "Lillie's Determination",
+          "number": "119",
+          "set": "MEG"
+        },
+        {
+          "count": 4,
+          "name": "Team Rocket's Petrel",
+          "number": "176",
+          "set": "DRI"
+        },
+        {
+          "count": 2,
+          "name": "Boss's Orders",
+          "number": "114",
+          "set": "MEG"
+        },
+        {
+          "count": 1,
+          "name": "Janine's Secret Art",
+          "number": "112",
+          "set": "PRE"
+        },
+        {
+          "count": 4,
+          "name": "Poké Pad",
+          "number": "81",
+          "set": "POR"
+        },
+        {
+          "count": 3,
+          "name": "Dark Bell",
+          "number": "75",
+          "set": "PBL"
+        },
+        {
+          "count": 3,
+          "name": "Team Rocket's Transceiver",
+          "number": "178",
+          "set": "DRI"
+        },
+        {
+          "count": 3,
+          "name": "Ultra Ball",
+          "number": "131",
+          "set": "MEG"
+        },
+        {
+          "count": 2,
+          "name": "Buddy-Buddy Poffin",
+          "number": "144",
+          "set": "TEF"
+        },
+        {
+          "count": 2,
+          "name": "Night Stretcher",
+          "number": "196",
+          "set": "ASC"
+        },
+        {
+          "count": 1,
+          "name": "Prime Catcher",
+          "number": "157",
+          "set": "TEF"
+        },
+        {
+          "count": 1,
+          "name": "Energy Recycler",
+          "number": "164",
+          "set": "DRI"
+        },
+        {
+          "count": 1,
+          "name": "Special Red Card",
+          "number": "82",
+          "set": "CRI"
+        },
+        {
+          "count": 1,
+          "name": "Air Balloon",
+          "number": "181",
+          "set": "ASC"
+        },
+        {
+          "count": 2,
+          "name": "Team Rocket's Factory",
+          "number": "173",
+          "set": "DRI"
+        }
+      ]
+    },
+    "drop": null,
+    "name": "graciela_007",
+    "placing": 13,
+    "player": "graciela_007",
+    "record": {
+      "losses": 3,
+      "ties": 1,
+      "wins": 1
+    }
+  }
+]

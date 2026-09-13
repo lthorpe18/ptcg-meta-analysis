@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-11T00:00:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa16e23a4272c53be64bb3a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Le Tournois Du DresseurPokeCharbie #127",
+  "organizer": {
+    "id": 1689,
+    "name": "DresseurPokeCharbie"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 3,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 11
+}

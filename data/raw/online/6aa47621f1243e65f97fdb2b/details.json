@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-12T01:15:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa47621f1243e65f97fdb2b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🎁Premio ETB 🇨🇱🏆BO1🏆 Formato estandar",
+  "organizer": {
+    "id": 2142,
+    "name": "Play TCG "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 24
+}

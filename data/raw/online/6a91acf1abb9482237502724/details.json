@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-11T17:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a91acf1abb9482237502724",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "TDRS Season 2 Challenge 1",
+  "organizer": {
+    "id": 196,
+    "name": "DabbingUkranian"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 8
+}

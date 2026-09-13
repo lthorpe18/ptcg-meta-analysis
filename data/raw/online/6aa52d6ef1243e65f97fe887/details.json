@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-12T11:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa52d6ef1243e65f97fe887",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "Finale - Articuno Cup @ BK Secret Shop 09/12/26 P2",
+  "organizer": {
+    "id": 2485,
+    "name": "SJDM Battle Frontier"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 3,
+      "type": "SWISS"
+    }
+  ],
+  "platform": null,
+  "players": 10
+}

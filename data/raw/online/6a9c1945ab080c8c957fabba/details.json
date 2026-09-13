@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-11T12:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9c1945ab080c8c957fabba",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "PokéDoha 2nd Juniors/Seniors Tournament",
+  "organizer": {
+    "id": 2601,
+    "name": "PokéDoha TCG "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": null,
+  "players": 17
+}

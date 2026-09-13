@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-12T10:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9c0b3fa4272c53be647a8f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Perth Pokemon Week 4",
+  "organizer": {
+    "id": 2779,
+    "name": "Perth Pokemon"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 30
+}

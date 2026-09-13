@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-10T22:30:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa28584a4272c53be64cd13",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "Semanal Cards Hall",
+  "organizer": {
+    "id": 438,
+    "name": "Cards Hall"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    }
+  ],
+  "platform": null,
+  "players": 10
+}

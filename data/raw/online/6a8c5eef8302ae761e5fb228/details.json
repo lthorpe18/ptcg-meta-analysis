@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-13T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a8c5eef8302ae761e5fb228",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Relámpago ⚡ #78 PTCG Live BO3 (25 CODES)",
+  "organizer": {
+    "id": 2512,
+    "name": "Cusca eSports"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 19
+}

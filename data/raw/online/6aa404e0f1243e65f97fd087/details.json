@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-12T14:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa404e0f1243e65f97fd087",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Small Prize Tourney",
+  "organizer": {
+    "id": 1216,
+    "name": "Shiny Eevee Tourneys"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 41
+}
