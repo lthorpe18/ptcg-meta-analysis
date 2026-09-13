@@ -1,0 +1,36 @@
+{
+  "date": "2025-05-03T14:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "680782c557322cac4624bd04",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🟣 GHT'S regional 300+ codes 🟣",
+  "organizer": {
+    "id": 490,
+    "name": "Gengar's hideout"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 134
+}

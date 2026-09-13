@@ -1,0 +1,30 @@
+{
+  "date": "2025-05-07T21:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6819e62dd7ac342ba905005a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🐢Turtle weekly 23🐢",
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 118
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2025-05-21T01:30:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "682ccc63538fc8c344fe4550",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Liga Nocturna (WorldWide) Play TCG",
+  "organizer": {
+    "id": 2142,
+    "name": "Play TCG "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 52
+}
