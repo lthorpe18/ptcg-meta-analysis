@@ -1,0 +1,24 @@
+{
+  "date": "2025-06-20T22:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "684f8ba7c4596e812235d122",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "ParadoxTCG Online Weekly #1 Season #1",
+  "organizer": {
+    "id": 906,
+    "name": "Urari"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 66
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2025-06-18T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "682cccb8b1af51fdf43435a1",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Spheal Series Regional #1 A New Beginning",
+  "organizer": {
+    "id": 1021,
+    "name": "Spheal Stone Cove"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 140
+}

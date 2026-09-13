@@ -1,0 +1,36 @@
+{
+  "date": "2025-06-22T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6855178e27d8bc24cf2573a7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "underground special 200 codes",
+  "organizer": {
+    "id": 30,
+    "name": "The Underground"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 88
+}

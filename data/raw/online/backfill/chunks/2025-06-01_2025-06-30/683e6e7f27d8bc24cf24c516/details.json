@@ -1,0 +1,24 @@
+{
+  "date": "2025-06-04T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "683e6e7f27d8bc24cf24c516",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "WND Tuesday Beatdown #3",
+  "organizer": {
+    "id": 2198,
+    "name": "WND Collectibles"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 54
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-19T22:10:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6854641cc4596e812235ec0c",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🐢Turtle Thursday 4🐢",
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 77
+}
