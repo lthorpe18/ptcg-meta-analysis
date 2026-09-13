@@ -1,0 +1,30 @@
+{
+  "date": "2024-10-19T18:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6710c338e1a875097763ca7f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "ASRcristiano #2",
+  "organizer": {
+    "id": 1778,
+    "name": "ASRcristiano League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 56
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2024-10-30T00:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "670f3113e1a875097763ba47",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Jefferson Gym Tuesday Night Standard #14",
+  "organizer": {
+    "id": 1368,
+    "name": "The Jefferson Gym"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 85
+}

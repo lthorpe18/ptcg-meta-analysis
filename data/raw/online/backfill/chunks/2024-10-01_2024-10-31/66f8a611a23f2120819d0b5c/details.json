@@ -1,0 +1,30 @@
+{
+  "date": "2024-10-01T22:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66f8a611a23f2120819d0b5c",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Silver Squad Standard Lightning Combat",
+  "organizer": {
+    "id": 1701,
+    "name": "Silver Squad"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 109
+}

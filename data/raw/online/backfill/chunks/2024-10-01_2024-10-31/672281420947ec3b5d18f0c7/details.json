@@ -1,0 +1,30 @@
+{
+  "date": "2024-10-30T23:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "672281420947ec3b5d18f0c7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "The councils late night #1",
+  "organizer": {
+    "id": 1845,
+    "name": "the council of klawf"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 70
+}
