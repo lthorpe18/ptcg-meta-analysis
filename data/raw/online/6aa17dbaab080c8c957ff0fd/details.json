@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-10T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa17dbaab080c8c957ff0fd",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Vault Of Games 🎮| Midweek Mayhem #2",
+  "organizer": {
+    "id": 2226,
+    "name": "Vault of Games"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 102
+}
