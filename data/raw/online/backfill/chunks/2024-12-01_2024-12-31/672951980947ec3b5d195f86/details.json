@@ -1,0 +1,30 @@
+{
+  "date": "2024-12-18T00:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "672951980947ec3b5d195f86",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Barb City League Online Holiday Tournament",
+  "organizer": {
+    "id": 1769,
+    "name": "Barb City Online League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 88
+}

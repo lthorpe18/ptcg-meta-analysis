@@ -1,0 +1,24 @@
+{
+  "date": "2024-12-17T17:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67616fdf95f729096d72da40",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Absolem TCG - Challenge #11",
+  "organizer": {
+    "id": 66,
+    "name": "Absolem TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 57
+}

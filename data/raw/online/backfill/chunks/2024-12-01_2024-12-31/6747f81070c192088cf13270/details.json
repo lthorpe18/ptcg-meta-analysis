@@ -1,0 +1,30 @@
+{
+  "date": "2024-12-22T22:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6747f81070c192088cf13270",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Mudkip Champions Series 1-4",
+  "organizer": {
+    "id": 1674,
+    "name": "Mudkip's Den"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 154
+}

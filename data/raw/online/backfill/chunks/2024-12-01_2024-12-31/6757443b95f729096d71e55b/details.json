@@ -1,0 +1,36 @@
+{
+  "date": "2024-12-15T05:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6757443b95f729096d71e55b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Kuyo杯PTCG Live 1周年特别赛 Kuyo Cup 1 Anniversary Event",
+  "organizer": {
+    "id": 1259,
+    "name": "The shining lion club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 110
+}

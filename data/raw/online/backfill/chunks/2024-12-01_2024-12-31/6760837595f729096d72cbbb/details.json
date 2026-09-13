@@ -1,0 +1,30 @@
+{
+  "date": "2024-12-21T20:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6760837595f729096d72cbbb",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "The Gengar's Hideout 150+ Surging Sparks Codes!",
+  "organizer": {
+    "id": 490,
+    "name": "Gengar's hideout"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 158
+}
