@@ -1,0 +1,42 @@
+name: Smoke test Online collector
+
+on:
+  push:
+    paths:
+      - ".github/workflows/smoke-online.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch a small recent sample
+        run: |
+          python scripts/fetch_online.py \
+            --start-date "2026-09-10" \
+            --end-date "2026-09-13" \
+            --min-players 50
+
+      - name: Commit sample data if changed
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/online
+          git commit -m "data: smoke-test Online collector"
+          git push
