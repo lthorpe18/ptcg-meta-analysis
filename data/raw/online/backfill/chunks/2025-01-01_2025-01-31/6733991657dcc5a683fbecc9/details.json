@@ -1,0 +1,24 @@
+{
+  "date": "2025-01-07T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6733991657dcc5a683fbecc9",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Gray's PokéLeague - Champion's Road #10",
+  "organizer": {
+    "id": 1253,
+    "name": "Gray's PokéLeague"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 162
+}

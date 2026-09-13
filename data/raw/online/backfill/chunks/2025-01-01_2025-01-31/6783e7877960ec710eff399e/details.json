@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-13T00:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6783e7877960ec710eff399e",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Blue Ditto Pop-up! (100 codes)",
+  "organizer": {
+    "id": 1371,
+    "name": "Blue Ditto"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 128
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-08T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66c44e8c82e459668d365706",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "✨ Il Covo dei Sub Series 2025 #5 ✨",
+  "organizer": {
+    "id": 29,
+    "name": "Il Covo di Weavile"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 105
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2025-01-17T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "678576ec1c64910a07ac1ba5",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Poli's Poolhouse Weekly! #12",
+  "organizer": {
+    "id": 1690,
+    "name": "Poli’s Poolhouse"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 83
+}

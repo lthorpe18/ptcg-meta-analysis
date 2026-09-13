@@ -1,0 +1,24 @@
+{
+  "date": "2025-01-10T01:15:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "677be07c7960ec710efe1fcc",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Le Tournois Du DresseurPokeCharbie #43",
+  "organizer": {
+    "id": 1689,
+    "name": "DresseurPokeCharbie"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 51
+}

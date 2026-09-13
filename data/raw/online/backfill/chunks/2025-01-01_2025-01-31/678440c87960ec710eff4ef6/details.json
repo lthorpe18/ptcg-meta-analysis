@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-17T15:30:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "678440c87960ec710eff4ef6",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Pokémon Battle Park- Prismatic Evolutions is Legal",
+  "organizer": {
+    "id": 1033,
+    "name": "Pokémon Battle Park "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 112
+}

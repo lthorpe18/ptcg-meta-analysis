@@ -1,0 +1,24 @@
+{
+  "date": "2025-01-12T13:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "677feba27960ec710efe898a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "PTCG Samar Online Cup #11",
+  "organizer": {
+    "id": 1675,
+    "name": "Pokemon TCG Samar"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 56
+}
