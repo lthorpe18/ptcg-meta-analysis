@@ -1,0 +1,24 @@
+{
+  "date": "2024-09-24T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66db34545bc39d158a9ddaa5",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Gray's PokéLeague - Champion's Road #1",
+  "organizer": {
+    "id": 1253,
+    "name": "Gray's PokéLeague"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 114
+}

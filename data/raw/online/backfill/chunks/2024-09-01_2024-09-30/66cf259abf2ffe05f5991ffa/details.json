@@ -1,0 +1,30 @@
+{
+  "date": "2024-09-01T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66cf259abf2ffe05f5991ffa",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "瞬间失忆联赛第一赛季第15场 Amnesia Series S1-15【Top16 200code】",
+  "organizer": {
+    "id": 1511,
+    "name": "Amnesia League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 128
+}

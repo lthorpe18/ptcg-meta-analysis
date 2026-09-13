@@ -1,0 +1,24 @@
+{
+  "date": "2024-09-24T16:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66e9a38ea39c5e0621c04cbb",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Absolem TCG - Challenge #1",
+  "organizer": {
+    "id": 66,
+    "name": "Absolem TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 103
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2024-09-19T23:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66e792b9a39c5e0621c039eb",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "PokeDeck #69 |100 CODES |OPEN  Stellar crown",
+  "organizer": {
+    "id": 896,
+    "name": "Poké Deck "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 4,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 176
+}

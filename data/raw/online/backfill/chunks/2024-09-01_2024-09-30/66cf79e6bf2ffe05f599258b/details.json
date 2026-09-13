@@ -1,0 +1,48 @@
+{
+  "date": "2024-09-21T23:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66cf79e6bf2ffe05f599258b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Redacted Crown #2 (100 Codes) CLOSED LISTS",
+  "organizer": {
+    "id": 222,
+    "name": "Redacted Gaming"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 4,
+      "rounds": 1,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 5,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 167
+}

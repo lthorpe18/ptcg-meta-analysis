@@ -1,0 +1,24 @@
+{
+  "date": "2024-09-01T23:05:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66cce8aabf2ffe05f5990594",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Redacted Battle Royale!",
+  "organizer": {
+    "id": 222,
+    "name": "Redacted Gaming"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 86
+}

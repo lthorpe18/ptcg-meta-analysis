@@ -1,0 +1,30 @@
+{
+  "date": "2024-09-29T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66f4f8a0a39c5e0621c0c74f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "VALUEUP GRADING & KANTÖCARDS September 2024",
+  "organizer": {
+    "id": 1341,
+    "name": "Alpha TTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 63
+}

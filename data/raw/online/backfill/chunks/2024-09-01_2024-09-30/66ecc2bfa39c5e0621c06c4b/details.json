@@ -1,0 +1,36 @@
+{
+  "date": "2024-09-27T19:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66ecc2bfa39c5e0621c06c4b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🎃Team Rocket League Day #195",
+  "organizer": {
+    "id": 136,
+    "name": "Team Rocket"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 90
+}
