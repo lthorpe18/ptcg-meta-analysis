@@ -1,0 +1,48 @@
+{
+  "date": "2024-11-22T19:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "673b3588c4180e08eacfb25e",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🌛Team Rocket League Day #215",
+  "organizer": {
+    "id": 136,
+    "name": "Team Rocket"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 4,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 5,
+      "rounds": 1,
+      "type": "DOUBLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 90
+}

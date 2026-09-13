@@ -1,0 +1,30 @@
+{
+  "date": "2024-11-17T13:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6729122f0947ec3b5d19591e",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "60 codes booster pour le TCGATITOURNAMENT#2",
+  "organizer": {
+    "id": 1853,
+    "name": "Mr-Gatito"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 52
+}

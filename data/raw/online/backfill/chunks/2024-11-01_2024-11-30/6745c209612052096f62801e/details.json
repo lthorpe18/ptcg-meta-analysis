@@ -1,0 +1,30 @@
+{
+  "date": "2024-11-29T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6745c209612052096f62801e",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Poli's Poolhouse Weekly! #7",
+  "organizer": {
+    "id": 1690,
+    "name": "Poli’s Poolhouse"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 89
+}
