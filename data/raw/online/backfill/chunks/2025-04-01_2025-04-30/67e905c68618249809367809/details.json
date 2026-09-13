@@ -1,0 +1,24 @@
+{
+  "date": "2025-04-05T17:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67e905c68618249809367809",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Jester's Weekly Casual #9",
+  "organizer": {
+    "id": 1709,
+    "name": "JesterTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 78
+}

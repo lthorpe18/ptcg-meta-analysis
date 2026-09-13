@@ -1,0 +1,30 @@
+{
+  "date": "2025-04-02T16:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67e71b83fb3a86a4cffd20ea",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏆Team GG Cup... Not a Fools Day Prank🏆 #4",
+  "organizer": {
+    "id": 2203,
+    "name": "Team Gamers Guild"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 110
+}

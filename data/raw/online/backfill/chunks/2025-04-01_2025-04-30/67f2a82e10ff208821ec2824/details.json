@@ -1,0 +1,30 @@
+{
+  "date": "2025-04-06T17:15:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67f2a82e10ff208821ec2824",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Battle park replacement:) TGG League #11",
+  "organizer": {
+    "id": 2203,
+    "name": "Team Gamers Guild"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 61
+}

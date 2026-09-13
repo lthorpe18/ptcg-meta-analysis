@@ -1,0 +1,24 @@
+{
+  "date": "2025-04-30T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "680ef7be223a6c7d5ec96fdd",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "BSS🗿Po’l la Noche Vol.9 Gardy’s Block",
+  "organizer": {
+    "id": 2278,
+    "name": "Ba Sing Se"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 62
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-04-03T16:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67e6fe9efb3a86a4cffd1f3f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏆Moujii's Dojo🏆",
+  "organizer": {
+    "id": 35,
+    "name": "Moujii's Dojo"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 169
+}
