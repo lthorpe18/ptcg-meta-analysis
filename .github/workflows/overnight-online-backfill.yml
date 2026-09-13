@@ -3,7 +3,7 @@ name: Overnight resumable Online backfill
 on:
   workflow_dispatch:
   schedule:
-    # 23:35 UTC and 00:35-06:35 UTC. The date guard below limits this to tonight.
+    # 23:35 UTC and 00:35-06:35 UTC. The guard below limits scheduled work to tonight.
     - cron: "35 23,0-6 * * *"
 
 permissions:
@@ -19,31 +19,42 @@ jobs:
     timeout-minutes: 55
 
     steps:
-      - name: Limit scheduled runs to this overnight backfill
-        if: github.event_name == 'schedule'
+      - name: Check overnight window
+        id: guard
         run: |
-          TODAY=$(date -u +%F)
-          if [[ "$TODAY" != "2026-09-13" && "$TODAY" != "2026-09-14" ]]; then
-            echo "Outside the intended overnight window; exiting."
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
+          TODAY=$(date -u +%F)
+          if [[ "$TODAY" == "2026-09-13" || "$TODAY" == "2026-09-14" ]]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "Outside the intended overnight window; no backfill work will run."
+          fi
+
       - name: Check out backfill branch
+        if: steps.guard.outputs.proceed == 'true'
         uses: actions/checkout@v4
         with:
           ref: historical-online-chunked
 
       - name: Set up Python
+        if: steps.guard.outputs.proceed == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Configure checkpoint commits
+        if: steps.guard.outputs.proceed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Resume monthly chunks
+        if: steps.guard.outputs.proceed == 'true'
         run: |
           set -euo pipefail
 
