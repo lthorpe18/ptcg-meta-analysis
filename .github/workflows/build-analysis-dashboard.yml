@@ -8,7 +8,9 @@ on:
     paths:
       - ".analysis-dashboard-trigger"
       - "scripts/build_prediction_windows.py"
+      - "scripts/score_baseline_models.py"
       - "scripts/build_dashboard.py"
+      - "scripts/build_model_comparison.py"
       - "data/reference/legality-calendar.json"
       - "data/processed/format-tags/**"
 
@@ -41,16 +43,22 @@ jobs:
       - name: Build baseline prediction windows
         run: python scripts/build_prediction_windows.py
 
+      - name: Score baseline models
+        run: python scripts/score_baseline_models.py
+
       - name: Build interactive explorer
         run: python scripts/build_dashboard.py
+
+      - name: Build model comparison page
+        run: python scripts/build_model_comparison.py
 
       - name: Commit generated analysis outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/processed/prediction-windows results/prediction-windows dashboard/index.html
+          git add data/processed/prediction-windows results/prediction-windows data/processed/model-results results/model-results dashboard/index.html dashboard/models.html
           if ! git diff --cached --quiet; then
-            git commit -m "analysis: generate baseline prediction windows"
+            git commit -m "analysis: score baseline models"
             git push origin HEAD:historical-online-chunked
           fi
 
