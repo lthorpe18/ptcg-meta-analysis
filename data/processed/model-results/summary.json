@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:16:58.384766+00:00",
+  "generated_at": "2026-09-14T15:33:31.559162+00:00",
   "scoring_policy": {
     "metric": "Field Accuracy = 100% - 0.5 * sum(abs(predicted share - actual share))",
     "distribution_scope": "Named archetypes only; Other/Unknown/unclassified are retained in source data but excluded then distributions are renormalised.",
