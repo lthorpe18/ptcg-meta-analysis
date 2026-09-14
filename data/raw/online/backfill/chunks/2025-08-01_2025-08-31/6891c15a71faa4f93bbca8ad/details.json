@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-06T02:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6891c15a71faa4f93bbca8ad",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Let's Go World! #1 CASH & CODE & LUCKY DRAW",
+  "organizer": {
+    "id": 2061,
+    "name": "Gengar's Mansion"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 100
+}

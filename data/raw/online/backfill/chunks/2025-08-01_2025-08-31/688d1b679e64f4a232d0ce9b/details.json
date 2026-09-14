@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-07T16:10:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "688d1b679e64f4a232d0ce9b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+  "organizer": {
+    "id": 35,
+    "name": "Moujii's Dojo"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 243
+}

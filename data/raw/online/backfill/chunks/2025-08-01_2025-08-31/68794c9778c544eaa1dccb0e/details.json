@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-01T16:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68794c9778c544eaa1dccb0e",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Turtwig Den Revival Series Cup 1",
+  "organizer": {
+    "id": 196,
+    "name": "DabbingUkranian"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 75
+}

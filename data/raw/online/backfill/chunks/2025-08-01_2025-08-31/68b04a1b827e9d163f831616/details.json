@@ -1,0 +1,24 @@
+{
+  "date": "2025-08-30T14:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68b04a1b827e9d163f831616",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "TGG \"Worlds\" DAY 1 ETB!",
+  "organizer": {
+    "id": 2203,
+    "name": "Team Gamers Guild"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 69
+}
