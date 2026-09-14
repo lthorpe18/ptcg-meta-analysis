@@ -23,16 +23,16 @@
       "cohort_weighted_accuracy": 84.01350989877893
     },
     "top20_online_only": {
-      "event_weighted_accuracy": 74.82546591017504,
-      "cohort_weighted_accuracy": 74.51291974874547
+      "event_weighted_accuracy": 74.81227403862802,
+      "cohort_weighted_accuracy": 74.49993461384878
     },
     "top20_irl_only": {
-      "event_weighted_accuracy": 85.72442908322589,
-      "cohort_weighted_accuracy": 85.97357213978452
+      "event_weighted_accuracy": 85.72226809204543,
+      "cohort_weighted_accuracy": 85.9795839625399
     },
     "top20_best_blend": {
-      "event_weighted_accuracy": 86.41479129897769,
-      "cohort_weighted_accuracy": 86.47961124088305
+      "event_weighted_accuracy": 86.3964809308313,
+      "cohort_weighted_accuracy": 86.4629874440594
     }
   },
   "rows": [
@@ -175,9 +175,9 @@
       "full_online_only": 69.91400073227925,
       "full_irl_only": 81.5796733762124,
       "full_best_blend": 79.34910310272349,
-      "top20_online_only": 73.14892189488423,
-      "top20_irl_only": 85.6908704377884,
-      "top20_best_blend": 83.00224804161634
+      "top20_online_only": 72.94818878264823,
+      "top20_irl_only": 86.06493527569363,
+      "top20_best_blend": 82.9339232783034
     },
     {
       "target_id": "0027",
@@ -190,7 +190,7 @@
       "full_best_blend": 87.86211116220505,
       "top20_online_only": 76.04674575840144,
       "top20_irl_only": 86.80188840874912,
-      "top20_best_blend": 91.7562936322808
+      "top20_best_blend": 91.61598107138889
     },
     {
       "target_id": "0028",
@@ -331,9 +331,9 @@
       "full_online_only": 81.27723752738528,
       "full_irl_only": 84.42455384275375,
       "full_best_blend": 86.13214652042586,
-      "top20_online_only": 82.51438234153002,
-      "top20_irl_only": 89.46779446048392,
-      "top20_best_blend": 90.10818381564452
+      "top20_online_only": 82.26659182116684,
+      "top20_irl_only": 89.02025592244314,
+      "top20_best_blend": 89.69426862287223
     },
     {
       "target_id": "0043",
