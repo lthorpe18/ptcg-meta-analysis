@@ -11,6 +11,7 @@ on:
       - "scripts/score_baseline_models.py"
       - "scripts/build_dashboard.py"
       - "scripts/build_model_comparison.py"
+      - "scripts/enhance_model_weight_analysis.py"
       - "data/reference/legality-calendar.json"
       - "data/processed/format-tags/**"
 
@@ -65,6 +66,11 @@ jobs:
           ]:
               s = s.replace(broken, fixed)
           p.write_text(s, encoding='utf-8')
+          PY
+          python scripts/enhance_model_weight_analysis.py
+          python - <<'PY'
+          from pathlib import Path
+          s = Path('dashboard/models.html').read_text(encoding='utf-8')
           start = s.index('<script>') + len('<script>')
           end = s.index('</script>', start)
           Path('/tmp/models.js').write_text(s[start:end], encoding='utf-8')
