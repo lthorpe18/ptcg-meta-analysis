@@ -9,6 +9,7 @@ on:
       - ".analysis-dashboard-trigger"
       - "scripts/build_prediction_windows.py"
       - "scripts/score_baseline_models.py"
+      - "scripts/test_irl_weight_grid.py"
       - "scripts/build_dashboard.py"
       - "scripts/build_model_comparison.py"
       - "scripts/enhance_model_weight_analysis.py"
@@ -48,6 +49,9 @@ jobs:
       - name: Score baseline models
         run: python scripts/score_baseline_models.py
 
+      - name: Test IRL weighting curves
+        run: python scripts/test_irl_weight_grid.py
+
       - name: Build interactive explorer
         run: python scripts/build_dashboard.py
 
@@ -83,7 +87,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/processed/prediction-windows results/prediction-windows data/processed/model-results results/model-results dashboard/index.html dashboard/models.html
+          git add data/processed/prediction-windows results/prediction-windows data/processed/model-results results/model-results data/processed/weight-grid results/weight-grid dashboard/index.html dashboard/models.html
           if ! git diff --cached --quiet; then
             git commit -m "analysis: score baseline models"
             git push origin HEAD:historical-online-chunked
