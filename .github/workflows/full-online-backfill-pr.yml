@@ -83,6 +83,15 @@ jobs:
       - name: Audit completed Online archive
         run: |
           set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/audit_online_archive.py')
+          s = p.read_text()
+          old = 'dated = sorted((parse_dt(r["date"]), r) for r in usable_rows if parse_dt(r["date"]))'
+          new = 'dated = sorted(((parse_dt(r["date"]), r) for r in usable_rows if parse_dt(r["date"])), key=lambda x: x[0])'
+          if old in s:
+              p.write_text(s.replace(old, new))
+          PY
           python scripts/audit_online_archive.py
           git add results/online-audit
           if ! git diff --cached --quiet; then
