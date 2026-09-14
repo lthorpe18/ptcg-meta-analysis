@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "research_period": {
+    "start_date": "2024-09-01",
+    "end_date": "2026-09-13"
+  },
+  "notes": [
+    "This calendar is for historical Standard metagame reconstruction, not card-by-card legality enforcement.",
+    "PTCGL dates are exact official playability timestamps where available. During this period they are consistently 17:00 UTC on the Thursday before the normal physical release date.",
+    "IRL dates are derived from the historical two-week tournament-legality rule unless an explicit exception exists.",
+    "Mega Evolution—Ascended Heroes is the important exception in this period: official tournament legality was delayed to 2026-03-06.",
+    "Functional reprints and isolated early-product card exceptions are intentionally ignored for archetype-level historical modelling unless later shown to materially affect a backtest window.",
+    "Format labels such as BRS-SCR and TEF-PBL are display shorthand. Actual Standard legality is regulation-mark based, with legal reprints remaining legal regardless of the set printed on a specific copy."
+  ],
+  "rule_sources": {
+    "rotation_2024": "https://www.pokemon.com/uk/pokemon-news/2024-pokemon-tcg-standard-format-rotation-announcement",
+    "rotation_2025": "https://www.pokemon.com/uk/pokemon-news/2025-pokemon-tcg-standard-format-rotation-announcement",
+    "rotation_2026": "https://www.pokemon.com/uk/pokemon-news/2026-pokemon-tcg-standard-format-rotation-announcement",
+    "product_legality_2026_update": "https://community.pokemon.com/en-us/discussion/22216/pokemon-tcg-product-legality-update"
+  },
+  "rotations": [
+    {
+      "season": 2024,
+      "removed_regulation_mark": "E",
+      "legal_regulation_marks_after": ["F", "G", "H"],
+      "ptcgl_effective_at": "2024-03-21T00:00:00Z",
+      "irl_effective_date": "2024-04-05",
+      "source": "https://www.pokemon.com/uk/pokemon-news/2024-pokemon-tcg-standard-format-rotation-announcement"
+    },
+    {
+      "season": 2025,
+      "removed_regulation_mark": "F",
+      "legal_regulation_marks_after": ["G", "H", "I"],
+      "ptcgl_effective_at": "2025-03-27T17:00:00Z",
+      "irl_effective_date": "2025-04-11",
+      "source": "https://www.pokemon.com/uk/pokemon-news/2025-pokemon-tcg-standard-format-rotation-announcement",
+      "note": "Online rotation coincided with Journey Together becoming playable; IRL rotation coincided with Journey Together becoming tournament legal."
+    },
+    {
+      "season": 2026,
+      "removed_regulation_mark": "G",
+      "legal_regulation_marks_after": ["H", "I", "J"],
+      "ptcgl_effective_at": "2026-03-26T17:00:00Z",
+      "irl_effective_date": "2026-04-10",
+      "source": "https://www.pokemon.com/uk/pokemon-news/2026-pokemon-tcg-standard-format-rotation-announcement",
+      "note": "Online rotation coincided with Perfect Order becoming playable; IRL rotation coincided with Perfect Order becoming tournament legal."
+    }
+  ],
+  "expansions": [
+    {
+      "code": "SFA",
+      "name": "Scarlet & Violet—Shrouded Fable",
+      "physical_release_date": "2024-08-02",
+      "ptcgl_legal_at": "2024-08-01T17:00:00Z",
+      "irl_legal_date": "2024-08-16",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/12241/scarlet-violet-shrouded-fable-release",
+      "physical_release_source": "https://www.pokemon.com/us/pokemon-tcg/scarlet-violet-shrouded-fable"
+    },
+    {
+      "code": "SCR",
+      "name": "Scarlet & Violet—Stellar Crown",
+      "physical_release_date": "2024-09-13",
+      "ptcgl_legal_at": "2024-09-12T17:00:00Z",
+      "irl_legal_date": "2024-09-27",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/12937/scarlet-violet-stellar-crown-release",
+      "physical_release_source": "https://www.pokemon.com/us/pokemon-tcg/product-gallery/scarlet-violet-stellar-crown-elite-trainer-box"
+    },
+    {
+      "code": "SSP",
+      "name": "Scarlet & Violet—Surging Sparks",
+      "physical_release_date": "2024-11-08",
+      "ptcgl_legal_at": "2024-11-07T17:00:00Z",
+      "irl_legal_date": "2024-11-22",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/13953/scarlet-violet-surging-sparks-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-tcg/product-gallery/scarlet-violet-surging-sparks-elite-trainer-box"
+    },
+    {
+      "code": "PRE",
+      "name": "Scarlet & Violet—Prismatic Evolutions",
+      "physical_release_date": "2025-01-17",
+      "ptcgl_legal_at": "2025-01-16T17:00:00Z",
+      "irl_legal_date": "2025-01-31",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/15414/scarlet-violet-prismatic-evolutions-release",
+      "physical_release_source": "https://www.pokemon.com/us/pokemon-tcg/product-gallery/scarlet-violet-prismatic-evolutions-pokemon-center-elite-trainer-box",
+      "note": "The official forum post contains a year typo ('January 16th, 2024'); surrounding context and release schedule make the intended date 2025-01-16."
+    },
+    {
+      "code": "JTG",
+      "name": "Scarlet & Violet—Journey Together",
+      "physical_release_date": "2025-03-28",
+      "ptcgl_legal_at": "2025-03-27T17:00:00Z",
+      "irl_legal_date": "2025-04-11",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/17428/scarlet-violet-journey-together-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-tcg/product-gallery/scarlet-violet-journey-together-elite-trainer-box",
+      "note": "Coincides with the 2025 Standard rotation in each environment."
+    },
+    {
+      "code": "DRI",
+      "name": "Scarlet & Violet—Destined Rivals",
+      "physical_release_date": "2025-05-30",
+      "ptcgl_legal_at": "2025-05-29T17:00:00Z",
+      "irl_legal_date": "2025-06-13",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/18640/scarlet-violet-destined-rivals-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-tcg/product-gallery/scarlet-violet-destined-rivals-elite-trainer-box"
+    },
+    {
+      "code": "BLK/WHT",
+      "codes": ["BLK", "WHT"],
+      "name": "Scarlet & Violet—Black Bolt / White Flare",
+      "physical_release_date": "2025-07-18",
+      "ptcgl_legal_at": "2025-07-17T17:00:00Z",
+      "irl_legal_date": "2025-08-01",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/19243/scarlet-violet-black-bolt-and-scarlet-violet-white-flare-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-news/pokemon-tcg-scarlet-violet-black-bolt-and-white-flare-product-showcase"
+    },
+    {
+      "code": "MEG",
+      "name": "Mega Evolution",
+      "physical_release_date": "2025-09-26",
+      "ptcgl_legal_at": "2025-09-25T17:00:00Z",
+      "irl_legal_date": "2025-10-10",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/20181/mega-evolution-expansion-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-tcg/product-gallery/mega-evolution-elite-trainer-box"
+    },
+    {
+      "code": "PFL",
+      "name": "Mega Evolution—Phantasmal Flames",
+      "physical_release_date": "2025-11-14",
+      "ptcgl_legal_at": "2025-11-13T17:00:00Z",
+      "irl_legal_date": "2025-11-28",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/20899/mega-evolution-phantasmal-flames-expansion-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-news/the-pokemon-tcg-mega-evolution-phantasmal-flames-expansion-is-available-now"
+    },
+    {
+      "code": "ASC",
+      "name": "Mega Evolution—Ascended Heroes",
+      "physical_release_date": "2026-01-30",
+      "ptcgl_legal_at": "2026-01-29T17:00:00Z",
+      "irl_legal_date": "2026-03-06",
+      "irl_legality_basis": "explicit_official_exception",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/22091/mega-evolution-ascended-heroes-expansion-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-news/get-the-new-pokemon-tcg-expansion-mega-evolution-ascended-heroes-on-january-30-2026",
+      "irl_legality_source": "https://community.pokemon.com/en-us/discussion/22216/pokemon-tcg-product-legality-update",
+      "note": "Do not infer 2026-02-13 from the normal two-week rule. Official legality was moved to 2026-03-06 because of the expansion's product-release structure."
+    },
+    {
+      "code": "POR",
+      "name": "Mega Evolution—Perfect Order",
+      "physical_release_date": "2026-03-27",
+      "ptcgl_legal_at": "2026-03-26T17:00:00Z",
+      "irl_legal_date": "2026-04-10",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/23169/mega-evolution-perfect-order-expansion-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-news/the-pokemon-tcg-mega-evolution-perfect-order-expansion-is-available-now",
+      "note": "Coincides with the 2026 Standard rotation in each environment."
+    },
+    {
+      "code": "CRI",
+      "name": "Mega Evolution—Chaos Rising",
+      "physical_release_date": "2026-05-22",
+      "ptcgl_legal_at": "2026-05-21T17:00:00Z",
+      "irl_legal_date": "2026-06-05",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/24085/mega-evolution-chaos-rising-expansion-release",
+      "physical_release_source": "https://www.pokemon.com/uk/pokemon-news/the-pokemon-tcg-mega-evolution-chaos-rising-expansion-arrives-on-may-22-2026"
+    },
+    {
+      "code": "PBL",
+      "name": "Mega Evolution—Pitch Black",
+      "physical_release_date": "2026-07-17",
+      "ptcgl_legal_at": "2026-07-16T17:00:00Z",
+      "irl_legal_date": "2026-07-31",
+      "irl_legality_basis": "derived_two_weeks_after_release",
+      "ptcgl_source": "https://community.pokemon.com/en-us/discussion/24856/mega-evolution-pitch-black-expansion-release",
+      "physical_release_source": "https://www.pokemon.com/uk/news/the-pokemon-tcg-mega-evolution-pitch-black-expansion-arrives-july-17-2026"
+    }
+  ],
+  "format_periods": {
+    "online": [
+      {"start_at": "2024-09-01T00:00:00Z", "end_at_exclusive": "2024-09-12T17:00:00Z", "regulation_marks": "F-H", "latest_expansion": "SFA", "display_format": "BRS-SFA"},
+      {"start_at": "2024-09-12T17:00:00Z", "end_at_exclusive": "2024-11-07T17:00:00Z", "regulation_marks": "F-H", "latest_expansion": "SCR", "display_format": "BRS-SCR"},
+      {"start_at": "2024-11-07T17:00:00Z", "end_at_exclusive": "2025-01-16T17:00:00Z", "regulation_marks": "F-H", "latest_expansion": "SSP", "display_format": "BRS-SSP"},
+      {"start_at": "2025-01-16T17:00:00Z", "end_at_exclusive": "2025-03-27T17:00:00Z", "regulation_marks": "F-H", "latest_expansion": "PRE", "display_format": "BRS-PRE"},
+      {"start_at": "2025-03-27T17:00:00Z", "end_at_exclusive": "2025-05-29T17:00:00Z", "regulation_marks": "G-I", "latest_expansion": "JTG", "display_format": "SVI-JTG"},
+      {"start_at": "2025-05-29T17:00:00Z", "end_at_exclusive": "2025-07-17T17:00:00Z", "regulation_marks": "G-I", "latest_expansion": "DRI", "display_format": "SVI-DRI"},
+      {"start_at": "2025-07-17T17:00:00Z", "end_at_exclusive": "2025-09-25T17:00:00Z", "regulation_marks": "G-I", "latest_expansion": "BLK/WHT", "display_format": "SVI-BLK/WHT"},
+      {"start_at": "2025-09-25T17:00:00Z", "end_at_exclusive": "2025-11-13T17:00:00Z", "regulation_marks": "G-I", "latest_expansion": "MEG", "display_format": "SVI-MEG"},
+      {"start_at": "2025-11-13T17:00:00Z", "end_at_exclusive": "2026-01-29T17:00:00Z", "regulation_marks": "G-I", "latest_expansion": "PFL", "display_format": "SVI-PFL"},
+      {"start_at": "2026-01-29T17:00:00Z", "end_at_exclusive": "2026-03-26T17:00:00Z", "regulation_marks": "G-I", "latest_expansion": "ASC", "display_format": "SVI-ASC"},
+      {"start_at": "2026-03-26T17:00:00Z", "end_at_exclusive": "2026-05-21T17:00:00Z", "regulation_marks": "H-J", "latest_expansion": "POR", "display_format": "TEF-POR"},
+      {"start_at": "2026-05-21T17:00:00Z", "end_at_exclusive": "2026-07-16T17:00:00Z", "regulation_marks": "H-J", "latest_expansion": "CRI", "display_format": "TEF-CRI"},
+      {"start_at": "2026-07-16T17:00:00Z", "end_at_exclusive": "2026-09-14T00:00:00Z", "regulation_marks": "H-J", "latest_expansion": "PBL", "display_format": "TEF-PBL"}
+    ],
+    "irl": [
+      {"start_date": "2024-09-01", "end_date_exclusive": "2024-09-27", "regulation_marks": "F-H", "latest_expansion": "SFA", "display_format": "BRS-SFA"},
+      {"start_date": "2024-09-27", "end_date_exclusive": "2024-11-22", "regulation_marks": "F-H", "latest_expansion": "SCR", "display_format": "BRS-SCR"},
+      {"start_date": "2024-11-22", "end_date_exclusive": "2025-01-31", "regulation_marks": "F-H", "latest_expansion": "SSP", "display_format": "BRS-SSP"},
+      {"start_date": "2025-01-31", "end_date_exclusive": "2025-04-11", "regulation_marks": "F-H", "latest_expansion": "PRE", "display_format": "BRS-PRE"},
+      {"start_date": "2025-04-11", "end_date_exclusive": "2025-06-13", "regulation_marks": "G-I", "latest_expansion": "JTG", "display_format": "SVI-JTG"},
+      {"start_date": "2025-06-13", "end_date_exclusive": "2025-08-01", "regulation_marks": "G-I", "latest_expansion": "DRI", "display_format": "SVI-DRI"},
+      {"start_date": "2025-08-01", "end_date_exclusive": "2025-10-10", "regulation_marks": "G-I", "latest_expansion": "BLK/WHT", "display_format": "SVI-BLK/WHT"},
+      {"start_date": "2025-10-10", "end_date_exclusive": "2025-11-28", "regulation_marks": "G-I", "latest_expansion": "MEG", "display_format": "SVI-MEG"},
+      {"start_date": "2025-11-28", "end_date_exclusive": "2026-03-06", "regulation_marks": "G-I", "latest_expansion": "PFL", "display_format": "SVI-PFL"},
+      {"start_date": "2026-03-06", "end_date_exclusive": "2026-04-10", "regulation_marks": "G-I", "latest_expansion": "ASC", "display_format": "SVI-ASC"},
+      {"start_date": "2026-04-10", "end_date_exclusive": "2026-06-05", "regulation_marks": "H-J", "latest_expansion": "POR", "display_format": "TEF-POR"},
+      {"start_date": "2026-06-05", "end_date_exclusive": "2026-07-31", "regulation_marks": "H-J", "latest_expansion": "CRI", "display_format": "TEF-CRI"},
+      {"start_date": "2026-07-31", "end_date_exclusive": "2026-09-14", "regulation_marks": "H-J", "latest_expansion": "PBL", "display_format": "TEF-PBL"}
+    ]
+  }
+}
