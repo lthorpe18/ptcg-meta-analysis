@@ -120,3 +120,13 @@ jobs:
             git commit -m "analysis: audit historical IRL archive"
             git push origin HEAD:${{ github.head_ref }}
           fi
+
+      - name: Tag historical tournaments by legal format
+        run: |
+          set -euo pipefail
+          python scripts/tag_historical_formats.py
+          git add data/processed/format-tags
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: tag historical tournaments by format"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
