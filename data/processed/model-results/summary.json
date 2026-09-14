@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:17:15.728553+00:00",
+  "generated_at": "2026-09-14T14:19:54.795988+00:00",
   "scoring_policy": {
     "metric": "Field Accuracy = 100% - 0.5 * sum(abs(predicted share - actual share))",
     "distribution_scope": "Named archetypes only; Other/Unknown/unclassified are retained in source data but excluded then distributions are renormalised.",
@@ -55,6 +55,14 @@
         "cohort_mean_field_accuracy_pct": 63.02733835587016,
         "mean_mae_pp": 0.5972611278861358
       },
+      "complete_case_settled": {
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_field_accuracy_pct": 73.12871219166065,
+        "median_field_accuracy_pct": 72.85872783103082,
+        "cohort_mean_field_accuracy_pct": 72.77719923128228,
+        "mean_mae_pp": 0.4370814833044759
+      },
       "event_wins_complete_case": 0.0,
       "cohort_wins_complete_case": 0.0
     },
@@ -94,6 +102,14 @@
         "median_field_accuracy_pct": null,
         "cohort_mean_field_accuracy_pct": null,
         "mean_mae_pp": null
+      },
+      "complete_case_settled": {
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_field_accuracy_pct": 82.41335925540736,
+        "median_field_accuracy_pct": 83.23222705244845,
+        "cohort_mean_field_accuracy_pct": 82.62810741427809,
+        "mean_mae_pp": 0.42483540298516814
       },
       "event_wins_complete_case": 15.0,
       "cohort_wins_complete_case": 12.0
@@ -135,6 +151,14 @@
         "cohort_mean_field_accuracy_pct": null,
         "mean_mae_pp": null
       },
+      "complete_case_settled": {
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_field_accuracy_pct": 83.21734643009351,
+        "median_field_accuracy_pct": 83.86043635539747,
+        "cohort_mean_field_accuracy_pct": 83.15592485826046,
+        "mean_mae_pp": 0.3317547604385034
+      },
       "event_wins_complete_case": 8.0,
       "cohort_wins_complete_case": 6.0
     },
@@ -175,8 +199,54 @@
         "cohort_mean_field_accuracy_pct": null,
         "mean_mae_pp": null
       },
+      "complete_case_settled": {
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_field_accuracy_pct": 83.26772992209524,
+        "median_field_accuracy_pct": 84.04273080799204,
+        "cohort_mean_field_accuracy_pct": 83.3013555471592,
+        "mean_mae_pp": 0.33010012597716537
+      },
       "event_wins_complete_case": 11.0,
       "cohort_wins_complete_case": 7.0
+    }
+  },
+  "pairwise": {
+    "current_v2_1_vs_fifty_fifty": {
+      "event_count": 34,
+      "first_model": "current_v2_1",
+      "second_model": "fifty_fifty",
+      "first_wins": 18,
+      "second_wins": 16,
+      "ties": 0,
+      "mean_first_minus_second_pp": 0.0503834920017279
+    },
+    "current_v2_1_vs_irl_only": {
+      "event_count": 34,
+      "first_model": "current_v2_1",
+      "second_model": "irl_only",
+      "first_wins": 17,
+      "second_wins": 17,
+      "ties": 0,
+      "mean_first_minus_second_pp": 0.8543706666878869
+    },
+    "fifty_fifty_vs_irl_only": {
+      "event_count": 34,
+      "first_model": "fifty_fifty",
+      "second_model": "irl_only",
+      "first_wins": 19,
+      "second_wins": 15,
+      "ties": 0,
+      "mean_first_minus_second_pp": 0.803987174686159
+    },
+    "current_v2_1_vs_online_only": {
+      "event_count": 34,
+      "first_model": "current_v2_1",
+      "second_model": "online_only",
+      "first_wins": 34,
+      "second_wins": 0,
+      "ties": 0,
+      "mean_first_minus_second_pp": 10.139017730434588
     }
   },
   "pairwise_v2_1_vs_50_50": {
