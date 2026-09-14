@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-20T20:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6923537452eafbbc811769a4",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🎄 Leahly’s PTCG Tournament - Seasonal Edition 🎄",
+  "organizer": {
+    "id": 2165,
+    "name": "Leahly's PTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 64
+}

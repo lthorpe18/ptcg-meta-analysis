@@ -1,0 +1,24 @@
+{
+  "date": "2025-12-19T01:00:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "693cabf2e12a3ec47628615e",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Le Tournois Du DresseurPokeCharbie #91",
+  "organizer": {
+    "id": 1689,
+    "name": "DresseurPokeCharbie"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 57
+}

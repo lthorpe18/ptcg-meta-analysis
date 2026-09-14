@@ -1,0 +1,24 @@
+{
+  "date": "2025-12-30T02:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "695212464500833d8701bbd3",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Monday afternoon tournament #2",
+  "organizer": {
+    "id": 2198,
+    "name": "WND Collectibles"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 105
+}

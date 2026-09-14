@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-16T22:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "693b70771b3b036ef6dbee09",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🦇Nachtwache Tournament #3 100 Codes Prizing🦇",
+  "organizer": {
+    "id": 2501,
+    "name": "Nachtwache Tournament"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 86
+}
