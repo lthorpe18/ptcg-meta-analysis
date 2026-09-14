@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-21T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a3d4024c87cd9ff0a30f17b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🇧🇷 Hit Cup #12 | TCG Live",
+  "organizer": {
+    "id": 2612,
+    "name": "Hit Legends TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 94
+}

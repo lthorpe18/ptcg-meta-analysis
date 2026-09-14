@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-25T17:00:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a5a581d52c24ac2da64475c",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "Card Party 4 - FL Saturday All Levels Tournament",
+  "organizer": {
+    "id": 2431,
+    "name": "Card Party"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": null,
+  "players": 61
+}

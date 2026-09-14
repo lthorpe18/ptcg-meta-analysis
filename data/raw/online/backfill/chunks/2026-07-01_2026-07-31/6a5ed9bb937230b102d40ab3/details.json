@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-27T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a5ed9bb937230b102d40ab3",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Rare Candy Club Showdown #34 (PITCH BLACK LEGAL)",
+  "organizer": {
+    "id": 2518,
+    "name": "Rare Candy Club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 202
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-26T15:00:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a64f7b5937230b102d44a83",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "Card Party 4 - FL Sunday All Levels Pitch Black PR",
+  "organizer": {
+    "id": 2431,
+    "name": "Card Party"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 3,
+      "type": "SWISS"
+    }
+  ],
+  "platform": null,
+  "players": 59
+}

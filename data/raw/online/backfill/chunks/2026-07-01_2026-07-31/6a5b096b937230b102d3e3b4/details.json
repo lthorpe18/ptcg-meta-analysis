@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-19T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a5b096b937230b102d3e3b4",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Vault Of Games #1 🏆|OFF-SEASON |PITCH BLACK (!)",
+  "organizer": {
+    "id": 2226,
+    "name": "Vault of Games"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 77
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-19T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a5b622f937230b102d3e577",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Monster Collectibles After Hours #13",
+  "organizer": {
+    "id": 2610,
+    "name": "Monster Collectibles League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 120
+}

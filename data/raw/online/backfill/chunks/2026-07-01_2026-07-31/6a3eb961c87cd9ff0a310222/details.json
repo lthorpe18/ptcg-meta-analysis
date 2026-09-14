@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-08T23:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a3eb961c87cd9ff0a310222",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "REFINE Summer Series Session 2",
+  "organizer": {
+    "id": 2568,
+    "name": "REFINE TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 115
+}

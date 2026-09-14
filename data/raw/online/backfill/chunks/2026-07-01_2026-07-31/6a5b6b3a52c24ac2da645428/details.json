@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-19T05:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a5b6b3a52c24ac2da645428",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "Hobby Stadium Bakbakan sa Dilim",
+  "organizer": {
+    "id": 1097,
+    "name": "Hobby Stadium"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": null,
+  "players": 52
+}
