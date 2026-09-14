@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-09-14T13:53:56.573675+00:00",
+  "window_count": 71,
+  "cohort_count": 55,
+  "multi_event_cohort_count": 14,
+  "transition_window_count": 15,
+  "settled_window_count": 56,
+  "primary_target_count_ge_95": 68,
+  "sensitivity_target_count_ge_98": 66,
+  "online_primary_classification_threshold": 0.9,
+  "opening_flag_mismatch_ids": [
+    "0039"
+  ],
+  "leakage_error_count": 0,
+  "availability_proxy": "Online tournament start timestamp; exact completion/decklist-publication time is unavailable in the archive."
+}
