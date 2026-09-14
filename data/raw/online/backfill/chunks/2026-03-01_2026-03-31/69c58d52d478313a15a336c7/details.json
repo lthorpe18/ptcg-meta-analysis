@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-29T00:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69c58d52d478313a15a336c7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Defenders Arena #9🏆|POST ROTATION | 100 CODES",
+  "organizer": {
+    "id": 2226,
+    "name": "Vault of Games"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 75
+}

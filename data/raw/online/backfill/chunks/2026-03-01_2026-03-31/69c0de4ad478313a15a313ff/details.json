@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-26T23:00:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69c0de4ad478313a15a313ff",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Rare Candy Club Showdown #16 (PERFECT ORDER LEGAL)",
+  "organizer": {
+    "id": 2518,
+    "name": "Rare Candy Club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 116
+}

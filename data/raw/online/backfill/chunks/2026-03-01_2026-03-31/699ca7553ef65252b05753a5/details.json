@@ -1,0 +1,27 @@
+{
+  "date": "2026-03-01T22:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "699ca7553ef65252b05753a5",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Weekly Arena – #1 🏆 (Prizes for Top 8)",
+  "organizer": {
+    "id": 2563,
+    "name": "LojaTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 98,
+  "specialRules": [
+    "NO_VMAX"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-04T00:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "699e79263ef65252b0575fde",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "LAST PRIZE SERIES S2 – MEGA ASCENDED HEROES",
+  "organizer": {
+    "id": 2227,
+    "name": "LastPrizeTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 150
+}

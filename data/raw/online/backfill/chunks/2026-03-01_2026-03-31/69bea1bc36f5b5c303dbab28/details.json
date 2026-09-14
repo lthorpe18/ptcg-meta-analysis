@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-24T23:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69bea1bc36f5b5c303dbab28",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "LAST PRIZE SERIES – Win a Pokepad Playset",
+  "organizer": {
+    "id": 2227,
+    "name": "LastPrizeTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 226
+}
