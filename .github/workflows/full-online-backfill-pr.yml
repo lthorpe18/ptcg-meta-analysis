@@ -130,3 +130,13 @@ jobs:
             git commit -m "analysis: tag historical tournaments by format"
             git push origin HEAD:${{ github.head_ref }}
           fi
+
+      - name: Build interactive meta explorer
+        run: |
+          set -euo pipefail
+          python scripts/build_dashboard.py
+          git add dashboard/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: build interactive meta explorer"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
