@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-30T16:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "697254ebb1294bfab7203649",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Turtwig Den Revival Series Regional 4",
+  "organizer": {
+    "id": 196,
+    "name": "DabbingUkranian"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 53
+}

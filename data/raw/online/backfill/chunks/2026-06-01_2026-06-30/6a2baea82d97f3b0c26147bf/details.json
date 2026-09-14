@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-15T11:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a2baea82d97f3b0c26147bf",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "SEASAC League Challenge #21 [50 CODES]",
+  "organizer": {
+    "id": 2623,
+    "name": "SEASAC League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 79
+}

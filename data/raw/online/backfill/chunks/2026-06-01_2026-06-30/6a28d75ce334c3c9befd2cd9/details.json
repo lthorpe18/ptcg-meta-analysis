@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-16T23:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a28d75ce334c3c9befd2cd9",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "After NAIC LAST PRIZE SERIES",
+  "organizer": {
+    "id": 2227,
+    "name": "LastPrizeTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 206
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-10T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a25ca2f47f3797bf6bae96c",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏆PokeMagee weekly⚠️  Week #7 NAIC TESTING",
+  "organizer": {
+    "id": 2659,
+    "name": "MageeTCG Weekly"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 76
+}
