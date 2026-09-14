@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import collections
+import html
 import json
 import re
 import statistics
@@ -17,10 +18,6 @@ def mean(values):
     return statistics.mean(values) if values else None
 
 
-def f2(value):
-    return "—" if value is None else f"{value:.2f}"
-
-
 def pct(value):
     return "—" if value is None else f"{value:.1f}%"
 
@@ -29,6 +26,14 @@ def signed(value):
     if value is None:
         return "—"
     return f"{value:+.2f} pp"
+
+
+def number(value, digits=1):
+    return "—" if value is None else f"{value:.{digits}f}"
+
+
+def esc(value):
+    return html.escape(str(value), quote=True)
 
 
 def main() -> None:
@@ -113,11 +118,11 @@ def main() -> None:
 
     group_rows = "".join(
         "<tr>"
-        f"<td><b>{g['label']}</b></td>"
+        f"<td><b>{esc(g['label'])}</b></td>"
         f"<td class='num'>{g['events']}</td>"
         f"<td class='num'>{g['cohorts']}</td>"
         f"<td class='num'>{pct(None if g['irl_weight'] is None else g['irl_weight'] * 100)}</td>"
-        f"<td class='num'>{'—' if g['days'] is None else f'{g['days']:.1f}'}</td>"
+        f"<td class='num'>{number(g['days'])}</td>"
         f"<td class='num'>{pct(g['v21'])}</td>"
         f"<td class='num'>{pct(g['half'])}</td>"
         f"<td class='num'>{signed(g['delta'])}</td>"
@@ -131,7 +136,7 @@ def main() -> None:
         "<tr>"
         f"<td><b>{weight}% IRL / {100-weight}% Online</b></td>"
         f"<td class='num'>{len(items)}</td>"
-        f"<td class='num'>{mean(row['days'] for row in items):.1f}</td>"
+        f"<td class='num'>{number(mean(row['days'] for row in items if row['days'] is not None))}</td>"
         f"<td class='num'>{pct(mean(row['v21'] for row in items))}</td>"
         f"<td class='num'>{pct(mean(row['half'] for row in items))}</td>"
         f"<td class='num'>{signed(mean(row['delta'] for row in items))}</td>"
@@ -141,18 +146,25 @@ def main() -> None:
 
     event_rows = "".join(
         "<tr>"
-        f"<td>{row['date']}</td>"
-        f"<td>{row['name']}</td>"
-        f"<td class='num'>{row['days'] if row['days'] is not None else '—'}</td>"
+        f"<td>{esc(row['date'])}</td>"
+        f"<td>{esc(row['name'])}</td>"
+        f"<td class='num'>{esc(row['days'] if row['days'] is not None else '—')}</td>"
         f"<td class='num'>{row['irl_weight']*100:.0f}% / {row['online_weight']*100:.0f}%</td>"
         f"<td class='num'>{row['v21']:.1f}%</td>"
         f"<td class='num'>{row['half']:.1f}%</td>"
         f"<td class='num'>{row['delta']:+.2f} pp</td>"
         "</tr>"
-        for row in sorted(rows, key=lambda x: (x["days"] if x["days"] is not None else 9999, x["date"], x["name"]))
+        for row in sorted(
+            rows,
+            key=lambda x: (
+                x["days"] if x["days"] is not None else 9999,
+                x["date"],
+                x["name"],
+            ),
+        )
     )
 
-    html = f"""
+    page_section = f"""
 <div class="card span12">
   <div class="section-title">Does v2.1's weighting move help?</div>
   <div class="callout" style="margin-bottom:12px">{interpretation}</div>
@@ -166,7 +178,7 @@ def main() -> None:
     <tbody>{exact_rows}</tbody>
   </table></div>
   <div class="section-title" style="margin-top:18px">Every complete-case tournament</div>
-  <div class="muted tiny" style="margin-bottom:8px">Positive delta means v2.1 beat 50/50. This table makes the changing IRL/Online mix explicit for every scored target.</div>
+  <div class="muted tiny" style="margin-bottom:8px">Positive delta means v2.1 beat 50/50. This makes the changing IRL/Online mix explicit for every scored target.</div>
   <div class="table-wrap" style="max-height:520px"><table>
     <thead><tr><th>Date</th><th>Tournament</th><th>Days since prior IRL</th><th>v2.1 IRL / Online</th><th>v2.1</th><th>50/50</th><th>Delta</th></tr></thead>
     <tbody>{event_rows}</tbody>
@@ -174,7 +186,7 @@ def main() -> None:
 </div>
 """.strip()
 
-    function = "function weightAnalysis(){return " + json.dumps(html) + ";}\n"
+    function = "function weightAnalysis(){return " + json.dumps(page_section) + ";}\n"
     marker = "function transition(){"
     if marker not in source:
         raise RuntimeError("Could not find transition() insertion point")
