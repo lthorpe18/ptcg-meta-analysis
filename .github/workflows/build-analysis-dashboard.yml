@@ -12,6 +12,7 @@ on:
       - "scripts/build_dashboard.py"
       - "scripts/build_model_comparison.py"
       - "scripts/enhance_model_weight_analysis.py"
+      - "scripts/polish_model_dashboard.py"
       - "data/reference/legality-calendar.json"
       - "data/processed/format-tags/**"
 
@@ -68,6 +69,7 @@ jobs:
           p.write_text(s, encoding='utf-8')
           PY
           python scripts/enhance_model_weight_analysis.py
+          python scripts/polish_model_dashboard.py
           python - <<'PY'
           from pathlib import Path
           s = Path('dashboard/models.html').read_text(encoding='utf-8')
