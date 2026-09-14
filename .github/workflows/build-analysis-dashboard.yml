@@ -50,7 +50,17 @@ jobs:
         run: python scripts/build_dashboard.py
 
       - name: Build model comparison page
-        run: python scripts/build_model_comparison.py
+        run: |
+          python scripts/build_model_comparison.py
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('dashboard/models.html')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace("$('#class'].onchange", "$('#class').onchange")
+          s = s.replace("$('#type'].onchange", "$('#type').onchange")
+          s = s.replace("$('#search'].onchange", "$('#search').onchange")
+          p.write_text(s, encoding='utf-8')
+          PY
 
       - name: Commit generated analysis outputs
         run: |
