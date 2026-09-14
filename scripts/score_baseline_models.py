@@ -211,8 +211,6 @@ def main() -> None:
     online_counts, online_names = online_decks()
     irl_counts, irl_names = irl_decks()
     names = {**online_names, **irl_names}
-
-    cohort_by_id = {c["cohort_id"]: c for c in cohorts}
     rows: list[dict] = []
 
     for w in windows:
@@ -314,10 +312,11 @@ def main() -> None:
             "models": model_results,
         })
 
-    # Complete-case settled comparison for wins/pairwise results.
     settled_primary = [r for r in rows if r["target_eligible_ge_95"] and r["window_class"] == "settled"]
     model_keys = list(MODELS)
     complete = [r for r in settled_primary if all(r["models"][m].get("available") for m in model_keys)]
+    complete_ids = {r["target_id"] for r in complete}
+
     event_wins = {m: 0.0 for m in model_keys}
     for row in complete:
         best = max(row["models"][m]["field_accuracy_pct"] for m in model_keys)
@@ -330,18 +329,24 @@ def main() -> None:
         for m in model_keys:
             cohort_scores[row["cohort_id"]][m].append(row["models"][m]["field_accuracy_pct"])
     cohort_wins = {m: 0.0 for m in model_keys}
-    for cohort_id, by_model in cohort_scores.items():
+    for by_model in cohort_scores.values():
         means = {m: statistics.fmean(by_model[m]) for m in model_keys}
         best = max(means.values())
         winners = [m for m, value in means.items() if abs(value - best) < 1e-9]
         for m in winners:
             cohort_wins[m] += 1.0 / len(winners)
 
-    pairwise_rows = [r for r in complete if r["models"]["fifty_fifty"].get("available") and r["models"]["current_v2_1"].get("available")]
-    v21_deltas = [r["models"]["current_v2_1"]["field_accuracy_pct"] - r["models"]["fifty_fifty"]["field_accuracy_pct"] for r in pairwise_rows]
-    v21_wins = sum(d > 1e-9 for d in v21_deltas)
-    fifty_wins = sum(d < -1e-9 for d in v21_deltas)
-    ties = len(v21_deltas) - v21_wins - fifty_wins
+    def pairwise(a: str, b: str) -> dict:
+        deltas = [r["models"][a]["field_accuracy_pct"] - r["models"][b]["field_accuracy_pct"] for r in complete]
+        return {
+            "event_count": len(deltas),
+            "first_model": a,
+            "second_model": b,
+            "first_wins": sum(d > 1e-9 for d in deltas),
+            "second_wins": sum(d < -1e-9 for d in deltas),
+            "ties": sum(abs(d) <= 1e-9 for d in deltas),
+            "mean_first_minus_second_pp": statistics.fmean(deltas) if deltas else None,
+        }
 
     summaries = {}
     for model_key in model_keys:
@@ -351,6 +356,7 @@ def main() -> None:
             "settled_primary": model_summary(rows, model_key, lambda r: r["window_class"] == "settled"),
             "transition_primary": model_summary(rows, model_key, lambda r: r["window_class"] == "transition"),
             "worlds_primary": model_summary(rows, model_key, lambda r: "World" in str(r["target_event_type"])),
+            "complete_case_settled": model_summary(rows, model_key, lambda r: r["target_id"] in complete_ids),
             "event_wins_complete_case": event_wins[model_key],
             "cohort_wins_complete_case": cohort_wins[model_key],
         }
@@ -375,12 +381,18 @@ def main() -> None:
         "complete_case_settled_event_count": len(complete),
         "complete_case_settled_cohort_count": len(cohort_scores),
         "models": summaries,
+        "pairwise": {
+            "current_v2_1_vs_fifty_fifty": pairwise("current_v2_1", "fifty_fifty"),
+            "current_v2_1_vs_irl_only": pairwise("current_v2_1", "irl_only"),
+            "fifty_fifty_vs_irl_only": pairwise("fifty_fifty", "irl_only"),
+            "current_v2_1_vs_online_only": pairwise("current_v2_1", "online_only"),
+        },
         "pairwise_v2_1_vs_50_50": {
-            "event_count": len(pairwise_rows),
-            "v2_1_wins": v21_wins,
-            "fifty_fifty_wins": fifty_wins,
-            "ties": ties,
-            "mean_v2_1_minus_50_50_pp": statistics.fmean(v21_deltas) if v21_deltas else None,
+            "event_count": len(complete),
+            "v2_1_wins": pairwise("current_v2_1", "fifty_fifty")["first_wins"],
+            "fifty_fifty_wins": pairwise("current_v2_1", "fifty_fifty")["second_wins"],
+            "ties": pairwise("current_v2_1", "fifty_fifty")["ties"],
+            "mean_v2_1_minus_50_50_pp": pairwise("current_v2_1", "fifty_fifty")["mean_first_minus_second_pp"],
         },
     }
 
@@ -405,7 +417,7 @@ def main() -> None:
                 record[f"{model_key}_mae_pp"] = result.get("mae_pp")
             writer.writerow(record)
 
-    readme = f"""# Baseline model scoring\n\nPrimary comparison uses targets with >=95% IRL field capture. Transition targets use the clean Online-only baseline; IRL-only, 50/50 and current v2.1 are compared on settled-format targets.\n\n- Primary targets: **{summary['primary_target_count']}**\n- Primary settled targets: **{summary['primary_settled_count']}**\n- Primary transition targets: **{summary['primary_transition_count']}**\n- Complete-case settled targets for model wins: **{summary['complete_case_settled_event_count']}** across **{summary['complete_case_settled_cohort_count']}** cohorts\n\nHeadline Field Accuracy is `100% - 0.5 * sum(abs(predicted - actual))`. Named archetypes are normalised to 100%; source Other/Unknown/unclassified mass remains auditable but is not treated as an archetype.\n"""
+    readme = f"""# Baseline model scoring\n\nPrimary comparison uses targets with >=95% IRL field capture. Transition targets use the clean Online-only baseline; IRL-only, 50/50 and current v2.1 are compared on settled-format targets.\n\n- Primary targets: **{summary['primary_target_count']}**\n- Primary settled targets: **{summary['primary_settled_count']}**\n- Primary transition targets: **{summary['primary_transition_count']}**\n- Complete-case settled targets for like-for-like model comparison: **{summary['complete_case_settled_event_count']}** across **{summary['complete_case_settled_cohort_count']}** cohorts\n\nHeadline Field Accuracy is `100% - 0.5 * sum(abs(predicted - actual))`. Named archetypes are normalised to 100%; source Other/Unknown/unclassified mass remains auditable but is not treated as an archetype.\n"""
     (RESULTS_DIR / "README.md").write_text(readme, encoding="utf-8")
     print(json.dumps(summary, indent=2))
 
