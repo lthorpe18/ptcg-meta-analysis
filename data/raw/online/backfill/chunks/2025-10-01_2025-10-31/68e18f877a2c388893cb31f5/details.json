@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-18T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68e18f877a2c388893cb31f5",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Ursiiday's PTCG Weekly #1 • 400 USD Prize",
+  "organizer": {
+    "id": 1873,
+    "name": "Ursiiday"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 5,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 592
+}

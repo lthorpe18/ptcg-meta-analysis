@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-26T22:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68bb8d98827e9d163f8376ec",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Peladão da Baixada #154 • MEGA Evolution is ON",
+  "organizer": {
+    "id": 72,
+    "name": "Battle Factory & Poképauper BR"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 66
+}

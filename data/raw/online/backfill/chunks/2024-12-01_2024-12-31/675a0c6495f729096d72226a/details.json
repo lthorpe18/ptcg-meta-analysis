@@ -1,0 +1,24 @@
+{
+  "date": "2024-12-18T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "675a0c6495f729096d72226a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Midweek Madness",
+  "organizer": {
+    "id": 1513,
+    "name": "Timeless trainers"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 63
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2025-05-26T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "683385ecc4596e812234e855",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "CardHub 100 Codes Prize Top 8",
+  "organizer": {
+    "id": 1904,
+    "name": "CARDHUB"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 66
+}

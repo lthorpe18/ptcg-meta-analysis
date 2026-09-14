@@ -1,0 +1,24 @@
+{
+  "date": "2025-10-23T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68f8f89c24b8f37ae93c5ca5",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "BZGC Online🔥 - LVL. 29 ~ Take",
+  "organizer": {
+    "id": 2278,
+    "name": "BattleZone GC Online"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 67
+}

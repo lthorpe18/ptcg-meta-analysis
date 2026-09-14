@@ -1,0 +1,25 @@
+{
+  "date": "2026-05-26T03:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69ffcd8fdfbdf089cbbd68d6",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "CHALLENGE OF DOOM! TRY'S REALLY HARD!",
+  "organizer": {
+    "id": 349,
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/rthil5ms9vwrlwnt",
+    "name": "Doom's Events and Catering"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 128
+}

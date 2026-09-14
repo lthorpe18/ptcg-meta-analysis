@@ -1,0 +1,43 @@
+{
+  "bannedCards": [
+    {
+      "name": "*",
+      "number": null,
+      "set": "Ascended Heroes"
+    }
+  ],
+  "date": "2026-03-28T23:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69a76fe2f39e6e70969fb518",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Redacted Heroes 2nd Chance #3 (100 Codes)",
+  "organizer": {
+    "id": 222,
+    "name": "Redacted Gaming"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 50
+}

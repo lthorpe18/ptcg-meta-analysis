@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-12T16:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a269a5247f3797bf6baf006",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Team Corna Weekly #2",
+  "organizer": {
+    "id": 2583,
+    "name": "Team Corna"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 65
+}

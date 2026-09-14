@@ -1,0 +1,30 @@
+{
+  "date": "2024-12-28T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66b3c1bd82e459668d3595dd",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Jester's Quarter Cup! -  (Pre-Season)",
+  "organizer": {
+    "id": 1709,
+    "name": "JesterTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 123
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-01-23T20:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69701b69b1294bfab7202585",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "ASRcristiano # 128 - Road to EUIC!",
+  "organizer": {
+    "id": 1778,
+    "name": "ASRcristiano League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 158
+}

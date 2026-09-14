@@ -1,0 +1,24 @@
+{
+  "date": "2025-11-15T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69172e5fb11d3f5498bbe079",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "BZGC Online🔥 - LVL. 30 ~ Road to Laic",
+  "organizer": {
+    "id": 2278,
+    "name": "BattleZone GC Online"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 53
+}

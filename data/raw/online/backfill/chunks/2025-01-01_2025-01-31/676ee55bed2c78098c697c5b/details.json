@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-11T03:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "676ee55bed2c78098c697c5b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "TOURNAMENT OF DOOM! FIGHTIN' ROUND THE WORLD!",
+  "organizer": {
+    "id": 349,
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/rthil5ms9vwrlwnt",
+    "name": "Doom's Events and Catering"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 288
+}

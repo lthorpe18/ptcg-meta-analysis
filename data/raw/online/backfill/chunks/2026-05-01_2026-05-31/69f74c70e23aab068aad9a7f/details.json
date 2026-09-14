@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-03T22:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69f74c70e23aab068aad9a7f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Redacted Heroes Open Cup",
+  "organizer": {
+    "id": 222,
+    "name": "Redacted Gaming"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 9,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 197
+}

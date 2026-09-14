@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-01T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a17753a0f6c1f08998626af",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Rare Candy Club Showdown #26 (CHAOS RISING LEGAL)",
+  "organizer": {
+    "id": 2518,
+    "name": "Rare Candy Club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 181
+}

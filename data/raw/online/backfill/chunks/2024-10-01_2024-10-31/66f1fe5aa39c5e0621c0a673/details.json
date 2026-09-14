@@ -1,0 +1,24 @@
+{
+  "date": "2024-10-22T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66f1fe5aa39c5e0621c0a673",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Free Entry ║ Deck Out Mondays ║ Top 16 200 Codes",
+  "organizer": {
+    "id": 779,
+    "name": "Deck Out Gaming"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 195
+}

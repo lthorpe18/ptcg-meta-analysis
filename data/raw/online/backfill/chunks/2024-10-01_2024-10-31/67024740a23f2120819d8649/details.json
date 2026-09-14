@@ -1,0 +1,30 @@
+{
+  "date": "2024-10-26T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67024740a23f2120819d8649",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Jester's Weekly Challenge! #7 (Pre-Season)",
+  "organizer": {
+    "id": 1709,
+    "name": "JesterTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 64
+}

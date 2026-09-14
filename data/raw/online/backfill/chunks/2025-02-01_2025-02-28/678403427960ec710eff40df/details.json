@@ -1,0 +1,24 @@
+{
+  "date": "2025-02-25T18:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "678403427960ec710eff40df",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Gray's PokéLeague - Champion's Road #14",
+  "organizer": {
+    "id": 1253,
+    "name": "Gray's PokéLeague"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 67
+}

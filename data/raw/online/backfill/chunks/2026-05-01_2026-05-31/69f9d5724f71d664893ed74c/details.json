@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-06T11:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69f9d5724f71d664893ed74c",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "SEASAC League Challenge #17 (30 CODES)",
+  "organizer": {
+    "id": 2623,
+    "name": "SEASAC League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 76
+}

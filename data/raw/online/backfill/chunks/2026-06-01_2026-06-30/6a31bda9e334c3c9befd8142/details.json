@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-17T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a31bda9e334c3c9befd8142",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Sidedeck Online Gratuito 16 Junio",
+  "organizer": {
+    "id": 2306,
+    "name": "Juanma_TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 50
+}

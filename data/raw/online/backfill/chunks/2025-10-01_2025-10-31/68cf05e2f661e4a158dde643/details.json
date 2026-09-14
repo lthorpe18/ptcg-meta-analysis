@@ -1,0 +1,31 @@
+{
+  "date": "2025-10-25T03:15:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68cf05e2f661e4a158dde643",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "TOURNAMENT OF DOOM! BIRD OR MONKEY?",
+  "organizer": {
+    "id": 349,
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/rthil5ms9vwrlwnt",
+    "name": "Doom's Events and Catering"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 9,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 258
+}

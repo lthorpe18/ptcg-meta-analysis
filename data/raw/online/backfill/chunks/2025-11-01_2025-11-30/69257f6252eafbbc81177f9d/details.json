@@ -1,0 +1,24 @@
+{
+  "date": "2025-11-25T21:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69257f6252eafbbc81177f9d",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "BBL - Rapid Rounds #3",
+  "organizer": {
+    "id": 1286,
+    "name": "The Berlin Battle League TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 98
+}

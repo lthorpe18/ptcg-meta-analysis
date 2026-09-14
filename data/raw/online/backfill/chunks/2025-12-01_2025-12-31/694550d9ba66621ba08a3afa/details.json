@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-26T08:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "694550d9ba66621ba08a3afa",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Oceania Open! Season 0 - Week 3",
+  "organizer": {
+    "id": 1659,
+    "name": "TripleBtcg"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 67
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2024-12-27T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6769c46486f3dba534024335",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "#4 Torneo Online Vortex Squad",
+  "organizer": {
+    "id": 1993,
+    "name": "Vortex Squad"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 130
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-01T18:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6797efa75229b408d3cef3e7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🎉 Leahly's PTCG Weekly Tournament #1 🎉",
+  "organizer": {
+    "id": 2165,
+    "name": "Leahly's PTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 128
+}

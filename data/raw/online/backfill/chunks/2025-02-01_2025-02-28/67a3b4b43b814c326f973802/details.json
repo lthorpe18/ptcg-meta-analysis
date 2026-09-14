@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-09T13:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67a3b4b43b814c326f973802",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Tournoi amical LEAGUE canto N30°",
+  "organizer": {
+    "id": 1049,
+    "name": "LEAGUE Canto"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 58
+}

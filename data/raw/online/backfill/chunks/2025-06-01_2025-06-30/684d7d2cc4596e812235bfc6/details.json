@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-27T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "684d7d2cc4596e812235bfc6",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Draw Pass Champions Series #1",
+  "organizer": {
+    "id": 2321,
+    "name": "GinJTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 82
+}

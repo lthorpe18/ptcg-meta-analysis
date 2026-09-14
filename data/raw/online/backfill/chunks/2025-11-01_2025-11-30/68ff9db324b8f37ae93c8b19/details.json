@@ -1,0 +1,24 @@
+{
+  "date": "2025-11-27T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68ff9db324b8f37ae93c8b19",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Pokemon TCG TOPDECK FUN LEAGUE Online #13",
+  "organizer": {
+    "id": 362,
+    "name": "Pokemon TCG Fun League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 107
+}

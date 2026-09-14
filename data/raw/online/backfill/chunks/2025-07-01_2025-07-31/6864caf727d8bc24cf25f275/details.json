@@ -1,0 +1,24 @@
+{
+  "date": "2025-07-08T16:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6864caf727d8bc24cf25f275",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "The Lucky Draw Weekly #1",
+  "organizer": {
+    "id": 1088,
+    "name": "Insight Astronomy "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 128
+}

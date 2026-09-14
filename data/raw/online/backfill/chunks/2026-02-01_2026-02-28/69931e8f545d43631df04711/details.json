@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-22T13:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69931e8f545d43631df04711",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Tournoi amical LEAGUE canto N51°",
+  "organizer": {
+    "id": 1049,
+    "name": "LEAGUE Canto"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 53
+}

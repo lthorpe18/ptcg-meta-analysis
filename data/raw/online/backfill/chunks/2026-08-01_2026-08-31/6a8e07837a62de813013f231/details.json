@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-26T21:15:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a8e07837a62de813013f231",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Hideout TCG MID-WEEK Meta Clash 100 codes #9",
+  "organizer": {
+    "id": 2705,
+    "name": "Hideout TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 71
+}

@@ -1,0 +1,3766 @@
+[
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-01T03:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679c8790755755d8a1729ccd",
+    "name": "WND first tournament",
+    "players": 26,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 226,
+    "date": "2025-02-01T03:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "677b2fdded2c78098c6b4194",
+    "isOnline": true,
+    "name": "TOURNAMENT OF DOOM! Oh... yea.....",
+    "platform": "PTCGL",
+    "players": 226,
+    "rejection_reasons": [],
+    "standing_rows": 226,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-01T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6797504a5229b408d3cee5f1",
+    "name": "好奇杯国际环境常规赛2",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-01T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679debc28c7be28d6e27724a",
+    "name": "Absolem TCG - Challenge #18",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-01T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679584145229b408d3cebb09",
+    "name": "League Cup Magic Raiz - Janeiro/Março",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 128,
+    "date": "2025-02-01T18:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6797efa75229b408d3cef3e7",
+    "isOnline": true,
+    "name": "🎉 Leahly's PTCG Weekly Tournament #1 🎉",
+    "platform": "PTCGL",
+    "players": 128,
+    "rejection_reasons": [],
+    "standing_rows": 128,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 97,
+    "date": "2025-02-01T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67772ef8ed2c78098c6a91cb",
+    "isOnline": true,
+    "name": "🟣  #4 Gengar's Hideout Weekly Tournament 🟣",
+    "platform": "PTCGL",
+    "players": 97,
+    "rejection_reasons": [],
+    "standing_rows": 97,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 164,
+    "date": "2025-02-02T00:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "678455547960ec710eff52d7",
+    "isOnline": true,
+    "name": "Redacted Evolutions #2 (100 Codes) CLOSED LISTS",
+    "platform": "PTCGL",
+    "players": 164,
+    "rejection_reasons": [],
+    "standing_rows": 164,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 71,
+    "date": "2025-02-02T01:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679e2daf352013cfaad0d5f1",
+    "isOnline": true,
+    "name": "Redacted 2nd Chance #2 (Mini Event 50 Codes)",
+    "platform": "PTCGL",
+    "players": 71,
+    "rejection_reasons": [],
+    "standing_rows": 71,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 100,
+    "date": "2025-02-02T05:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "678d414a010576265d117d6c",
+    "isOnline": true,
+    "name": "Kuyo杯Live蛇年特别赛 Kuyo Cup Year of Snake",
+    "platform": "PTCGL",
+    "players": 100,
+    "rejection_reasons": [],
+    "standing_rows": 100,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-02T08:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679871905229b408d3cf0177",
+    "name": "Oceanic Tournament Series 2025 #1",
+    "players": 43,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-02T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6796cd935229b408d3cedfa8",
+    "name": "Московская фан-лига Pokémon TCG | VII сезон #1",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 203,
+    "date": "2025-02-02T17:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6797e3a85229b408d3cef225",
+    "isOnline": true,
+    "name": "Pokémon Battle Park- Prismatic Evolutions is Legal",
+    "platform": "PTCGL",
+    "players": 203,
+    "rejection_reasons": [],
+    "standing_rows": 203,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 70,
+    "date": "2025-02-02T20:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679d855697e30145c389082b",
+    "isOnline": true,
+    "name": "Umbral League Inaugural Tournament - CLOSED LIST",
+    "platform": "PTCGL",
+    "players": 70,
+    "rejection_reasons": [],
+    "standing_rows": 70,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-02T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679c2b0ab30a7a7ad7e5e755",
+    "name": "#1 Tinkatorneo Pokegals",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 57,
+    "date": "2025-02-02T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679e57f5ff400273891cb315",
+    "isOnline": true,
+    "name": "Play TCG Casual",
+    "platform": "PTCGL",
+    "players": 57,
+    "rejection_reasons": [],
+    "standing_rows": 57,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 206,
+    "date": "2025-02-03T00:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6786bad3010576265d10b01c",
+    "isOnline": true,
+    "name": "Prismatic Ditto #2 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 206,
+    "rejection_reasons": [],
+    "standing_rows": 206,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-03T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679ac8755229b408d3cf321f",
+    "name": "SMG Nightly Standard",
+    "players": 43,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-03T15:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679fa3eaf1a83f7924eb4d35",
+    "name": "Pokémon #174",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 241,
+    "date": "2025-02-03T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679f5fa2baf56254079f2643",
+    "isOnline": true,
+    "name": "Pumpka Weekly",
+    "platform": "PTCGL",
+    "players": 241,
+    "rejection_reasons": [],
+    "standing_rows": 241,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-03T20:05:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a10b123b814c326f971222",
+    "name": "TGG Monday Night Test Tourney",
+    "players": 25,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 128,
+    "date": "2025-02-03T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6797ea4a5229b408d3cef349",
+    "isOnline": true,
+    "name": "Sunny's Weekly #190 Fiesta Pokémon!",
+    "platform": "PTCGL",
+    "players": 128,
+    "rejection_reasons": [],
+    "standing_rows": 128,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 216,
+    "date": "2025-02-04T01:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67982b105229b408d3cefb26",
+    "isOnline": true,
+    "name": "Free Entry ║ Deck Out Mondays ║ Top 16 200 Codes",
+    "platform": "PTCGL",
+    "players": 216,
+    "rejection_reasons": [],
+    "standing_rows": 216,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 58,
+    "date": "2025-02-04T03:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a06db23b814c326f9709f9",
+    "isOnline": true,
+    "name": "Monday afternoon tournament",
+    "platform": "PTCGL",
+    "players": 58,
+    "rejection_reasons": [],
+    "standing_rows": 58,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-04T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a1b95a3b814c326f971e19",
+    "name": "Bak & Bak PokeLeague #27 - Pop Up",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 97,
+    "date": "2025-02-04T18:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679fcb13f1a83f7924eb5320",
+    "isOnline": true,
+    "name": "Team Gamers Guild league #1 The First One",
+    "platform": "PTCGL",
+    "players": 97,
+    "rejection_reasons": [],
+    "standing_rows": 97,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-04T18:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a24215f1a83f7924eb749e",
+    "name": "Absolem TCG - Challenge #19",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 73,
+    "date": "2025-02-04T19:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "677dae6d7960ec710efe529b",
+    "isOnline": true,
+    "name": "Gray's PokéLeague - Champion's Road #12",
+    "platform": "PTCGL",
+    "players": 73,
+    "rejection_reasons": [],
+    "standing_rows": 73,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 55,
+    "date": "2025-02-04T19:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a013693b814c326f9705c8",
+    "isOnline": true,
+    "name": "ASRcristiano # 17",
+    "platform": "PTCGL",
+    "players": 55,
+    "rejection_reasons": [],
+    "standing_rows": 55,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-04T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a11ffb3b814c326f971427",
+    "name": "FrikioMartes de Pokemon #1",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-04T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a22036f1a83f7924eb7336",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 110,
+    "date": "2025-02-04T22:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67900a915229b408d3ce1c24",
+    "isOnline": true,
+    "name": "🐢Turtle Weekly 11🐢",
+    "platform": "PTCGL",
+    "players": 110,
+    "rejection_reasons": [],
+    "standing_rows": 110,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-04T23:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67906b1a5229b408d3ce25e9",
+    "name": "DMV Drakes - Pokemon TCG Live Tournament 2/4!",
+    "players": 28,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a161f3f1a83f7924eb6d4d",
+    "name": "Pokedrunks Open 1",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6793c3215229b408d3ce715b",
+    "name": "🌲Control Players Unite's Standard Tournament! #2",
+    "players": 35,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a21179f1a83f7924eb72dd",
+    "name": "🐢Turtle Redemption 🐢",
+    "players": 48,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a176d93b814c326f971c2f",
+    "name": "Biznaga Challenge #4",
+    "players": 33,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T02:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a29d97435c6fb86e8b7d34",
+    "name": "Card Forum Online #12",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T03:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679dcd1f755755d8a172b16b",
+    "name": "Tuesday beatdown top 8 (92 codes)",
+    "players": 36,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 64,
+    "date": "2025-02-05T04:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "677b2f82ed2c78098c6b4162",
+    "isOnline": true,
+    "name": "CHALLENGE OF DOOM! or is it challénge?",
+    "platform": "PTCGL",
+    "players": 64,
+    "rejection_reasons": [],
+    "standing_rows": 64,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a2b63e3b814c326f972d50",
+    "name": "Bak & Bak PokeLeague #28 - Pop Up",
+    "players": 35,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "677f97147960ec710efe832c",
+    "name": "Mistrzostwo Śląska PokemonTCG Live seria 2025 #5_2",
+    "players": 4,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 75,
+    "date": "2025-02-05T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "678602051c64910a07ac2dbf",
+    "isOnline": true,
+    "name": "✨ Il Covo dei Sub Series 2025 #6 POST ROTATION ✨",
+    "platform": "PTCGL",
+    "players": 75,
+    "rejection_reasons": [],
+    "standing_rows": 75,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-05T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a3b3ea3b814c326f9737fb",
+    "name": "5º Torneio da Liga Bimestral",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 320,
+    "date": "2025-02-06T00:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "66d08127bf2ffe05f59931ce",
+    "isOnline": true,
+    "name": "Late Night 240",
+    "platform": "PTCGL",
+    "players": 320,
+    "rejection_reasons": [],
+    "standing_rows": 320,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-06T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "677ff01a7960ec710efe89e6",
+    "name": "💖 PokeGals! OT II - Torneo #2",
+    "players": 20,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-06T00:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679b9025327a6d00becdb7ba",
+    "name": "Barb City League #17",
+    "players": 30,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-06T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a485903b814c326f9743e4",
+    "name": "Pokémon #175",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 162,
+    "date": "2025-02-06T17:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679c1291b30a7a7ad7e5e5a1",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆300x PTCGL Codes!🏆",
+    "platform": "PTCGL",
+    "players": 162,
+    "rejection_reasons": [],
+    "standing_rows": 162,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-06T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a3d7fca184c8cb67196fe3",
+    "name": "Absolem TCG - Challenge #20",
+    "players": 25,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 94,
+    "date": "2025-02-06T19:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a37b7d435c6fb86e8b85c3",
+    "isOnline": true,
+    "name": "ASRcristiano # 18",
+    "platform": "PTCGL",
+    "players": 94,
+    "rejection_reasons": [],
+    "standing_rows": 94,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-06T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679cbd6f755755d8a1729e7b",
+    "name": "🏆 Best of the Rest #11 🏆 25 Prismatic Evo Codes✨",
+    "players": 28,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-06T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a4f195a184c8cb67197d02",
+    "name": "Semanal Cards Hall",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 53,
+    "date": "2025-02-06T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a181b73b814c326f971c75",
+    "isOnline": true,
+    "name": "#10 Torneo Online Vortex Squad",
+    "platform": "PTCGL",
+    "players": 53,
+    "rejection_reasons": [],
+    "standing_rows": 53,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-06T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a516eda184c8cb67198238",
+    "name": "PS LEAGUE ETAPA #135",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 106,
+    "date": "2025-02-07T00:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679e98c5ec94bf470ec8f6fd",
+    "isOnline": true,
+    "name": "🐍TLS TCG SERIES QUALIFIER 1/10 S2 - CASH + CODES",
+    "platform": "PTCGL",
+    "players": 106,
+    "rejection_reasons": [],
+    "standing_rows": 106,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-07T01:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a21b6ff1a83f7924eb7313",
+    "name": "Le Tournois Du DresseurPokeCharbie #47",
+    "players": 46,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-07T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a241f9f1a83f7924eb749b",
+    "name": "Flare Parade Fridays Technohub Casuals 02/07",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 111,
+    "date": "2025-02-07T15:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679ff6d7f1a83f7924eb57f3",
+    "isOnline": true,
+    "name": "Pokémon Battle Park",
+    "platform": "PTCGL",
+    "players": 111,
+    "rejection_reasons": [],
+    "standing_rows": 111,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 68,
+    "date": "2025-02-07T18:45:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a3d836a184c8cb67196fe6",
+    "isOnline": true,
+    "name": "Absolem TCG - Cup #20 - Last of this Season!!",
+    "platform": "PTCGL",
+    "players": 68,
+    "rejection_reasons": [],
+    "standing_rows": 68,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 79,
+    "date": "2025-02-07T19:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a4dbf53b814c326f974920",
+    "isOnline": true,
+    "name": "ASRcristiano # 19",
+    "platform": "PTCGL",
+    "players": 79,
+    "rejection_reasons": [],
+    "standing_rows": 79,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 113,
+    "date": "2025-02-07T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a25bfaf1a83f7924eb75e4",
+    "isOnline": true,
+    "name": "Poli's Poolhouse Weekly! #14 (100 CODES)",
+    "platform": "PTCGL",
+    "players": 113,
+    "rejection_reasons": [],
+    "standing_rows": 113,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-08T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a6869ea184c8cb67199ab1",
+    "name": "TanoCup #74",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-08T03:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a076ce3b814c326f970a7b",
+    "name": "WND’s Weekend Warm Up (Top 8 100 codes)",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 195,
+    "date": "2025-02-08T03:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67997bc15229b408d3cf1655",
+    "isOnline": true,
+    "name": "TOURNAMENT OF DOOM! GIANT ROBOTS!!!",
+    "platform": "PTCGL",
+    "players": 195,
+    "rejection_reasons": [],
+    "standing_rows": 195,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 72,
+    "date": "2025-02-08T13:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679fe38df1a83f7924eb55f6",
+    "isOnline": true,
+    "name": "Team Gamers Guild League #2",
+    "platform": "PTCGL",
+    "players": 72,
+    "rejection_reasons": [],
+    "standing_rows": 72,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 98,
+    "date": "2025-02-08T17:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679e6128ca4aa463423ac8ad",
+    "isOnline": true,
+    "name": "Jester's Monthly Challenge [February 2025]",
+    "platform": "PTCGL",
+    "players": 98,
+    "rejection_reasons": [],
+    "standing_rows": 98,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-08T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679902485229b408d3cf0965",
+    "name": "ChapiCTG Jr/Sr Showdown Worldwide edition :)",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-08T18:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679fd2da3b814c326f970089",
+    "name": "Standard Tournament Nuevocentro Shopping",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 85,
+    "date": "2025-02-08T18:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679e86846346b1f1edff464e",
+    "isOnline": true,
+    "name": "🎉 Leahly's PTCG Weekly Tournament #2 🎉",
+    "platform": "PTCGL",
+    "players": 85,
+    "rejection_reasons": [],
+    "standing_rows": 85,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 79,
+    "date": "2025-02-08T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "677731c3ed2c78098c6a925e",
+    "isOnline": true,
+    "name": "🟣  #5 Gengar's Hideout Weekly Tournament 🟣",
+    "platform": "PTCGL",
+    "players": 79,
+    "rejection_reasons": [],
+    "standing_rows": 79,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 155,
+    "date": "2025-02-09T00:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "678456067960ec710eff52ec",
+    "isOnline": true,
+    "name": "Redacted Evolutions #3 (100 Codes) CLOSED LISTS",
+    "platform": "PTCGL",
+    "players": 155,
+    "rejection_reasons": [],
+    "standing_rows": 155,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 63,
+    "date": "2025-02-09T01:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679f7228aefa8d3c809f292b",
+    "isOnline": true,
+    "name": "Redacted 2nd Chance #3 (Mini Event 50 Codes)",
+    "platform": "PTCGL",
+    "players": 63,
+    "rejection_reasons": [],
+    "standing_rows": 63,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 58,
+    "date": "2025-02-09T08:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67987a7e5229b408d3cf01c2",
+    "isOnline": true,
+    "name": "Oceanic Tournament Series 2025 #2",
+    "platform": "PTCGL",
+    "players": 58,
+    "rejection_reasons": [],
+    "standing_rows": 58,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-09T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a21eccf1a83f7924eb732d",
+    "name": "Pokemon TCG TOPDECK LEAGUE — Johto: Hive Badge",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-09T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679e3939352013cfaad0d7d5",
+    "name": "好奇杯国际环境常规赛3",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-09T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a7a2e49b38a3062286b755",
+    "name": "Solrock Sundays Discord Casuals 02/09",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 58,
+    "date": "2025-02-09T13:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a3b4b43b814c326f973802",
+    "isOnline": true,
+    "name": "Tournoi amical LEAGUE canto N30°",
+    "platform": "PTCGL",
+    "players": 58,
+    "rejection_reasons": [],
+    "standing_rows": 58,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-09T19:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a3e196a184c8cb6719704c",
+    "name": "Fury Fest - LDF Tribute Tourney",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 129,
+    "date": "2025-02-09T19:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a06e42f1a83f7924eb5db0",
+    "isOnline": true,
+    "name": "Umbral League Omni Series - Weekly #2 - 35 CODES!",
+    "platform": "PTCGL",
+    "players": 129,
+    "rejection_reasons": [],
+    "standing_rows": 129,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-09T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a0182a3b814c326f970661",
+    "name": "Liga Competitiva Play TCG (Only Chile)",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 158,
+    "date": "2025-02-10T00:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6786bda7010576265d10b07f",
+    "isOnline": true,
+    "name": "Prismatic Ditto #3 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 158,
+    "rejection_reasons": [],
+    "standing_rows": 158,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-10T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a92c6605f4a8b0fc572915",
+    "name": "SMG Nightly Standard",
+    "players": 27,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-10T15:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a9f51705f4a8b0fc573263",
+    "name": "Pokémon #176",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 229,
+    "date": "2025-02-10T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a8fe8bc33362b4e39d9261",
+    "isOnline": true,
+    "name": "Pumpka Weekly",
+    "platform": "PTCGL",
+    "players": 229,
+    "rejection_reasons": [],
+    "standing_rows": 229,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-10T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67aa18cb05f4a8b0fc57359b",
+    "name": "EUIC GREECE TRAINING",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 116,
+    "date": "2025-02-10T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a189d0f1a83f7924eb6fb3",
+    "isOnline": true,
+    "name": "Sunny's Weekly #191 The Lumberjack Social Event!",
+    "platform": "PTCGL",
+    "players": 116,
+    "rejection_reasons": [],
+    "standing_rows": 116,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 152,
+    "date": "2025-02-11T01:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a15fb8f1a83f7924eb6d29",
+    "isOnline": true,
+    "name": "Free Entry ║ Deck Out Mondays ║ Top 16 200 Codes",
+    "platform": "PTCGL",
+    "players": 152,
+    "rejection_reasons": [],
+    "standing_rows": 152,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 122,
+    "date": "2025-02-11T17:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a7b7a99cebf3a8aa3aea2d",
+    "isOnline": true,
+    "name": "Team Gamers Guild League #3",
+    "platform": "PTCGL",
+    "players": 122,
+    "rejection_reasons": [],
+    "standing_rows": 122,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-11T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a7344d624c538c85cdd953",
+    "name": "ChapiTCG Jr/Sr Showdown 5",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 78,
+    "date": "2025-02-11T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "677daec37960ec710efe52a1",
+    "isOnline": true,
+    "name": "Gray's PokéLeague - Champion's Road #13",
+    "platform": "PTCGL",
+    "players": 78,
+    "rejection_reasons": [],
+    "standing_rows": 78,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-11T19:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67aa9760c33362b4e39dab16",
+    "name": "EUIC TRAINING GREECE 2",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 71,
+    "date": "2025-02-11T19:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a9ce8705f4a8b0fc572fce",
+    "isOnline": true,
+    "name": "ASRcristiano # 20",
+    "platform": "PTCGL",
+    "players": 71,
+    "rejection_reasons": [],
+    "standing_rows": 71,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-11T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67aa515205f4a8b0fc57391e",
+    "name": "FrikioMartes de Pokemon #2",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 112,
+    "date": "2025-02-11T22:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679677a45229b408d3ced412",
+    "isOnline": true,
+    "name": "🐢Turtle Weekly 12🐢",
+    "platform": "PTCGL",
+    "players": 112,
+    "rejection_reasons": [],
+    "standing_rows": 112,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-11T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ab3f140b3322ebaa504514",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 105,
+    "date": "2025-02-12T01:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679997975229b408d3cf19a8",
+    "isOnline": true,
+    "name": "Jefferson Gym Tuesday Night Standard #21",
+    "platform": "PTCGL",
+    "players": 105,
+    "rejection_reasons": [],
+    "standing_rows": 105,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-12T02:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ab92890b3322ebaa504811",
+    "name": "Card Forum Online #13",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-12T03:01:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ab77550b3322ebaa5046d4",
+    "name": "WND Tuesday beatdown #2",
+    "players": 33,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-12T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "678940a6010576265d10e79c",
+    "name": "Mistrzostwo Śląska PokemonTCG Live seria 2025 #6_2",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 133,
+    "date": "2025-02-12T19:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67ac5e2978c0b32318811d1e",
+    "isOnline": true,
+    "name": "ASRcristiano # 21",
+    "platform": "PTCGL",
+    "players": 133,
+    "rejection_reasons": [],
+    "standing_rows": 133,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-12T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ad10700b3322ebaa505e1a",
+    "name": "underground special euic testing",
+    "players": 21,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 111,
+    "date": "2025-02-13T00:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67abced40b3322ebaa504e3f",
+    "isOnline": true,
+    "name": "Barb City League #18",
+    "platform": "PTCGL",
+    "players": 111,
+    "rejection_reasons": [],
+    "standing_rows": 111,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-13T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67add1ae78c0b32318812ef4",
+    "name": "Pokémon #177",
+    "players": 13,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-13T17:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67a6634aa184c8cb671997b7/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a6634aa184c8cb671997b7",
+    "name": "🏆Moujii's Dojo🏆300x PTCGL Codes!🏆",
+    "players": 184,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-13T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a8c76ac33362b4e39d8e2c",
+    "name": "🏆 Best of the Rest #12 🏆 25 Prismatic Evo Codes✨",
+    "players": 29,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-13T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ae65a00b3322ebaa507808",
+    "name": "Semanal cards hall",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-13T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ae4cb878c0b3231881385e",
+    "name": "PS LEAGUE ETAPA #136",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-13T23:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67acc49578c0b32318812015/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67acc49578c0b32318812015",
+    "name": "#11 Torneo Online Vortex Squad",
+    "players": 62,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-14T00:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/679e9a162e9db6e88f3e5db6/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679e9a162e9db6e88f3e5db6",
+    "name": "🐍TLS TCG SERIES QUALIFIER 2/10 S2 - CASH + CODES",
+    "players": 144,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-14T01:15:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67ab60db78c0b3231881101b/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ab60db78c0b3231881101b",
+    "name": "Le Tournois Du DresseurPokeCharbie #48",
+    "players": 61,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-14T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ab55c40b3322ebaa5045d3",
+    "name": "Flare Parade Fridays Technohub Casuals 02/14",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-14T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679e465eeb4be7fcd5568d05",
+    "name": "PTCG-Q Local #19 (Prismatic Evolutions Standard)",
+    "players": 20,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-14T15:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67a97f6a05f4a8b0fc572e19/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a97f6a05f4a8b0fc572e19",
+    "name": "Pokémon Battle Park",
+    "players": 102,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-14T16:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a386993b814c326f973454",
+    "name": "Турнир PokeBarn 4",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-14T21:20:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67af7a0c78c0b323188149dd",
+    "name": "TanoCup #75",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-15T00:10:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67afc74c78c0b32318814d96",
+    "name": "Friday Night tournament",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-15T01:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67acb39c0b3322ebaa50558b/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67acb39c0b3322ebaa50558b",
+    "name": "瞬间失忆联赛第2赛季第7场 Amnesia Series S2-07",
+    "players": 69,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-15T03:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67997ce65229b408d3cf165c/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67997ce65229b408d3cf165c",
+    "name": "TOURNAMENT OF DOOM! Falls in love?",
+    "players": 171,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-15T07:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67af9dd478c0b32318814bd3",
+    "name": "underground late late special",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-15T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679f4b23baf56254079f252e",
+    "name": "TCG Park Pokémon Store Championship #7 FEB",
+    "players": 19,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-15T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a82f1e0086ca7747c7dd1a",
+    "name": "好奇杯国际环境常规赛4",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-15T13:15:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/679fd1103b814c326f97006e/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679fd1103b814c326f97006e",
+    "name": "Team Gamers Guild Cup 🏆FIRST ONE🏆",
+    "players": 60,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-15T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/675ebfcf95f729096d72a612/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "675ebfcf95f729096d72a612",
+    "name": "Jester's Quarter Cup! [Q1 2025]",
+    "players": 69,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-15T18:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67a7b8049b38a3062286bb90/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a7b8049b38a3062286bb90",
+    "name": "🎉 Leahly's PTCG Weekly Tournament #3 🎉",
+    "players": 65,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-15T20:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6777327eed2c78098c6a9279/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6777327eed2c78098c6a9279",
+    "name": "🟣  #6 Gengar's Hideout Weekly Tournament 🟣",
+    "players": 54,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-16T00:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6784578a7960ec710eff5329/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6784578a7960ec710eff5329",
+    "name": "Redacted Evolutions #4 (100 Codes) CLOSED LISTS",
+    "players": 114,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-16T01:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/679f7283baf56254079f27e6/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679f7283baf56254079f27e6",
+    "name": "Redacted 2nd Chance #4 (Mini Event 50 Codes)",
+    "players": 54,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-16T08:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679f64e9aefa8d3c809f2871",
+    "name": "Oceanic Tournament Series 2025 #3",
+    "players": 42,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-16T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a8ee2105f4a8b0fc572224",
+    "name": "Московская фан-лига Pokémon TCG | VII сезон #2",
+    "players": 29,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-16T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67a97fa6c33362b4e39d9b34/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a97fa6c33362b4e39d9b34",
+    "name": "Pokémon Battle Park",
+    "players": 166,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-16T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67133412c7dc61a5a5f43f97",
+    "name": "Online Nevada Invitational Qualifier 1",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-16T21:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b22feb78c0b32318816c2a/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b22feb78c0b32318816c2a",
+    "name": "Umbral League  IRRESISTABLE FORCE POP-UP 50 CODES",
+    "players": 59,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-16T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67aa029ac33362b4e39da07e",
+    "name": "Liga PlayTCG (CL) 🏆Premios: Créditos Tienda $",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-17T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b24b2c0b3322ebaa50b13a",
+    "name": "Niagara Locals",
+    "players": 20,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-17T00:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6786bdd8010576265d10b082/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6786bdd8010576265d10b082",
+    "name": "Prismatic Ditto #4 (200 Codes)",
+    "players": 222,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-17T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b226530b3322ebaa50acf8",
+    "name": "SMG Nightly Standard",
+    "players": 47,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-17T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b302eb78c0b32318817b88",
+    "name": "Pokémon #178",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-17T16:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b321c478c0b32318817c13/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b321c478c0b32318817c13",
+    "name": "Team Gamers Guild random ‘I’m bored’ tournament",
+    "players": 61,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-17T19:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b2003e78c0b323188166a1/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b2003e78c0b323188166a1",
+    "name": "Pumpka Weekly",
+    "players": 240,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-17T22:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67ae776d0b3322ebaa507936/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ae776d0b3322ebaa507936",
+    "name": "🐢President Turtle🐢",
+    "players": 56,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-17T23:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67aa64a2c33362b4e39da747/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67aa64a2c33362b4e39da747",
+    "name": "Sunny's Weekly #192 London Calling",
+    "players": 126,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-18T01:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b3693478c0b32318817eec/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b3693478c0b32318817eec",
+    "name": "Free Entry ║ Deck Out Mondays ║ Top 16 200 Codes",
+    "players": 166,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-18T01:40:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b2aa6478c0b32318817a5f",
+    "name": "Card Temple Weekly Battles #1",
+    "players": 44,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-18T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b4c5e578c0b32318818e82",
+    "name": "ASRcristiano Webcam",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-18T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b3e31d0b3322ebaa50c633",
+    "name": "FrikioMartes de Pokemon #3",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-19T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a2ea36435c6fb86e8b81d3",
+    "name": "DMV Drakes - Pokemon TCG Live Tournament 2/18!",
+    "players": 30,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-19T00:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67a2f93d3b814c326f97300b/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a2f93d3b814c326f97300b",
+    "name": "🌲Control Players Unite's Standard Tournament! #3",
+    "players": 59,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-19T02:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b4f03a78c0b3231881913f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b4f03a78c0b3231881913f",
+    "name": "Card Forum Online #14",
+    "players": 65,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-19T04:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67a2b5e0435c6fb86e8b7f24/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a2b5e0435c6fb86e8b7f24",
+    "name": "CHALLENGE OF DOOM! AND THE DISCOUNT CANDY!",
+    "players": 64,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-19T09:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b07ade0b3322ebaa50921d",
+    "name": "Collecting Leftovers Special Event - EUIC Practice",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-19T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b627d20b3322ebaa50e203/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b627d20b3322ebaa50e203",
+    "name": "Team Gamers Guild yes it's a league #4",
+    "players": 51,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-19T22:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67a6c92a2e6e3d7cab84ab56/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a6c92a2e6e3d7cab84ab56",
+    "name": "🐢Turtle Weekly 13🐢",
+    "players": 130,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-20T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "677ff0247960ec710efe89e9",
+    "name": "💖 PokeGals! OT II - Torneo #3",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-20T00:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b3ad590b3322ebaa50c280",
+    "name": "Barb City League #19",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-20T02:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b602260b3322ebaa50dee6/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b602260b3322ebaa50dee6",
+    "name": "Victini TCG",
+    "players": 64,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-20T15:32:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b72ef478c0b3231881ac18",
+    "name": "Pokémon #179",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-20T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67ae687578c0b32318813ac6/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ae687578c0b32318813ac6",
+    "name": "🏆Moujii's Dojo🏆300x PTCGL Codes!🏆",
+    "players": 120,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-20T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b711b60b3322ebaa50ec30",
+    "name": "League Challenge - CardsHall",
+    "players": 17,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-20T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b774b578c0b3231881af4b",
+    "name": "PS LEAGUE ETAPA #137",
+    "players": 26,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-20T23:05:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b3e80478c0b32318818729",
+    "name": "#12 Torneo Online Vortex Squad",
+    "players": 46,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-21T00:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/679e9a42ec94bf470ec8f708/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679e9a42ec94bf470ec8f708",
+    "name": "🐍TLS TCG SERIES QUALIFIER 3/10 S2 - CASH + CODES",
+    "players": 106,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-21T01:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b13f8a9c5861598c048981",
+    "name": "Le Tournois Du DresseurPokeCharbie #49",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-21T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b351ab78c0b32318817d76",
+    "name": "Flare Parade Fridays Technohub Casuals 02/21",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-21T15:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b27b2578c0b32318817680/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b27b2578c0b32318817680",
+    "name": "Pokémon Battle Park",
+    "players": 76,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-21T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b205a90b3322ebaa50a9ca",
+    "name": "Challenge Dungeons & Dices Fevereiro",
+    "players": 13,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-22T03:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67997c2b5229b408d3cf1657/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67997c2b5229b408d3cf1657",
+    "name": "TOURNAMENT OF DOOM! 3 YEAR EXTRAVAGANZA!",
+    "players": 179,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-22T11:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b5a12178c0b32318819927",
+    "name": "好奇杯国际环境冠军赛1",
+    "players": 21,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-22T14:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b9d80078c0b3231881d25e",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-22T16:44:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b9f69878c0b3231881d586",
+    "name": "Broken tournament",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "679186cd5229b408d3ce3e1d",
+    "name": "The Ready, Deck, Go! Championship Circuit",
+    "players": 30,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-23T00:15:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/678457d57960ec710eff532f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "678457d57960ec710eff532f",
+    "name": "Redacted Evolutions #5 (100 Codes) CLOSED LISTS",
+    "players": 142,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-23T01:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b9e1e578c0b3231881d402/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b9e1e578c0b3231881d402",
+    "name": "Redacted 2nd Chance #5 (Mini Event 50 Codes)",
+    "players": 54,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T01:34:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67ba769b276218596f27fa8c",
+    "name": "Testeo Cardhouse",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T08:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b0806878c0b32318815707",
+    "name": "Oceanic Tournament Series 2025 #4",
+    "players": 39,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bae5f378c0b3231881dc3b",
+    "name": "Italian Senior Tournament",
+    "players": 13,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T10:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b30a9f0b3322ebaa50b8b6",
+    "name": "Pokemon TCG TOPDECK LEAGUE — Meganium Qualifiers",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b2f60e78c0b32318817b45",
+    "name": "Pokemon TCG TOPDECK LEAGUE — Johto: Plain Badge",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b62b910b3322ebaa50e21e",
+    "name": "Tournoi amical LEAGUE canto N31°",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a571fca184c8cb67198b6c",
+    "name": "Torneo Standard 23/02 Art Deco",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-23T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67b27b610b3322ebaa50b4a4/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b27b610b3322ebaa50b4a4",
+    "name": "Pokémon Battle Park",
+    "players": 89,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-02-23T20:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67a95916c33362b4e39d999f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a95916c33362b4e39d999f",
+    "name": "Umbral League Omni Series - Weekly #3 (35 CODES!!)",
+    "players": 68,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-23T23:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b88d7178c0b3231881bd0b",
+    "name": "Liga PlayTCG (Chile) 🏆Premios: Créditos Tienda $",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-24T00:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6786be39010576265d10b086/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6786be39010576265d10b086",
+    "name": "Prismatic Ditto #5 (100 Codes)",
+    "players": 122,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-24T01:35:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bbc0bd0b3322ebaa512e87",
+    "name": "Victini TCG",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-24T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b28a550b3322ebaa50b556",
+    "name": "SMG Nightly Standard",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-24T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bc15a478c0b3231881ec80",
+    "name": "Bak & Bak PokeLeague #29 - Pop Up",
+    "players": 34,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-24T15:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bc63960b3322ebaa5131f5",
+    "name": "Pokémon #180",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-02-24T19:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/67bb15540b3322ebaa512296/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bb15540b3322ebaa512296",
+    "name": "Pumpka Weekly",
+    "players": 155,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 128,
+    "date": "2025-02-24T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67b3a93b78c0b32318818319",
+    "isOnline": true,
+    "name": "Sunny's Weekly #193 Built Out of Legos!",
+    "platform": "PTCGL",
+    "players": 128,
+    "rejection_reasons": [],
+    "standing_rows": 128,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 91,
+    "date": "2025-02-25T01:40:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67bbfd7c78c0b3231881ec53",
+    "isOnline": true,
+    "name": "Card Temple Weekly Battles #2",
+    "platform": "PTCGL",
+    "players": 91,
+    "rejection_reasons": [],
+    "standing_rows": 91,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-25T13:17:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bdc2bf78c0b3231881fc8f",
+    "name": "Mini Casuals Fairview 02/25",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 65,
+    "date": "2025-02-25T17:15:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67b6241c78c0b32318819db2",
+    "isOnline": true,
+    "name": "Team Gamers Guild League #5!",
+    "platform": "PTCGL",
+    "players": 65,
+    "rejection_reasons": [],
+    "standing_rows": 65,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 67,
+    "date": "2025-02-25T18:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "678403427960ec710eff40df",
+    "isOnline": true,
+    "name": "Gray's PokéLeague - Champion's Road #14",
+    "platform": "PTCGL",
+    "players": 67,
+    "rejection_reasons": [],
+    "standing_rows": 67,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 71,
+    "date": "2025-02-25T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67b5ef2878c0b32318819ab8",
+    "isOnline": true,
+    "name": "ASRcristiano # 22",
+    "platform": "PTCGL",
+    "players": 71,
+    "rejection_reasons": [],
+    "standing_rows": 71,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-25T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bce13478c0b3231881f4f5",
+    "name": "FrikioMartes de Pokemon #4",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-25T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67be42430b3322ebaa514b23",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 82,
+    "date": "2025-02-25T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67ad633878c0b32318812bb3",
+    "isOnline": true,
+    "name": "🐢25 codes Turtle Weekly 14 🐢",
+    "platform": "PTCGL",
+    "players": 82,
+    "rejection_reasons": [],
+    "standing_rows": 82,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-25T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67be6a6978c0b3231882069a",
+    "name": "GLC LEAGUE #9",
+    "players": 4,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-25T23:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b2a57878c0b323188179fd",
+    "name": "SEMANAL SILVA TCG #01 - 25 codes",
+    "players": 25,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-26T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bd14c10b3322ebaa513feb",
+    "name": "Niagara Locals",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-26T01:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67a79709ec0e26e50a008e1e",
+    "name": "Jefferson Gym Tuesday Night Standard #22",
+    "players": 48,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 107,
+    "date": "2025-02-26T02:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67a17715f1a83f7924eb6e97",
+    "isOnline": true,
+    "name": "Biznaga Challenge #5",
+    "platform": "PTCGL",
+    "players": 107,
+    "rejection_reasons": [],
+    "standing_rows": 107,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-26T02:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67be48e578c0b323188203fd",
+    "name": "Poli's Pop Up Mickey! #20 NO BOSSES ORDERS",
+    "players": 19,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-26T02:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67be6e9a0b3322ebaa514d91",
+    "name": "Card Forum Online #15",
+    "players": 3,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-26T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bf388078c0b32318820ca2",
+    "name": "ASRcristiano Webcam SUBS # 2",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-27T04:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bfc87a78c0b32318821706",
+    "name": "Umbral League Eliminator - Pokemon Day Pop-up",
+    "players": 21,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 114,
+    "date": "2025-02-27T17:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67b7b4ba0b3322ebaa50f5fe",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆300x PTCGL Codes!🏆",
+    "platform": "PTCGL",
+    "players": 114,
+    "rejection_reasons": [],
+    "standing_rows": 114,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-27T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67c069460b3322ebaa51607f",
+    "name": "ASRcristiano # 23",
+    "players": 45,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 55,
+    "date": "2025-02-27T23:15:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67be27470b3322ebaa514a2e",
+    "isOnline": true,
+    "name": "Victini TCG",
+    "platform": "PTCGL",
+    "players": 55,
+    "rejection_reasons": [],
+    "standing_rows": 55,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 77,
+    "date": "2025-02-28T00:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "679e9a52ac375d44ca9134cf",
+    "isOnline": true,
+    "name": "🐍TLS TCG SERIES QUALIFIER 4/10 S2 - CASH + CODES",
+    "platform": "PTCGL",
+    "players": 77,
+    "rejection_reasons": [],
+    "standing_rows": 77,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-28T01:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bdc66678c0b3231881fcab",
+    "name": "Le Tournois Du DresseurPokeCharbie #50",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-28T03:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67bbbbb178c0b3231881ea48",
+    "name": "TCG Elite Arena #02",
+    "players": 33,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-28T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67c07b2c78c0b32318821d78",
+    "name": "Flare Parade Fridays Technohub Casuals 02/28",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 77,
+    "date": "2025-02-28T15:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67bbbbbf78c0b3231881ea58",
+    "isOnline": true,
+    "name": "Pokémon Battle Park",
+    "platform": "PTCGL",
+    "players": 77,
+    "rejection_reasons": [],
+    "standing_rows": 77,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 61,
+    "date": "2025-02-28T18:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67b10cfbdb9039721dba9846",
+    "isOnline": true,
+    "name": "Jester's Weekly Casual #5",
+    "platform": "PTCGL",
+    "players": 61,
+    "rejection_reasons": [],
+    "standing_rows": 61,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-28T21:27:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67b66caf0b3322ebaa50e75a",
+    "name": "Torneo Standard Hadouken 28/02",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-02-28T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "67c117a578c0b3231882282f",
+    "name": "Plantel Battle #08 ( 50 CODES - TOP 8)",
+    "players": 27,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 59,
+    "date": "2025-02-28T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "67bcf25478c0b3231881f5fd",
+    "isOnline": true,
+    "name": "Poli's Poolhouse Weekly! #15",
+    "platform": "PTCGL",
+    "players": 59,
+    "rejection_reasons": [],
+    "standing_rows": 59,
+    "standings_fetched": true
+  }
+]

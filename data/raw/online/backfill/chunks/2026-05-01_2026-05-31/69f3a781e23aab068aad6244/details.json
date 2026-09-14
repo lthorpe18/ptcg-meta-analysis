@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-12T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69f3a781e23aab068aad6244",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🇧🇷 Hit Cup #5 |  TCG Live",
+  "organizer": {
+    "id": 2612,
+    "name": "Hit Legends"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 62
+}

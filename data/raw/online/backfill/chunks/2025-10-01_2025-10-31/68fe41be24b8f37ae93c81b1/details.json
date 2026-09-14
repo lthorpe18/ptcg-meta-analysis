@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-26T23:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68fe41be24b8f37ae93c81b1",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "TCGL #5 - UmbreonLeague",
+  "organizer": {
+    "id": 2338,
+    "name": "Umbreon League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 60
+}

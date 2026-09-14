@@ -1,0 +1,96 @@
+name: Build analysis dashboard
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - historical-online-chunked
+    paths:
+      - ".analysis-dashboard-trigger"
+      - "scripts/build_prediction_windows.py"
+      - "scripts/score_baseline_models.py"
+      - "scripts/test_irl_weight_grid.py"
+      - "scripts/test_top20_sensitivity.py"
+      - "scripts/build_current_archetype_prediction.py"
+      - "scripts/build_research_site.py"
+      - "scripts/add_archetype_page.py"
+      - "data/reference/legality-calendar.json"
+      - "data/processed/format-tags/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "analysis-dashboard"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout analysis branch
+        uses: actions/checkout@v4
+        with:
+          ref: historical-online-chunked
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build baseline prediction windows
+        run: python scripts/build_prediction_windows.py
+
+      - name: Score baseline models
+        run: python scripts/score_baseline_models.py
+
+      - name: Test IRL weighting curves
+        run: python scripts/test_irl_weight_grid.py
+
+      - name: Test top-20 sensitivity
+        run: python scripts/test_top20_sensitivity.py
+
+      - name: Build current archetype forecast
+        run: python scripts/build_current_archetype_prediction.py
+
+      - name: Build research site
+        run: |
+          python scripts/build_research_site.py
+          python scripts/add_archetype_page.py
+
+      - name: Smoke test site
+        run: |
+          grep -q "Use the latest in-person major as the anchor" dashboard/index.html
+          grep -q "The latest major does most of the work" dashboard/evidence.html
+          grep -q "Predict the Day-1 share" dashboard/method.html
+          grep -q "Choose any archetypes and compare the three estimates" dashboard/archetype.html
+          grep -q "Predicted blend" dashboard/archetype.html
+          grep -q '<tbody id="deckRows"><tr>' dashboard/archetype.html
+          grep -q 'href="archetype.html"' dashboard/index.html
+
+      - name: Commit generated analysis outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/prediction-windows results/prediction-windows data/processed/model-results results/model-results data/processed/weight-grid results/weight-grid data/processed/top20-sensitivity results/top20-sensitivity data/processed/current-archetype-prediction.json dashboard/index.html dashboard/archetype.html dashboard/evidence.html dashboard/method.html dashboard/models.html
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: refresh research site"
+            git push origin HEAD:historical-online-chunked
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4

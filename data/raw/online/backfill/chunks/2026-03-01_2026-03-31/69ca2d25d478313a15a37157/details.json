@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-30T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69ca2d25d478313a15a37157",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Belg Replacement tour",
+  "organizer": {
+    "id": 683,
+    "name": "Shmon"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 82
+}

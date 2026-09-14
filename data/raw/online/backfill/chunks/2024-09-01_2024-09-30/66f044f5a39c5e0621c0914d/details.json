@@ -1,0 +1,24 @@
+{
+  "date": "2024-09-25T13:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66f044f5a39c5e0621c0914d",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "MOSCO Masters: Pokemon TCG Live Tournament #1",
+  "organizer": {
+    "id": 1167,
+    "name": "MOSCO"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 57
+}

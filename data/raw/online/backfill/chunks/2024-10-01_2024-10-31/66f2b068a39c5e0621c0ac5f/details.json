@@ -1,0 +1,30 @@
+{
+  "date": "2024-10-03T02:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66f2b068a39c5e0621c0ac5f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "【PTCG LIVE】The Can Cup#7 +1520 SV07 CODE (FREE)",
+  "organizer": {
+    "id": 398,
+    "name": "The Can Cup"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 165
+}

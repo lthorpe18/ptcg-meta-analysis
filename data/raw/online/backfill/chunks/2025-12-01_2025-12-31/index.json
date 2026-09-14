@@ -1,0 +1,3422 @@
+[
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-01T05:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692d1076e12a3ec47627eaf9",
+    "name": "Midnight Mickey YIPPEE!!!",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 87,
+    "date": "2025-12-01T16:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "691cf82252eafbbc81172bac",
+    "isOnline": true,
+    "name": "Gray's PokéLeague - Champion's Road #32",
+    "platform": "PTCGL",
+    "players": 87,
+    "rejection_reasons": [],
+    "standing_rows": 87,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 115,
+    "date": "2025-12-01T17:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6929ec6d1b3b036ef6db521a",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 115,
+    "rejection_reasons": [],
+    "standing_rows": 115,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 141,
+    "date": "2025-12-01T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "692d4766e12a3ec47627eb74",
+    "isOnline": true,
+    "name": "Pumpkaweekly",
+    "platform": "PTCGL",
+    "players": 141,
+    "rejection_reasons": [],
+    "standing_rows": 141,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-01T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692d85781b3b036ef6db719f",
+    "name": "Bak & Bak PokeLeague #31 - BO3 cause BO1 sucks",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-01T23:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6924cba2b11d3f5498bc6b7d/standings')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6924cba2b11d3f5498bc6b7d",
+    "name": "Sunny's Weekly #233 Roller Derby",
+    "players": 177,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-02T02:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692dd065e12a3ec47627eda7/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692dd065e12a3ec47627eda7",
+    "name": "🏛💫 Card Temple Weekly Battles #39",
+    "players": 107,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-02T03:35:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692e40e3e12a3ec47627f260",
+    "name": "Midnight Mickey 41 - Don't Limitless Check Gengar",
+    "players": 30,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-02T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6925b52ab11d3f5498bc72d6",
+    "name": "Rising Poke Japan Cup #28",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-02T14:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692eb61d1b3b036ef6db7d3e",
+    "name": "CARDHUB CHALLENGE",
+    "players": 48,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-02T16:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69249d4252eafbbc811774fd",
+    "name": "Pokémon TCG UmbreNews 02.12.2025 #1",
+    "players": 21,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-02T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692db5cbe12a3ec47627ec86/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692db5cbe12a3ec47627ec86",
+    "name": "The Lucky Draw Weekly #39",
+    "players": 114,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-02T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692ebd54e12a3ec47627f524/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692ebd54e12a3ec47627f524",
+    "name": "ASRcristiano # 111 - Road to EUIC!",
+    "players": 138,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-02T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692e9a0e1b3b036ef6db7d0f",
+    "name": "FrikioTorneo de Pokemon #34",
+    "players": 20,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-02T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692eea8a1b3b036ef6db7ddb",
+    "name": "Eternatus Card House League Challenge",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-03T00:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692db60ae12a3ec47627ec88/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692db60ae12a3ec47627ec88",
+    "name": "The Lucky Draw Weekly #40",
+    "players": 136,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-03T00:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692a58981b3b036ef6db5720/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692a58981b3b036ef6db5720",
+    "name": "LastPrize Series #16 No Top Cut (100 Codes)",
+    "players": 88,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-03T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69272028b11d3f5498bc8067",
+    "name": "PCG Conference #110 Standard Bo3",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-03T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68efaf77dd7011c665c38c20",
+    "name": "MOSCO Masters S3: Pokemon TCG Live Tournament #15",
+    "players": 45,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-03T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692ebd811b3b036ef6db7d57/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692ebd811b3b036ef6db7d57",
+    "name": "ASRcristiano # 112 - Road to EUIC!",
+    "players": 160,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-04T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692cb8efe12a3ec47627e7d7",
+    "name": "Pokémon #226",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-04T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6928a1dbb11d3f5498bc8f76",
+    "name": "Pokemon TCG TOPDECK FUN LEAGUE Online #14",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-04T17:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6929ed001b3b036ef6db5250/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6929ed001b3b036ef6db5250",
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "players": 172,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-04T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692ebda31b3b036ef6db7d58/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692ebda31b3b036ef6db7d58",
+    "name": "ASRcristiano # 113 - Road to EUIC!",
+    "players": 143,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-04T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6931f2ef1b3b036ef6db9609",
+    "name": "Semanal Cards Hall",
+    "players": 30,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-04T23:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69304a6b1b3b036ef6db8a0c/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69304a6b1b3b036ef6db8a0c",
+    "name": "$50 Prize Pool by Snipe the Bench AND Chef Husky",
+    "players": 102,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-05T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69300c8f1b3b036ef6db88d0",
+    "name": "Le Tournois Du DresseurPokeCharbie #89",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-05T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69321ef4e12a3ec476280f52",
+    "name": "MIDNIGHT MICKEY HAPPY THURSDAY !!!",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-05T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "691b2ce652eafbbc8117189e",
+    "name": "Static Shock Fridays Technohub Casuals 12/05",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-05T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692dba7f1b3b036ef6db7262",
+    "name": "PTCG-Q Local #35 (Phantasmal Flames Standard)",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-05T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6931abef1b3b036ef6db9250/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6931abef1b3b036ef6db9250",
+    "name": "🦇Nachtwache Tournament #1 100 Codes Prizing🦇",
+    "players": 115,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-05T17:05:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68dff2697a2c388893cb1a99",
+    "name": "Turtwig Den Revival Series Cup 4",
+    "players": 17,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-05T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692ebdcee12a3ec47627f525/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692ebdcee12a3ec47627f525",
+    "name": "ASRcristiano # 114 - Road to EUIC!",
+    "players": 100,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-05T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68ceeca2f661e4a158dde4c3",
+    "name": "Peladão da Baixada #160 • Inferno XYZ",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-05T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692e2b001b3b036ef6db79bc",
+    "name": "💥​Plantel Battle #17 💥​ 100 CODES ✔️​ TOP 8 ​",
+    "players": 44,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-05T23:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692f9880e12a3ec47627fcbb",
+    "name": "BZGC Online🔥 ~ Road to Christmas",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-06T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69334ecee12a3ec4762817b1",
+    "name": "JustInBasil Online League - 05 December 2025",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-06T03:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/68fe4c1724b8f37ae93c8246/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68fe4c1724b8f37ae93c8246",
+    "name": "TOURNAMENT OF DOOM! CASH MONEY! ($200)",
+    "players": 602,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-06T09:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69272db4b11d3f5498bc80c5",
+    "name": "SMALLAIC 3",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-06T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692829c052eafbbc81179aab",
+    "name": "TCG Park Pokemon Store Championship S3 #5 DEC",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-06T10:53:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69340b38e12a3ec476281f04",
+    "name": "BFF: Table Top Series @ BK Secret Shop 12/6",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-06T12:45:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6934253fe12a3ec476281f7f",
+    "name": "BFF: Table Top Series @ BK Secret Shop 12/6",
+    "players": 4,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-06T15:10:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69334260e12a3ec47628173c",
+    "name": "Ranking de Heroes",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-06T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/691debb3b11d3f5498bc23c2/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "691debb3b11d3f5498bc23c2",
+    "name": "Polskie Nocne Granie #9 Ostatnie w tym roku",
+    "players": 65,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-06T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6918d7f852eafbbc811704de",
+    "name": "Interno CanalPokeRadar & BugadoPlayz II",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-06T22:44:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69344381e12a3ec4762820df",
+    "name": "Pokemon Day Tournament",
+    "players": 3,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-06T23:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6930c5e0e12a3ec47628049f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6930c5e0e12a3ec47628049f",
+    "name": "MEGA Redacted #11 (100 Codes)",
+    "players": 157,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-07T00:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6930c8021b3b036ef6db8f45/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6930c8021b3b036ef6db8f45",
+    "name": "MEGA Redacted 2nd Chance #11 (50 Codes)",
+    "players": 90,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-07T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692cd957e12a3ec47627e96f",
+    "name": "Московская фан-лига Pokémon TCG | VIII сезон #7",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-07T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692f35761b3b036ef6db80f7",
+    "name": "Tournoi amical LEAGUE canto N47°",
+    "players": 41,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-07T15:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/693039ed1b3b036ef6db89a9/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693039ed1b3b036ef6db89a9",
+    "name": "Despedida del año League Challenge Domingo 07/12",
+    "players": 58,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-07T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6926196bb11d3f5498bc77be",
+    "name": "|PRIVATE| Astral Radiance Win-A-Box Winnipeg Event",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-07T18:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692f0c3b1b3b036ef6db7eb2/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692f0c3b1b3b036ef6db7eb2",
+    "name": "Jester's Monthly Challenge (Dec 25)",
+    "players": 180,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-07T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6930afabe12a3ec4762803d7",
+    "name": "PHOENIX POKEMON DEVOTO 11°",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-07T23:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6925e9b7b11d3f5498bc759f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6925e9b7b11d3f5498bc759f",
+    "name": "Mega Ditto! #8 (100 Codes)",
+    "players": 154,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-08T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69359890e12a3ec476282f30",
+    "name": "BFF: Table Top Series @ BK Secret Shop 12/8",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-08T17:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692ec85d1b3b036ef6db7d79/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692ec85d1b3b036ef6db7d79",
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "players": 188,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-08T19:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6935acdb1b3b036ef6dbc098/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6935acdb1b3b036ef6dbc098",
+    "name": "Pumpkaweekly",
+    "players": 157,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-08T23:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692e00091b3b036ef6db77a0/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692e00091b3b036ef6db77a0",
+    "name": "Sunny's Weekly #234 Pyroars Incineroars & Bewears!",
+    "players": 172,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-08T23:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6936dbcee12a3ec476283820",
+    "name": "SKY KINGDOM SERIES DECEMBER #1 100 CODES FOR TOP 4",
+    "players": 37,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-09T02:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6936ec2e1b3b036ef6dbca68/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6936ec2e1b3b036ef6dbca68",
+    "name": "🏛💫 Card Temple Weekly Battles #40",
+    "players": 104,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-09T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692eeff71b3b036ef6db7df0",
+    "name": "Rising Poke Japan Cup #29",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-09T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69379daf1b3b036ef6dbd35c",
+    "name": "T15: Bardagulan Series 12/9",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-09T16:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6931ed7be12a3ec476280d13/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6931ed7be12a3ec476280d13",
+    "name": "Gray's PokéLeague - Champion's Road #33",
+    "players": 94,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-09T16:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69315d12e12a3ec4762807f5",
+    "name": "Pokémon TCG UmbreNews 09.12.2025 #2",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-09T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6933bbabe12a3ec476281d7a/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6933bbabe12a3ec476281d7a",
+    "name": "The Lucky Draw Weekly #41",
+    "players": 88,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-09T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69383fdb1b3b036ef6dbd4fa/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69383fdb1b3b036ef6dbd4fa",
+    "name": "CARDHUB CHALLENGE",
+    "players": 62,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-09T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693849b9e12a3ec476284297",
+    "name": "FrikioTorneo de Pokemon #35",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-09T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6938acfee12a3ec4762846ff",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-10T00:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6933bbf41b3b036ef6dba6b7/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6933bbf41b3b036ef6dba6b7",
+    "name": "The Lucky Draw Weekly #42",
+    "players": 119,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-10T00:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6931e3f61b3b036ef6db9551/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6931e3f61b3b036ef6db9551",
+    "name": "LastPrize Series #17 No Top Cut (100 Codes)",
+    "players": 89,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-10T02:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6938bfcee12a3ec476284778",
+    "name": "TNN Invite Tuesday Tourney",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-10T02:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6937473c1b3b036ef6dbcf14",
+    "name": "PKMN WLRD Locals Only Cash Prizing #4",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-10T04:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69389c2ce12a3ec476284686/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69389c2ce12a3ec476284686",
+    "name": "Midnight Mickey 42 - Hitchhiker's Guide to Mickey",
+    "players": 59,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-10T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6935f888e12a3ec476283516",
+    "name": "PCG Conference #111 Standard Bo3",
+    "players": 28,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-10T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68efaf9add7011c665c38c21",
+    "name": "MOSCO Masters S3: Pokemon TCG Live Tournament #16",
+    "players": 35,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-10T16:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6936e35c1b3b036ef6dbca43",
+    "name": "Moscow Play Night #10",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-10T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6932f30c1b3b036ef6db9c12/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6932f30c1b3b036ef6db9c12",
+    "name": "BUSTARD TOURNAMENT #4",
+    "players": 74,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-10T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "669e4b52931edf05c61344b5",
+    "name": "MWL Super League Tour Series 2 Night 2 40 Codes",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-10T23:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69384083e12a3ec476284272/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69384083e12a3ec476284272",
+    "name": "AOB's MEGA Mickey #6 $50 CASH",
+    "players": 307,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-11T15:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6936c718e12a3ec4762837f6",
+    "name": "Pokémon #227",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-11T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6928a24052eafbbc81179d44",
+    "name": "Pokemon TCG TOPDECK FUN LEAGUE Online #15",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-11T17:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/693311da1b3b036ef6db9d71/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693311da1b3b036ef6db9d71",
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "players": 165,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-11T18:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/693616081b3b036ef6dbc7c6/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693616081b3b036ef6dbc7c6",
+    "name": "🦇Nachtwache Tournament #2 100 Codes Prizing🦇",
+    "players": 54,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-11T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/693978ade12a3ec476284ad2/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693978ade12a3ec476284ad2",
+    "name": "ASRcristiano # 115 - Road to EUIC!",
+    "players": 103,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-11T20:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69381e00e12a3ec4762841db",
+    "name": "MIDWEEK TESTING",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-11T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693b3f1de12a3ec47628577f",
+    "name": "Semanal Cards Hall",
+    "players": 28,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-11T23:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/692b9706e12a3ec47627db28/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692b9706e12a3ec47627db28",
+    "name": "Pokémon Masters Online Tournament #1 - $25",
+    "players": 102,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-12T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692d005be12a3ec47627eaba",
+    "name": "Torneo Nagasaki Pokemon Live 13",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-12T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6938033be12a3ec476284194",
+    "name": "Le Tournois Du DresseurPokeCharbie #90",
+    "players": 42,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-12T09:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693931ac1b3b036ef6dbdcb9",
+    "name": "Oceania Open!   Season 0 - Week 1",
+    "players": 37,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-12T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "691b2d24b11d3f5498bc0e1e",
+    "name": "Static Shock Fridays Technohub Casuals 12/12",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-12T17:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69091d18fde2eb785721d21b/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69091d18fde2eb785721d21b",
+    "name": "Turtwig Den Revival Series Challenge 16",
+    "players": 76,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-12T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693b265de12a3ec476285647",
+    "name": "🇵🇱 Polish Playground Weekly #8 🇵🇱",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-12T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/693978d5e12a3ec476284ad4/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693978d5e12a3ec476284ad4",
+    "name": "ASRcristiano # 116 - Road to EUIC!",
+    "players": 111,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-13T03:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/68fe4c60dd7011c665c40013/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68fe4c60dd7011c665c40013",
+    "name": "TOURNAMENT OF DOOM! THUNDERBIRD!",
+    "players": 378,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-13T06:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6937076be12a3ec4762839ab",
+    "name": "Dice Tower PTCG Casuals #1",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-13T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6939945f1b3b036ef6dbddf8",
+    "name": "Card Party Maribor",
+    "players": 17,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-13T17:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/693c3884e12a3ec476285d25/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693c3884e12a3ec476285d25",
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "players": 125,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-13T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69387c02e12a3ec476284588",
+    "name": "🪙The Lucky Draw 🪙 Weekend 🏆 Top Cut 🏆",
+    "players": 37,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-13T19:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "692e18451b3b036ef6db78cb",
+    "name": "December NO ABILITIES Cookoff",
+    "players": 39,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-13T22:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/68ceed687a2c388893ca9fb8/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68ceed687a2c388893ca9fb8",
+    "name": "Peladão da Baixada #161 • Phantom Blaze",
+    "players": 76,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-14T03:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/693df1761b3b036ef6dc0044/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693df1761b3b036ef6dc0044",
+    "name": "underground tcg live pop up",
+    "players": 68,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-14T09:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68ec2c8be1791069afd1c9a5",
+    "name": "Pokemon TCG TOPDECK FUN LEAGUE — Unova: Legend",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-14T11:20:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693e85601b3b036ef6dc027d",
+    "name": "BFF: Table Top Series @ CBTL SJDM 12/14",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-14T14:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/693a01dae12a3ec476284f6e/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693a01dae12a3ec476284f6e",
+    "name": "Cypher Circuit Series 3",
+    "players": 109,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-14T16:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693ed358e12a3ec476287118",
+    "name": "Pokémon Journey League #7 - 30 USD Prizes",
+    "players": 19,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2025-12-14T18:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69371dcee12a3ec476283b05/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69371dcee12a3ec476283b05",
+    "name": "Jester's Quarter Cup! [Q4 2025]",
+    "players": 180,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2025-12-14T23:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6925e9eb52eafbbc81178289/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6925e9eb52eafbbc81178289",
+    "name": "Mega Ditto! #9 (100 Codes)",
+    "players": 240,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-15T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693f7798e12a3ec476287b21",
+    "name": "T15: Bardagulan Series 12/15",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 172,
+    "date": "2025-12-15T17:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69380a5ae12a3ec47628419a",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 172,
+    "rejection_reasons": [],
+    "standing_rows": 172,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 161,
+    "date": "2025-12-15T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "693efd0c1b3b036ef6dc06fe",
+    "isOnline": true,
+    "name": "Pumpkaweekly",
+    "platform": "PTCGL",
+    "players": 161,
+    "rejection_reasons": [],
+    "standing_rows": 161,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-15T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6940451f1b3b036ef6dc1165",
+    "name": "CardHUB Tournament",
+    "players": 21,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 195,
+    "date": "2025-12-15T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6937409d1b3b036ef6dbcec5",
+    "isOnline": true,
+    "name": "Sunny's Weekly #235 Magic Carpet Ride!",
+    "platform": "PTCGL",
+    "players": 195,
+    "rejection_reasons": [],
+    "standing_rows": 195,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 126,
+    "date": "2025-12-16T00:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "693c24401b3b036ef6dbf028",
+    "isOnline": true,
+    "name": "SKY KINGDOM SERIES DECEMBER #2 200 CODES FOR TOP 4",
+    "platform": "PTCGL",
+    "players": 126,
+    "rejection_reasons": [],
+    "standing_rows": 126,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 98,
+    "date": "2025-12-16T02:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6936ec411b3b036ef6dbca69",
+    "isOnline": true,
+    "name": "🏛💫 Card Temple Weekly Battles #41",
+    "platform": "PTCGL",
+    "players": 98,
+    "rejection_reasons": [],
+    "standing_rows": 98,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-16T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693bd062e12a3ec476285b5a",
+    "name": "Rising Poke Japan Cup #30",
+    "players": 44,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-16T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69404eeae12a3ec47628800f",
+    "name": "FrikioTorneo de Pokemon #49",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 86,
+    "date": "2025-12-16T22:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "693b70771b3b036ef6dbee09",
+    "isOnline": true,
+    "name": "🦇Nachtwache Tournament #3 100 Codes Prizing🦇",
+    "platform": "PTCGL",
+    "players": 86,
+    "rejection_reasons": [],
+    "standing_rows": 86,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-16T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6941d70c1b3b036ef6dc202f",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 110,
+    "date": "2025-12-17T00:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69403c571b3b036ef6dc10cb",
+    "isOnline": true,
+    "name": "The Lucky Draw Weekly #44",
+    "platform": "PTCGL",
+    "players": 110,
+    "rejection_reasons": [],
+    "standing_rows": 110,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 68,
+    "date": "2025-12-17T00:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69345a921b3b036ef6dbadad",
+    "isOnline": true,
+    "name": "LastPrize Series #18 No Top Cut (100 Codes)",
+    "platform": "PTCGL",
+    "players": 68,
+    "rejection_reasons": [],
+    "standing_rows": 68,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-17T01:45:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693c8b281b3b036ef6dbf416",
+    "name": "Atlantis Circuit - Season 1",
+    "players": 4,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-17T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6939a7031b3b036ef6dbde72",
+    "name": "Torneo Relámpago ⚡ #3 TCG Live (20 Codes)",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-17T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693976b61b3b036ef6dbdd58",
+    "name": "PCG Conference #112 Standard Bo3",
+    "players": 46,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-17T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "68efb00add7011c665c38c23",
+    "name": "MOSCO Masters: Tournament of Champions Season 3",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 150,
+    "date": "2025-12-17T18:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "693b71b9e12a3ec4762859f2",
+    "isOnline": true,
+    "name": "🦇Nachtwache Tournament #4 100 Codes Prizing🦇",
+    "platform": "PTCGL",
+    "players": 150,
+    "rejection_reasons": [],
+    "standing_rows": 150,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 94,
+    "date": "2025-12-17T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6942894b1b3b036ef6dc23f4",
+    "isOnline": true,
+    "name": "ASRcristiano # 117 - Road to EUIC!",
+    "platform": "PTCGL",
+    "players": 94,
+    "rejection_reasons": [],
+    "standing_rows": 94,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 381,
+    "date": "2025-12-17T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69402fc1e12a3ec476287e6c",
+    "isOnline": true,
+    "name": "AOB's MEGA Mickey #7 ETB for 1st + CASH",
+    "platform": "PTCGL",
+    "players": 381,
+    "rejection_reasons": [],
+    "standing_rows": 381,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-18T15:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6943a18c1b3b036ef6dc3361",
+    "name": "Pokémon #228",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 139,
+    "date": "2025-12-18T17:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "693c37ef1b3b036ef6dbf0f3",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 139,
+    "rejection_reasons": [],
+    "standing_rows": 139,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 105,
+    "date": "2025-12-18T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69428970e12a3ec476289217",
+    "isOnline": true,
+    "name": "ASRcristiano # 118 - Road to EUIC!",
+    "platform": "PTCGL",
+    "players": 105,
+    "rejection_reasons": [],
+    "standing_rows": 105,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-18T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "694458a6e12a3ec47628a18b",
+    "name": "davideniko arena #1 replay",
+    "players": 27,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-18T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69443e84e12a3ec47628a00a",
+    "name": "League Challenge - CardsHall",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-18T22:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": true,
+    "has_special_rules": false,
+    "id": "69435da3e12a3ec476289ba5",
+    "isOnline": true,
+    "name": "Snipe The Bench AND Chef Husky's $50 Prize Pool",
+    "platform": "PTCGL",
+    "players": 106,
+    "rejection_reasons": [
+      "custom_bans_or_special_rules"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-19T01:00:00.000Z",
+    "decklists": false,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "693cabf2e12a3ec47628615e",
+    "isOnline": true,
+    "name": "Le Tournois Du DresseurPokeCharbie #91",
+    "platform": "PTCGL",
+    "players": 57,
+    "rejection_reasons": [
+      "decklists_disabled"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-19T01:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69448977e12a3ec47628a5c7",
+    "name": "MIDNIGHT MICKEY! TERAPAGOS IS COOL!",
+    "players": 19,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-19T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693d5d3a1b3b036ef6dbf94c",
+    "name": "Torneo Relámpago ⚡ #4 TCG Live (20 Codes)",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-19T08:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693c1845e12a3ec476285c71",
+    "name": "Oceania Open! Season 0 - Week 2",
+    "players": 37,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-19T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69411629e12a3ec476288938",
+    "name": "PTCG-Q Local #36 (Phantasmal Flames Standard)",
+    "players": 27,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-19T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "691b2d1852eafbbc8117189f",
+    "name": "Static Shock Fridays Technohub Casuals 12/19",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-19T14:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6942cb72e12a3ec476289333",
+    "name": "Midnight Fridays Technohub Casuals 12/19",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 57,
+    "date": "2025-12-19T17:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69091d46c154114e5abae380",
+    "isOnline": true,
+    "name": "Turtwig Den Revival Series Challenge 17",
+    "platform": "PTCGL",
+    "players": 57,
+    "rejection_reasons": [],
+    "standing_rows": 57,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-19T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69445995e12a3ec47628a199",
+    "name": "🇵🇱 Polish Playground Weekly #9 🇵🇱",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 154,
+    "date": "2025-12-19T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "694289941b3b036ef6dc23f5",
+    "isOnline": true,
+    "name": "ASRcristiano # 119 - Road to EUIC!",
+    "platform": "PTCGL",
+    "players": 154,
+    "rejection_reasons": [],
+    "standing_rows": 154,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 340,
+    "date": "2025-12-20T03:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "68fe4caedd7011c665c40018",
+    "isOnline": true,
+    "name": "TOURNAMENT OF DOOM! SANTA!",
+    "platform": "PTCGL",
+    "players": 340,
+    "rejection_reasons": [],
+    "standing_rows": 340,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-20T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6945a2d34500833d87012813",
+    "name": "Trimestral - CardsHall - 2k+ de Premiação",
+    "players": 34,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-20T13:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6945d2714500833d87012ae3",
+    "name": "Poke ranking",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-20T16:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69459a544500833d8701277e",
+    "name": "TCG Poland T#5",
+    "players": 44,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-20T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6936e182e12a3ec476283838",
+    "name": "Interno CanalPokeRadar & BugadoPlayz III",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 64,
+    "date": "2025-12-20T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6923537452eafbbc811769a4",
+    "isOnline": true,
+    "name": "🎄 Leahly’s PTCG Tournament - Seasonal Edition 🎄",
+    "platform": "PTCGL",
+    "players": 64,
+    "rejection_reasons": [],
+    "standing_rows": 64,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 140,
+    "date": "2025-12-20T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6930c6431b3b036ef6db8f3e",
+    "isOnline": true,
+    "name": "MEGA Redacted #12 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 140,
+    "rejection_reasons": [],
+    "standing_rows": 140,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 80,
+    "date": "2025-12-21T00:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6930c8371b3b036ef6db8f46",
+    "isOnline": true,
+    "name": "MEGA Redacted 2nd Chance #12 (50 Codes)",
+    "platform": "PTCGL",
+    "players": 80,
+    "rejection_reasons": [],
+    "standing_rows": 80,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-21T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "693f5f86e12a3ec476287a6c",
+    "name": "Московская фан-лига Pokémon TCG | VIII сезон #8",
+    "players": 30,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 59,
+    "date": "2025-12-21T13:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "693ff260e12a3ec476287c1a",
+    "isOnline": true,
+    "name": "Tournoi amical LEAGUE canto N48°",
+    "platform": "PTCGL",
+    "players": 59,
+    "rejection_reasons": [],
+    "standing_rows": 59,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-21T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6943099ee12a3ec47628970b",
+    "name": "PHOENIX POKEMON DEVOTO 12°",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 200,
+    "date": "2025-12-21T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6925ea47b11d3f5498bc75a7",
+    "isOnline": true,
+    "name": "Mega Ditto! #10 (500 Codes)",
+    "platform": "PTCGL",
+    "players": 200,
+    "rejection_reasons": [],
+    "standing_rows": 200,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 58,
+    "date": "2025-12-21T23:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "692efefbe12a3ec47627f60e",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 Late Night Special!🏆",
+    "platform": "PTCGL",
+    "players": 58,
+    "rejection_reasons": [],
+    "standing_rows": 58,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 131,
+    "date": "2025-12-22T18:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "694964684500833d8701589d",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 131,
+    "rejection_reasons": [],
+    "standing_rows": 131,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 221,
+    "date": "2025-12-22T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69488101ba66621ba08a6713",
+    "isOnline": true,
+    "name": "Pumpkaweekly",
+    "platform": "PTCGL",
+    "players": 221,
+    "rejection_reasons": [],
+    "standing_rows": 221,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-22T20:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6949910cba66621ba08a6f88",
+    "name": "Midday Mickey 01 - Not Midnight",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 196,
+    "date": "2025-12-22T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69407c121b3b036ef6dc15cc",
+    "isOnline": true,
+    "name": "Sunny's Weekly #236 Another Very Sunny Christmas",
+    "platform": "PTCGL",
+    "players": 196,
+    "rejection_reasons": [],
+    "standing_rows": 196,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-23T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6949a4aeba66621ba08a715d",
+    "name": "La Celeste Practice Series #1",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-23T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69495b45ba66621ba08a6c3a",
+    "name": "Rising Poke Japan Cup #31",
+    "players": 35,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-23T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "694aeae44500833d870168f6",
+    "name": "CUP Xilito 18º Edição",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 157,
+    "date": "2025-12-23T23:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6946c7ccba66621ba08a4c2e",
+    "isOnline": true,
+    "name": "LastPrize Series #19 No Top Cut (100 Codes)",
+    "platform": "PTCGL",
+    "players": 157,
+    "rejection_reasons": [],
+    "standing_rows": 157,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-24T01:40:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6944b320e12a3ec47628a77b",
+    "name": "Atlantis Circuit - Season 1 Wk 2",
+    "players": 4,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 64,
+    "date": "2025-12-24T04:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "68fe4e32dd7011c665c40024",
+    "isOnline": true,
+    "name": "CHALLENGE OF DOOM! LUCKY DUCK!",
+    "platform": "PTCGL",
+    "players": 64,
+    "rejection_reasons": [],
+    "standing_rows": 64,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-24T16:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6949519f4500833d870157f8",
+    "name": "Moscow Play Night #11",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 323,
+    "date": "2025-12-24T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6946a55e4500833d870131f3",
+    "isOnline": true,
+    "name": "ARROW XMAS REGIONAL - BO3 CASH TOURNAMENT $200",
+    "platform": "PTCGL",
+    "players": 323,
+    "rejection_reasons": [],
+    "standing_rows": 323,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 50,
+    "date": "2025-12-26T00:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "694daa974500833d87018034",
+    "isOnline": true,
+    "name": "CHRISTMAS SPECIAL! TOP 8 CUT WILL GET COAL!",
+    "platform": "PTCGL",
+    "players": 50,
+    "rejection_reasons": [],
+    "standing_rows": 50,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-26T01:00:00.000Z",
+    "decklists": false,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69453ff34500833d87012326",
+    "isOnline": true,
+    "name": "Le Tournois Du DresseurPokeCharbie #92",
+    "platform": "PTCGL",
+    "players": 70,
+    "rejection_reasons": [
+      "decklists_disabled"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 67,
+    "date": "2025-12-26T08:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "694550d9ba66621ba08a3afa",
+    "isOnline": true,
+    "name": "Oceania Open! Season 0 - Week 3",
+    "platform": "PTCGL",
+    "players": 67,
+    "rejection_reasons": [],
+    "standing_rows": 67,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-26T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "691b2dad52eafbbc811718a4",
+    "name": "Static Shock Fridays Technohub Casuals 12/26",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 86,
+    "date": "2025-12-26T17:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69091d5ec154114e5abae381",
+    "isOnline": true,
+    "name": "Turtwig Den Revival Series Challenge 18",
+    "platform": "PTCGL",
+    "players": 86,
+    "rejection_reasons": [],
+    "standing_rows": 86,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 544,
+    "date": "2025-12-26T19:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "693bb1f8e12a3ec476285b29",
+    "isOnline": true,
+    "name": "Darksiders Boxing Day Bonanza! $200 USD+ 50 Codes",
+    "platform": "PTCGL",
+    "players": 544,
+    "rejection_reasons": [],
+    "standing_rows": 544,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 275,
+    "date": "2025-12-27T03:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "68fe4cf3dd7011c665c4001a",
+    "isOnline": true,
+    "name": "TOURNAMENT OF DOOM! RESOLVES TO DO SOMETHING!",
+    "platform": "PTCGL",
+    "players": 275,
+    "rejection_reasons": [],
+    "standing_rows": 275,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-27T06:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "694b07c24500833d87016997",
+    "name": "Dice Tower PTCG Casuals #2",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-27T06:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6948d2554500833d87015664",
+    "name": "Toy Shogun Pokemon TCG Casuals",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-27T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "694facfaba66621ba08aaa97",
+    "name": "PoD 2 Updated",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-27T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "694a6d714500833d870163a4",
+    "name": "Московская фан-лига Pokémon TCG | Runner-Up 27/12",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-27T11:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6948abdcba66621ba08a69b3",
+    "name": "好奇杯十一月国际（＄5+ 50 codes）",
+    "players": 46,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-27T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6949652e4500833d870158a6",
+    "name": "League Cup - CardsHall",
+    "players": 47,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 152,
+    "date": "2025-12-27T17:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6946f56c4500833d87013d61",
+    "isOnline": true,
+    "name": "🦇Nachtwache Tournament #5 100 Codes Prizing🦇",
+    "platform": "PTCGL",
+    "players": 152,
+    "rejection_reasons": [],
+    "standing_rows": 152,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 204,
+    "date": "2025-12-27T23:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6930c66be12a3ec4762804a0",
+    "isOnline": true,
+    "name": "MEGA Redacted LUCKY #13 (200 Codes)",
+    "platform": "PTCGL",
+    "players": 204,
+    "rejection_reasons": [],
+    "standing_rows": 204,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 121,
+    "date": "2025-12-28T00:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6930c8661b3b036ef6db8f47",
+    "isOnline": true,
+    "name": "MEGA Redacted 2nd Chance LUCKY #13 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 121,
+    "rejection_reasons": [],
+    "standing_rows": 121,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-28T07:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "694d1bee4500833d87017b75",
+    "name": "Московская лига Pokémon TCG | Финал VIII сезона",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 203,
+    "date": "2025-12-28T18:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6946f5a0ba66621ba08a4ed0",
+    "isOnline": true,
+    "name": "🦇Nachtwache Tournament #6 100 Codes Prizing🦇",
+    "platform": "PTCGL",
+    "players": 203,
+    "rejection_reasons": [],
+    "standing_rows": 203,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-28T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69464df24500833d8701305e",
+    "name": "Jester's End Of Year Grand Tournament! [2025]",
+    "players": 34,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 275,
+    "date": "2025-12-28T22:59:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6925ea79b11d3f5498bc75a9",
+    "isOnline": true,
+    "name": "Mega Ditto! #11 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 275,
+    "rejection_reasons": [],
+    "standing_rows": 275,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-28T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69501f12ba66621ba08ab1fe",
+    "name": "🏁🏆Grand Prix VIII 🏁🏆 - Azk x Bda",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-28T23:10:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "694ee1f5ba66621ba08a9f5e",
+    "name": "🏆Moujii's Dojo🏆Dojo League🏆",
+    "players": 49,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 54,
+    "date": "2025-12-29T01:15:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6951be164500833d8701b6e3",
+    "isOnline": true,
+    "name": "MIDNIGHT MICKEY I HATE MONDAYS",
+    "platform": "PTCGL",
+    "players": 54,
+    "rejection_reasons": [],
+    "standing_rows": 54,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 261,
+    "date": "2025-12-29T17:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "694ee0db4500833d87018dbb",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 261,
+    "rejection_reasons": [],
+    "standing_rows": 261,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 185,
+    "date": "2025-12-29T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "695177d4ba66621ba08ac1eb",
+    "isOnline": true,
+    "name": "Final Pumpkaweekly of 2025!",
+    "platform": "PTCGL",
+    "players": 185,
+    "rejection_reasons": [],
+    "standing_rows": 185,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 254,
+    "date": "2025-12-29T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6949a998ba66621ba08a71c0",
+    "isOnline": true,
+    "name": "Sunny's Weekly #237 2025: One Last Ride",
+    "platform": "PTCGL",
+    "players": 254,
+    "rejection_reasons": [],
+    "standing_rows": 254,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 105,
+    "date": "2025-12-30T02:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "695212464500833d8701bbd3",
+    "isOnline": true,
+    "name": "Monday afternoon tournament #2",
+    "platform": "PTCGL",
+    "players": 105,
+    "rejection_reasons": [],
+    "standing_rows": 105,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-30T10:37:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69526f03ba66621ba08ace6f",
+    "name": "TS Tuesday Casual POD",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 278,
+    "date": "2025-12-30T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "68e481f6f661e4a158de9838",
+    "isOnline": true,
+    "name": "The Lucky Draw Qualifier Q2",
+    "platform": "PTCGL",
+    "players": 278,
+    "rejection_reasons": [],
+    "standing_rows": 278,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 73,
+    "date": "2025-12-30T23:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6952feb34500833d8701c795",
+    "isOnline": true,
+    "name": "LastPrize Series Best of 2025 No Top Cut",
+    "platform": "PTCGL",
+    "players": 73,
+    "rejection_reasons": [],
+    "standing_rows": 73,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2025-12-31T02:05:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "695312d14500833d8701c991",
+    "name": "Atlantis Circuit - Season 1 Wk 3",
+    "players": 4,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 64,
+    "date": "2025-12-31T22:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "6955746d4500833d8701e270",
+    "isOnline": true,
+    "name": "HAPPY NEW YEARS!!!",
+    "platform": "PTCGL",
+    "players": 64,
+    "rejection_reasons": [],
+    "standing_rows": 64,
+    "standings_fetched": true
+  }
+]

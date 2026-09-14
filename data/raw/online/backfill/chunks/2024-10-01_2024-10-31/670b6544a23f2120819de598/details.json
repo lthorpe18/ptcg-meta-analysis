@@ -1,0 +1,30 @@
+{
+  "date": "2024-10-19T23:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "670b6544a23f2120819de598",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Mentis Fortis XII",
+  "organizer": {
+    "id": 1524,
+    "name": "Plus Ultra CGA"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 103
+}

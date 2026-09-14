@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-10T22:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a00a26413f957d6d4b44e49",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🎮 Free Night – R$30 + Top 10 Codes",
+  "organizer": {
+    "id": 2563,
+    "name": "LojaTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 94,
+  "specialRules": [
+    "NO_VMAX"
+  ]
+}

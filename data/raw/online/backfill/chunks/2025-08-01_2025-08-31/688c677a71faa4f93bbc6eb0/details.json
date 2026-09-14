@@ -1,0 +1,24 @@
+{
+  "date": "2025-08-01T15:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "688c677a71faa4f93bbc6eb0",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Pokémon Journey League #6 - 30 USD Prizes",
+  "organizer": {
+    "id": 2061,
+    "name": "Gengar's Mansion"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 84
+}

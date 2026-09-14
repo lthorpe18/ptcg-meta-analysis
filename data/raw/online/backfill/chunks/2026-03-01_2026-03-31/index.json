@@ -1,0 +1,4241 @@
+[
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-01T00:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6977a727b1294bfab72066a4",
+    "name": "Redacted Flames #5 (50 Codes)",
+    "players": 43,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-01T01:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "699cc84cc9dc8186f760b285",
+    "name": "Defenders Arena #5 🏆 |HOUSTON REGIONAL PREP|",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-01T05:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a3be78a0282967a730f224",
+    "name": "MIDNIGHT MICKEY T2TCG!",
+    "players": 13,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-01T09:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "699b823ac9dc8186f760a8c6",
+    "name": "Московская лига Pokémon TCG | IX сезон #3",
+    "players": 36,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-01T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "699f45fdc9dc8186f760c118",
+    "name": "PHOENIX POKEMON DEVOTO - POKEMON DAY",
+    "players": 36,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-01T19:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a4722cd92ee137f4d1d70f",
+    "name": "Roggenrola ASC Testing - Puerto Rico we're coming!",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-01T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a2ea71a0282967a730e3d1",
+    "name": "Pokémon Day 3R's TCG",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-01T22:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": true,
+    "id": "699ca7553ef65252b05753a5",
+    "isOnline": true,
+    "name": "Weekly Arena – #1 🏆 (Prizes for Top 8)",
+    "platform": "PTCGL",
+    "players": 98,
+    "rejection_reasons": [
+      "custom_bans_or_special_rules"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 103,
+    "date": "2026-03-01T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69797a519c739a2ff7bf9737",
+    "isOnline": true,
+    "name": "Ascended Heroes! #5 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 103,
+    "rejection_reasons": [],
+    "standing_rows": 103,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 64,
+    "date": "2026-03-02T00:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "699e13bcc9dc8186f760ba9a",
+    "isOnline": true,
+    "name": "Intercards: Late Night Session #02",
+    "platform": "PTCGL",
+    "players": 64,
+    "rejection_reasons": [],
+    "standing_rows": 64,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 55,
+    "date": "2026-03-02T01:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "699e4119c9dc8186f760bc39",
+    "isOnline": true,
+    "name": "Rare Candy Club Showdown #9 ASC HEROES LEGAL",
+    "platform": "PTCGL",
+    "players": 55,
+    "rejection_reasons": [],
+    "standing_rows": 55,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-02T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a4bb08d92ee137f4d1dabb",
+    "name": "SUNDAY FUNDAY 100 codes ASC LEGAL!",
+    "players": 33,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 169,
+    "date": "2026-03-02T17:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "699ddd67c9dc8186f760b8f0",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 169,
+    "rejection_reasons": [],
+    "standing_rows": 169,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 94,
+    "date": "2026-03-02T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a49fd2d92ee137f4d1d9b8",
+    "isOnline": true,
+    "name": "Pumpkaweekly",
+    "platform": "PTCGL",
+    "players": 94,
+    "rejection_reasons": [],
+    "standing_rows": 94,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 163,
+    "date": "2026-03-02T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "699c8b3f3ef65252b057522d",
+    "isOnline": true,
+    "name": "Sunny's Weekly #246 Eight Who Do We Appreciate?",
+    "platform": "PTCGL",
+    "players": 163,
+    "rejection_reasons": [],
+    "standing_rows": 163,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-03T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a61f5b265a204acd585c06",
+    "name": "Monday bluessss T2TCG 30 codes!",
+    "players": 34,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 78,
+    "date": "2026-03-03T02:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a4778bd92ee137f4d1d73d",
+    "isOnline": true,
+    "name": "🏛💫 Card Temple Weekly Battles #47",
+    "platform": "PTCGL",
+    "players": 78,
+    "rejection_reasons": [],
+    "standing_rows": 78,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-03T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a6c335818e5fde7d81802c",
+    "name": "Toy Shogun Tuesday Casuals 03/03",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 95,
+    "date": "2026-03-03T16:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69384f53e12a3ec4762842f2",
+    "isOnline": true,
+    "name": "Gray's PokéLeague - Champion's Road #39",
+    "platform": "PTCGL",
+    "players": 95,
+    "rejection_reasons": [],
+    "standing_rows": 95,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 79,
+    "date": "2026-03-03T23:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a622d6818e5fde7d817cfe",
+    "isOnline": true,
+    "name": "🏆 Torneo Gratuito Sidedeck Online 3 Marzo",
+    "platform": "PTCGL",
+    "players": 79,
+    "rejection_reasons": [],
+    "standing_rows": 79,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 150,
+    "date": "2026-03-04T00:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "699e79263ef65252b0575fde",
+    "isOnline": true,
+    "name": "LAST PRIZE SERIES S2 – MEGA ASCENDED HEROES",
+    "platform": "PTCGL",
+    "players": 150,
+    "rejection_reasons": [],
+    "standing_rows": 150,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-04T00:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a73eb3f39e6e70969fb386",
+    "name": "Tuesday Tuesday Tuesday!!! ASC LEGAL 30 codes",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-04T01:08:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a74bd66a05f00a8c4a37c4",
+    "name": "Liga Shiny PlayTCG 🏆 martes 3 marzo 🇨🇱",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-04T01:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a471dca0282967a730f7a4",
+    "name": "Atlantis Circuit - Season 1 Wk 12",
+    "players": 4,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-04T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "697ee078b1294bfab720b925",
+    "name": "Torneo Relámpago ⚡ #21 TCG Live",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-04T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a0418d3ef65252b057682b",
+    "name": "23° Torneio Padrão do Zap- Códigos",
+    "players": 27,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-04T16:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a5a86c818e5fde7d817596",
+    "name": "Moscow Play Night #15",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 153,
+    "date": "2026-03-04T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a5c92b265a204acd5856de",
+    "isOnline": true,
+    "name": "ASRcristiano # 137 - Road to Seville !",
+    "platform": "PTCGL",
+    "players": 153,
+    "rejection_reasons": [],
+    "standing_rows": 153,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-04T22:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a89c466a05f00a8c4a43f6",
+    "name": "flashito",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-05T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "698e153c988cfc979bd0e3fb",
+    "name": "💖 Gals! OT IV - Torneo #2",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-05T03:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8e666f39e6e70969fc187",
+    "name": "Midnight Mickey T2TCG",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 157,
+    "date": "2026-03-05T17:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a32206d92ee137f4d1cc99",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 157,
+    "rejection_reasons": [],
+    "standing_rows": 157,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-05T19:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "699f6c783ef65252b05764ac",
+    "name": "Midnight PH / Surge's TCG Vault WebcamTournament#3",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 97,
+    "date": "2026-03-05T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a5c946265a204acd585732",
+    "isOnline": true,
+    "name": "ASRcristiano # 138 - Road to Seville !",
+    "platform": "PTCGL",
+    "players": 97,
+    "rejection_reasons": [],
+    "standing_rows": 97,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-05T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a9e8806a05f00a8c4a4f0d",
+    "name": "Semanal Cards Hall",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 50,
+    "date": "2026-03-05T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a8ee506a05f00a8c4a4736",
+    "isOnline": true,
+    "name": "🏆 Torneo Clasificatorio Jueves 5 Marzo",
+    "platform": "PTCGL",
+    "players": 50,
+    "rejection_reasons": [],
+    "standing_rows": 50,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 72,
+    "date": "2026-03-05T23:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a5cbb9265a204acd585747",
+    "isOnline": true,
+    "name": "💥​Plantel Battle #19 ASC💥​100 CODES ✔️​ TOP 8",
+    "platform": "PTCGL",
+    "players": 72,
+    "rejection_reasons": [],
+    "standing_rows": 72,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 73,
+    "date": "2026-03-06T01:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a691dc818e5fde7d817fd9",
+    "isOnline": true,
+    "name": "Rare Candy Club Showdown #10 ASC HEROES LEGAL",
+    "platform": "PTCGL",
+    "players": 73,
+    "rejection_reasons": [],
+    "standing_rows": 73,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-06T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a102fdc9dc8186f760cf63",
+    "name": "Le Tournois Du DresseurPokeCharbie #102",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-06T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a0e5933ef65252b0576f1a",
+    "name": "Torneo Relámpago ⚡ #22 TCG Live",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 50,
+    "date": "2026-03-06T08:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "698fef6d545d43631df02a30",
+    "isOnline": true,
+    "name": "Oceania Open! Season 1 - Week 10",
+    "platform": "PTCGL",
+    "players": 50,
+    "rejection_reasons": [],
+    "standing_rows": 50,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-06T10:10:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69aaa7ea6a05f00a8c4a5668",
+    "name": "TS Casuals Pod 1 3/6/26",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-06T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "698a0e866235e3ab106bf14a",
+    "name": "Static Shock Fridays Technohub Casuals 03/06",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 87,
+    "date": "2026-03-06T17:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "697250d5b1294bfab720361f",
+    "isOnline": true,
+    "name": "Turtwig Den Revival Series Cup 6",
+    "platform": "PTCGL",
+    "players": 87,
+    "rejection_reasons": [],
+    "standing_rows": 87,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 109,
+    "date": "2026-03-06T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a5c962265a204acd585735",
+    "isOnline": true,
+    "name": "ASRcristiano # 139 - Road to Seville !",
+    "platform": "PTCGL",
+    "players": 109,
+    "rejection_reasons": [],
+    "standing_rows": 109,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-06T21:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8e37bf39e6e70969fc171",
+    "name": "Vault Weekly Runs #6 🏆| 100 CODES | ASC LEGAL",
+    "players": 36,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-06T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "696e38a4b1294bfab72014f6",
+    "name": "Peladão da Baixada #165 • Mighty G's Last Match",
+    "players": 25,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-07T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ab61f4f39e6e70969fda71",
+    "name": "JustInBasil Online League - 06 March 2026",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-07T02:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ab59886a05f00a8c4a5dda",
+    "name": "T2TCG FRIDAY NIGHT SHOWDOWN!!! 100 CODES!",
+    "players": 37,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 254,
+    "date": "2026-03-07T03:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69954a06c9dc8186f760750c",
+    "isOnline": true,
+    "name": "TOURNAMENT OF DOOM! Had a nice break....",
+    "platform": "PTCGL",
+    "players": 254,
+    "rejection_reasons": [],
+    "standing_rows": 254,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-07T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "696d5f3c9c739a2ff7bf310e",
+    "name": "Pokemon TCG TOPDECK FUN LEAGUE — Unova 2: Bolt",
+    "players": 17,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-07T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a07b17c9dc8186f760c7a4",
+    "name": "Eternatus Card House League Cup",
+    "players": 20,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-07T14:25:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a9f064f39e6e70969fc926",
+    "name": "Ranking de Invierno!",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 100,
+    "date": "2026-03-07T21:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a9f4f6f39e6e70969fc9b5",
+    "isOnline": true,
+    "name": "Oscar’s Competitive Events | Second Tournament!",
+    "platform": "PTCGL",
+    "players": 100,
+    "rejection_reasons": [],
+    "standing_rows": 100,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-07T22:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ab2e07f39e6e70969fd7e1",
+    "name": "PHOENIX MYL SABADO",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-07T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69aaedcd6a05f00a8c4a581e",
+    "name": "🏆 Torneo Especial Sábado 7 Marzo Sidedeck Online",
+    "players": 41,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-07T23:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a76d7a6a05f00a8c4a38a4/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a76d7a6a05f00a8c4a38a4",
+    "name": "Redacted Heroes #6 (100 Codes)",
+    "players": 90,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-08T00:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a76f12f39e6e70969fb50d/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a76f12f39e6e70969fb50d",
+    "name": "Redacted Heroes 2nd Chance #1 (50 Codes)",
+    "players": 50,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8a849f39e6e70969fbeb7",
+    "name": "Rare Candy Club Showdown #11 (50 CODES)",
+    "players": 49,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T01:12:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ac42466a05f00a8c4a6991",
+    "name": "Torneo Online ETB🏆 Play TCG 7.3.2026",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T01:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8e3206a05f00a8c4a46c5",
+    "name": "Defenders Arena #6 🏆| 100 CODES | ASC LEGAL",
+    "players": 29,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8b5e46a05f00a8c4a4504",
+    "name": "Torneo Relámpago ⚡ Post-Rotación No \"Block G\" #4",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T08:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69aa07946a05f00a8c4a50f3",
+    "name": "OTS2026 01/20 - Season Opener!",
+    "players": 37,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a4c691d92ee137f4d1db9e",
+    "name": "Hydra TCG Standard 8.3.",
+    "players": 14,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ab1ec5f39e6e70969fd6a2",
+    "name": "League Cup - CardsHall",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T13:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a5e050818e5fde7d8178a2",
+    "name": "Tournoi amical LEAGUE canto N52°",
+    "players": 43,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-08T16:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a9d6696a05f00a8c4a4d55/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a9d6696a05f00a8c4a4d55",
+    "name": "Circuito TCG #1 | Z2 Gaming",
+    "players": 53,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T18:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a86785f39e6e70969fbacb",
+    "name": "PHOENIX POKEMON DEVOTO 7°",
+    "players": 13,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-08T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ad98ce6a05f00a8c4a7c38",
+    "name": "Grand Prix - Azkaban X Bloc de Amigos #1",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-09T00:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69acc5bc6a05f00a8c4a770f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69acc5bc6a05f00a8c4a770f",
+    "name": "Rare Candy Club Showdown #12 (100 CODES)",
+    "players": 137,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-09T00:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a5d1ab265a204acd585820/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a5d1ab265a204acd585820",
+    "name": "Intercards: Late Night Session #03",
+    "players": 52,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-09T01:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69add9166a05f00a8c4a7f9f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69add9166a05f00a8c4a7f9f",
+    "name": "Sunday Funday T2TCG! 100 codes! ASC Format.",
+    "players": 64,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-09T16:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a715a2f39e6e70969fb0eb/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a715a2f39e6e70969fb0eb",
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "players": 160,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-09T19:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69adef2cf39e6e70969ff6e6/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69adef2cf39e6e70969ff6e6",
+    "name": "Pumpkaweekly",
+    "players": 136,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-09T22:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a5fa9a265a204acd585a17/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a5fa9a265a204acd585a17",
+    "name": "Sunny's Weekly #247 Two Tickets to Paradise!",
+    "players": 156,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-10T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69af67a76a05f00a8c4a8fb8",
+    "name": "MAMEITOR CUP - BOGERBORN EDITION",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-10T02:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69aeff24f39e6e70969fff1e/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69aeff24f39e6e70969fff1e",
+    "name": "🏛💫 Card Temple Weekly Battles #48",
+    "players": 61,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-10T03:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a5e581818e5fde7d817928/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a5e581818e5fde7d817928",
+    "name": "CHALLENGE OF DOOM! SLEEP or PLAY?",
+    "players": 128,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-10T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "695a85284500833d87022c4c",
+    "name": "Drop Dice Liga Online #001 - Season 2025/26",
+    "players": 36,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-10T22:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a9eb746a05f00a8c4a4f5e/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a9eb746a05f00a8c4a4f5e",
+    "name": "Last Prize Season 2 Post PR SPE",
+    "players": 137,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-10T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b01a56f39e6e7096a00b5c",
+    "name": "Eternatus Card House League Challenge",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-10T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ae0156f39e6e70969ff744",
+    "name": "Torneo Gratuito 10 Marzo",
+    "players": 49,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-11T00:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b099516a05f00a8c4a993f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b099516a05f00a8c4a993f",
+    "name": "T2TCG TUESDAY! 100 codes! asc format",
+    "players": 57,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-11T01:10:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b08429f39e6e7096a01054",
+    "name": "Liga Shiny PlayTCG 🏆 martes 10 marzo",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-11T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8bc03f39e6e70969fbf78",
+    "name": "Torneo Relámpago ⚡ #23 PTCG Live",
+    "players": 30,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-11T08:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b128e26a05f00a8c4a9c60",
+    "name": "Toy Shogun Casuals 03/11",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-11T19:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "699f6d0ec9dc8186f760c2bb",
+    "name": "Midnight PH / Surge's TCG Vault WebcamTournament#4",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-11T20:15:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69ab0f306a05f00a8c4a593e/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ab0f306a05f00a8c4a593e",
+    "name": "BUSTARD #5 Prize Packs series 8 for Top8",
+    "players": 54,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-11T20:15:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69ad5da26a05f00a8c4a7a41/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ad5da26a05f00a8c4a7a41",
+    "name": "ASRcristiano # 140 - Road to Seville !",
+    "players": 159,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-11T22:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b1e205f39e6e7096a01bc4",
+    "name": "Flashito de Pokemon",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-12T01:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b1e7916a05f00a8c4aa207",
+    "name": "Torneo Online ETB🏆 Play TCG 11.3.2026",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-12T01:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b206fcf39e6e7096a01d53",
+    "name": "WEDNESDAY NIGHT WARRIORS 30 CODES T2TCG",
+    "players": 43,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-12T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69aff8e26a05f00a8c4a9342",
+    "name": "24° Torneio Padrão do Zap-Códigos",
+    "players": 23,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-12T16:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a9577af39e6e70969fc371/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a9577af39e6e70969fc371",
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "players": 148,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-12T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b31d50f39e6e7096a022b3",
+    "name": "Semanal Cards Hall",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-12T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b315356a05f00a8c4aa9e9",
+    "name": "🏆 Torneo Clasificatorio Jueves 12 Marzo",
+    "players": 36,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-13T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8c17a6a05f00a8c4a4577",
+    "name": "Torneo Relámpago ⚡ #24 PTCG Live",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-13T08:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/698fef8d545d43631df02a31/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "698fef8d545d43631df02a31",
+    "name": "Oceania Open! Season 1 - Week 11",
+    "players": 52,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-13T09:10:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b3d20fccdfe3b78e573505",
+    "name": "TOY SHOGUN CASUALS 03/13",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-13T11:06:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b3edcaccdfe3b78e573559",
+    "name": "TS CASUALS POD2 03/13",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-13T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "698a0e8f988cfc979bd0be02",
+    "name": "Static Shock Fridays Technohub Casuals 03/13",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-13T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69ad5e43f39e6e70969ff145/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ad5e43f39e6e70969ff145",
+    "name": "ASRcristiano # 142 - Road to Seville !",
+    "players": 151,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-13T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b41d079f81767f3e8019c2",
+    "name": "Vault Weekly Runs #7 🏆| 100 CODES | JOIN :)",
+    "players": 36,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-13T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b4767bccdfe3b78e573949",
+    "name": "JustInBasil Online League - 13 March 2026",
+    "players": 26,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-14T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69aef9636a05f00a8c4a8722",
+    "name": "TCG Park Pokemon Store Championship S3 #8 MAR",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-14T14:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b18067f39e6e7096a01713",
+    "name": "Sabadão Tranquill",
+    "players": 17,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-14T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b450d0ccdfe3b78e5737a2",
+    "name": "Amistoso Pokimon",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-14T17:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b2cb24f39e6e7096a01fd8/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b2cb24f39e6e7096a01fd8",
+    "name": "🦇Nachtwache Tournament #11 100 Codes Prizing🦇",
+    "players": 93,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-14T22:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a76df86a05f00a8c4a38a9/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a76df86a05f00a8c4a38a9",
+    "name": "Redacted Heroes #7 PI DAY SPECIAL (314 Codes)",
+    "players": 157,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-14T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b49d819f81767f3e801ec3",
+    "name": "Torneo Especial Sábado 14 Marzo",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-15T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b470bb9f81767f3e801c57",
+    "name": "Oscar’s Competitive Events | Third rendition!",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-15T00:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b440429f81767f3e801ac9/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b440429f81767f3e801ac9",
+    "name": "Defenders Arena #7 🏆| 100 CODES!",
+    "players": 59,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-15T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8b7096a05f00a8c4a450a",
+    "name": "Torneo Relámpago ⚡ Cusca 3v3 Pro Series",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-15T05:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b623839f81767f3e802b69",
+    "name": "Pokemon Iloilo TCG Casuals Tournament",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-15T05:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b62eb99f81767f3e802b9a",
+    "name": "Midnight Mania T2TCG",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-15T08:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b2836ef39e6e7096a01f25",
+    "name": "OceanicTournamentSeries2026 02/20",
+    "players": 27,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-15T09:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ae9e12f39e6e70969ffc9a",
+    "name": "Московская лига Pokémon TCG | IX сезон #4",
+    "players": 35,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-15T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b13827f39e6e7096a01634",
+    "name": "Hydra TCG Standard 15.3.2026.",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-15T21:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b6f764ccdfe3b78e574c96/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b6f764ccdfe3b78e574c96",
+    "name": "SUNDAY FUNDAY T2TCG 100 CODES $5 USD",
+    "players": 60,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-15T22:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a8e536f39e6e70969fc178/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8e536f39e6e70969fc178",
+    "name": "Ascended Heroes! #6 (100 Codes)",
+    "players": 125,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-16T00:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69ae3c096a05f00a8c4a8376/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ae3c096a05f00a8c4a8376",
+    "name": "Rare Candy Club Showdown #13 (50 CODES)",
+    "players": 99,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-16T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b2f70e6a05f00a8c4aa826",
+    "name": "Intercards: Late Night Session #04",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-16T00:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b744479f81767f3e803317",
+    "name": "Mankato Snowmageddon",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-16T11:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b609fbccdfe3b78e574700/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b609fbccdfe3b78e574700",
+    "name": "野狐x好奇杯ptcg日常赛（国际环境)-64CODES",
+    "players": 56,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-16T16:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b033f0f39e6e7096a00be6/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b033f0f39e6e7096a00be6",
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "players": 188,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-16T19:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b716b89f81767f3e8030fd/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b716b89f81767f3e8030fd",
+    "name": "Pumpkaweekly",
+    "players": 111,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-16T22:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69af359ef39e6e7096a002f1/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69af359ef39e6e7096a002f1",
+    "name": "Sunny's Weekly #248 Pokopia!",
+    "players": 158,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-17T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b8884a9f81767f3e803b58",
+    "name": "Monday Mick T2TCG 30 codes",
+    "players": 49,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-17T01:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b83974ccdfe3b78e575455/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b83974ccdfe3b78e575455",
+    "name": "🏛💫 Card Temple Weekly Battles #49",
+    "players": 55,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-17T16:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6937442ce12a3ec476283dd0",
+    "name": "Gray's PokéLeague Champion's Road S3 Invitational",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-17T16:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69725169b1294bfab720362a/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69725169b1294bfab720362a",
+    "name": "Turtwig Den Revival Series Challenge 26",
+    "players": 101,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-17T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b9c821ccdfe3b78e575fce",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-17T23:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b89513ccdfe3b78e575981/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b89513ccdfe3b78e575981",
+    "name": "Torneo Gratuito 17 Marzo Sidedeck Online",
+    "players": 71,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-17T23:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b56de49f81767f3e802166/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b56de49f81767f3e802166",
+    "name": "Last Prize Season 2",
+    "players": 155,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-18T01:05:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b9cc419f81767f3e804188",
+    "name": "Liga Shiny PlayTCG 🏆 martes 17 marzo",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-18T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b9c1e1ccdfe3b78e575fac",
+    "name": "🛜Pokémon TCG LIVE🛜 Mi Dulce Japón - TESTEO",
+    "players": 29,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-18T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8c2076a05f00a8c4a4580",
+    "name": "Torneo Relámpago ⚡ #25 PTCG Live",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-18T16:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b81a95ccdfe3b78e5753b6",
+    "name": "Moscow Play Night #16",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-18T19:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "699f6d1fc9dc8186f760c2bc",
+    "name": "Midnight PH / Surge's TCG Vault WebcamTournament#5",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-18T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69baaa31ccdfe3b78e5763e3/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69baaa31ccdfe3b78e5763e3",
+    "name": "ASRcristiano # 142 - Road to Seville !",
+    "players": 138,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-18T22:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bb1c3236f5b5c303db9677",
+    "name": "flash maten a roberto",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-19T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "698e1532988cfc979bd0e3fa",
+    "name": "💖 Gals! OT IV - Torneo #3",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-19T01:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69bb039fd478313a15a2e71a/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bb039fd478313a15a2e71a",
+    "name": "Misplay Mafia Pop Up #1-Houston Regionals Practice",
+    "players": 85,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-19T15:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bb4306d478313a15a2e95b",
+    "name": "SPE SEVILLA PREPARATION",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-19T16:10:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b44d76ccdfe3b78e573780/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b44d76ccdfe3b78e573780",
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "players": 176,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-19T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69baaa5eccdfe3b78e5763e4/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69baaa5eccdfe3b78e5763e4",
+    "name": "ASRcristiano # 143 - Road to Seville !",
+    "players": 120,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-19T22:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b86cb5ccdfe3b78e57573e",
+    "name": "Liga Ternura #04 19/03/2026",
+    "players": 13,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-19T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b8a66f9f81767f3e803cec",
+    "name": "🏆 Torneo Clasificatorio 19 Marzo",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-19T23:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b7752fccdfe3b78e57526f/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b7752fccdfe3b78e57526f",
+    "name": "💥​Plantel Battle #20 ASC💥​100 CODES ✔️​ TOP 8",
+    "players": 57,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b968ee9f81767f3e803eb9",
+    "name": "Le Tournois Du DresseurPokeCharbie #103",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bc8842d478313a15a2f1b5",
+    "name": "ORLANDO PREP T2TCG 100 CODES",
+    "players": 35,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T01:10:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ba91619f81767f3e8044e7",
+    "name": "Liga Shiny NO META PlayTCG 🏆 19 de marzo",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8c2746a05f00a8c4a4581",
+    "name": "Torneo Relámpago ⚡ #26 PTCG Live",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T08:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bca91636f5b5c303dba03e",
+    "name": "Toy Shogun Holiday Gym 03/20",
+    "players": 8,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T08:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "698fefd8545d43631df02a33",
+    "name": "Oceania Open! Season 1 - Week 12",
+    "players": 39,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T11:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b611e7ccdfe3b78e574757",
+    "name": "野狐x好奇杯ptcg日常赛（国际环境)-128CODES",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T11:49:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bd32fcd478313a15a2f434",
+    "name": "Toy Shogun Perfect Order Build And Battle 03/20",
+    "players": 20,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "698a0e98988cfc979bd0be03",
+    "name": "Static Shock Fridays Technohub Casuals 03/20",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T16:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bc3fe1d478313a15a2ee78",
+    "name": "SPE SEVILLA PREPARATION 2",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-20T16:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/6972519db1294bfab720362d/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "6972519db1294bfab720362d",
+    "name": "Turtwig Den Revival Series Challenge 27",
+    "players": 66,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-20T19:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b2bb236a05f00a8c4aa5c0",
+    "name": "🏆Ling TV ARENA🏆",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-20T20:00:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69bc4c8836f5b5c303db9c1e/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bc4c8836f5b5c303db9c1e",
+    "name": "Vault Weekly Runs #8 🏆| 100 CODES | JOIN :)",
+    "players": 108,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-21T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bc580936f5b5c303db9d07",
+    "name": "Liga Online #001 - M1",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-21T02:35:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a5e53e818e5fde7d817926/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a5e53e818e5fde7d817926",
+    "name": "TOURNAMENT OF DOOM! DOOM'S DAY!",
+    "players": 253,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-21T07:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bbcbc836f5b5c303db9985",
+    "name": "Dice Tower PTCG Casuals #7",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-21T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69be619d36f5b5c303dba9c4",
+    "name": "Toy Shogun Saturday Casuals 03/21",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-21T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bac4a736f5b5c303db9218",
+    "name": "Discard Pile Standard Tournament #1",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-21T15:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bdf40cd478313a15a2fb6d",
+    "name": "Geeko PKM: Ranking INVIERNO Pokemon",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-21T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ad865d6a05f00a8c4a7b61",
+    "name": "March Reg G Cookoff ($45 Prize Pool available)",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-21T20:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69b9f047ccdfe3b78e576158/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b9f047ccdfe3b78e576158",
+    "name": "Oscar’s Competitive Events | Fourth Rendition",
+    "players": 58,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "date": "2026-03-21T22:05:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a76e2c6a05f00a8c4a38ab/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a76e2c6a05f00a8c4a38ab",
+    "name": "Redacted Heroes #8 (100 Codes)",
+    "players": 89,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-21T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b8a6ca9f81767f3e803cee",
+    "name": "Torneo Especial Sábado 21 Marzo",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "date": "2026-03-21T23:30:00.000Z",
+    "eligible_first_pass": false,
+    "fetch_error": "RuntimeError('Failed to fetch https://play.limitlesstcg.com/api/tournaments/69a76fa5f39e6e70969fb510/details')",
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a76fa5f39e6e70969fb510",
+    "name": "Redacted Heroes 2nd Chance #2 (50 Codes)",
+    "players": 61,
+    "rejection_reasons": [
+      "fetch_error"
+    ]
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b8c7059f81767f3e803dac",
+    "name": "Rare Candy Club Showdown #14 (50 CODES)",
+    "players": 29,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T01:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bc4cc6d478313a15a2ef2a",
+    "name": "Defenders Arena #8 🏆| 100 CODES!",
+    "players": 46,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8bc63f39e6e70969fbf7b",
+    "name": "Torneo Relámpago ⚡ Post-Rotación No \"Block G\" #5",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T03:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bf4bab36f5b5c303dbb3fa",
+    "name": "ORLANDO PREP V2 T2TCG 100 CODES",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T05:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bf637936f5b5c303dbb4e8",
+    "name": "Pokemon Iloilo TCG Casuals Tournament March 22",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T08:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bf22c1d478313a15a304f3",
+    "name": "OceanicTournamentSeries2026 03/20",
+    "players": 21,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "696d60e3b1294bfab720101a",
+    "name": "Pokemon TCG TOPDECK FUN LEAGUE — Unova 2: Quake",
+    "players": 20,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ba5162ccdfe3b78e57631e",
+    "name": "Cardstore.nl Pokémon Masters Tournament #21",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T18:21:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bc101636f5b5c303db9a15",
+    "name": "PHOENIX POKEMON DEVOTO 8°",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T21:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": true,
+    "id": "69bf453936f5b5c303dbb3d4",
+    "isOnline": true,
+    "name": "🏆 Weekly Free Arena #2 | R$30 Each Top 3",
+    "platform": "PTCGL",
+    "players": 94,
+    "rejection_reasons": [
+      "custom_bans_or_special_rules"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 76,
+    "date": "2026-03-22T22:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69baf3fad478313a15a2e654",
+    "isOnline": true,
+    "name": "Ascended Heroes! #7 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 76,
+    "rejection_reasons": [],
+    "standing_rows": 76,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-22T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c063ccd478313a15a3114f",
+    "name": "ORLANDO PREP V3 T2TCG 30 CODES",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 64,
+    "date": "2026-03-23T00:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69befd9cd478313a15a303e5",
+    "isOnline": true,
+    "name": "Rare Candy Club Showdown #15 (FINALE OF ROTATION)",
+    "platform": "PTCGL",
+    "players": 64,
+    "rejection_reasons": [],
+    "standing_rows": 64,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-23T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b9669e9f81767f3e803eb4",
+    "name": "Intercards: Late Night Session #05",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 145,
+    "date": "2026-03-23T16:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69b97a769f81767f3e803f06",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 145,
+    "rejection_reasons": [],
+    "standing_rows": 145,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 104,
+    "date": "2026-03-23T19:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c09bc5d478313a15a31348",
+    "isOnline": true,
+    "name": "Pumpkaweekly",
+    "platform": "PTCGL",
+    "players": 104,
+    "rejection_reasons": [],
+    "standing_rows": 104,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 130,
+    "date": "2026-03-23T22:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69b8b841ccdfe3b78e575a9a",
+    "isOnline": true,
+    "name": "Sunny's Weekly #249 End of G Block",
+    "platform": "PTCGL",
+    "players": 130,
+    "rejection_reasons": [],
+    "standing_rows": 130,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 51,
+    "date": "2026-03-24T02:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c1aa3d36f5b5c303dbc553",
+    "isOnline": true,
+    "name": "🏛💫 Card Temple Weekly Battles #50",
+    "platform": "PTCGL",
+    "players": 51,
+    "rejection_reasons": [],
+    "standing_rows": 51,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-24T02:05:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c1a34f36f5b5c303dbc4cd",
+    "name": "MAMEITOR CUP - ELKEHACETORNEO EDITION",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 97,
+    "date": "2026-03-24T03:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a5e5b8818e5fde7d81792b",
+    "isOnline": true,
+    "name": "CHALLENGE OF DOOM! LAST OF THIS META!",
+    "platform": "PTCGL",
+    "players": 97,
+    "rejection_reasons": [],
+    "standing_rows": 97,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-24T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c2e00dd478313a15a31fad",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 15,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 226,
+    "date": "2026-03-24T23:35:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69bea1bc36f5b5c303dbab28",
+    "isOnline": true,
+    "name": "LAST PRIZE SERIES – Win a Pokepad Playset",
+    "platform": "PTCGL",
+    "players": 226,
+    "rejection_reasons": [],
+    "standing_rows": 226,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-25T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8c2dd6a05f00a8c4a4582",
+    "name": "Torneo Relámpago ⚡ #27 PTCG Live",
+    "players": 32,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-25T11:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bf6fb436f5b5c303dbb548",
+    "name": "野狐x好奇杯ptcg日常赛（国际环境）",
+    "players": 33,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-25T19:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bd66ea36f5b5c303dba2a7",
+    "name": "Surge's TCG Vault Weekly Webcam Tournament #1",
+    "players": 13,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 125,
+    "date": "2026-03-25T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c3eeeb36f5b5c303dbd308",
+    "isOnline": true,
+    "name": "ASRcristiano # 144 - Road to Seville !",
+    "platform": "PTCGL",
+    "players": 125,
+    "rejection_reasons": [],
+    "standing_rows": 125,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-25T22:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c42cddd478313a15a327e7",
+    "name": "Pokeflash! 25/03/26",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-26T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c4854936f5b5c303dbda7b",
+    "name": "ORLANDO PREP V4 T2TCG LATE NIGHT",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-26T18:00:00.000Z",
+    "decklists": false,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69bd8b99d478313a15a2f77d",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 186,
+    "rejection_reasons": [
+      "decklists_disabled"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-26T19:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c4848c36f5b5c303dbda75",
+    "name": "Surge's TCG Vault Weekly Webcam Tournament #2",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-26T22:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": true,
+    "id": "69c1a883d478313a15a318ca",
+    "isOnline": true,
+    "name": "🏆 Weekly Arena #3 | Win Pass | Top 8 Codes",
+    "platform": "PTCGL",
+    "players": 50,
+    "rejection_reasons": [
+      "custom_bans_or_special_rules"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-26T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c5a6abd478313a15a337e6",
+    "name": "Semanal Cards Hall",
+    "players": 24,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-26T23:00:00.000Z",
+    "decklists": false,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c0de4ad478313a15a313ff",
+    "isOnline": true,
+    "name": "Rare Candy Club Showdown #16 (PERFECT ORDER LEGAL)",
+    "platform": "PTCGL",
+    "players": 116,
+    "rejection_reasons": [
+      "decklists_disabled"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bd0f02d478313a15a2f3d1",
+    "name": "Le Tournois Du DresseurPokeCharbie #104",
+    "players": 28,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c5b00c36f5b5c303dbe3e7",
+    "name": "Liga Shiny PlayTCG 🏆 Post Rotación Jueves 27/3",
+    "players": 11,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T01:05:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c15191d478313a15a314f9",
+    "name": "Atlantis Circuit - Season 1 Week 13",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c58c6636f5b5c303dbe1f5",
+    "name": "Casual Thursday Tournament",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T10:20:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c268ced478313a15a31dce",
+    "name": "Toy Shogun Gym Friday 03/27",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T12:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "698a0ea96235e3ab106bf14e",
+    "name": "Static Shock Fridays Technohub Casuals 03/27",
+    "players": 17,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T16:05:00.000Z",
+    "decklists": false,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "697251c19c739a2ff7bf5578",
+    "isOnline": true,
+    "name": "Turtwig Den Revival Series Challenge 28",
+    "platform": "PTCGL",
+    "players": 79,
+    "rejection_reasons": [
+      "decklists_disabled"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bac75b36f5b5c303db9234",
+    "name": "NPC Test Tournament",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T18:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c68735d478313a15a33e93",
+    "name": "🏆 Weekly Arena #4 | Top 8 Codes TCGLive",
+    "players": 25,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T18:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c5a9cc36f5b5c303dbe3a4",
+    "name": "Draw 7 Tourney",
+    "players": 3,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T19:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69be9d6036f5b5c303dbab13",
+    "name": "🏆Ling TV ARENA🏆- PRIX POUR LE TOP 3",
+    "players": 30,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 66,
+    "date": "2026-03-27T20:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c67e3336f5b5c303dbea35",
+    "isOnline": true,
+    "name": "ASRcristiano # 145 - POST ROTATION LEGAL",
+    "platform": "PTCGL",
+    "players": 66,
+    "rejection_reasons": [],
+    "standing_rows": 66,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-27T20:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c58c80d478313a15a336bb",
+    "name": "Vault Weekly Runs #9🏆|POST ROTATION|100 CODES",
+    "players": 27,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-28T00:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bdff5836f5b5c303dba7de",
+    "name": "Liga Online #002 - M1",
+    "players": 10,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-28T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8c306f39e6e70969fbfbb",
+    "name": "Torneo Relámpago ⚡ #28 PTCG Live",
+    "players": 31,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-28T14:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c2cd1336f5b5c303dbcbad",
+    "name": "Post Rotation",
+    "players": 27,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-28T14:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c7182e36f5b5c303dbf4c9",
+    "name": "PKM TORNEO FINAL DE MES!",
+    "players": 12,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 341,
+    "date": "2026-03-28T15:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "691e3039b11d3f5498bc26a0",
+    "isOnline": true,
+    "name": "CHAMPIONSHIPS OF DOOM! VIII",
+    "platform": "PTCGL",
+    "players": 341,
+    "rejection_reasons": [],
+    "standing_rows": 341,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 124,
+    "date": "2026-03-28T22:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a76e5f6a05f00a8c4a38ac",
+    "isOnline": true,
+    "name": "Redacted Heroes #9 (200 Codes)",
+    "platform": "PTCGL",
+    "players": 124,
+    "rejection_reasons": [],
+    "standing_rows": 124,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-28T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c7ed81d478313a15a35168",
+    "name": "Torneo Post Rotación 28 Marzo",
+    "players": 19,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-28T23:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": true,
+    "has_special_rules": false,
+    "id": "69a76fe2f39e6e70969fb518",
+    "isOnline": true,
+    "name": "Redacted Heroes 2nd Chance #3 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 50,
+    "rejection_reasons": [
+      "custom_bans_or_special_rules"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 75,
+    "date": "2026-03-29T00:30:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c58d52d478313a15a336c7",
+    "isOnline": true,
+    "name": "Defenders Arena #9🏆|POST ROTATION | 100 CODES",
+    "platform": "PTCGL",
+    "players": 75,
+    "rejection_reasons": [],
+    "standing_rows": 75,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-29T02:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69a8bcbf6a05f00a8c4a455c",
+    "name": "Torneo Relámpago ⚡ Cusca 3v3 Pro Series #2",
+    "players": 16,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-29T03:15:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c88e4dd478313a15a35d9e",
+    "name": "T2TCG MIDNIGHT DUB EDITION POR LEGAL",
+    "players": 19,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-29T12:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69beed3636f5b5c303dbaf76",
+    "name": "Tournoi amical LEAGUE canto N53°",
+    "players": 47,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 118,
+    "date": "2026-03-29T15:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c45755d478313a15a32a95",
+    "isOnline": true,
+    "name": "🦇Nachtwache Post Rotation #12 100 Codes Prizing🦇",
+    "platform": "PTCGL",
+    "players": 118,
+    "rejection_reasons": [],
+    "standing_rows": 118,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-29T17:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c80125d478313a15a353fe",
+    "name": "Dobradinha",
+    "players": 18,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 162,
+    "date": "2026-03-29T22:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69a8e5a7f39e6e70969fc17c",
+    "isOnline": true,
+    "name": "Ascended Nexus! #8 (100 Codes)",
+    "platform": "PTCGL",
+    "players": 162,
+    "rejection_reasons": [],
+    "standing_rows": 162,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-29T22:45:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c95ae936f5b5c303dc1589",
+    "name": "🏆 Weekly Arena #5 | Win Pass | Top 8 Codes",
+    "players": 38,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-29T23:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69bb5ba3d478313a15a2ea06",
+    "name": "ACE Tourneys Weekly #1 - Cash Prize (US)",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-30T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69b8a8b79f81767f3e803cf6",
+    "name": "Torneo Relámpago ⚡ Cusca Champions Series",
+    "players": 6,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-30T11:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c9daa7d478313a15a36f2a",
+    "name": "野狐x好奇杯ptcg日常赛（国际环境)-64CODES",
+    "players": 37,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-30T16:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69ca4626d478313a15a371b3",
+    "name": "Pokémon #231",
+    "players": 9,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 237,
+    "date": "2026-03-30T16:10:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c6aa89d478313a15a34044",
+    "isOnline": true,
+    "name": "🏆Moujii's Dojo🏆 (Late Registration Available!)",
+    "platform": "PTCGL",
+    "players": 237,
+    "rejection_reasons": [],
+    "standing_rows": 237,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 82,
+    "date": "2026-03-30T18:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69ca2d25d478313a15a37157",
+    "isOnline": true,
+    "name": "Belg Replacement tour",
+    "platform": "PTCGL",
+    "players": 82,
+    "rejection_reasons": [],
+    "standing_rows": 82,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 179,
+    "date": "2026-03-30T22:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c189fdd478313a15a31742",
+    "isOnline": true,
+    "name": "Sunny's Weekly #250 Is Live Ready for Launch Yet?",
+    "platform": "PTCGL",
+    "players": 179,
+    "rejection_reasons": [],
+    "standing_rows": 179,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-31T01:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c9d13036f5b5c303dc1f57",
+    "name": "PKMNWRLD - Playmat + Sleeves + Oreos",
+    "players": 7,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 94,
+    "date": "2026-03-31T02:00:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69ca954d36f5b5c303dc24a4",
+    "isOnline": true,
+    "name": "🏛💫 Card Temple Weekly Battles #52",
+    "platform": "PTCGL",
+    "players": 94,
+    "rejection_reasons": [],
+    "standing_rows": 94,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-31T10:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69c10e9ad478313a15a3142d",
+    "name": "Rising Poke Japan Cup #34",
+    "players": 28,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-31T11:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69cba4ee36f5b5c303dc33bf",
+    "name": "Toy Shogun Tuesday Casuals 03/31",
+    "players": 5,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 155,
+    "date": "2026-03-31T16:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "697251ec9c739a2ff7bf5579",
+    "isOnline": true,
+    "name": "Turtwig Den Revival Series Regional 3",
+    "platform": "PTCGL",
+    "players": 155,
+    "rejection_reasons": [],
+    "standing_rows": 155,
+    "standings_fetched": true
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-31T22:30:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69cc3f64d478313a15a3872e",
+    "name": "Eternatus Card House Liga Semanal (Pokémon TCG)",
+    "players": 22,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": null,
+    "classified_rows": 0,
+    "date": "2026-03-31T23:00:00.000Z",
+    "details_fetched": false,
+    "eligible_first_pass": false,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "id": "69cbdb83d478313a15a38209",
+    "name": "Torneo Post Rotación Gratuito 31 Marzo",
+    "players": 44,
+    "rejection_reasons": [
+      "players_below_50"
+    ],
+    "standing_rows": 0,
+    "standings_fetched": false
+  },
+  {
+    "classification_coverage": 1.0,
+    "classified_rows": 178,
+    "date": "2026-03-31T23:05:00.000Z",
+    "decklists": true,
+    "details_fetched": true,
+    "eligible_first_pass": true,
+    "format": "STANDARD",
+    "game": "PTCG",
+    "has_banned_cards": false,
+    "has_special_rules": false,
+    "id": "69c35c1bd478313a15a32370",
+    "isOnline": true,
+    "name": "Last Prize Season 2 Perfect Order Edition",
+    "platform": "PTCGL",
+    "players": 178,
+    "rejection_reasons": [],
+    "standing_rows": 178,
+    "standings_fetched": true
+  }
+]

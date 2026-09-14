@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-28T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68af688dda2bf11ab1d5d293",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Midnight Mickey 23 - Beep boo boo bop",
+  "organizer": {
+    "id": 762,
+    "name": "Pauper PTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 89
+}

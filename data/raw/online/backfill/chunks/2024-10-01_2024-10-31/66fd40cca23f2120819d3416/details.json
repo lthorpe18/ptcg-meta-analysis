@@ -1,0 +1,36 @@
+{
+  "date": "2024-10-24T21:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66fd40cca23f2120819d3416",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Silver Squad Standard The jewl collection",
+  "organizer": {
+    "id": 1701,
+    "name": "Silver Squad"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 85
+}

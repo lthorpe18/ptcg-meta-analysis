@@ -1,0 +1,24 @@
+{
+  "date": "2025-08-27T12:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68ae1902827e9d163f83066e",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Team Gamers Guild League #20",
+  "organizer": {
+    "id": 2203,
+    "name": "Team Gamers Guild"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 58
+}

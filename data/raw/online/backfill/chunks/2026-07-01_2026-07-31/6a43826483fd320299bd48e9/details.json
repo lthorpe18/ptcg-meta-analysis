@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-03T09:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a43826483fd320299bd48e9",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Oceania Open! | Season 3 - Week 1",
+  "organizer": {
+    "id": 1659,
+    "name": "TripleBtcg"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 68
+}

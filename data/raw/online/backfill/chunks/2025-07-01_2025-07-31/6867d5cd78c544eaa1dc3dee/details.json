@@ -1,0 +1,36 @@
+{
+  "date": "2025-07-07T23:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6867d5cd78c544eaa1dc3dee",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "PokeArena #6 (100 Codes) (Closed Decklist)",
+  "organizer": {
+    "id": 2227,
+    "name": "PokeArena"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 181
+}

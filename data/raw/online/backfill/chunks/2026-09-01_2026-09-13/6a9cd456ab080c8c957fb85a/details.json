@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-09T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9cd456ab080c8c957fb85a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Pudding Weekly #12 | TRADE TRADE TRADE",
+  "organizer": {
+    "id": 2720,
+    "name": "Pudding Weekly"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 113
+}

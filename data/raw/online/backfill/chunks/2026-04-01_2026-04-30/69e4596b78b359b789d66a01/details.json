@@ -1,0 +1,36 @@
+{
+  "date": "2026-04-22T11:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69e4596b78b359b789d66a01",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "SEASAC Regional #1 (300 CODES)",
+  "organizer": {
+    "id": 2623,
+    "name": "SEASAC League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 87
+}

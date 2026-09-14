@@ -1,0 +1,30 @@
+{
+  "date": "2024-10-27T16:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "671577d0c7dc61a5a5f45ecb",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Pokémon Battle Park",
+  "organizer": {
+    "id": 1033,
+    "name": "Pokémon Battle Park "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 119
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2025-06-01T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68376b8827d8bc24cf248416",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Deep Sea Draw #3",
+  "organizer": {
+    "id": 2265,
+    "name": "PoseidonMythos"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 64
+}

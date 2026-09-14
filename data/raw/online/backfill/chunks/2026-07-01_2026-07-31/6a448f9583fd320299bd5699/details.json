@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-08T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a448f9583fd320299bd5699",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Pudding Weekly #3 | Munkidori Moggers",
+  "organizer": {
+    "id": 2720,
+    "name": "Pudding Weekly"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 74
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2024-09-03T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66d333d0bf2ffe05f5995964",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Sem Pila Cyber League - free entry!",
+  "organizer": {
+    "id": 1196,
+    "name": "SEM PILA tcg club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 63
+}

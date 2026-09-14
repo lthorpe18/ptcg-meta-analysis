@@ -1,0 +1,24 @@
+{
+  "date": "2024-12-11T04:45:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6744bf7a612052096f626401",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "CHALLENGE OF DOOM! GOES HOME FOR THE HOLIDAYS!",
+  "organizer": {
+    "id": 349,
+    "name": "Doom's Events and Catering"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 112
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-03-22T21:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69bf453936f5b5c303dbb3d4",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏆 Weekly Free Arena #2 | R$30 Each Top 3",
+  "organizer": {
+    "id": 2563,
+    "name": "LojaTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 94,
+  "specialRules": [
+    "NO_VMAX"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-21T17:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6845dca2c4596e8122358f40",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Jester's Quarter Cup! [Q2 2025]",
+  "organizer": {
+    "id": 1709,
+    "name": "JesterTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 121
+}

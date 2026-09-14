@@ -1,4 +1,4 @@
-name: Chunked historical Online backfill
+name: Historical meta backfill
 
 on:
   pull_request:
@@ -79,3 +79,64 @@ jobs:
             fi
             CUR="$NEXT"
           done
+
+      - name: Audit completed Online archive
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/audit_online_archive.py')
+          s = p.read_text()
+          old = 'dated = sorted((parse_dt(r["date"]), r) for r in usable_rows if parse_dt(r["date"]))'
+          new = 'dated = sorted(((parse_dt(r["date"]), r) for r in usable_rows if parse_dt(r["date"])), key=lambda x: x[0])'
+          if old in s:
+              p.write_text(s.replace(old, new))
+          PY
+          python scripts/audit_online_archive.py
+          git add results/online-audit
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: audit historical Online archive"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Collect historical IRL Labs fields
+        run: |
+          set -euo pipefail
+          python scripts/fetch_irl_labs.py \
+            --start-date "2024-09-01" \
+            --end-date "2026-09-13"
+          git add data/raw/irl/labs
+          if ! git diff --cached --quiet; then
+            git commit -m "data: collect historical IRL Labs fields"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Audit historical IRL archive
+        run: |
+          set -euo pipefail
+          python scripts/audit_irl_archive.py
+          git add results/irl-audit
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: audit historical IRL archive"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Tag historical tournaments by legal format
+        run: |
+          set -euo pipefail
+          python scripts/tag_historical_formats.py
+          git add data/processed/format-tags
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: tag historical tournaments by format"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Build interactive meta explorer
+        run: |
+          set -euo pipefail
+          python scripts/build_dashboard.py
+          git add dashboard/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: build interactive meta explorer"
+            git push origin HEAD:${{ github.head_ref }}
+          fi

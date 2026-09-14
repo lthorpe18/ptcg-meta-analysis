@@ -1,0 +1,24 @@
+{
+  "date": "2025-05-20T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "681ad6ed524e86dc8e9f4d33",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "DMV Drakes - Pokemon TCG Live Tournament 5/20!",
+  "organizer": {
+    "id": 559,
+    "name": "DMV Drakes"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 57
+}

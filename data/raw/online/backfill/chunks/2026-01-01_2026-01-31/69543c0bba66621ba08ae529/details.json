@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-02T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69543c0bba66621ba08ae529",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Thursday Throwdown (100 codes with top 8)",
+  "organizer": {
+    "id": 2198,
+    "name": "WND Collectibles"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 3,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 9,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 228
+}

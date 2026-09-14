@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-09T23:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a99789aab080c8c957f8ad7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "REFINE Autumn Series Session 2: Apple Cider",
+  "organizer": {
+    "id": 2568,
+    "name": "REFINE TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 128
+}

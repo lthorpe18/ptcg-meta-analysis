@@ -1,0 +1,24 @@
+{
+  "date": "2025-04-02T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67df78ecfb3a86a4cffcd41d",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "BSS🗿Po’l la Noche Vol.5 Hop Is that you?",
+  "organizer": {
+    "id": 2278,
+    "name": "Ba Sing Se"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 67
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-23T12:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a79ca462b308b6067b5006c",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Tournoi amical LEAGUE canto N62° SPECIAL",
+  "organizer": {
+    "id": 1049,
+    "name": "LEAGUE Canto"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 79
+}

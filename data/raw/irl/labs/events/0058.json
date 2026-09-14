@@ -1,0 +1,549 @@
+{
+  "classified_entries": 2610,
+  "classified_share": 0.9905123339658444,
+  "complete": true,
+  "deck_entries_sum": 2633,
+  "decks": [
+    {
+      "entries": 417,
+      "name": "Dragapult Dusknoir",
+      "share": 15.84,
+      "slug": "dragapult-dusknoir"
+    },
+    {
+      "entries": 274,
+      "name": "N's Zoroark",
+      "share": 10.41,
+      "slug": "n-zoroark"
+    },
+    {
+      "entries": 216,
+      "name": "Gholdengo Lunatone",
+      "share": 8.2,
+      "slug": "gholdengo-lunatone"
+    },
+    {
+      "entries": 174,
+      "name": "Gardevoir",
+      "share": 6.61,
+      "slug": "gardevoir-ex-sv"
+    },
+    {
+      "entries": 149,
+      "name": "Grimmsnarl Froslass",
+      "share": 5.66,
+      "slug": "grimmsnarl-froslass"
+    },
+    {
+      "entries": 108,
+      "name": "Charizard Noctowl",
+      "share": 4.1,
+      "slug": "charizard-noctowl"
+    },
+    {
+      "entries": 108,
+      "name": "Mega Absol Box",
+      "share": 4.1,
+      "slug": "mega-absol-box"
+    },
+    {
+      "entries": 105,
+      "name": "Raging Bolt Ogerpon",
+      "share": 3.99,
+      "slug": "raging-bolt-ogerpon"
+    },
+    {
+      "entries": 85,
+      "name": "Ceruledge",
+      "share": 3.23,
+      "slug": "ceruledge-ex"
+    },
+    {
+      "entries": 80,
+      "name": "Joltik Box",
+      "share": 3.04,
+      "slug": "joltik-box"
+    },
+    {
+      "entries": 60,
+      "name": "Crustle",
+      "share": 2.28,
+      "slug": "crustle-dri"
+    },
+    {
+      "entries": 60,
+      "name": "Froslass Munkidori",
+      "share": 2.28,
+      "slug": "froslass-munkidori"
+    },
+    {
+      "entries": 55,
+      "name": "Charizard Pidgeot",
+      "share": 2.09,
+      "slug": "charizard-pidgeot"
+    },
+    {
+      "entries": 53,
+      "name": "Alakazam Dudunsparce",
+      "share": 2.01,
+      "slug": "alakazam-dudunsparce"
+    },
+    {
+      "entries": 53,
+      "name": "Gardevoir Jellicent",
+      "share": 2.01,
+      "slug": "gardevoir-jellicent"
+    },
+    {
+      "entries": 46,
+      "name": "Tera Box",
+      "share": 1.75,
+      "slug": "tera-box"
+    },
+    {
+      "entries": 43,
+      "name": "Dragapult Charizard",
+      "share": 1.63,
+      "slug": "dragapult-charizard"
+    },
+    {
+      "entries": 37,
+      "name": "Flareon Noctowl",
+      "share": 1.41,
+      "slug": "flareon-noctowl"
+    },
+    {
+      "entries": 37,
+      "name": "Mega Venusaur",
+      "share": 1.41,
+      "slug": "mega-venusaur-ex"
+    },
+    {
+      "entries": 32,
+      "name": "Kangaskhan Bouffalant",
+      "share": 1.22,
+      "slug": "kangaskhan-bouffalant"
+    },
+    {
+      "entries": 31,
+      "name": "Cynthia's Garchomp",
+      "share": 1.18,
+      "slug": "cynthia-garchomp-ex"
+    },
+    {
+      "entries": 28,
+      "name": "Lucario Hariyama",
+      "share": 1.06,
+      "slug": "lucario-hariyama"
+    },
+    {
+      "entries": 24,
+      "name": "Iron Hands Magneton",
+      "share": 0.91,
+      "slug": "iron-hands-magneton"
+    },
+    {
+      "entries": 24,
+      "name": "Ogerpon Meganium",
+      "share": 0.91,
+      "slug": "ogerpon-meganium"
+    },
+    {
+      "entries": 23,
+      "name": "Other",
+      "share": 0.87,
+      "slug": "other"
+    },
+    {
+      "entries": 23,
+      "name": "Slowking",
+      "share": 0.87,
+      "slug": "slowking-scr"
+    },
+    {
+      "entries": 21,
+      "name": "Greninja",
+      "share": 0.8,
+      "slug": "greninja-ex"
+    },
+    {
+      "entries": 20,
+      "name": "Festival Lead",
+      "share": 0.76,
+      "slug": "festival-lead"
+    },
+    {
+      "entries": 18,
+      "name": "Rocket's Honchkrow",
+      "share": 0.68,
+      "slug": "rockets-honchkrow"
+    },
+    {
+      "entries": 16,
+      "name": "Dragonite Eelektrik",
+      "share": 0.61,
+      "slug": "dragonite-eelektrik"
+    },
+    {
+      "entries": 16,
+      "name": "Rocket's Mewtwo",
+      "share": 0.61,
+      "slug": "rocket-mewtwo-ex"
+    },
+    {
+      "entries": 15,
+      "name": "Hydrapple Ogerpon",
+      "share": 0.57,
+      "slug": "hydrapple-ogerpon"
+    },
+    {
+      "entries": 13,
+      "name": "Ethan's Typhlosion",
+      "share": 0.49,
+      "slug": "ethan-typhlosion"
+    },
+    {
+      "entries": 13,
+      "name": "Lopunny Dusknoir",
+      "share": 0.49,
+      "slug": "lopunny-dusknoir"
+    },
+    {
+      "entries": 10,
+      "name": "Gholdengo",
+      "share": 0.38,
+      "slug": "gholdengo-ex"
+    },
+    {
+      "entries": 10,
+      "name": "Sharpedo Toxtricity",
+      "share": 0.38,
+      "slug": "sharpedo-toxtricity"
+    },
+    {
+      "entries": 8,
+      "name": "Conkeldurr",
+      "share": 0.3,
+      "slug": "conkeldurr-twm"
+    },
+    {
+      "entries": 8,
+      "name": "Gholdengo Joltik Box",
+      "share": 0.3,
+      "slug": "gholdengo-joltik-box"
+    },
+    {
+      "entries": 8,
+      "name": "Ursaluna Lunatone",
+      "share": 0.3,
+      "slug": "ursaluna-lunatone"
+    },
+    {
+      "entries": 7,
+      "name": "Ho-Oh Armarouge",
+      "share": 0.27,
+      "slug": "ho-oh-armarouge"
+    },
+    {
+      "entries": 6,
+      "name": "Alakazam",
+      "share": 0.23,
+      "slug": "alakazam-meg"
+    },
+    {
+      "entries": 5,
+      "name": "Rocket's Spidops",
+      "share": 0.19,
+      "slug": "rocket-spidops"
+    },
+    {
+      "entries": 4,
+      "name": "Hydreigon",
+      "share": 0.15,
+      "slug": "hydreigon-ex"
+    },
+    {
+      "entries": 4,
+      "name": "Manectric Eelektrik",
+      "share": 0.15,
+      "slug": "manectric-eelektrik"
+    },
+    {
+      "entries": 4,
+      "name": "Marnie's Grimmsnarl",
+      "share": 0.15,
+      "slug": "marnie-grimmsnarl-ex"
+    },
+    {
+      "entries": 4,
+      "name": "Mega Dragonite",
+      "share": 0.15,
+      "slug": "mega-dragonite-ex"
+    },
+    {
+      "entries": 4,
+      "name": "Mega Manectric",
+      "share": 0.15,
+      "slug": "mega-manectric-ex-meg"
+    },
+    {
+      "entries": 4,
+      "name": "Poison Archaludon",
+      "share": 0.15,
+      "slug": "poison-archaludon"
+    },
+    {
+      "entries": 3,
+      "name": "Clefairy Ogerpon",
+      "share": 0.11,
+      "slug": "clefairy-ogerpon"
+    },
+    {
+      "entries": 3,
+      "name": "Dragapult Blaziken",
+      "share": 0.11,
+      "slug": "dragapult-blaziken"
+    },
+    {
+      "entries": 3,
+      "name": "Mega Abomasnow",
+      "share": 0.11,
+      "slug": "mega-abomasnow-ex"
+    },
+    {
+      "entries": 3,
+      "name": "Mega Lucario",
+      "share": 0.11,
+      "slug": "mega-lucario-ex"
+    },
+    {
+      "entries": 3,
+      "name": "Okidogi",
+      "share": 0.11,
+      "slug": "okidogi-ex"
+    },
+    {
+      "entries": 3,
+      "name": "Palafin",
+      "share": 0.11,
+      "slug": "palafin-ex"
+    },
+    {
+      "entries": 3,
+      "name": "Pidgeot Control",
+      "share": 0.11,
+      "slug": "pidgeot-control"
+    },
+    {
+      "entries": 3,
+      "name": "Steven's Metagross",
+      "share": 0.11,
+      "slug": "stevens-metagross"
+    },
+    {
+      "entries": 3,
+      "name": "Yanmega",
+      "share": 0.11,
+      "slug": "yanmega-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Archaludon",
+      "share": 0.08,
+      "slug": "archaludon-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Charizard",
+      "share": 0.08,
+      "slug": "charizard-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Chien-Pao Baxcalibur",
+      "share": 0.08,
+      "slug": "chien-pao-baxcalibur"
+    },
+    {
+      "entries": 2,
+      "name": "Dragapult",
+      "share": 0.08,
+      "slug": "dragapult-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Ethan's Magcargo",
+      "share": 0.08,
+      "slug": "ethan-magcargo"
+    },
+    {
+      "entries": 2,
+      "name": "Iron Thorns Crustle",
+      "share": 0.08,
+      "slug": "iron-thorns-crustle"
+    },
+    {
+      "entries": 2,
+      "name": "Mega Gengar",
+      "share": 0.08,
+      "slug": "mega-gengar-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Poison Latias",
+      "share": 0.08,
+      "slug": "poison-mega-latias"
+    },
+    {
+      "entries": 2,
+      "name": "Raging Bolt",
+      "share": 0.08,
+      "slug": "raging-bolt-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Roaring Moon",
+      "share": 0.08,
+      "slug": "roaring-moon-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Toxtricity",
+      "share": 0.08,
+      "slug": "toxtricity-pfl"
+    },
+    {
+      "entries": 2,
+      "name": "Tsareena",
+      "share": 0.08,
+      "slug": "tsareena-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Blaziken Zoroark",
+      "share": 0.04,
+      "slug": "blaziken-zoroark"
+    },
+    {
+      "entries": 1,
+      "name": "Charizard Dragapult",
+      "share": 0.04,
+      "slug": "charizard-dragapult"
+    },
+    {
+      "entries": 1,
+      "name": "Dragapult Froslass",
+      "share": 0.04,
+      "slug": "dragapult-froslass"
+    },
+    {
+      "entries": 1,
+      "name": "Farigiraf Milotic",
+      "share": 0.04,
+      "slug": "farigiraf-milotic"
+    },
+    {
+      "entries": 1,
+      "name": "Future Box",
+      "share": 0.04,
+      "slug": "future-box"
+    },
+    {
+      "entries": 1,
+      "name": "Glimmora",
+      "share": 0.04,
+      "slug": "glimmora-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Great Tusk Mill",
+      "share": 0.04,
+      "slug": "great-tusk-tef"
+    },
+    {
+      "entries": 1,
+      "name": "Greninja Blaziken",
+      "share": 0.04,
+      "slug": "greninja-blaziken"
+    },
+    {
+      "entries": 1,
+      "name": "Kangaskhan Forretress",
+      "share": 0.04,
+      "slug": "kangaskhan-forretress"
+    },
+    {
+      "entries": 1,
+      "name": "Mamoswine",
+      "share": 0.04,
+      "slug": "mamoswine-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Mega Camerupt",
+      "share": 0.04,
+      "slug": "mega-camerupt-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Mega Latias",
+      "share": 0.04,
+      "slug": "mega-latias-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Mega Lopunny",
+      "share": 0.04,
+      "slug": "mega-lopunny-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Mega Sharpedo",
+      "share": 0.04,
+      "slug": "mega-sharpedo-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Okidogi",
+      "share": 0.04,
+      "slug": "okidogi-twm"
+    },
+    {
+      "entries": 1,
+      "name": "Raging Bolt Bellibolt",
+      "share": 0.04,
+      "slug": "reging-bolt-bellibolt"
+    },
+    {
+      "entries": 1,
+      "name": "Toedscruel Ogerpon",
+      "share": 0.04,
+      "slug": "toedscruel-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Wugtrio Mill",
+      "share": 0.04,
+      "slug": "wugtrio-svi"
+    },
+    {
+      "entries": 1,
+      "name": "Zoroark Crustle",
+      "share": 0.04,
+      "slug": "zoroark-crustle"
+    }
+  ],
+  "division": "Masters",
+  "end_date": "2026-03-22",
+  "event_type": "Regional Championship",
+  "field_count_ratio": 0.9992409867172676,
+  "id": "0058",
+  "name": "Regional Championship Houston",
+  "other_entries": 23,
+  "players": 2635,
+  "source": "Limitless Labs",
+  "source_url": "https://labs.limitlesstcg.com/0058/decks?day=1",
+  "start_date": "2026-03-20",
+  "variant_grouping": false,
+  "view": "day1"
+}

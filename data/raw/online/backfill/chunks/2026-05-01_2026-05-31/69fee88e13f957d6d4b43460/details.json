@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-09T18:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69fee88e13f957d6d4b43460",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏆Ling TV ARENA🏆- SPECIAL PRICE",
+  "organizer": {
+    "id": 2592,
+    "name": "Ling TV"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 75
+}

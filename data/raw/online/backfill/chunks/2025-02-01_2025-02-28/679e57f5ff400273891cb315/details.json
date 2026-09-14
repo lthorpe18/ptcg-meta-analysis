@@ -1,0 +1,24 @@
+{
+  "date": "2025-02-02T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "679e57f5ff400273891cb315",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Play TCG Casual",
+  "organizer": {
+    "id": 2142,
+    "name": "Play TCG "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 57
+}

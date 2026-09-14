@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-22T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a5d7fee52c24ac2da646f01",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Sidedeck Online Gratis Martes 21 Julio",
+  "organizer": {
+    "id": 2306,
+    "name": "Juanma_TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 59
+}

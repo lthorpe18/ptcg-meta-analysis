@@ -1,0 +1,36 @@
+{
+  "date": "2025-10-22T19:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68e57855f661e4a158de9ced",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Bustard Tournament PREMIO BUSTINE DI LEGA",
+  "organizer": {
+    "id": 1783,
+    "name": "JPretix"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 51
+}

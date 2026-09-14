@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-02T16:45:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "697b82fd9c739a2ff7bfa5f2",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "EUIC Prep #1- EUIC Format",
+  "organizer": {
+    "id": 2203,
+    "name": "Team Gamers Guild"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 95
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2025-05-21T03:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "681a7850d7ac342ba905032b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "CHALLENGE OF DOOM! Zekrom or Reshiram?",
+  "organizer": {
+    "id": 349,
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/rthil5ms9vwrlwnt",
+    "name": "Doom's Events and Catering"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 64
+}

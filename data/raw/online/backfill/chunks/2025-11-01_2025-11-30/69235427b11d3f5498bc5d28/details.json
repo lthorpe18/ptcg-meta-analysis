@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-28T18:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69235427b11d3f5498bc5d28",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🇵🇱 Polish Playground Weekly #7 🇵🇱",
+  "organizer": {
+    "id": 2450,
+    "name": "syi0"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 59
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2024-09-25T03:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66c77eda82e459668d367915",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "CHALLENGE OF DOOM! Is it really Tuesday?",
+  "organizer": {
+    "id": 349,
+    "logo": "https://limitlesstcg.s3.us-east-2.amazonaws.com/lotp/uploads/profile-pictures/rsnbeinry5d5mz4a",
+    "name": "Doom's Events and Catering"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 64
+}

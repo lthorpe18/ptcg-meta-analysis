@@ -1,0 +1,30 @@
+{
+  "date": "2024-11-24T01:00:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67424344612052096f621201",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Amistoso Izanami II",
+  "organizer": {
+    "id": 1953,
+    "name": "IzanamiCollectibles"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 6,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 104
+}

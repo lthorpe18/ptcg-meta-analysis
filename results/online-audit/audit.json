@@ -1,0 +1,950 @@
+{
+  "anomalies": {
+    "duplicate_event_ids": 0,
+    "reported_vs_standings_player_mismatch": 1,
+    "usable_non_ptcgl_details": 0,
+    "usable_not_online_details": 0,
+    "usable_without_decklists_flag": 0
+  },
+  "chunks": {
+    "all_complete": true,
+    "count": 25
+  },
+  "classification_coverage_by_event": {
+    "events_100pct": 58,
+    "events_ge_90pct": 1418,
+    "events_ge_95pct": 1127,
+    "events_ge_98pct": 353,
+    "events_lt_90pct": 26,
+    "max": 1.0,
+    "median": 0.9680851063829787,
+    "min": 0.8,
+    "p10": 0.9345331432644334,
+    "p25": 0.9528948587308939,
+    "p75": 0.979381443298969,
+    "p90": 0.9868071727992548
+  },
+  "countries_in_standings_top20": [
+    [
+      "US",
+      67243
+    ],
+    [
+      "BR",
+      14235
+    ],
+    [
+      "GB",
+      11020
+    ],
+    [
+      "CA",
+      7929
+    ],
+    [
+      "IT",
+      7701
+    ],
+    [
+      "CL",
+      6892
+    ],
+    [
+      "DE",
+      6436
+    ],
+    [
+      "MX",
+      5758
+    ],
+    [
+      "ES",
+      4279
+    ],
+    [
+      "JP",
+      3354
+    ],
+    [
+      "FR",
+      2737
+    ],
+    [
+      "AU",
+      2732
+    ],
+    [
+      "PL",
+      2446
+    ],
+    [
+      "PH",
+      2155
+    ],
+    [
+      "NL",
+      1693
+    ],
+    [
+      "AR",
+      1655
+    ],
+    [
+      "MY",
+      1559
+    ],
+    [
+      "ID",
+      1473
+    ],
+    [
+      "CN",
+      1404
+    ],
+    [
+      "PE",
+      1391
+    ]
+  ],
+  "duplicate_event_ids": {},
+  "event_size": {
+    "max": 657,
+    "median": 109.0,
+    "min": 50,
+    "p25": 75.0,
+    "p75": 158.0,
+    "p90": 224.70000000000005
+  },
+  "generated_at": "2026-09-14T13:49:49.892816+00:00",
+  "largest_reported_vs_standings_mismatches": [
+    {
+      "chunk": "2025-10-01_2025-10-31",
+      "classification_coverage": 0.9852216748768473,
+      "classified_players": 200,
+      "date": "2025-10-27T16:10:00.000Z",
+      "difference": 1,
+      "event_id": "68f6ce3edd7011c665c3cb94",
+      "has_details": true,
+      "has_standings": true,
+      "name": "\ud83c\udfc6Moujii's Dojo\ud83c\udfc6 (Late Registration Available!)",
+      "organizer": "Moujii's Dojo",
+      "platform": "PTCGL",
+      "reported_players": 202,
+      "standings_players": 203
+    }
+  ],
+  "lowest_classification_coverage_events": [
+    {
+      "chunk": "2025-02-01_2025-02-28",
+      "classification_coverage": 0.8,
+      "classified_players": 60,
+      "date": "2025-02-05T19:00:00.000Z",
+      "event_id": "678602051c64910a07ac2dbf",
+      "has_details": true,
+      "has_standings": true,
+      "name": "\u2728 Il Covo dei Sub Series 2025 #6 POST ROTATION \u2728",
+      "organizer": "Il Covo di Weavile",
+      "platform": "PTCGL",
+      "reported_players": 75,
+      "standings_players": 75
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.8235294117647058,
+      "classified_players": 56,
+      "date": "2025-03-25T02:00:00.000Z",
+      "event_id": "67e1731740ab762997eac0bb",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Card Temple Weekly Battles #6",
+      "organizer": "Card Temple",
+      "platform": "PTCGL",
+      "reported_players": 68,
+      "standings_players": 68
+    },
+    {
+      "chunk": "2025-02-01_2025-02-28",
+      "classification_coverage": 0.8351648351648352,
+      "classified_players": 76,
+      "date": "2025-02-25T01:40:00.000Z",
+      "event_id": "67bbfd7c78c0b3231881ec53",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Card Temple Weekly Battles #2",
+      "organizer": "Card Temple",
+      "platform": "PTCGL",
+      "reported_players": 91,
+      "standings_players": 91
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.8387096774193549,
+      "classified_players": 52,
+      "date": "2025-03-04T17:30:00.000Z",
+      "event_id": "67c48eaa36181ea4d6e9acdf",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Team Gamers Guild League #6",
+      "organizer": "Team Gamers Guild",
+      "platform": "PTCGL",
+      "reported_players": 62,
+      "standings_players": 62
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.84,
+      "classified_players": 63,
+      "date": "2025-03-08T02:00:00.000Z",
+      "event_id": "67c9b23936181ea4d6e9f8bd",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Torneo Online PTCGL Gratuito #1",
+      "organizer": "Alain Cards Online",
+      "platform": "PTCGL",
+      "reported_players": 75,
+      "standings_players": 75
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.845360824742268,
+      "classified_players": 82,
+      "date": "2025-03-07T15:30:00.000Z",
+      "event_id": "67c5c06d8f99a44fce3420c3",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Pok\u00e9mon Battle Park",
+      "organizer": "Pok\u00e9mon Battle Park ",
+      "platform": "PTCGL",
+      "reported_players": 97,
+      "standings_players": 97
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.8571428571428571,
+      "classified_players": 48,
+      "date": "2025-03-09T08:00:00.000Z",
+      "event_id": "67c4541f36181ea4d6e9a55f",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Oceanic Tournament Series 2025 #6",
+      "organizer": "Collecting Leftovers",
+      "platform": "PTCGL",
+      "reported_players": 56,
+      "standings_players": 56
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.8571428571428571,
+      "classified_players": 60,
+      "date": "2025-03-26T23:30:00.000Z",
+      "event_id": "67e2fc5e40ab762997ead5fe",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Pokemon TCG #1",
+      "organizer": "Turtle Squad ",
+      "platform": "PTCGL",
+      "reported_players": 70,
+      "standings_players": 70
+    },
+    {
+      "chunk": "2026-05-01_2026-05-31",
+      "classification_coverage": 0.87,
+      "classified_players": 87,
+      "date": "2026-05-24T11:30:00.000Z",
+      "event_id": "6a0ae8dedfbdf089cbbdc90e",
+      "has_details": true,
+      "has_standings": true,
+      "name": "SEASAC League Challenge #6 [50 CODES]",
+      "organizer": "SEASAC League",
+      "platform": "PTCGL",
+      "reported_players": 100,
+      "standings_players": 100
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.8709677419354839,
+      "classified_players": 54,
+      "date": "2025-03-24T23:15:00.000Z",
+      "event_id": "67d9af4fa99850c6e38cbebb",
+      "has_details": true,
+      "has_standings": true,
+      "name": "PokeArena #3 (200 Codes)",
+      "organizer": "PokeArena",
+      "platform": "PTCGL",
+      "reported_players": 62,
+      "standings_players": 62
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.872,
+      "classified_players": 109,
+      "date": "2025-03-02T22:35:00.000Z",
+      "event_id": "67bb999378c0b3231881e7c4",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Mudkip Champions Series 2-1 The Return",
+      "organizer": "Mudkip's Den",
+      "platform": "PTCGL",
+      "reported_players": 125,
+      "standings_players": 125
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.873015873015873,
+      "classified_players": 110,
+      "date": "2025-03-02T00:05:00.000Z",
+      "event_id": "67bfd0620b3322ebaa515d88",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Redacted Evolutions #6 (100 Codes) CLOSED LISTS",
+      "organizer": "Redacted Gaming",
+      "platform": "PTCGL",
+      "reported_players": 126,
+      "standings_players": 126
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.8736842105263158,
+      "classified_players": 83,
+      "date": "2025-03-05T22:45:00.000Z",
+      "event_id": "67c6656036181ea4d6e9cd3c",
+      "has_details": true,
+      "has_standings": true,
+      "name": "\ud83d\udd34 Arrow Cup #1 \ud83d\udd34",
+      "organizer": "Bak & Bak PokeLab",
+      "platform": "PTCGL",
+      "reported_players": 95,
+      "standings_players": 95
+    },
+    {
+      "chunk": "2025-02-01_2025-02-28",
+      "classification_coverage": 0.8805970149253731,
+      "classified_players": 59,
+      "date": "2025-02-25T18:30:00.000Z",
+      "event_id": "678403427960ec710eff40df",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Gray's Pok\u00e9League - Champion's Road #14",
+      "organizer": "Gray's Pok\u00e9League",
+      "platform": "PTCGL",
+      "reported_players": 67,
+      "standings_players": 67
+    },
+    {
+      "chunk": "2026-05-01_2026-05-31",
+      "classification_coverage": 0.8833333333333333,
+      "classified_players": 53,
+      "date": "2026-05-29T16:00:00.000Z",
+      "event_id": "6a11f9e58c163b8097995c8d",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Corna Testing Grounds",
+      "organizer": "Team Corna",
+      "platform": "PTCGL",
+      "reported_players": 60,
+      "standings_players": 60
+    },
+    {
+      "chunk": "2025-02-01_2025-02-28",
+      "classification_coverage": 0.8852459016393442,
+      "classified_players": 54,
+      "date": "2025-02-28T18:00:00.000Z",
+      "event_id": "67b10cfbdb9039721dba9846",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Jester's Weekly Casual #5",
+      "organizer": "JesterTCG",
+      "platform": "PTCGL",
+      "reported_players": 61,
+      "standings_players": 61
+    },
+    {
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.8863636363636364,
+      "classified_players": 78,
+      "date": "2025-03-07T00:00:00.000Z",
+      "event_id": "679e9a6aec94bf470ec8f70a",
+      "has_details": true,
+      "has_standings": true,
+      "name": "\ud83d\udc0dTLS TCG SERIES QUALIFIER 5/10 S2 - CASH + CODES",
+      "organizer": "Team Lethal Strike",
+      "platform": "PTCGL",
+      "reported_players": 88,
+      "standings_players": 88
+    },
+    {
+      "chunk": "2026-09-01_2026-09-13",
+      "classification_coverage": 0.8870967741935484,
+      "classified_players": 55,
+      "date": "2026-09-05T22:00:00.000Z",
+      "event_id": "6a94b40e629039f77d8a6097",
+      "has_details": true,
+      "has_standings": true,
+      "name": "OTS Pokemon TCG Live Arena #1",
+      "organizer": "The Underground",
+      "platform": "PTCGL",
+      "reported_players": 62,
+      "standings_players": 62
+    },
+    {
+      "chunk": "2026-06-01_2026-06-30",
+      "classification_coverage": 0.8873239436619719,
+      "classified_players": 63,
+      "date": "2026-06-12T18:00:00.000Z",
+      "event_id": "6a0b675713f957d6d4b4aecf",
+      "has_details": true,
+      "has_standings": true,
+      "name": "\u26a1 Surge's TCG Vault Winner Takes All TCG Live #11",
+      "organizer": "Surge's TCG Vault",
+      "platform": "PTCGL",
+      "reported_players": 71,
+      "standings_players": 71
+    },
+    {
+      "chunk": "2024-09-01_2024-09-30",
+      "classification_coverage": 0.890625,
+      "classified_players": 57,
+      "date": "2024-09-06T22:30:00.000Z",
+      "event_id": "66820fdf30c276060508799e",
+      "has_details": true,
+      "has_standings": true,
+      "name": "Pelad\u00e3o da Baixada #122 \u2022 Dawn of Area Zero",
+      "organizer": "Battle Factory & Pok\u00e9pauper BR",
+      "platform": "PTCGL",
+      "reported_players": 64,
+      "standings_players": 64
+    }
+  ],
+  "monthly": [
+    {
+      "candidate_event_dirs": 96,
+      "chunk": "2024-09-01_2024-09-30",
+      "classification_coverage": 0.9556621601977031,
+      "classified_entries": 6574,
+      "complete": true,
+      "discovered_standard_rows": 213,
+      "end_date": "2024-09-30",
+      "entries": 6879,
+      "manifest_eligible_first_pass": 56,
+      "start_date": "2024-09-01",
+      "usable_events": 56
+    },
+    {
+      "candidate_event_dirs": 95,
+      "chunk": "2024-10-01_2024-10-31",
+      "classification_coverage": 0.9741907261592301,
+      "classified_entries": 6681,
+      "complete": true,
+      "discovered_standard_rows": 246,
+      "end_date": "2024-10-31",
+      "entries": 6858,
+      "manifest_eligible_first_pass": 57,
+      "start_date": "2024-10-01",
+      "usable_events": 57
+    },
+    {
+      "candidate_event_dirs": 89,
+      "chunk": "2024-11-01_2024-11-30",
+      "classification_coverage": 0.9649008774780631,
+      "classified_entries": 5938,
+      "complete": true,
+      "discovered_standard_rows": 235,
+      "end_date": "2024-11-30",
+      "entries": 6154,
+      "manifest_eligible_first_pass": 50,
+      "start_date": "2024-11-01",
+      "usable_events": 50
+    },
+    {
+      "candidate_event_dirs": 95,
+      "chunk": "2024-12-01_2024-12-31",
+      "classification_coverage": 0.9682380474757606,
+      "classified_entries": 5792,
+      "complete": true,
+      "discovered_standard_rows": 241,
+      "end_date": "2024-12-31",
+      "entries": 5982,
+      "manifest_eligible_first_pass": 49,
+      "start_date": "2024-12-01",
+      "usable_events": 49
+    },
+    {
+      "candidate_event_dirs": 113,
+      "chunk": "2025-01-01_2025-01-31",
+      "classification_coverage": 0.9617134787384277,
+      "classified_entries": 6129,
+      "complete": true,
+      "discovered_standard_rows": 242,
+      "end_date": "2025-01-31",
+      "entries": 6373,
+      "manifest_eligible_first_pass": 48,
+      "start_date": "2025-01-01",
+      "usable_events": 48
+    },
+    {
+      "candidate_event_dirs": 100,
+      "chunk": "2025-02-01_2025-02-28",
+      "classification_coverage": 0.9448265978790484,
+      "classified_entries": 6593,
+      "complete": true,
+      "discovered_standard_rows": 219,
+      "end_date": "2025-02-28",
+      "entries": 6978,
+      "manifest_eligible_first_pass": 63,
+      "start_date": "2025-02-01",
+      "usable_events": 63
+    },
+    {
+      "candidate_event_dirs": 96,
+      "chunk": "2025-03-01_2025-03-31",
+      "classification_coverage": 0.9339045287637698,
+      "classified_entries": 5341,
+      "complete": true,
+      "discovered_standard_rows": 229,
+      "end_date": "2025-03-31",
+      "entries": 5719,
+      "manifest_eligible_first_pass": 57,
+      "start_date": "2025-03-01",
+      "usable_events": 57
+    },
+    {
+      "candidate_event_dirs": 95,
+      "chunk": "2025-04-01_2025-04-30",
+      "classification_coverage": 0.9667273630193677,
+      "classified_entries": 5840,
+      "complete": true,
+      "discovered_standard_rows": 237,
+      "end_date": "2025-04-30",
+      "entries": 6041,
+      "manifest_eligible_first_pass": 51,
+      "start_date": "2025-04-01",
+      "usable_events": 51
+    },
+    {
+      "candidate_event_dirs": 90,
+      "chunk": "2025-05-01_2025-05-31",
+      "classification_coverage": 0.9678026343299184,
+      "classified_entries": 4629,
+      "complete": true,
+      "discovered_standard_rows": 228,
+      "end_date": "2025-05-31",
+      "entries": 4783,
+      "manifest_eligible_first_pass": 45,
+      "start_date": "2025-05-01",
+      "usable_events": 45
+    },
+    {
+      "candidate_event_dirs": 104,
+      "chunk": "2025-06-01_2025-06-30",
+      "classification_coverage": 0.9697745901639344,
+      "classified_entries": 7572,
+      "complete": true,
+      "discovered_standard_rows": 234,
+      "end_date": "2025-06-30",
+      "entries": 7808,
+      "manifest_eligible_first_pass": 66,
+      "start_date": "2025-06-01",
+      "usable_events": 66
+    },
+    {
+      "candidate_event_dirs": 118,
+      "chunk": "2025-07-01_2025-07-31",
+      "classification_coverage": 0.9716291313249488,
+      "classified_entries": 9966,
+      "complete": true,
+      "discovered_standard_rows": 242,
+      "end_date": "2025-07-31",
+      "entries": 10257,
+      "manifest_eligible_first_pass": 71,
+      "start_date": "2025-07-01",
+      "usable_events": 71
+    },
+    {
+      "candidate_event_dirs": 104,
+      "chunk": "2025-08-01_2025-08-31",
+      "classification_coverage": 0.9722069041579354,
+      "classified_entries": 8815,
+      "complete": true,
+      "discovered_standard_rows": 222,
+      "end_date": "2025-08-31",
+      "entries": 9067,
+      "manifest_eligible_first_pass": 59,
+      "start_date": "2025-08-01",
+      "usable_events": 59
+    },
+    {
+      "candidate_event_dirs": 101,
+      "chunk": "2025-09-01_2025-09-30",
+      "classification_coverage": 0.9739155089311029,
+      "classified_entries": 6870,
+      "complete": true,
+      "discovered_standard_rows": 221,
+      "end_date": "2025-09-30",
+      "entries": 7054,
+      "manifest_eligible_first_pass": 52,
+      "start_date": "2025-09-01",
+      "usable_events": 52
+    },
+    {
+      "candidate_event_dirs": 114,
+      "chunk": "2025-10-01_2025-10-31",
+      "classification_coverage": 0.9796240009005966,
+      "classified_entries": 8702,
+      "complete": true,
+      "discovered_standard_rows": 264,
+      "end_date": "2025-10-31",
+      "entries": 8883,
+      "manifest_eligible_first_pass": 59,
+      "start_date": "2025-10-01",
+      "usable_events": 59
+    },
+    {
+      "candidate_event_dirs": 84,
+      "chunk": "2025-11-01_2025-11-30",
+      "classification_coverage": 0.9693910256410256,
+      "classified_entries": 6049,
+      "complete": true,
+      "discovered_standard_rows": 214,
+      "end_date": "2025-11-30",
+      "entries": 6240,
+      "manifest_eligible_first_pass": 45,
+      "start_date": "2025-11-01",
+      "usable_events": 45
+    },
+    {
+      "candidate_event_dirs": 96,
+      "chunk": "2025-12-01_2025-12-31",
+      "classification_coverage": 0.9720315939401787,
+      "classified_entries": 7507,
+      "complete": true,
+      "discovered_standard_rows": 202,
+      "end_date": "2025-12-31",
+      "entries": 7723,
+      "manifest_eligible_first_pass": 49,
+      "start_date": "2025-12-01",
+      "usable_events": 49
+    },
+    {
+      "candidate_event_dirs": 90,
+      "chunk": "2026-01-01_2026-01-31",
+      "classification_coverage": 0.9709249774028321,
+      "classified_entries": 6445,
+      "complete": true,
+      "discovered_standard_rows": 211,
+      "end_date": "2026-01-31",
+      "entries": 6638,
+      "manifest_eligible_first_pass": 41,
+      "start_date": "2026-01-01",
+      "usable_events": 41
+    },
+    {
+      "candidate_event_dirs": 84,
+      "chunk": "2026-02-01_2026-02-28",
+      "classification_coverage": 0.9688330514617057,
+      "classified_entries": 4010,
+      "complete": true,
+      "discovered_standard_rows": 227,
+      "end_date": "2026-02-28",
+      "entries": 4139,
+      "manifest_eligible_first_pass": 33,
+      "start_date": "2026-02-01",
+      "usable_events": 33
+    },
+    {
+      "candidate_event_dirs": 92,
+      "chunk": "2026-03-01_2026-03-31",
+      "classification_coverage": 0.9633930328675457,
+      "classified_entries": 4895,
+      "complete": true,
+      "discovered_standard_rows": 250,
+      "end_date": "2026-03-31",
+      "entries": 5081,
+      "manifest_eligible_first_pass": 42,
+      "start_date": "2026-03-01",
+      "usable_events": 42
+    },
+    {
+      "candidate_event_dirs": 115,
+      "chunk": "2026-04-01_2026-04-30",
+      "classification_coverage": 0.968490525867575,
+      "classified_entries": 9098,
+      "complete": true,
+      "discovered_standard_rows": 303,
+      "end_date": "2026-04-30",
+      "entries": 9394,
+      "manifest_eligible_first_pass": 68,
+      "start_date": "2026-04-01",
+      "usable_events": 68
+    },
+    {
+      "candidate_event_dirs": 132,
+      "chunk": "2026-05-01_2026-05-31",
+      "classification_coverage": 0.9647208583378796,
+      "classified_entries": 10610,
+      "complete": true,
+      "discovered_standard_rows": 363,
+      "end_date": "2026-05-31",
+      "entries": 10998,
+      "manifest_eligible_first_pass": 93,
+      "start_date": "2026-05-01",
+      "usable_events": 93
+    },
+    {
+      "candidate_event_dirs": 129,
+      "chunk": "2026-06-01_2026-06-30",
+      "classification_coverage": 0.9529044962257959,
+      "classified_entries": 5807,
+      "complete": true,
+      "discovered_standard_rows": 335,
+      "end_date": "2026-06-30",
+      "entries": 6094,
+      "manifest_eligible_first_pass": 61,
+      "start_date": "2026-06-01",
+      "usable_events": 61
+    },
+    {
+      "candidate_event_dirs": 152,
+      "chunk": "2026-07-01_2026-07-31",
+      "classification_coverage": 0.9570108844781853,
+      "classified_entries": 10463,
+      "complete": true,
+      "discovered_standard_rows": 396,
+      "end_date": "2026-07-31",
+      "entries": 10933,
+      "manifest_eligible_first_pass": 90,
+      "start_date": "2026-07-01",
+      "usable_events": 90
+    },
+    {
+      "candidate_event_dirs": 162,
+      "chunk": "2026-08-01_2026-08-31",
+      "classification_coverage": 0.9682163868560769,
+      "classified_entries": 13495,
+      "complete": true,
+      "discovered_standard_rows": 396,
+      "end_date": "2026-08-31",
+      "entries": 13938,
+      "manifest_eligible_first_pass": 97,
+      "start_date": "2026-08-01",
+      "usable_events": 97
+    },
+    {
+      "candidate_event_dirs": 59,
+      "chunk": "2026-09-01_2026-09-13",
+      "classification_coverage": 0.9743961352657005,
+      "classified_entries": 6051,
+      "complete": true,
+      "discovered_standard_rows": 157,
+      "end_date": "2026-09-13",
+      "entries": 6210,
+      "manifest_eligible_first_pass": 42,
+      "start_date": "2026-09-01",
+      "usable_events": 42
+    }
+  ],
+  "period": {
+    "end": "2026-09-13",
+    "start": "2024-09-01"
+  },
+  "platforms_in_stored_details": [
+    [
+      "PTCGL",
+      1546
+    ],
+    [
+      "None",
+      7
+    ]
+  ],
+  "players": {
+    "classified_entries": 179872,
+    "overall_classification_coverage": 0.9658905404244351,
+    "stored_standings_entries": 186224,
+    "unclassified_entries": 6352
+  },
+  "timeline": {
+    "max_gap_days_between_usable_events": 15.746527777777779,
+    "max_gap_pair": {
+      "after": {
+        "date": "2026-02-18T20:00:00.000Z",
+        "name": "ASRcristiano # 134 - Road to Seville !"
+      },
+      "before": {
+        "date": "2026-02-03T02:05:00.000Z",
+        "name": "\ud83c\udfdb\ud83d\udcab Card Temple Weekly Battles #43"
+      }
+    }
+  },
+  "top_deck_ids_all_periods_sanity_only": [
+    [
+      "dragapult-dusknoir",
+      12887
+    ],
+    [
+      "raging-bolt-ogerpon",
+      8707
+    ],
+    [
+      "gardevoir-ex-sv",
+      8142
+    ],
+    [
+      "dragapult-ex",
+      8009
+    ],
+    [
+      "charizard-pidgeot",
+      6806
+    ],
+    [
+      "grimmsnarl-froslass",
+      6079
+    ],
+    [
+      "n-zoroark",
+      6014
+    ],
+    [
+      "alakazam-dudunsparce",
+      4530
+    ],
+    [
+      "gholdengo-ex",
+      3953
+    ],
+    [
+      "ceruledge-ex",
+      3513
+    ],
+    [
+      "slowking-scr",
+      3428
+    ],
+    [
+      "festival-lead",
+      3171
+    ],
+    [
+      "dragapult-blaziken",
+      2948
+    ],
+    [
+      "dragapult-charizard",
+      2759
+    ],
+    [
+      "gholdengo-lunatone",
+      2707
+    ],
+    [
+      "regidrago-vstar",
+      2567
+    ],
+    [
+      "mega-absol-box",
+      2561
+    ],
+    [
+      "lucario-hariyama",
+      2361
+    ],
+    [
+      "joltik-box",
+      2263
+    ],
+    [
+      "tera-box",
+      2243
+    ]
+  ],
+  "top_organizers_by_usable_events": [
+    [
+      "ASRcristiano League",
+      107
+    ],
+    [
+      "Redacted Gaming",
+      89
+    ],
+    [
+      "Moujii's Dojo",
+      85
+    ],
+    [
+      "SEASAC League",
+      78
+    ],
+    [
+      "Doom's Events and Catering",
+      75
+    ],
+    [
+      "Sunny's Weekly",
+      62
+    ],
+    [
+      "The Dice Town League",
+      58
+    ],
+    [
+      "Card Temple",
+      46
+    ],
+    [
+      "Pok\u00e9mon Battle Park ",
+      43
+    ],
+    [
+      "Surge's TCG Vault",
+      42
+    ],
+    [
+      "Blue Ditto",
+      34
+    ],
+    [
+      "Gray's Pok\u00e9League",
+      32
+    ],
+    [
+      "JesterTCG",
+      31
+    ],
+    [
+      "LastPrizeTCG",
+      30
+    ],
+    [
+      "Late Night Events",
+      26
+    ],
+    [
+      "DabbingUkranian",
+      25
+    ],
+    [
+      "Team Rocket",
+      24
+    ],
+    [
+      "Rare Candy Club",
+      24
+    ],
+    [
+      "Insight Astronomy ",
+      23
+    ],
+    [
+      "Turtle Squad ",
+      21
+    ]
+  ],
+  "tournaments": {
+    "candidate_50plus_event_dirs": 2605,
+    "manifest_eligible_first_pass_total": 1444,
+    "manifest_ineligible_or_failed_total": 4883,
+    "standard_rows_discovered": 6327,
+    "usable_online_ptcgl_events": 1444,
+    "usable_share_of_candidates": 0.5543186180422265
+  }
+}

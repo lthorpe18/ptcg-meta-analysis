@@ -1,0 +1,24 @@
+{
+  "date": "2025-04-07T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67f2d12a10ff208821ec2a2b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Pumpka Weekly - Partner Anniversary Special!",
+  "organizer": {
+    "id": 36,
+    "name": "The Dice Town League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 221
+}

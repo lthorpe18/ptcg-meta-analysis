@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-10T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "677e6cdb7960ec710efe5f81",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Absolem TCG - Cup #16",
+  "organizer": {
+    "id": 66,
+    "name": "Absolem TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 56
+}

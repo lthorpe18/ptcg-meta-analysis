@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-05T15:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69d00dfe800d329be2e71035",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "POST ROTATION Circuito TCG #2 | Z2 Gaming",
+  "organizer": {
+    "id": 2585,
+    "name": "Z2 Gaming"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 126
+}

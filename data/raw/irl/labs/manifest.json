@@ -1,0 +1,31 @@
+{
+  "collector_version": "0.1",
+  "complete": true,
+  "events_by_type": {
+    "International Championship": 6,
+    "Regional Championship": 50,
+    "Special Event": 13,
+    "World Championship": 2
+  },
+  "events_collected_in_range": 71,
+  "failures": [],
+  "generated_at": "2026-09-14T13:49:51Z",
+  "home_event_ids_discovered": 71,
+  "max_field_count_ratio": 1.0,
+  "mean_classified_share": 0.9827867830926417,
+  "mean_field_count_ratio": 0.9916976679577726,
+  "min_field_count_ratio": 0.881578947368421,
+  "notes": [
+    "Masters division only.",
+    "Exact variant grouping retained (variant grouping OFF).",
+    "Day-1 metagame view requested from Limitless Labs.",
+    "The source may not contain every historical major; missing source events must be audited separately."
+  ],
+  "requested_end_date": "2026-09-13",
+  "requested_start_date": "2024-09-01",
+  "skipped_outside_range": [],
+  "source": "https://labs.limitlesstcg.com",
+  "total_deck_entries": 112228,
+  "total_other_entries": 1020,
+  "total_reported_players": 112609
+}

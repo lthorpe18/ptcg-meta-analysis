@@ -1,0 +1,17 @@
+{
+  "collector_version": "0.3",
+  "complete": true,
+  "details_fetched_this_run": 51,
+  "discovered_index_rows": 241,
+  "eligible_first_pass": 49,
+  "end_date": "2024-12-31",
+  "generated_at": "2026-09-13T22:49:24.810802+00:00",
+  "ineligible_or_failed": 192,
+  "kind": "chunk",
+  "min_players": 50,
+  "source": "https://play.limitlesstcg.com/api",
+  "standings_compacted_this_run": 0,
+  "standings_fetched_this_run": 49,
+  "standings_storage": "compact_without_decklists_or_player_handles",
+  "start_date": "2024-12-01"
+}

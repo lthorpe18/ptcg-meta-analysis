@@ -1,0 +1,417 @@
+{
+  "classified_entries": 1801,
+  "classified_share": 0.9950276243093923,
+  "complete": true,
+  "deck_entries_sum": 1805,
+  "decks": [
+    {
+      "entries": 281,
+      "name": "Raging Bolt Ogerpon",
+      "share": 15.57,
+      "slug": "raging-bolt-ogerpon"
+    },
+    {
+      "entries": 184,
+      "name": "Lugia Archeops",
+      "share": 10.19,
+      "slug": "lugia-archeops"
+    },
+    {
+      "entries": 162,
+      "name": "Regidrago",
+      "share": 8.98,
+      "slug": "regidrago-vstar"
+    },
+    {
+      "entries": 162,
+      "name": "Terapagos Noctowl",
+      "share": 8.98,
+      "slug": "terapagos-noctowl"
+    },
+    {
+      "entries": 153,
+      "name": "Charizard Pidgeot",
+      "share": 8.48,
+      "slug": "charizard-pidgeot"
+    },
+    {
+      "entries": 117,
+      "name": "Palkia Dusknoir",
+      "share": 6.48,
+      "slug": "palkia-dusknoir"
+    },
+    {
+      "entries": 79,
+      "name": "Gardevoir",
+      "share": 4.38,
+      "slug": "gardevoir-ex-sv"
+    },
+    {
+      "entries": 69,
+      "name": "Dragapult Dusknoir",
+      "share": 3.82,
+      "slug": "dragapult-dusknoir"
+    },
+    {
+      "entries": 69,
+      "name": "Snorlax Stall",
+      "share": 3.82,
+      "slug": "snorlax-stall"
+    },
+    {
+      "entries": 64,
+      "name": "Iron Thorns",
+      "share": 3.55,
+      "slug": "iron-thorns-ex"
+    },
+    {
+      "entries": 51,
+      "name": "Lost Zone Box",
+      "share": 2.83,
+      "slug": "lost-zone-box"
+    },
+    {
+      "entries": 44,
+      "name": "Ancient Box",
+      "share": 2.44,
+      "slug": "ancient-box"
+    },
+    {
+      "entries": 39,
+      "name": "Miraidon",
+      "share": 2.16,
+      "slug": "miraidon-ex"
+    },
+    {
+      "entries": 38,
+      "name": "Palkia Noctowl",
+      "share": 2.11,
+      "slug": "palkia-noctowl"
+    },
+    {
+      "entries": 35,
+      "name": "Roaring Moon",
+      "share": 1.94,
+      "slug": "roaring-moon-ex"
+    },
+    {
+      "entries": 30,
+      "name": "Dragapult Pidgeot",
+      "share": 1.66,
+      "slug": "dragapult-pidgeot"
+    },
+    {
+      "entries": 26,
+      "name": "Klawf",
+      "share": 1.44,
+      "slug": "klawf-par"
+    },
+    {
+      "entries": 23,
+      "name": "Banette Gardevoir",
+      "share": 1.27,
+      "slug": "banette-gardevoir"
+    },
+    {
+      "entries": 20,
+      "name": "Gholdengo",
+      "share": 1.11,
+      "slug": "gholdengo-ex"
+    },
+    {
+      "entries": 18,
+      "name": "Mimikyu Ogerpon",
+      "share": 1.0,
+      "slug": "mimikyu-ogerpon"
+    },
+    {
+      "entries": 17,
+      "name": "Chien-Pao Baxcalibur",
+      "share": 0.94,
+      "slug": "chien-pao-baxcalibur"
+    },
+    {
+      "entries": 17,
+      "name": "Gouging Fire",
+      "share": 0.94,
+      "slug": "gouging-fire-ex"
+    },
+    {
+      "entries": 12,
+      "name": "Pidgeot Control",
+      "share": 0.66,
+      "slug": "pidgeot-control"
+    },
+    {
+      "entries": 9,
+      "name": "Charizard Noctowl",
+      "share": 0.5,
+      "slug": "charizard-noctowl"
+    },
+    {
+      "entries": 5,
+      "name": "Dragapult",
+      "share": 0.28,
+      "slug": "dragapult-ex"
+    },
+    {
+      "entries": 5,
+      "name": "Dragapult Iron Thorns",
+      "share": 0.28,
+      "slug": "dragapult-iron-thorns"
+    },
+    {
+      "entries": 5,
+      "name": "Giratina LZ Box",
+      "share": 0.28,
+      "slug": "giratina-lz-box"
+    },
+    {
+      "entries": 5,
+      "name": "United Wings",
+      "share": 0.28,
+      "slug": "united-wings"
+    },
+    {
+      "entries": 4,
+      "name": "Dragapult LZ Box",
+      "share": 0.22,
+      "slug": "dragapult-lz-box"
+    },
+    {
+      "entries": 4,
+      "name": "Greninja",
+      "share": 0.22,
+      "slug": "greninja-ex"
+    },
+    {
+      "entries": 4,
+      "name": "Ogerpon Noivern",
+      "share": 0.22,
+      "slug": "ogerpon-noivern"
+    },
+    {
+      "entries": 4,
+      "name": "Other",
+      "share": 0.22,
+      "slug": "other"
+    },
+    {
+      "entries": 4,
+      "name": "Palafin",
+      "share": 0.22,
+      "slug": "palafin-ex"
+    },
+    {
+      "entries": 3,
+      "name": "Dipplin",
+      "share": 0.17,
+      "slug": "festival-lead"
+    },
+    {
+      "entries": 3,
+      "name": "Great Tusk Mill",
+      "share": 0.17,
+      "slug": "great-tusk-tef"
+    },
+    {
+      "entries": 3,
+      "name": "Lost Box Charizard",
+      "share": 0.17,
+      "slug": "lzb-charizard"
+    },
+    {
+      "entries": 3,
+      "name": "Okidogi",
+      "share": 0.17,
+      "slug": "okidogi-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Dialga Metang",
+      "share": 0.11,
+      "slug": "dialga-metang"
+    },
+    {
+      "entries": 2,
+      "name": "Greninja Froslass",
+      "share": 0.11,
+      "slug": "greninja-froslass"
+    },
+    {
+      "entries": 2,
+      "name": "Hisuian Zoroark",
+      "share": 0.11,
+      "slug": "hisuian-zoroark-vstar"
+    },
+    {
+      "entries": 2,
+      "name": "Okidogi",
+      "share": 0.11,
+      "slug": "okidogi-twm"
+    },
+    {
+      "entries": 2,
+      "name": "Venomoth Froslass",
+      "share": 0.11,
+      "slug": "venomoth-froslass"
+    },
+    {
+      "entries": 1,
+      "name": "Arceus Giratina",
+      "share": 0.06,
+      "slug": "arceus-giratina"
+    },
+    {
+      "entries": 1,
+      "name": "Blissey",
+      "share": 0.06,
+      "slug": "blissey-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Charizard",
+      "share": 0.06,
+      "slug": "charizard-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Charizard Arceus",
+      "share": 0.06,
+      "slug": "charizard-arceus"
+    },
+    {
+      "entries": 1,
+      "name": "Charizard Greninja",
+      "share": 0.06,
+      "slug": "charizard-greninja"
+    },
+    {
+      "entries": 1,
+      "name": "Cornerstone Mask Ogerpon",
+      "share": 0.06,
+      "slug": "cornerstone-mask-ogerpon-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Darkrai",
+      "share": 0.06,
+      "slug": "dakrai-vstar"
+    },
+    {
+      "entries": 1,
+      "name": "Dialga",
+      "share": 0.06,
+      "slug": "dialga-vstar"
+    },
+    {
+      "entries": 1,
+      "name": "Espathra Xatu",
+      "share": 0.06,
+      "slug": "espathra-xatu"
+    },
+    {
+      "entries": 1,
+      "name": "Future Hands",
+      "share": 0.06,
+      "slug": "iron-hands-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Garchomp",
+      "share": 0.06,
+      "slug": "garchomp-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Gengar",
+      "share": 0.06,
+      "slug": "gengar-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Glimmora",
+      "share": 0.06,
+      "slug": "glimmora-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Hisuian Samurott",
+      "share": 0.06,
+      "slug": "hisuian-samurott-vstar"
+    },
+    {
+      "entries": 1,
+      "name": "Hydrapple Ogerpon",
+      "share": 0.06,
+      "slug": "hydrapple-ogerpon"
+    },
+    {
+      "entries": 1,
+      "name": "Incineroar",
+      "share": 0.06,
+      "slug": "incineroar-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Kyurem Palkia",
+      "share": 0.06,
+      "slug": "kyurem-palkia"
+    },
+    {
+      "entries": 1,
+      "name": "Luxray Control",
+      "share": 0.06,
+      "slug": "luxray-pidgeot"
+    },
+    {
+      "entries": 1,
+      "name": "Meowscarada",
+      "share": 0.06,
+      "slug": "meowscarada-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Raging Bolt Palkia",
+      "share": 0.06,
+      "slug": "raging-bolt-palkia"
+    },
+    {
+      "entries": 1,
+      "name": "Rotom",
+      "share": 0.06,
+      "slug": "rotom-v"
+    },
+    {
+      "entries": 1,
+      "name": "Tinkaton",
+      "share": 0.06,
+      "slug": "tinkaton-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Tsareena",
+      "share": 0.06,
+      "slug": "tsareena-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Tyranitar",
+      "share": 0.06,
+      "slug": "tyranitar-ex"
+    }
+  ],
+  "division": "Masters",
+  "end_date": "2024-11-17",
+  "event_type": "International Championship",
+  "field_count_ratio": 0.9972375690607734,
+  "id": "0009",
+  "name": "International Championship S\u00e3o Paulo",
+  "other_entries": 4,
+  "players": 1810,
+  "source": "Limitless Labs",
+  "source_url": "https://labs.limitlesstcg.com/0009/decks?day=1",
+  "start_date": "2024-11-15",
+  "variant_grouping": false,
+  "view": "day1"
+}

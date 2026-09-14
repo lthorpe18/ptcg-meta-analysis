@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-11T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9eece8a4272c53be649d53",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "⚡ Surge's TCG Vault Winner Takes All Live BO3 #22",
+  "organizer": {
+    "id": 2603,
+    "name": "Surge's TCG Vault"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 119
+}

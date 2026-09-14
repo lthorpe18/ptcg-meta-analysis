@@ -1,0 +1,243 @@
+{
+  "classified_entries": 344,
+  "classified_share": 0.9828571428571429,
+  "complete": true,
+  "deck_entries_sum": 345,
+  "decks": [
+    {
+      "entries": 60,
+      "name": "Gholdengo Lunatone",
+      "share": 17.39,
+      "slug": "gholdengo-lunatone"
+    },
+    {
+      "entries": 44,
+      "name": "Dragapult Dusknoir",
+      "share": 12.75,
+      "slug": "dragapult-dusknoir"
+    },
+    {
+      "entries": 40,
+      "name": "Gardevoir",
+      "share": 11.59,
+      "slug": "gardevoir-ex-sv"
+    },
+    {
+      "entries": 29,
+      "name": "Charizard Pidgeot",
+      "share": 8.41,
+      "slug": "charizard-pidgeot"
+    },
+    {
+      "entries": 25,
+      "name": "Raging Bolt Ogerpon",
+      "share": 7.25,
+      "slug": "raging-bolt-ogerpon"
+    },
+    {
+      "entries": 22,
+      "name": "Joltik Box",
+      "share": 6.38,
+      "slug": "joltik-box"
+    },
+    {
+      "entries": 20,
+      "name": "Grimmsnarl Froslass",
+      "share": 5.8,
+      "slug": "grimmsnarl-froslass"
+    },
+    {
+      "entries": 16,
+      "name": "Ceruledge",
+      "share": 4.64,
+      "slug": "ceruledge-ex"
+    },
+    {
+      "entries": 15,
+      "name": "Mega Absol Box",
+      "share": 4.35,
+      "slug": "mega-absol-box"
+    },
+    {
+      "entries": 12,
+      "name": "Gardevoir Jellicent",
+      "share": 3.48,
+      "slug": "gardevoir-jellicent"
+    },
+    {
+      "entries": 12,
+      "name": "Tera Box",
+      "share": 3.48,
+      "slug": "tera-box"
+    },
+    {
+      "entries": 8,
+      "name": "N's Zoroark",
+      "share": 2.32,
+      "slug": "n-zoroark"
+    },
+    {
+      "entries": 5,
+      "name": "Flareon Noctowl",
+      "share": 1.45,
+      "slug": "flareon-noctowl"
+    },
+    {
+      "entries": 3,
+      "name": "Crustle",
+      "share": 0.87,
+      "slug": "crustle-dri"
+    },
+    {
+      "entries": 3,
+      "name": "Dragapult Charizard",
+      "share": 0.87,
+      "slug": "dragapult-charizard"
+    },
+    {
+      "entries": 3,
+      "name": "Gholdengo Joltik Box",
+      "share": 0.87,
+      "slug": "gholdengo-joltik-box"
+    },
+    {
+      "entries": 2,
+      "name": "Ethan's Typhlosion",
+      "share": 0.58,
+      "slug": "ethan-typhlosion"
+    },
+    {
+      "entries": 2,
+      "name": "Ho-Oh Armarouge",
+      "share": 0.58,
+      "slug": "ho-oh-armarouge"
+    },
+    {
+      "entries": 2,
+      "name": "Manectric Eelektrik",
+      "share": 0.58,
+      "slug": "manectric-eelektrik"
+    },
+    {
+      "entries": 2,
+      "name": "Mega Venusaur",
+      "share": 0.58,
+      "slug": "mega-venusaur-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Pidgeot Control",
+      "share": 0.58,
+      "slug": "pidgeot-control"
+    },
+    {
+      "entries": 2,
+      "name": "Roaring Moon",
+      "share": 0.58,
+      "slug": "roaring-moon-ex"
+    },
+    {
+      "entries": 2,
+      "name": "Zoroark Crustle",
+      "share": 0.58,
+      "slug": "zoroark-crustle"
+    },
+    {
+      "entries": 1,
+      "name": "Alakazam Dudunsparce",
+      "share": 0.29,
+      "slug": "alakazam-dudunsparce"
+    },
+    {
+      "entries": 1,
+      "name": "Archaludon",
+      "share": 0.29,
+      "slug": "archaludon-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Cynthia's Garchomp",
+      "share": 0.29,
+      "slug": "cynthia-garchomp-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Festival Lead",
+      "share": 0.29,
+      "slug": "festival-lead"
+    },
+    {
+      "entries": 1,
+      "name": "Flareon",
+      "share": 0.29,
+      "slug": "flareon-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Froslass Munkidori",
+      "share": 0.29,
+      "slug": "froslass-munkidori"
+    },
+    {
+      "entries": 1,
+      "name": "Future Box",
+      "share": 0.29,
+      "slug": "future-box"
+    },
+    {
+      "entries": 1,
+      "name": "Hydreigon",
+      "share": 0.29,
+      "slug": "hydreigon-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Iron Hands Magneton",
+      "share": 0.29,
+      "slug": "iron-hands-magneton"
+    },
+    {
+      "entries": 1,
+      "name": "Lucario Hariyama",
+      "share": 0.29,
+      "slug": "lucario-hariyama"
+    },
+    {
+      "entries": 1,
+      "name": "Ogerpon",
+      "share": 0.29,
+      "slug": "ogerpon-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Other",
+      "share": 0.29,
+      "slug": "other"
+    },
+    {
+      "entries": 1,
+      "name": "Palafin",
+      "share": 0.29,
+      "slug": "palafin-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Slowking",
+      "share": 0.29,
+      "slug": "slowking-scr"
+    }
+  ],
+  "division": "Masters",
+  "end_date": "2025-11-16",
+  "event_type": "Special Event",
+  "field_count_ratio": 0.9857142857142858,
+  "id": "0045",
+  "name": "Special Event Buenos Aires",
+  "other_entries": 1,
+  "players": 350,
+  "source": "Limitless Labs",
+  "source_url": "https://labs.limitlesstcg.com/0045/decks?day=1",
+  "start_date": "2025-11-15",
+  "variant_grouping": false,
+  "view": "day1"
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-25T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68f3f21cdd7011c665c3b3d8",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Ursiiday's PTCG HALLOWEEN SPECIAL • 400 USD Prize",
+  "organizer": {
+    "id": 1873,
+    "name": "Ursiiday"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 408
+}

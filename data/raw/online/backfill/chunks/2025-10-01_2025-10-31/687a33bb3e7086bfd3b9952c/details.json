@@ -1,0 +1,36 @@
+{
+  "date": "2025-10-03T16:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "687a33bb3e7086bfd3b9952c",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Turtwig Den Revival Series Regional 1",
+  "organizer": {
+    "id": 196,
+    "name": "DabbingUkranian"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 76
+}

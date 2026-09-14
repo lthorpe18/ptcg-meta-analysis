@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-03T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69cc316a36f5b5c303dc39e8",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "⚡ Surge's TCG Vault Winner Takes All - TCG Live #1",
+  "organizer": {
+    "id": 2603,
+    "name": "Surge's TCG Vault"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 52
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-29T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a183c0c0f6c1f0899862994",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "ASRcristiano # 163 - Road to Turin Special",
+  "organizer": {
+    "id": 1778,
+    "name": "ASRcristiano League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 67
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-08T02:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67c9b23936181ea4d6e9f8bd",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Online PTCGL Gratuito #1",
+  "organizer": {
+    "id": 1031,
+    "name": "Alain Cards Online"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 75
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-20T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "678c35a5010576265d1160c0",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Budew Takeover  (PTCGL) pop up",
+  "organizer": {
+    "id": 1963,
+    "name": "Turtle Squad "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 107
+}

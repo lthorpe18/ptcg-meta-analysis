@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-06T21:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6865b89827d8bc24cf25f9c6",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Mudkip Champions 2-15",
+  "organizer": {
+    "id": 1674,
+    "name": "Mudkip's Den"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 241
+}

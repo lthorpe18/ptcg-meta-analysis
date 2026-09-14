@@ -1,0 +1,24 @@
+{
+  "date": "2025-10-03T14:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68daca257a2c388893caf54f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Haven SG Great Ball League Scrim #02",
+  "organizer": {
+    "id": 2353,
+    "name": "Haven SG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 90
+}

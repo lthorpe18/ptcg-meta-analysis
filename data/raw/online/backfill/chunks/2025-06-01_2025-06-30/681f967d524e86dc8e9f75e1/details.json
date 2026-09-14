@@ -1,0 +1,24 @@
+{
+  "date": "2025-06-29T17:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "681f967d524e86dc8e9f75e1",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Abra's Weekly #10",
+  "organizer": {
+    "id": 2341,
+    "name": "Abra's Archive NLD"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 74
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-05T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69cac80cd478313a15a377a1",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Defenders Arena #10🏆|POST ROTATION|$5 USD PRIZING",
+  "organizer": {
+    "id": 2226,
+    "name": "Vault of Games"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 57
+}

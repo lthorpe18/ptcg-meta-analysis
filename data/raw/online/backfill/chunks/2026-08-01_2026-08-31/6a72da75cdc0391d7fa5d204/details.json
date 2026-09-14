@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-05T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a72da75cdc0391d7fa5d204",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "PokeMagee Weekly #12",
+  "organizer": {
+    "id": 2659,
+    "name": "MageeTCG Weekly"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 53
+}

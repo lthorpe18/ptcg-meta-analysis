@@ -1,0 +1,24 @@
+{
+  "date": "2024-09-21T15:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66e5d3baa39c5e0621c02850",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Mini Stellar Crown (Free Entry)(160 codes)(3 hr)",
+  "organizer": {
+    "id": 51,
+    "name": "LordAvalon"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 96
+}

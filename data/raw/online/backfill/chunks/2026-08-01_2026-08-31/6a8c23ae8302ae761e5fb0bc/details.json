@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-26T11:45:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a8c23ae8302ae761e5fb0bc",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "SEASAC League Challenge #24 (SEASON 4) [50 CODES]",
+  "organizer": {
+    "id": 2623,
+    "name": "SEASAC League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 126
+}

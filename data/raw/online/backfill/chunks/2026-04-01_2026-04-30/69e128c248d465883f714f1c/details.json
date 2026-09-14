@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-19T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69e128c248d465883f714f1c",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Monster Collectibles After Hours #2",
+  "organizer": {
+    "id": 2610,
+    "name": "Monster Collectibles League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 172
+}

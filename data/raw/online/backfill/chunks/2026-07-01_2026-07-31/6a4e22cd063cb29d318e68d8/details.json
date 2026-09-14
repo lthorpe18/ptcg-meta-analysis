@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-21T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a4e22cd063cb29d318e68d8",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "👑 CrownOfSpain 👑 #2",
+  "organizer": {
+    "id": 2698,
+    "name": "CrownOfSpain"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 118
+}

@@ -1,0 +1,47 @@
+{
+  "bannedCards": [
+    {
+      "name": "Dragapult ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Drakloak",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Dreepy",
+      "number": null,
+      "set": null
+    }
+  ],
+  "date": "2026-08-21T14:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a85ebda5a30714095574742",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "NO Dragapult Tournament! CASH Prize",
+  "organizer": {
+    "id": 2435,
+    "name": "Snipe The Bench"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 144
+}

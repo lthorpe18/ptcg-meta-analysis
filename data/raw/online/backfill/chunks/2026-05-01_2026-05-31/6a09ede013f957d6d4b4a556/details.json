@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-26T23:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a09ede013f957d6d4b4a556",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Chaos Rising LAST PRIZE SERIES Season 3",
+  "organizer": {
+    "id": 2227,
+    "name": "LastPrizeTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 216
+}

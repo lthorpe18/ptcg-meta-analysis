@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-20T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a26d01056b11a587a94c1e3",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "[$55 PRIZE POOL] June 20/20/20 Cookoff!",
+  "organizer": {
+    "id": 2315,
+    "name": "Chef Husky"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 60
+}

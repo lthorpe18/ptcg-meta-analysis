@@ -1,0 +1,632 @@
+{
+  "anomalies": {},
+  "by_event_type": {
+    "International Championship": {
+      "classified_share_mean": 0.990433740923287,
+      "classified_share_median": 0.9898452321452402,
+      "events": 6,
+      "field_count_ratio_mean": 0.9980776471846254,
+      "field_count_ratio_median": 0.9979093253175975,
+      "field_count_ratio_min": 0.9972375690607734,
+      "median_hhi": 0.07364338354423358,
+      "median_named_variants": 83.5,
+      "median_players": 3556.5,
+      "median_top10_share": 0.7328640445979921,
+      "median_top5_share": 0.5223650492286305,
+      "median_variants_ge_1pct": 17.0,
+      "players": 18862
+    },
+    "Regional Championship": {
+      "classified_share_mean": 0.9875167721598417,
+      "classified_share_median": 0.9885697767848394,
+      "events": 50,
+      "field_count_ratio_mean": 0.997110906136728,
+      "field_count_ratio_median": 0.9976885482320265,
+      "field_count_ratio_min": 0.991701244813278,
+      "median_hhi": 0.06669490386620566,
+      "median_named_variants": 70.0,
+      "median_players": 1689.0,
+      "median_top10_share": 0.7079892089627373,
+      "median_top5_share": 0.48607279059215935,
+      "median_variants_ge_1pct": 19.0,
+      "players": 83184
+    },
+    "Special Event": {
+      "classified_share_mean": 0.9593263016904044,
+      "classified_share_median": 0.9813953488372092,
+      "events": 13,
+      "field_count_ratio_mean": 0.9669757017472107,
+      "field_count_ratio_median": 0.986046511627907,
+      "field_count_ratio_min": 0.881578947368421,
+      "median_hhi": 0.077056,
+      "median_named_variants": 39,
+      "median_players": 356,
+      "median_top10_share": 0.748,
+      "median_top5_share": 0.524,
+      "median_variants_ge_1pct": 19,
+      "players": 9045
+    },
+    "World Championship": {
+      "classified_share_mean": 0.9940893120352501,
+      "classified_share_median": 0.9940893120352501,
+      "events": 2,
+      "field_count_ratio_mean": 0.9979195561719834,
+      "field_count_ratio_median": 0.9979195561719834,
+      "field_count_ratio_min": 0.9958391123439667,
+      "median_hhi": 0.10641402004856904,
+      "median_named_variants": 44.5,
+      "median_players": 759.0,
+      "median_top10_share": 0.8343832897040783,
+      "median_top5_share": 0.6275177109145367,
+      "median_variants_ge_1pct": 14.5,
+      "players": 1518
+    }
+  },
+  "caveat": "Completeness is verified against the Limitless Labs index captured by the collector, not yet against an independent official Pokemon event calendar.",
+  "classified_share": {
+    "max": 0.9982698961937716,
+    "mean": 0.9827867830926417,
+    "median": 0.9883616830796778,
+    "min": 0.875,
+    "p10": 0.9773095623987034
+  },
+  "duplicate_event_ids": [],
+  "events": 71,
+  "field_count_ratio": {
+    "max": 1.0,
+    "mean": 0.9916976679577726,
+    "median": 0.9976019184652278,
+    "min": 0.881578947368421,
+    "p10": 0.9866220735785953,
+    "p25": 0.9957918965975152,
+    "p75": 0.9985702239046721,
+    "p90": 0.9992389649923896,
+    "threshold_counts": {
+      "ge_0.900": 69,
+      "ge_0.950": 68,
+      "ge_0.980": 66,
+      "ge_0.990": 63,
+      "ge_0.995": 55,
+      "ge_1.000": 3
+    }
+  },
+  "generated_at": "2026-09-14T13:49:53.474472+00:00",
+  "lowest_field_completeness": [
+    {
+      "classified_entries": 267,
+      "classified_share": 0.8782894736842105,
+      "deck_entries_sum": 268,
+      "division": "Masters",
+      "end_date": "2024-10-06",
+      "event_type": "Special Event",
+      "field_count_ratio": 0.881578947368421,
+      "hhi": 0.09510748496324349,
+      "id": "0004",
+      "name": "Special Event Lima",
+      "named_variants": 32,
+      "other_entries": 1,
+      "players": 304,
+      "start_date": "2024-10-05",
+      "top10_share": 0.7798507462686567,
+      "top5_share": 0.5559701492537313,
+      "variants_ge_1pct": 17
+    },
+    {
+      "classified_entries": 70,
+      "classified_share": 0.875,
+      "deck_entries_sum": 71,
+      "division": "Masters",
+      "end_date": "2026-01-25",
+      "event_type": "Special Event",
+      "field_count_ratio": 0.8875,
+      "hhi": 0.14124181709978179,
+      "id": "0051",
+      "name": "Special Event Auckland",
+      "named_variants": 18,
+      "other_entries": 1,
+      "players": 80,
+      "start_date": "2026-01-24",
+      "top10_share": 0.8732394366197183,
+      "top5_share": 0.7323943661971831,
+      "variants_ge_1pct": 18
+    },
+    {
+      "classified_entries": 250,
+      "classified_share": 0.9090909090909091,
+      "deck_entries_sum": 250,
+      "division": "Masters",
+      "end_date": "2024-11-10",
+      "event_type": "Special Event",
+      "field_count_ratio": 0.9090909090909091,
+      "hhi": 0.077056,
+      "id": "0008",
+      "name": "Special Event Buenos Aires",
+      "named_variants": 30,
+      "other_entries": 0,
+      "players": 275,
+      "start_date": "2024-11-09",
+      "top10_share": 0.748,
+      "top5_share": 0.524,
+      "variants_ge_1pct": 19
+    },
+    {
+      "classified_entries": 341,
+      "classified_share": 0.9578651685393258,
+      "deck_entries_sum": 345,
+      "division": "Masters",
+      "end_date": "2026-03-08",
+      "event_type": "Special Event",
+      "field_count_ratio": 0.9691011235955056,
+      "hhi": 0.0810670027305188,
+      "id": "0056",
+      "name": "Special Event San Juan",
+      "named_variants": 39,
+      "other_entries": 4,
+      "players": 356,
+      "start_date": "2026-03-07",
+      "top10_share": 0.7652173913043478,
+      "top5_share": 0.5420289855072464,
+      "variants_ge_1pct": 18
+    },
+    {
+      "classified_entries": 484,
+      "classified_share": 0.969939879759519,
+      "deck_entries_sum": 485,
+      "division": "Masters",
+      "end_date": "2026-05-24",
+      "event_type": "Special Event",
+      "field_count_ratio": 0.9719438877755511,
+      "hhi": 0.07593580614305454,
+      "id": "0067",
+      "name": "Special Event Lima",
+      "named_variants": 40,
+      "other_entries": 1,
+      "players": 499,
+      "start_date": "2026-05-23",
+      "top10_share": 0.7051546391752578,
+      "top5_share": 0.47628865979381446,
+      "variants_ge_1pct": 23
+    },
+    {
+      "classified_entries": 344,
+      "classified_share": 0.9828571428571429,
+      "deck_entries_sum": 345,
+      "division": "Masters",
+      "end_date": "2025-11-16",
+      "event_type": "Special Event",
+      "field_count_ratio": 0.9857142857142858,
+      "hhi": 0.08747742070993489,
+      "id": "0045",
+      "name": "Special Event Buenos Aires",
+      "named_variants": 36,
+      "other_entries": 1,
+      "players": 350,
+      "start_date": "2025-11-15",
+      "top10_share": 0.8202898550724638,
+      "top5_share": 0.5739130434782609,
+      "variants_ge_1pct": 13
+    },
+    {
+      "classified_entries": 211,
+      "classified_share": 0.9813953488372092,
+      "deck_entries_sum": 212,
+      "division": "Masters",
+      "end_date": "2024-12-08",
+      "event_type": "Special Event",
+      "field_count_ratio": 0.986046511627907,
+      "hhi": 0.06379049483802066,
+      "id": "0012",
+      "name": "Special Event Bogot\u00e1",
+      "named_variants": 33,
+      "other_entries": 1,
+      "players": 215,
+      "start_date": "2024-12-07",
+      "top10_share": 0.7075471698113207,
+      "top5_share": 0.46226415094339623,
+      "variants_ge_1pct": 19
+    },
+    {
+      "classified_entries": 292,
+      "classified_share": 0.9765886287625418,
+      "deck_entries_sum": 295,
+      "division": "Masters",
+      "end_date": "2025-02-16",
+      "event_type": "Special Event",
+      "field_count_ratio": 0.9866220735785953,
+      "hhi": 0.09087043952887101,
+      "id": "0019",
+      "name": "Special Event San Juan",
+      "named_variants": 39,
+      "other_entries": 3,
+      "players": 299,
+      "start_date": "2025-02-15",
+      "top10_share": 0.7864406779661017,
+      "top5_share": 0.6203389830508474,
+      "variants_ge_1pct": 19
+    },
+    {
+      "classified_entries": 1430,
+      "classified_share": 0.9889349930843707,
+      "deck_entries_sum": 1434,
+      "division": "Masters",
+      "end_date": "2026-04-05",
+      "event_type": "Regional Championship",
+      "field_count_ratio": 0.991701244813278,
+      "hhi": 0.07048098675521165,
+      "id": "0061",
+      "name": "Regional Championship Quer\u00e9taro",
+      "named_variants": 74,
+      "other_entries": 4,
+      "players": 1446,
+      "start_date": "2026-04-04",
+      "top10_share": 0.708507670850767,
+      "top5_share": 0.502092050209205,
+      "variants_ge_1pct": 20
+    },
+    {
+      "classified_entries": 1310,
+      "classified_share": 0.987189148455162,
+      "deck_entries_sum": 1317,
+      "division": "Masters",
+      "end_date": "2025-04-20",
+      "event_type": "Regional Championship",
+      "field_count_ratio": 0.9924642049736248,
+      "hhi": 0.08698239077907095,
+      "id": "0026",
+      "name": "Regional Championship Monterrey",
+      "named_variants": 59,
+      "other_entries": 7,
+      "players": 1327,
+      "start_date": "2025-04-19",
+      "top10_share": 0.7456340167046317,
+      "top5_share": 0.5649202733485194,
+      "variants_ge_1pct": 21
+    },
+    {
+      "classified_entries": 695,
+      "classified_share": 0.972027972027972,
+      "deck_entries_sum": 710,
+      "division": "Masters",
+      "end_date": "2025-03-09",
+      "event_type": "Regional Championship",
+      "field_count_ratio": 0.993006993006993,
+      "hhi": 0.05920849037889308,
+      "id": "0022",
+      "name": "Regional Championship Fortaleza",
+      "named_variants": 54,
+      "other_entries": 15,
+      "players": 715,
+      "start_date": "2025-03-08",
+      "top10_share": 0.7014084507042254,
+      "top5_share": 0.44929577464788734,
+      "variants_ge_1pct": 19
+    },
+    {
+      "classified_entries": 1236,
+      "classified_share": 0.9895916733386709,
+      "deck_entries_sum": 1241,
+      "division": "Masters",
+      "end_date": "2025-05-18",
+      "event_type": "Regional Championship",
+      "field_count_ratio": 0.9935948759007206,
+      "hhi": 0.08333847375560118,
+      "id": "0031",
+      "name": "Regional Championship Santiago",
+      "named_variants": 49,
+      "other_entries": 5,
+      "players": 1249,
+      "start_date": "2025-05-17",
+      "top10_share": 0.7888799355358582,
+      "top5_share": 0.5737308622078968,
+      "variants_ge_1pct": 18
+    },
+    {
+      "classified_entries": 312,
+      "classified_share": 0.9811320754716981,
+      "deck_entries_sum": 316,
+      "division": "Masters",
+      "end_date": "2024-12-08",
+      "event_type": "Regional Championship",
+      "field_count_ratio": 0.9937106918238994,
+      "hhi": 0.07356593494632271,
+      "id": "0013",
+      "name": "Regional Championship Perth",
+      "named_variants": 45,
+      "other_entries": 4,
+      "players": 318,
+      "start_date": "2024-12-07",
+      "top10_share": 0.7246835443037974,
+      "top5_share": 0.5,
+      "variants_ge_1pct": 18
+    },
+    {
+      "classified_entries": 1602,
+      "classified_share": 0.9888888888888889,
+      "deck_entries_sum": 1610,
+      "division": "Masters",
+      "end_date": "2025-09-14",
+      "event_type": "Regional Championship",
+      "field_count_ratio": 0.9938271604938271,
+      "hhi": 0.08200378071833649,
+      "id": "0037",
+      "name": "Regional Championship Monterrey",
+      "named_variants": 66,
+      "other_entries": 8,
+      "players": 1620,
+      "start_date": "2025-09-13",
+      "top10_share": 0.7956521739130434,
+      "top5_share": 0.5714285714285714,
+      "variants_ge_1pct": 16
+    },
+    {
+      "classified_entries": 1672,
+      "classified_share": 0.9893491124260355,
+      "deck_entries_sum": 1680,
+      "division": "Masters",
+      "end_date": "2026-01-25",
+      "event_type": "Regional Championship",
+      "field_count_ratio": 0.9940828402366864,
+      "hhi": 0.0786500850340136,
+      "id": "0050",
+      "name": "Regional Championship M\u00e9rida",
+      "named_variants": 78,
+      "other_entries": 8,
+      "players": 1690,
+      "start_date": "2026-01-24",
+      "top10_share": 0.7261904761904762,
+      "top5_share": 0.5499999999999999,
+      "variants_ge_1pct": 20
+    }
+  ],
+  "period": {
+    "end": "2026-08-30",
+    "start": "2024-09-13"
+  },
+  "same_start_date_groups": [
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0002",
+          "name": "Regional Championship Dortmund"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0003",
+          "name": "Regional Championship Joinville"
+        }
+      ],
+      "start_date": "2024-09-28"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Special Event",
+          "id": "0012",
+          "name": "Special Event Bogot\u00e1"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0013",
+          "name": "Regional Championship Perth"
+        }
+      ],
+      "start_date": "2024-12-07"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0015",
+          "name": "Regional Championship Birmingham"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0016",
+          "name": "Regional Championship Rio de Janeiro"
+        }
+      ],
+      "start_date": "2025-01-18"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0029",
+          "name": "Regional Championship Melbourne"
+        },
+        {
+          "event_type": "Special Event",
+          "id": "0030",
+          "name": "Special Event Utrecht"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0031",
+          "name": "Regional Championship Santiago"
+        }
+      ],
+      "start_date": "2025-05-17"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0036",
+          "name": "Regional Championship Frankfurt"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0037",
+          "name": "Regional Championship Monterrey"
+        }
+      ],
+      "start_date": "2025-09-13"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0042",
+          "name": "Regional Championship Brisbane"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0043",
+          "name": "Regional Championship Gda\u0144sk"
+        }
+      ],
+      "start_date": "2025-11-01"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0049",
+          "name": "Regional Championship Birmingham"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0050",
+          "name": "Regional Championship M\u00e9rida"
+        },
+        {
+          "event_type": "Special Event",
+          "id": "0051",
+          "name": "Special Event Auckland"
+        }
+      ],
+      "start_date": "2026-01-24"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0052",
+          "name": "Regional Championship Sydney"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0053",
+          "name": "Regional Championship Santiago"
+        }
+      ],
+      "start_date": "2026-02-07"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0064",
+          "name": "Regional Championship Utrecht"
+        },
+        {
+          "event_type": "Regional Championship",
+          "id": "0065",
+          "name": "Regional Championship Campinas"
+        }
+      ],
+      "start_date": "2026-05-16"
+    },
+    {
+      "events": [
+        {
+          "event_type": "Regional Championship",
+          "id": "0066",
+          "name": "Regional Championship Melbourne"
+        },
+        {
+          "event_type": "Special Event",
+          "id": "0067",
+          "name": "Special Event Lima"
+        }
+      ],
+      "start_date": "2026-05-23"
+    }
+  ],
+  "source_failures": [],
+  "source_index_rows": 71,
+  "source_manifest_complete": true,
+  "timeline": {
+    "after": {
+      "date": "2026-08-28",
+      "name": "World Championship San Francisco"
+    },
+    "before": {
+      "date": "2026-06-12",
+      "name": "International Championship New Orleans"
+    },
+    "largest_start_date_gap_days": 77
+  },
+  "total_deck_entries": 112228,
+  "total_other_entries": 1020,
+  "total_players_reported": 112609,
+  "unique_event_ids": 71,
+  "worlds_descriptive": {
+    "non_worlds_median_top5_share": 0.4923189465983906,
+    "non_worlds_median_variants_ge_1pct": 19,
+    "non_worlds_summary": {
+      "classified_share_mean": 0.9824591735580733,
+      "classified_share_median": 0.9877272727272727,
+      "events": 69,
+      "field_count_ratio_mean": 0.9915173233718536,
+      "field_count_ratio_median": 0.9976019184652278,
+      "field_count_ratio_min": 0.881578947368421,
+      "median_players": 1670,
+      "players": 111091
+    },
+    "note": "Only two Worlds are present, so this is descriptive rather than inferential.",
+    "worlds": [
+      {
+        "classified_entries": 717,
+        "classified_share": 0.9944521497919556,
+        "deck_entries_sum": 718,
+        "division": "Masters",
+        "end_date": "2025-08-17",
+        "event_type": "World Championship",
+        "field_count_ratio": 0.9958391123439667,
+        "hhi": 0.11504605023238491,
+        "id": "0035",
+        "name": "World Championship Anaheim",
+        "named_variants": 44,
+        "other_entries": 1,
+        "players": 721,
+        "start_date": "2025-08-15",
+        "top10_share": 0.8481894150417827,
+        "top5_share": 0.6615598885793872,
+        "variants_ge_1pct": 15
+      },
+      {
+        "classified_entries": 792,
+        "classified_share": 0.9937264742785445,
+        "deck_entries_sum": 797,
+        "division": "Masters",
+        "end_date": "2026-08-30",
+        "event_type": "World Championship",
+        "field_count_ratio": 1.0,
+        "hhi": 0.09778198986475317,
+        "id": "0071",
+        "name": "World Championship San Francisco",
+        "named_variants": 45,
+        "other_entries": 5,
+        "players": 797,
+        "start_date": "2026-08-28",
+        "top10_share": 0.8205771643663738,
+        "top5_share": 0.5934755332496863,
+        "variants_ge_1pct": 14
+      }
+    ],
+    "worlds_median_top5_share": 0.6275177109145367,
+    "worlds_median_variants_ge_1pct": 14.5,
+    "worlds_summary": {
+      "classified_share_mean": 0.9940893120352501,
+      "classified_share_median": 0.9940893120352501,
+      "events": 2,
+      "field_count_ratio_mean": 0.9979195561719834,
+      "field_count_ratio_median": 0.9979195561719834,
+      "field_count_ratio_min": 0.9958391123439667,
+      "median_players": 759.0,
+      "players": 1518
+    }
+  }
+}

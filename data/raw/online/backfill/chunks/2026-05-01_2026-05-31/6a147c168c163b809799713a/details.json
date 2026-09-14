@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-26T02:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a147c168c163b809799713a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏛💫 Card Temple Weekly Battles #60",
+  "organizer": {
+    "id": 2152,
+    "name": "Card Temple"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 62
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-05-20T15:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6829dae9538fc8c344fe2b4b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "TGG Division 3 #2",
+  "organizer": {
+    "id": 2203,
+    "name": "Team Gamers Guild"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 61
+}

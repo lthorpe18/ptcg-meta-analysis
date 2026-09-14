@@ -1,0 +1,462 @@
+{
+  "event_count": 34,
+  "cohort_count": 25,
+  "days_since_major": {
+    "min": 5,
+    "median": 6.0,
+    "max": 47
+  },
+  "baselines": {
+    "irl_only": {
+      "event": 82.41335925540736,
+      "cohort": 82.62810741427809
+    },
+    "fifty_fifty": {
+      "event": 83.21734643009351,
+      "cohort": 83.15592485826046
+    },
+    "current_decay": {
+      "event": 83.26772992209524,
+      "cohort": 83.3013555471592
+    }
+  },
+  "start_sweep_keep_current_decay_and_floor": [
+    {
+      "start": 0.7,
+      "floor": 0.3,
+      "decay_per_day": 0.02,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.26772992209524,
+      "mean_cohort_accuracy": 83.3013555471592,
+      "median_cohort_accuracy": 84.26332156789319
+    },
+    {
+      "start": 0.75,
+      "floor": 0.3,
+      "decay_per_day": 0.02,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.49759288949816,
+      "mean_cohort_accuracy": 83.569221572204,
+      "median_cohort_accuracy": 84.81289835772967
+    },
+    {
+      "start": 0.8,
+      "floor": 0.3,
+      "decay_per_day": 0.02,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.65350130996625,
+      "mean_cohort_accuracy": 83.75701540940634,
+      "median_cohort_accuracy": 85.4823092733912
+    },
+    {
+      "start": 0.85,
+      "floor": 0.3,
+      "decay_per_day": 0.02,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.73643170139555,
+      "mean_cohort_accuracy": 83.86333996474968,
+      "median_cohort_accuracy": 85.59409654652254
+    },
+    {
+      "start": 0.9,
+      "floor": 0.3,
+      "decay_per_day": 0.02,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.73917078155114,
+      "mean_cohort_accuracy": 83.8899760019097,
+      "median_cohort_accuracy": 85.3392442489878
+    },
+    {
+      "start": 0.95,
+      "floor": 0.3,
+      "decay_per_day": 0.02,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.6600954077625,
+      "mean_cohort_accuracy": 83.82171425104472,
+      "median_cohort_accuracy": 85.05335944817253
+    }
+  ],
+  "best_in_sample_grid": [
+    {
+      "start": 0.8,
+      "floor": 0.55,
+      "decay_per_day": 0.01,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.90476733686627,
+      "mean_cohort_accuracy": 84.01350989877893,
+      "median_cohort_accuracy": 84.66468809683245
+    },
+    {
+      "start": 0.8,
+      "floor": 0.6,
+      "decay_per_day": 0.01,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.88831468348508,
+      "mean_cohort_accuracy": 84.00289817362145,
+      "median_cohort_accuracy": 84.66468809683245
+    },
+    {
+      "start": 0.75,
+      "floor": 0.6,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.89503059775996,
+      "mean_cohort_accuracy": 84.00126130419441,
+      "median_cohort_accuracy": 84.77523101345255
+    },
+    {
+      "start": 0.8,
+      "floor": 0.5,
+      "decay_per_day": 0.01,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.8878280471588,
+      "mean_cohort_accuracy": 84.00087184207445,
+      "median_cohort_accuracy": 84.66468809683245
+    },
+    {
+      "start": 0.85,
+      "floor": 0.5,
+      "decay_per_day": 0.015,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.88019740810886,
+      "mean_cohort_accuracy": 83.99720470779961,
+      "median_cohort_accuracy": 84.55337725336119
+    },
+    {
+      "start": 0.85,
+      "floor": 0.55,
+      "decay_per_day": 0.015,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.8762492619993,
+      "mean_cohort_accuracy": 83.99563930814851,
+      "median_cohort_accuracy": 84.55337725336119
+    },
+    {
+      "start": 0.75,
+      "floor": 0.55,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.88399583140948,
+      "mean_cohort_accuracy": 83.99318158393436,
+      "median_cohort_accuracy": 84.77523101345255
+    },
+    {
+      "start": 0.75,
+      "floor": 0.3,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.88291768106309,
+      "mean_cohort_accuracy": 83.99171529946328,
+      "median_cohort_accuracy": 84.77523101345255
+    },
+    {
+      "start": 0.75,
+      "floor": 0.4,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.88291768106309,
+      "mean_cohort_accuracy": 83.99171529946328,
+      "median_cohort_accuracy": 84.77523101345255
+    },
+    {
+      "start": 0.75,
+      "floor": 0.45,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.88291768106309,
+      "mean_cohort_accuracy": 83.99171529946328,
+      "median_cohort_accuracy": 84.77523101345255
+    },
+    {
+      "start": 0.75,
+      "floor": 0.5,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.88291768106309,
+      "mean_cohort_accuracy": 83.99171529946328,
+      "median_cohort_accuracy": 84.77523101345255
+    },
+    {
+      "start": 0.85,
+      "floor": 0.45,
+      "decay_per_day": 0.015,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.87287433694752,
+      "mean_cohort_accuracy": 83.99087440413366,
+      "median_cohort_accuracy": 84.8119899875662
+    },
+    {
+      "start": 0.85,
+      "floor": 0.6,
+      "decay_per_day": 0.015,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.85979660861811,
+      "mean_cohort_accuracy": 83.98502758299102,
+      "median_cohort_accuracy": 84.55337725336119
+    },
+    {
+      "start": 0.85,
+      "floor": 0.6,
+      "decay_per_day": 0.01,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.8538069227424,
+      "mean_cohort_accuracy": 83.98182784489009,
+      "median_cohort_accuracy": 85.01208549714065
+    },
+    {
+      "start": 0.8,
+      "floor": 0.45,
+      "decay_per_day": 0.01,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.86111582051227,
+      "mean_cohort_accuracy": 83.98135691267858,
+      "median_cohort_accuracy": 84.66468809683245
+    },
+    {
+      "start": 0.8,
+      "floor": 0.6,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.84515735924631,
+      "mean_cohort_accuracy": 83.9786605997561,
+      "median_cohort_accuracy": 85.1110310183933
+    },
+    {
+      "start": 0.8,
+      "floor": 0.4,
+      "decay_per_day": 0.01,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.85886535669378,
+      "mean_cohort_accuracy": 83.97829628188545,
+      "median_cohort_accuracy": 84.66468809683245
+    },
+    {
+      "start": 0.8,
+      "floor": 0.3,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.84468185678516,
+      "mean_cohort_accuracy": 83.97801391640893,
+      "median_cohort_accuracy": 85.1110310183933
+    },
+    {
+      "start": 0.8,
+      "floor": 0.4,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.84468185678516,
+      "mean_cohort_accuracy": 83.97801391640893,
+      "median_cohort_accuracy": 85.1110310183933
+    },
+    {
+      "start": 0.8,
+      "floor": 0.45,
+      "decay_per_day": 0.005,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.84468185678516,
+      "mean_cohort_accuracy": 83.97801391640893,
+      "median_cohort_accuracy": 85.1110310183933
+    }
+  ],
+  "walk_forward": {
+    "min_training_cohorts": 10,
+    "tested_cohorts": 15,
+    "tuned_rule_mean_accuracy": 83.92894232221957,
+    "fifty_fifty_mean_accuracy": 83.84491927108262,
+    "irl_only_mean_accuracy": 82.19895926675187,
+    "current_decay_mean_accuracy": 84.13409810258855,
+    "rows": [
+      {
+        "cohort_id": "C024",
+        "date": "2025-05-02",
+        "start": 0.85,
+        "floor": 0.3,
+        "decay_per_day": 0.005,
+        "accuracy": 74.44938398589547,
+        "fifty": 79.22781316482646,
+        "irl_only": 71.34514141995439,
+        "current": 77.93443983918718
+      },
+      {
+        "cohort_id": "C025",
+        "date": "2025-05-17",
+        "start": 0.8,
+        "floor": 0.6,
+        "decay_per_day": 0.005,
+        "accuracy": 82.11170935224641,
+        "fifty": 81.63373289341091,
+        "irl_only": 81.38564527589968,
+        "current": 81.34262924787687
+      },
+      {
+        "cohort_id": "C026",
+        "date": "2025-05-23",
+        "start": 0.8,
+        "floor": 0.6,
+        "decay_per_day": 0.005,
+        "accuracy": 89.60973213411603,
+        "fifty": 86.22163453680288,
+        "irl_only": 90.75816928645808,
+        "current": 87.59105599299977
+      },
+      {
+        "cohort_id": "C027",
+        "date": "2025-05-31",
+        "start": 0.85,
+        "floor": 0.3,
+        "decay_per_day": 0.005,
+        "accuracy": 86.4805228214329,
+        "fifty": 85.35943395681291,
+        "irl_only": 85.26101201310522,
+        "current": 86.10033248392185
+      },
+      {
+        "cohort_id": "C030",
+        "date": "2025-09-13",
+        "start": 0.85,
+        "floor": 0.3,
+        "decay_per_day": 0.005,
+        "accuracy": 81.16929702568258,
+        "fifty": 84.37536032623116,
+        "irl_only": 75.63466930458483,
+        "current": 85.63693422940764
+      },
+      {
+        "cohort_id": "C031",
+        "date": "2025-09-19",
+        "start": 0.8,
+        "floor": 0.6,
+        "decay_per_day": 0.005,
+        "accuracy": 88.04574081992791,
+        "fifty": 86.19767334737895,
+        "irl_only": 87.64123990612424,
+        "current": 86.93939052190225
+      },
+      {
+        "cohort_id": "C033",
+        "date": "2025-10-25",
+        "start": 0.85,
+        "floor": 0.6,
+        "decay_per_day": 0.01,
+        "accuracy": 86.78161852060686,
+        "fifty": 86.99595435072449,
+        "irl_only": 83.51585510461692,
+        "current": 86.6361016087837
+      },
+      {
+        "cohort_id": "C034",
+        "date": "2025-11-01",
+        "start": 0.85,
+        "floor": 0.6,
+        "decay_per_day": 0.01,
+        "accuracy": 85.40787017029868,
+        "fifty": 85.53089581888734,
+        "irl_only": 83.87844432595291,
+        "current": 85.89422617475907
+      },
+      {
+        "cohort_id": "C038",
+        "date": "2026-01-16",
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "accuracy": 77.58912812373822,
+        "fifty": 77.53316113856832,
+        "irl_only": 75.31715345367172,
+        "current": 77.1872106090166
+      },
+      {
+        "cohort_id": "C039",
+        "date": "2026-01-24",
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "accuracy": 86.56819156143784,
+        "fifty": 87.60596357233425,
+        "irl_only": 82.82504462739908,
+        "current": 87.91439395820089
+      },
+      {
+        "cohort_id": "C040",
+        "date": "2026-02-07",
+        "start": 0.75,
+        "floor": 0.6,
+        "decay_per_day": 0.005,
+        "accuracy": 84.77523101345255,
+        "fifty": 83.16823501532792,
+        "irl_only": 84.87902330470743,
+        "current": 82.47791656743445
+      },
+      {
+        "cohort_id": "C046",
+        "date": "2026-03-28",
+        "start": 0.75,
+        "floor": 0.6,
+        "decay_per_day": 0.005,
+        "accuracy": 85.88113470214797,
+        "fifty": 83.14425427056077,
+        "irl_only": 87.5391797073351,
+        "current": 84.3437539632213
+      },
+      {
+        "cohort_id": "C049",
+        "date": "2026-05-08",
+        "start": 0.8,
+        "floor": 0.6,
+        "decay_per_day": 0.005,
+        "accuracy": 80.92750307379274,
+        "fifty": 83.90360160411406,
+        "irl_only": 76.25845908877066,
+        "current": 84.07228774644044
+      },
+      {
+        "cohort_id": "C050",
+        "date": "2026-05-16",
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "accuracy": 86.52995667139362,
+        "fifty": 86.53209057409188,
+        "irl_only": 84.75840936233092,
+        "current": 86.64025016476884
+      },
+      {
+        "cohort_id": "C054",
+        "date": "2026-06-12",
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "accuracy": 82.60711485712372,
+        "fifty": 80.24398449616699,
+        "irl_only": 81.98694282036693,
+        "current": 81.30054843090754
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-08T02:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a9ee909a4272c53be649d1f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏛💫 Card Temple Weekly Battles #75",
+  "organizer": {
+    "id": 2152,
+    "name": "Card Temple"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 104
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-30T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68892276dd3aa218838a524f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Spheal Series Cup #6 I am Out of Name Ideas!!",
+  "organizer": {
+    "id": 1021,
+    "name": "Spheal Stone Cove"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 186
+}

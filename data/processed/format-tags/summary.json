@@ -1,0 +1,131 @@
+{
+  "generated_at": "2026-09-14T13:49:54.981479+00:00",
+  "calendar_schema_version": 1,
+  "online_events_tagged": 1444,
+  "irl_events_tagged": 71,
+  "irl_primary_targets_ge_95": 68,
+  "irl_sensitivity_targets_ge_98": 66,
+  "online_by_format": {
+    "BRS-PRE": 117,
+    "BRS-SCR": 97,
+    "BRS-SFA": 17,
+    "BRS-SSP": 132,
+    "SVI-ASC": 67,
+    "SVI-BLK/WHT": 120,
+    "SVI-DRI": 119,
+    "SVI-JTG": 108,
+    "SVI-MEG": 73,
+    "SVI-PFL": 131,
+    "TEF-CRI": 149,
+    "TEF-PBL": 186,
+    "TEF-POR": 128
+  },
+  "irl_by_format": {
+    "BRS-PRE": 7,
+    "BRS-SCR": 8,
+    "BRS-SFA": 1,
+    "BRS-SSP": 8,
+    "SVI-ASC": 6,
+    "SVI-BLK/WHT": 4,
+    "SVI-DRI": 1,
+    "SVI-JTG": 9,
+    "SVI-MEG": 8,
+    "SVI-PFL": 9,
+    "TEF-CRI": 2,
+    "TEF-PBL": 1,
+    "TEF-POR": 7
+  },
+  "irl_format_opening_cohorts": [
+    {
+      "start_date": "2024-09-13",
+      "display_format": "BRS-SFA",
+      "id": "0001",
+      "name": "Regional Championship Baltimore"
+    },
+    {
+      "start_date": "2024-09-28",
+      "display_format": "BRS-SCR",
+      "id": "0002",
+      "name": "Regional Championship Dortmund"
+    },
+    {
+      "start_date": "2024-09-28",
+      "display_format": "BRS-SCR",
+      "id": "0003",
+      "name": "Regional Championship Joinville"
+    },
+    {
+      "start_date": "2024-11-22",
+      "display_format": "BRS-SSP",
+      "id": "0010",
+      "name": "Regional Championship Sacramento"
+    },
+    {
+      "start_date": "2025-02-08",
+      "display_format": "BRS-PRE",
+      "id": "0018",
+      "name": "Regional Championship Mérida"
+    },
+    {
+      "start_date": "2025-04-11",
+      "display_format": "SVI-JTG",
+      "id": "0025",
+      "name": "Regional Championship Atlanta"
+    },
+    {
+      "start_date": "2025-06-13",
+      "display_format": "SVI-DRI",
+      "id": "0034",
+      "name": "International Championship New Orleans"
+    },
+    {
+      "start_date": "2025-08-15",
+      "display_format": "SVI-BLK/WHT",
+      "id": "0035",
+      "name": "World Championship Anaheim"
+    },
+    {
+      "start_date": "2025-10-10",
+      "display_format": "SVI-MEG",
+      "id": "0040",
+      "name": "Regional Championship Milwaukee"
+    },
+    {
+      "start_date": "2025-11-29",
+      "display_format": "SVI-PFL",
+      "id": "0047",
+      "name": "Regional Championship Stuttgart"
+    },
+    {
+      "start_date": "2026-03-07",
+      "display_format": "SVI-ASC",
+      "id": "0056",
+      "name": "Special Event San Juan"
+    },
+    {
+      "start_date": "2026-04-25",
+      "display_format": "TEF-POR",
+      "id": "0062",
+      "name": "Regional Championship Prague"
+    },
+    {
+      "start_date": "2026-06-06",
+      "display_format": "TEF-CRI",
+      "id": "0069",
+      "name": "Special Event Turin"
+    },
+    {
+      "start_date": "2026-08-28",
+      "display_format": "TEF-PBL",
+      "id": "0071",
+      "name": "World Championship San Francisco"
+    }
+  ],
+  "notes": [
+    "Online tags use the exact Limitless tournament start timestamp against PTCGL legality boundaries.",
+    "IRL tags use the major start date against official IRL legality boundaries.",
+    "Raw source snapshots are unchanged; these are reproducible derived tags.",
+    "Same-start-date IRL majors are flagged as correlated cohorts for chronological backtesting.",
+    "format_opening_cohort marks every major on the earliest major start date observed in that format."
+  ]
+}

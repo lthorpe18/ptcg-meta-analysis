@@ -1,0 +1,24 @@
+{
+  "date": "2025-10-01T13:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68caf571827e9d163f83ec66",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "MOSCO Masters S3: Pokemon TCG Live Tournament #7",
+  "organizer": {
+    "id": 1167,
+    "name": "MOSCO"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 52
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2024-11-22T17:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67365a1a140465a31486fdad",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🌛Team Rocket League Day #213",
+  "organizer": {
+    "id": 136,
+    "name": "Team Rocket"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 3,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 4,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 5,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 72
+}

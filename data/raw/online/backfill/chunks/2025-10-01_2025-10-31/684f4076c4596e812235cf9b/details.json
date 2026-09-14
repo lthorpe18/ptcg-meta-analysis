@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-21T15:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "684f4076c4596e812235cf9b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Gray's PokéLeague - Champion's Road #29",
+  "organizer": {
+    "id": 1253,
+    "name": "Gray's PokéLeague"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 145
+}

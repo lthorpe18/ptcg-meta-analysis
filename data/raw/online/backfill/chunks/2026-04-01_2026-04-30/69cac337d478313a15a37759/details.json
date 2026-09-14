@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-03T21:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69cac337d478313a15a37759",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Vault Weekly Runs #10🏆|POST ROTATION|$5 USD PRIZE",
+  "organizer": {
+    "id": 2226,
+    "name": "Vault of Games"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 98
+}

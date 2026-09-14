@@ -1,0 +1,36 @@
+{
+  "date": "2025-05-04T05:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "680ed6c1fcf14d4e4278efe7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Kuyo杯 #13 || Kuyo Cup #13",
+  "organizer": {
+    "id": 1259,
+    "name": "The shining lion club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 79
+}

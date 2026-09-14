@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-28T17:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "699d5358c9dc8186f760b7ac",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Dark league live tourney money+codes",
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 110
+}

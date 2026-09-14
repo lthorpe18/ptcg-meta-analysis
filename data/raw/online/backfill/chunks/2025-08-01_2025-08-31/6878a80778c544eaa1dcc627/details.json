@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-02T04:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6878a80778c544eaa1dcc627",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "好奇杯x瞬间失忆联赛 wcs练习赛 Hao Qi cup xAmnesia Series bo3",
+  "organizer": {
+    "id": 1758,
+    "name": "HaoQi cup"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 77
+}

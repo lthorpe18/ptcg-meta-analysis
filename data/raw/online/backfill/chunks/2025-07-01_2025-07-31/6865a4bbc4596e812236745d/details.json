@@ -1,0 +1,24 @@
+{
+  "date": "2025-07-04T00:20:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6865a4bbc4596e812236745d",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Le Tournois Du DresseurPokeCharbie #68",
+  "organizer": {
+    "id": 1689,
+    "name": "DresseurPokeCharbie"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 60
+}

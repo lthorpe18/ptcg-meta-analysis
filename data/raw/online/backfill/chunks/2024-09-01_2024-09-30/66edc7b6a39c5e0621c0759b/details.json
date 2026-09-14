@@ -1,0 +1,36 @@
+{
+  "date": "2024-09-25T19:20:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66edc7b6a39c5e0621c0759b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "JPX Tournament",
+  "organizer": {
+    "id": 1783,
+    "name": "JPretix"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 3,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 3,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 51
+}

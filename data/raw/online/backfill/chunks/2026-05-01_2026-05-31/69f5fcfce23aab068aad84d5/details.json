@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-05T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69f5fcfce23aab068aad84d5",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Hydra TCG Serbia online tournament v3 (codes)",
+  "organizer": {
+    "id": 2555,
+    "name": "Hydra TCG Serbia"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 158
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2024-12-13T19:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67530fba95f729096d714564",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🌛Team Rocket League Day #220",
+  "organizer": {
+    "id": 136,
+    "name": "Team Rocket"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO1",
+      "phase": 4,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 94
+}

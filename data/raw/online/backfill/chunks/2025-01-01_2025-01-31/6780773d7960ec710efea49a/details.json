@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-11T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6780773d7960ec710efea49a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Amistoso Izanami V",
+  "organizer": {
+    "id": 1953,
+    "name": "IzanamiCollectibles"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 96
+}

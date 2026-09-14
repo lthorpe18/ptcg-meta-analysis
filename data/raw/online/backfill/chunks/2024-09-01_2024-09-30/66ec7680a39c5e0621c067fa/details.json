@@ -1,0 +1,36 @@
+{
+  "date": "2024-09-26T18:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66ec7680a39c5e0621c067fa",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🎃Team Rocket League Day #194",
+  "organizer": {
+    "id": 136,
+    "name": "Team Rocket"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 68
+}

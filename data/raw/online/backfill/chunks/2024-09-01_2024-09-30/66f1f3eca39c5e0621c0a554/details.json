@@ -1,0 +1,24 @@
+{
+  "date": "2024-09-27T00:30:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66f1f3eca39c5e0621c0a554",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Tournois DresseurPokeCharbie #31",
+  "organizer": {
+    "id": 1689,
+    "name": "DresseurPokeCharbie"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 87
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2024-10-25T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "671a03cf8a16be452414b9b9",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Apollo's First Weekly!",
+  "organizer": {
+    "id": 1879,
+    "name": "Apollo's Gym"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 64
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2025-10-02T22:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68dedcdff661e4a158de5bf0",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Darksiders TCG Live Midweek Mickey - 40 Codes!",
+  "organizer": {
+    "id": 1887,
+    "name": "Darksiders TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 65
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2025-06-20T00:15:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68519ebec4596e812235da83",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "30CodesGagnantsLeTournoisDuDresseurPokeCharbie#66",
+  "organizer": {
+    "id": 1689,
+    "name": "DresseurPokeCharbie"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 74
+}

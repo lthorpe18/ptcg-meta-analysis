@@ -1,0 +1,24 @@
+{
+  "date": "2024-09-25T00:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "66d8874ebf2ffe05f59994fb",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Jefferson Gym Tuesday Night Standard #9",
+  "organizer": {
+    "id": 1368,
+    "name": "The Jefferson Gym"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 74
+}

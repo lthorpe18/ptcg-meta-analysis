@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-03T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69eb7d0078b359b789d6ad34",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Defenders Arena #13🏆|L.A REGIONAL PREP|50+ CODES",
+  "organizer": {
+    "id": 2226,
+    "name": "Vault of Games"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 79
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2025-09-28T21:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68d4989df661e4a158de09a1",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Mudkip Champions Special Series 1-2",
+  "organizer": {
+    "id": 1674,
+    "name": "Mudkip's Den"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 75
+}
