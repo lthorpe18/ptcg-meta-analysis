@@ -1,0 +1,809 @@
+{
+  "schema_version": 1,
+  "forecast_date": "2026-09-14",
+  "online_evidence_through": "2026-09-13",
+  "format": "TEF-PBL",
+  "latest_irl": {
+    "id": "0071",
+    "name": "World Championship San Francisco",
+    "start_date": "2026-08-28",
+    "end_date": "2026-08-30",
+    "players": 797
+  },
+  "days_since_major": 15,
+  "weights": {
+    "irl": 0.65,
+    "online": 0.35,
+    "rule": {
+      "start_irl": 0.8,
+      "decay_per_day": 0.01,
+      "floor_irl": 0.55
+    }
+  },
+  "online_event_count": 42,
+  "online_classification_min": 0.9,
+  "archetypes": [
+    {
+      "key": "dragapult-ex",
+      "name": "Dragapult",
+      "irl_pct": 22.474747474747474,
+      "online_pct": 12.840852751611303,
+      "blended_pct": 19.102884321649817
+    },
+    {
+      "key": "dragapult-dusknoir",
+      "name": "Dragapult Dusknoir",
+      "irl_pct": 10.47979797979798,
+      "online_pct": 5.833746488183771,
+      "blended_pct": 8.853679957733007
+    },
+    {
+      "key": "dragapult-blaziken",
+      "name": "Dragapult Blaziken",
+      "irl_pct": 9.848484848484848,
+      "online_pct": 3.5531317137663194,
+      "blended_pct": 7.645111251333363
+    },
+    {
+      "key": "basic-box-m",
+      "name": "Basic Box",
+      "irl_pct": 9.343434343434344,
+      "online_pct": 3.966286564204264,
+      "blended_pct": 7.461432620703816
+    },
+    {
+      "key": "n-zoroark",
+      "name": "N's Zoroark",
+      "irl_pct": 7.575757575757576,
+      "online_pct": 6.775739547182284,
+      "blended_pct": 7.295751265756224
+    },
+    {
+      "key": "alakazam-dudunsparce",
+      "name": "Alakazam Dudunsparce",
+      "irl_pct": 6.8181818181818175,
+      "online_pct": 7.866468352338457,
+      "blended_pct": 7.185082105136642
+    },
+    {
+      "key": "slowking-scr",
+      "name": "Slowking",
+      "irl_pct": 5.934343434343434,
+      "online_pct": 5.222277309535614,
+      "blended_pct": 5.685120290660698
+    },
+    {
+      "key": "mega-excadrill-ex",
+      "name": "Mega Excadrill",
+      "irl_pct": 4.040404040404041,
+      "online_pct": 4.048917534291853,
+      "blended_pct": 4.0433837632647744
+    },
+    {
+      "key": "festival-lead",
+      "name": "Festival Lead",
+      "irl_pct": 2.904040404040404,
+      "online_pct": 3.0077673111882333,
+      "blended_pct": 2.940344821542144
+    },
+    {
+      "key": "crustle-dri",
+      "name": "Crustle",
+      "irl_pct": 2.525252525252525,
+      "online_pct": 3.024293505205751,
+      "blended_pct": 2.699916868236154
+    },
+    {
+      "key": "raging-bolt-ogerpon",
+      "name": "Raging Bolt Ogerpon",
+      "irl_pct": 3.1565656565656566,
+      "online_pct": 1.2890431333663859,
+      "blended_pct": 2.502932773445912
+    },
+    {
+      "key": "dhelmise-pbl",
+      "name": "Dhelmise",
+      "irl_pct": 1.0101010101010102,
+      "online_pct": 3.949760370186746,
+      "blended_pct": 2.0389817861310173
+    },
+    {
+      "key": "ogerpon-meganium-hydrapple",
+      "name": "Ogerpon Meganium Hydrapple",
+      "irl_pct": 1.5151515151515151,
+      "online_pct": 1.487357461576599,
+      "blended_pct": 1.5054235964002947
+    },
+    {
+      "key": "grimmsnarl-froslass",
+      "name": "Grimmsnarl Froslass",
+      "irl_pct": 0.8838383838383838,
+      "online_pct": 2.0657742521897204,
+      "blended_pct": 1.2975159377613517
+    },
+    {
+      "key": "mega-lucario-ex",
+      "name": "Mega Lucario",
+      "irl_pct": 0.7575757575757576,
+      "online_pct": 1.9335647000495786,
+      "blended_pct": 1.169171887441595
+    },
+    {
+      "key": "lucario-hariyama",
+      "name": "Lucario Hariyama",
+      "irl_pct": 0.3787878787878788,
+      "online_pct": 2.4128243265575935,
+      "blended_pct": 1.090700635507279
+    },
+    {
+      "key": "clefairy-ogerpon",
+      "name": "Clefairy Ogerpon",
+      "irl_pct": 1.3888888888888888,
+      "online_pct": 0.34705007436787305,
+      "blended_pct": 1.0242453038065333
+    },
+    {
+      "key": "alakazam-dusknoir",
+      "name": "Alakazam Dusknoir",
+      "irl_pct": 0.5050505050505051,
+      "online_pct": 1.8839861179970254,
+      "blended_pct": 0.9876779695817871
+    },
+    {
+      "key": "cynthia-garchomp-ex",
+      "name": "Cynthia's Garchomp",
+      "irl_pct": 0.5050505050505051,
+      "online_pct": 1.6691455957692942,
+      "blended_pct": 0.9124837868020812
+    },
+    {
+      "key": "lopunny-dudunsparce",
+      "name": "Lopunny Dudunsparce",
+      "irl_pct": 0.3787878787878788,
+      "online_pct": 1.85093372996199,
+      "blended_pct": 0.8940389266988177
+    },
+    {
+      "key": "rocket-mewtwo-ex",
+      "name": "Rocket's Mewtwo",
+      "irl_pct": 0.3787878787878788,
+      "online_pct": 1.7187241778218474,
+      "blended_pct": 0.8477655834497678
+    },
+    {
+      "key": "kangaskhan-bouffalant",
+      "name": "Kangaskhan Bouffalant",
+      "irl_pct": 0.8838383838383838,
+      "online_pct": 0.7271525367707816,
+      "blended_pct": 0.8289983373647231
+    },
+    {
+      "key": "rockets-honchkrow",
+      "name": "Rocket's Honchkrow",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 2.098826640224756,
+      "blended_pct": 0.8166600311493718
+    },
+    {
+      "key": "ogerpon-meganium-arboliva",
+      "name": "Ogerpon Meganium Arboliva",
+      "irl_pct": 0.7575757575757576,
+      "online_pct": 0.776731118823335,
+      "blended_pct": 0.7642801340124097
+    },
+    {
+      "key": "dragapult-dudunsparce",
+      "name": "Dragapult Dudunsparce",
+      "irl_pct": 0.6313131313131313,
+      "online_pct": 0.776731118823335,
+      "blended_pct": 0.6822094269417026
+    },
+    {
+      "key": "lopunny-dusknoir",
+      "name": "Lopunny Dusknoir",
+      "irl_pct": 0.3787878787878788,
+      "online_pct": 1.0246240290861015,
+      "blended_pct": 0.6048305313922567
+    },
+    {
+      "key": "seaking-pre",
+      "name": "Seaking Festival Lead",
+      "irl_pct": 0.5050505050505051,
+      "online_pct": 0.7271525367707816,
+      "blended_pct": 0.5827862161526018
+    },
+    {
+      "key": "toxtricity-box",
+      "name": "Toxtricity Box",
+      "irl_pct": 0.25252525252525254,
+      "online_pct": 0.9585192530160304,
+      "blended_pct": 0.49962315269702473
+    },
+    {
+      "key": "sharpedo-toxtricity",
+      "name": "Sharpedo Toxtricity",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 1.0742026111386547,
+      "blended_pct": 0.4580416209692363
+    },
+    {
+      "key": "starmie-froslass",
+      "name": "Starmie Froslass",
+      "irl_pct": 0.25252525252525254,
+      "online_pct": 0.7271525367707816,
+      "blended_pct": 0.4186448020111877
+    },
+    {
+      "key": "greninja-ex",
+      "name": "Greninja",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 0.9585192530160304,
+      "blended_pct": 0.41755244562631766
+    },
+    {
+      "key": "mega-chandelure-ex",
+      "name": "Mega Chandelure",
+      "irl_pct": 0.25252525252525254,
+      "online_pct": 0.5949429846306395,
+      "blended_pct": 0.372371458762138
+    },
+    {
+      "key": "lillie-clefairy",
+      "name": "Lillie's Clefairy",
+      "irl_pct": 0.5050505050505051,
+      "online_pct": 0.11568335812262437,
+      "blended_pct": 0.36877200362574686
+    },
+    {
+      "key": "mega-venusaur-ex",
+      "name": "Mega Venusaur",
+      "irl_pct": 0.3787878787878788,
+      "online_pct": 0.34705007436787305,
+      "blended_pct": 0.36767964724087676
+    },
+    {
+      "key": "toucannon-pbl",
+      "name": "Toucannon",
+      "irl_pct": 0.25252525252525254,
+      "online_pct": 0.5784167906131218,
+      "blended_pct": 0.3665872908560068
+    },
+    {
+      "key": "mega-greninja-ex",
+      "name": "Mega Greninja",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 0.8097835068583705,
+      "blended_pct": 0.3654949344711368
+    },
+    {
+      "key": "ethan-typhlosion",
+      "name": "Ethan's Typhlosion",
+      "irl_pct": 0.25252525252525254,
+      "online_pct": 0.44620723847297966,
+      "blended_pct": 0.32031394760695703
+    },
+    {
+      "key": "beedrill-ex-cri",
+      "name": "Beedrill",
+      "irl_pct": 0.0,
+      "online_pct": 0.8593620889109237,
+      "blended_pct": 0.3007767311188233
+    },
+    {
+      "key": "hops-trevenant",
+      "name": "Hop's Trevenant",
+      "irl_pct": 0.0,
+      "online_pct": 0.8263097008758883,
+      "blended_pct": 0.2892083953065609
+    },
+    {
+      "key": "metagross-cri",
+      "name": "Metagross",
+      "irl_pct": 0.3787878787878788,
+      "online_pct": 0.06610477607007106,
+      "blended_pct": 0.2693487928366461
+    },
+    {
+      "key": "mega-darkrai-ex",
+      "name": "Mega Darkrai",
+      "irl_pct": 0.0,
+      "online_pct": 0.710626342753264,
+      "blended_pct": 0.24871921996364238
+    },
+    {
+      "key": "froslass-munkidori",
+      "name": "Froslass Munkidori",
+      "irl_pct": 0.25252525252525254,
+      "online_pct": 0.1817881341926954,
+      "blended_pct": 0.22776726110885753
+    },
+    {
+      "key": "mega-absol-box",
+      "name": "Mega Absol Box",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 0.2974714923153198,
+      "blended_pct": 0.186185729381069
+    },
+    {
+      "key": "ogerpon-meganium",
+      "name": "Ogerpon Meganium",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 0.21484052222773092,
+      "blended_pct": 0.1572648898504129
+    },
+    {
+      "key": "stevens-metagross",
+      "name": "Steven's Metagross",
+      "irl_pct": 0.0,
+      "online_pct": 0.42968104445546185,
+      "blended_pct": 0.15038836555941165
+    },
+    {
+      "key": "dudunsparce-control",
+      "name": "Dudunsparce Control",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 0.16526194017517765,
+      "blended_pct": 0.13991238613201926
+    },
+    {
+      "key": "toxtricity-pfl",
+      "name": "Toxtricity",
+      "irl_pct": 0.0,
+      "online_pct": 0.39662865642042633,
+      "blended_pct": 0.13882002974714922
+    },
+    {
+      "key": "starmie-dusknoir",
+      "name": "Starmie Dusknoir",
+      "irl_pct": 0.0,
+      "online_pct": 0.39662865642042633,
+      "blended_pct": 0.13882002974714922
+    },
+    {
+      "key": "cinccino-ex",
+      "name": "Cinccino",
+      "irl_pct": 0.0,
+      "online_pct": 0.34705007436787305,
+      "blended_pct": 0.12146752602875557
+    },
+    {
+      "key": "hop-zacian",
+      "name": "Hop's Zacian",
+      "irl_pct": 0.0,
+      "online_pct": 0.3305238803503553,
+      "blended_pct": 0.11568335812262434
+    },
+    {
+      "key": "manectric-eelektrik",
+      "name": "Manectric Eelektrik",
+      "irl_pct": 0.0,
+      "online_pct": 0.31399768633283753,
+      "blended_pct": 0.10989919021649314
+    },
+    {
+      "key": "mega-starmie-ex",
+      "name": "Mega Starmie",
+      "irl_pct": 0.0,
+      "online_pct": 0.31399768633283753,
+      "blended_pct": 0.10989919021649314
+    },
+    {
+      "key": "hydreigon-ex",
+      "name": "Hydreigon",
+      "irl_pct": 0.0,
+      "online_pct": 0.2974714923153198,
+      "blended_pct": 0.10411502231036192
+    },
+    {
+      "key": "ceruledge-ex",
+      "name": "Ceruledge",
+      "irl_pct": 0.0,
+      "online_pct": 0.2974714923153198,
+      "blended_pct": 0.10411502231036192
+    },
+    {
+      "key": "tera-box",
+      "name": "Tera Box",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 0.03305238803503553,
+      "blended_pct": 0.09363904288296951
+    },
+    {
+      "key": "mega-dragonite-ex",
+      "name": "Mega Dragonite",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.08785487497683829
+    },
+    {
+      "key": "toxtricity-brute-bonnet",
+      "name": "Toxtricity Brute Bonnet",
+      "irl_pct": 0.12626262626262627,
+      "online_pct": 0.0,
+      "blended_pct": 0.08207070707070707
+    },
+    {
+      "key": "okidogi-barbaracle",
+      "name": "Okidogi Barbaracle",
+      "irl_pct": 0.0,
+      "online_pct": 0.21484052222773092,
+      "blended_pct": 0.07519418277970583
+    },
+    {
+      "key": "joltik-box",
+      "name": "Joltik Box",
+      "irl_pct": 0.0,
+      "online_pct": 0.19831432821021316,
+      "blended_pct": 0.06941001487357461
+    },
+    {
+      "key": "mega-abomasnow-ex",
+      "name": "Mega Abomasnow",
+      "irl_pct": 0.0,
+      "online_pct": 0.19831432821021316,
+      "blended_pct": 0.06941001487357461
+    },
+    {
+      "key": "archaludon-dudunsparce",
+      "name": "Archaludon Dudunsparce",
+      "irl_pct": 0.0,
+      "online_pct": 0.1817881341926954,
+      "blended_pct": 0.06362584696744339
+    },
+    {
+      "key": "marnie-grimmsnarl-ex",
+      "name": "Marnie's Grimmsnarl",
+      "irl_pct": 0.0,
+      "online_pct": 0.1817881341926954,
+      "blended_pct": 0.06362584696744339
+    },
+    {
+      "key": "mega-charizard-x-ex",
+      "name": "Mega Charizard X",
+      "irl_pct": 0.0,
+      "online_pct": 0.1817881341926954,
+      "blended_pct": 0.06362584696744339
+    },
+    {
+      "key": "flareon-noctowl",
+      "name": "Flareon Noctowl",
+      "irl_pct": 0.0,
+      "online_pct": 0.16526194017517765,
+      "blended_pct": 0.05784167906131217
+    },
+    {
+      "key": "blaziken-zoroark",
+      "name": "Blaziken Zoroark",
+      "irl_pct": 0.0,
+      "online_pct": 0.1487357461576599,
+      "blended_pct": 0.05205751115518096
+    },
+    {
+      "key": "rocket-spidops",
+      "name": "Rocket's Spidops",
+      "irl_pct": 0.0,
+      "online_pct": 0.13220955214014213,
+      "blended_pct": 0.04627334324904974
+    },
+    {
+      "key": "dragapult-froslass",
+      "name": "Dragapult Froslass",
+      "irl_pct": 0.0,
+      "online_pct": 0.13220955214014213,
+      "blended_pct": 0.04627334324904974
+    },
+    {
+      "key": "ursaluna-lunatone",
+      "name": "Ursaluna Lunatone",
+      "irl_pct": 0.0,
+      "online_pct": 0.11568335812262437,
+      "blended_pct": 0.04048917534291852
+    },
+    {
+      "key": "doublade-por",
+      "name": "Doublade",
+      "irl_pct": 0.0,
+      "online_pct": 0.11568335812262437,
+      "blended_pct": 0.04048917534291852
+    },
+    {
+      "key": "mega-camerupt-ex",
+      "name": "Mega Camerupt",
+      "irl_pct": 0.0,
+      "online_pct": 0.11568335812262437,
+      "blended_pct": 0.04048917534291852
+    },
+    {
+      "key": "paldean-tauros-pfl",
+      "name": "Paldean Tauros",
+      "irl_pct": 0.0,
+      "online_pct": 0.11568335812262437,
+      "blended_pct": 0.04048917534291852
+    },
+    {
+      "key": "misty-gyarados",
+      "name": "Misty's Gyarados",
+      "irl_pct": 0.0,
+      "online_pct": 0.09915716410510658,
+      "blended_pct": 0.034705007436787304
+    },
+    {
+      "key": "diancie-dusknoir",
+      "name": "Diancie Dusknoir",
+      "irl_pct": 0.0,
+      "online_pct": 0.08263097008758882,
+      "blended_pct": 0.028920839530656085
+    },
+    {
+      "key": "mega-froslass-dudunsparce",
+      "name": "Froslass Dudunsparce",
+      "irl_pct": 0.0,
+      "online_pct": 0.08263097008758882,
+      "blended_pct": 0.028920839530656085
+    },
+    {
+      "key": "erikas-victreebel",
+      "name": "Erika's Victreebel",
+      "irl_pct": 0.0,
+      "online_pct": 0.08263097008758882,
+      "blended_pct": 0.028920839530656085
+    },
+    {
+      "key": "decidueye-ex",
+      "name": "Decidueye",
+      "irl_pct": 0.0,
+      "online_pct": 0.08263097008758882,
+      "blended_pct": 0.028920839530656085
+    },
+    {
+      "key": "ethan-magcargo",
+      "name": "Ethan's Magcargo",
+      "irl_pct": 0.0,
+      "online_pct": 0.08263097008758882,
+      "blended_pct": 0.028920839530656085
+    },
+    {
+      "key": "greninja-blaziken",
+      "name": "Greninja Blaziken",
+      "irl_pct": 0.0,
+      "online_pct": 0.08263097008758882,
+      "blended_pct": 0.028920839530656085
+    },
+    {
+      "key": "mega-lopunny-ex",
+      "name": "Mega Lopunny",
+      "irl_pct": 0.0,
+      "online_pct": 0.06610477607007106,
+      "blended_pct": 0.02313667162452487
+    },
+    {
+      "key": "zygarde-barbaracle",
+      "name": "Zygarde Barbaracle",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "alakazam-meg",
+      "name": "Alakazam",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "mega-zygarde-ex",
+      "name": "Mega Zygarde",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "iono-bellibolt",
+      "name": "Iono's Bellibolt",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "feraligatr-tef",
+      "name": "Feraligatr",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "archaludon-ex",
+      "name": "Archaludon",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "palafin-ex",
+      "name": "Palafin",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "sylveon-pre",
+      "name": "Sylveon",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "jellicent-dusknoir",
+      "name": "Jellicent Dusknoir",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "azumarill-ssp",
+      "name": "Azumarill",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "mega-gengar-ex",
+      "name": "Mega Gengar",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "sinistcha-ogerpon",
+      "name": "Sinistcha Ogerpon",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "mega-manectric-ex-meg",
+      "name": "Mega Manectric",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "mega-froslass-ex",
+      "name": "Mega Froslass",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "mega-feraligatr-ex",
+      "name": "Mega Feraligatr",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "wailord-ex",
+      "name": "Wailord",
+      "irl_pct": 0.0,
+      "online_pct": 0.04957858205255329,
+      "blended_pct": 0.017352503718393652
+    },
+    {
+      "key": "yanmega-ex",
+      "name": "Yanmega",
+      "irl_pct": 0.0,
+      "online_pct": 0.03305238803503553,
+      "blended_pct": 0.011568335812262435
+    },
+    {
+      "key": "ancient-box",
+      "name": "Ancient Box",
+      "irl_pct": 0.0,
+      "online_pct": 0.03305238803503553,
+      "blended_pct": 0.011568335812262435
+    },
+    {
+      "key": "tyranitar-jtg",
+      "name": "Tyranitar",
+      "irl_pct": 0.0,
+      "online_pct": 0.03305238803503553,
+      "blended_pct": 0.011568335812262435
+    },
+    {
+      "key": "archaludon-zoroark",
+      "name": "Archaludon Zoroark",
+      "irl_pct": 0.0,
+      "online_pct": 0.03305238803503553,
+      "blended_pct": 0.011568335812262435
+    },
+    {
+      "key": "mamoswine-ex",
+      "name": "Mamoswine",
+      "irl_pct": 0.0,
+      "online_pct": 0.03305238803503553,
+      "blended_pct": 0.011568335812262435
+    },
+    {
+      "key": "bronzong-tef",
+      "name": "Bronzong",
+      "irl_pct": 0.0,
+      "online_pct": 0.03305238803503553,
+      "blended_pct": 0.011568335812262435
+    },
+    {
+      "key": "blissey-ex",
+      "name": "Blissey",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "reging-bolt-bellibolt",
+      "name": "Raging Bolt Bellibolt",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "blaziken-ex-jtg",
+      "name": "Blaziken",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "hydrapple-ogerpon",
+      "name": "Hydrapple Ogerpon",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "hydrapple-ex",
+      "name": "Hydrapple",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "galvantula-ex",
+      "name": "Galvantula",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "okidogi-twm",
+      "name": "Okidogi",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "dragapult-iron-thorns",
+      "name": "Dragapult Iron Thorns",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "mega-sharpedo-ex",
+      "name": "Mega Sharpedo",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    },
+    {
+      "key": "eelektrik-blk",
+      "name": "Eelektrik",
+      "irl_pct": 0.0,
+      "online_pct": 0.016526194017517766,
+      "blended_pct": 0.005784167906131218
+    }
+  ],
+  "notes": [
+    "IRL and Online are named-archetype distributions normalised using the same semantics as the historical scoring model.",
+    "Online uses qualifying same-format events after the latest in-person major, not all Online events in the format.",
+    "The blend uses the current best in-sample historical weighting rule and remains exploratory."
+  ]
+}

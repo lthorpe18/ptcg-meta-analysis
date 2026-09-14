@@ -8,8 +8,8 @@ The best blended rule is fixed from the prior full-field grid (80% start, 1pp/da
 
 | Method | Full field | Top 20 + Other |
 |---|---:|---:|
-| Online only | 72.78% | 74.50% |
-| Latest IRL only | 82.63% | 85.98% |
-| Best blend | 84.01% | 86.46% |
+| Online only | 72.78% | 74.51% |
+| Latest IRL only | 82.63% | 85.97% |
+| Best blend | 84.01% | 86.47% |
 
 Headline values are cohort/weekend-weighted so weekends with multiple contemporaneous majors do not receive extra weight.
