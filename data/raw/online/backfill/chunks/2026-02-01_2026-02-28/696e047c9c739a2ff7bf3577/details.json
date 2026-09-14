@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-01T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "696e047c9c739a2ff7bf3577",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Rare Candy Club Tournament #5 ASC HEROES LEGAL",
+  "organizer": {
+    "id": 2518,
+    "name": "Rare Candy Club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 53
+}
