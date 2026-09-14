@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-21T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "696e5fac9c739a2ff7bf36b0",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "The Lucky Draw Weekly #50",
+  "organizer": {
+    "id": 1088,
+    "name": "Insight Astronomy "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 107
+}

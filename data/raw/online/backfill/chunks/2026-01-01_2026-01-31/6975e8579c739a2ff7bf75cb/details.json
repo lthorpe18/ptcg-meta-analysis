@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-25T10:15:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6975e8579c739a2ff7bf75cb",
+  "isOnline": false,
+  "isPublic": true,
+  "name": "offline cup tcglive goes live 1.0",
+  "organizer": {
+    "id": 2339,
+    "name": "Tcglive"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": null,
+  "players": 53
+}

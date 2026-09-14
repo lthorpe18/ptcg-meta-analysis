@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-29T18:00:00.000Z",
+  "decklists": false,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "697a5bf5b1294bfab7207d04",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "ascended heroes tourney WIN A PLAYMAT",
+  "organizer": {
+    "id": 2203,
+    "name": "Team Gamers Guild"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 120
+}

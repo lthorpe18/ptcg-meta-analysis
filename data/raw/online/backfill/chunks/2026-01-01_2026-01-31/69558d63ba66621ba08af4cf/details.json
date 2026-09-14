@@ -1,0 +1,36 @@
+{
+  "date": "2026-01-01T20:10:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69558d63ba66621ba08af4cf",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Darksiders New Years Toronto Tune Up! - 50 Codes",
+  "organizer": {
+    "id": 1887,
+    "name": "Darksiders TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 180
+}

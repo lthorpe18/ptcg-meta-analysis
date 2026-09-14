@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-24T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "696fcb2b9c739a2ff7bf42f0",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "BZGC Online🔥 ~ Road to PR SPE",
+  "organizer": {
+    "id": 2278,
+    "name": "BattleZone GC Online"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 54
+}

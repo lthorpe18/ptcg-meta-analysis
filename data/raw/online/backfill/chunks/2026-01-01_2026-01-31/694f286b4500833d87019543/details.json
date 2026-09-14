@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-23T08:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "694f286b4500833d87019543",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Oceania Open! Season 1 - Week 4",
+  "organizer": {
+    "id": 1659,
+    "name": "TripleBtcg"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 50
+}

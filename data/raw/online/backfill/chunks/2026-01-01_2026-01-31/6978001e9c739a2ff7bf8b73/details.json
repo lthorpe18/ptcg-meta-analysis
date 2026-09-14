@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-28T00:15:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6978001e9c739a2ff7bf8b73",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "LAST PRIZE SERIES S2 – NEW SEASON CLASH",
+  "organizer": {
+    "id": 2227,
+    "name": "LastPrizeTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 197
+}

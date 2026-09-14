@@ -1,0 +1,24 @@
+{
+  "date": "2026-01-23T17:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6939cc751b3b036ef6dbe047",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Turtwig Den Revival Series Challenge 21",
+  "organizer": {
+    "id": 196,
+    "name": "DabbingUkranian"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 84
+}
