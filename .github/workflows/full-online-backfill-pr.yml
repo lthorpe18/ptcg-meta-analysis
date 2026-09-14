@@ -79,3 +79,13 @@ jobs:
             fi
             CUR="$NEXT"
           done
+
+      - name: Audit completed Online archive
+        run: |
+          set -euo pipefail
+          python scripts/audit_online_archive.py
+          git add results/online-audit
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: audit historical Online archive"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
