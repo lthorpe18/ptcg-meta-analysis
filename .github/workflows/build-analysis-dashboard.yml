@@ -1,0 +1,67 @@
+name: Build analysis dashboard
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - historical-online-chunked
+    paths:
+      - ".analysis-dashboard-trigger"
+      - "scripts/build_prediction_windows.py"
+      - "scripts/build_dashboard.py"
+      - "data/reference/legality-calendar.json"
+      - "data/processed/format-tags/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "analysis-dashboard"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout analysis branch
+        uses: actions/checkout@v4
+        with:
+          ref: historical-online-chunked
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build baseline prediction windows
+        run: python scripts/build_prediction_windows.py
+
+      - name: Build interactive explorer
+        run: python scripts/build_dashboard.py
+
+      - name: Commit generated analysis outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/prediction-windows results/prediction-windows dashboard/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: generate baseline prediction windows"
+            git push origin HEAD:historical-online-chunked
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload explorer
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+      - name: Deploy explorer
+        id: deployment
+        uses: actions/deploy-pages@v4
