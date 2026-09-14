@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-09-14T14:17:15.728553+00:00",
+  "scoring_policy": {
+    "metric": "Field Accuracy = 100% - 0.5 * sum(abs(predicted share - actual share))",
+    "distribution_scope": "Named archetypes only; Other/Unknown/unclassified are retained in source data but excluded then distributions are renormalised.",
+    "identity_key": "Exact Online deck id / IRL Labs slug; variants are not collapsed.",
+    "primary_target_threshold": ">=95% IRL field capture",
+    "transition_policy": "Online-only clean baseline. Prior-format IRL is not carried forward.",
+    "settled_irl_scope": "Latest completed same-format IRL overlap cohort.",
+    "settled_online_only_scope": "All qualifying same-format Online events before cutoff.",
+    "settled_blend_online_scope": "Qualifying same-format Online events after the latest IRL cohort and before cutoff.",
+    "current_v2_1_weights": "IRL max 70%, min 30%, decay 2 percentage points/day; Online receives the remainder."
+  },
+  "target_count": 71,
+  "primary_target_count": 68,
+  "primary_settled_count": 53,
+  "primary_transition_count": 15,
+  "complete_case_settled_event_count": 34,
+  "complete_case_settled_cohort_count": 25,
+  "models": {
+    "online_only": {
+      "model": {
+        "label": "Online-only",
+        "description": "All qualifying same-format Online evidence before the frozen target cutoff."
+      },
+      "overall_primary": {
+        "event_count": 68,
+        "cohort_count": 53,
+        "mean_field_accuracy_pct": 72.36842716328172,
+        "median_field_accuracy_pct": 72.69601206856814,
+        "cohort_mean_field_accuracy_pct": 72.217177387893,
+        "mean_mae_pp": 0.4531917274046037
+      },
+      "settled_primary": {
+        "event_count": 53,
+        "cohort_count": 40,
+        "mean_field_accuracy_pct": 72.1307933975021,
+        "median_field_accuracy_pct": 72.40986959921818,
+        "cohort_mean_field_accuracy_pct": 71.98611714339064,
+        "mean_mae_pp": 0.4477511575200366
+      },
+      "transition_primary": {
+        "event_count": 15,
+        "cohort_count": 13,
+        "mean_field_accuracy_pct": 73.20806646903635,
+        "median_field_accuracy_pct": 74.90968491431708,
+        "cohort_mean_field_accuracy_pct": 72.9281319863618,
+        "mean_mae_pp": 0.4724150743300741
+      },
+      "worlds_primary": {
+        "event_count": 2,
+        "cohort_count": 2,
+        "mean_field_accuracy_pct": 63.02733835587016,
+        "median_field_accuracy_pct": 63.02733835587016,
+        "cohort_mean_field_accuracy_pct": 63.02733835587016,
+        "mean_mae_pp": 0.5972611278861358
+      },
+      "event_wins_complete_case": 0.0,
+      "cohort_wins_complete_case": 0.0
+    },
+    "irl_only": {
+      "model": {
+        "label": "IRL-only",
+        "description": "Latest completed same-format IRL major cohort only; settled targets only."
+      },
+      "overall_primary": {
+        "event_count": 53,
+        "cohort_count": 40,
+        "mean_field_accuracy_pct": 82.7798695208643,
+        "median_field_accuracy_pct": 83.51585510461692,
+        "cohort_mean_field_accuracy_pct": 83.10927480259315,
+        "mean_mae_pp": 0.4142514715989982
+      },
+      "settled_primary": {
+        "event_count": 53,
+        "cohort_count": 40,
+        "mean_field_accuracy_pct": 82.7798695208643,
+        "median_field_accuracy_pct": 83.51585510461692,
+        "cohort_mean_field_accuracy_pct": 83.10927480259315,
+        "mean_mae_pp": 0.4142514715989982
+      },
+      "transition_primary": {
+        "event_count": 0,
+        "cohort_count": 0,
+        "mean_field_accuracy_pct": null,
+        "median_field_accuracy_pct": null,
+        "cohort_mean_field_accuracy_pct": null,
+        "mean_mae_pp": null
+      },
+      "worlds_primary": {
+        "event_count": 0,
+        "cohort_count": 0,
+        "mean_field_accuracy_pct": null,
+        "median_field_accuracy_pct": null,
+        "cohort_mean_field_accuracy_pct": null,
+        "mean_mae_pp": null
+      },
+      "event_wins_complete_case": 15.0,
+      "cohort_wins_complete_case": 12.0
+    },
+    "fifty_fifty": {
+      "model": {
+        "label": "50/50",
+        "description": "Latest same-format IRL cohort plus qualifying Online evidence since that cohort, fixed 50/50 weights; settled targets only."
+      },
+      "overall_primary": {
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_field_accuracy_pct": 83.21734643009351,
+        "median_field_accuracy_pct": 83.86043635539747,
+        "cohort_mean_field_accuracy_pct": 83.15592485826046,
+        "mean_mae_pp": 0.3317547604385034
+      },
+      "settled_primary": {
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_field_accuracy_pct": 83.21734643009351,
+        "median_field_accuracy_pct": 83.86043635539747,
+        "cohort_mean_field_accuracy_pct": 83.15592485826046,
+        "mean_mae_pp": 0.3317547604385034
+      },
+      "transition_primary": {
+        "event_count": 0,
+        "cohort_count": 0,
+        "mean_field_accuracy_pct": null,
+        "median_field_accuracy_pct": null,
+        "cohort_mean_field_accuracy_pct": null,
+        "mean_mae_pp": null
+      },
+      "worlds_primary": {
+        "event_count": 0,
+        "cohort_count": 0,
+        "mean_field_accuracy_pct": null,
+        "median_field_accuracy_pct": null,
+        "cohort_mean_field_accuracy_pct": null,
+        "mean_mae_pp": null
+      },
+      "event_wins_complete_case": 8.0,
+      "cohort_wins_complete_case": 6.0
+    },
+    "current_v2_1": {
+      "model": {
+        "label": "Current v2.1",
+        "description": "Production settled-format weighting: IRL starts at 70%, decays 2 percentage points/day to a 30% floor; Online is qualifying evidence since the latest IRL cohort."
+      },
+      "overall_primary": {
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_field_accuracy_pct": 83.26772992209524,
+        "median_field_accuracy_pct": 84.04273080799204,
+        "cohort_mean_field_accuracy_pct": 83.3013555471592,
+        "mean_mae_pp": 0.33010012597716537
+      },
+      "settled_primary": {
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_field_accuracy_pct": 83.26772992209524,
+        "median_field_accuracy_pct": 84.04273080799204,
+        "cohort_mean_field_accuracy_pct": 83.3013555471592,
+        "mean_mae_pp": 0.33010012597716537
+      },
+      "transition_primary": {
+        "event_count": 0,
+        "cohort_count": 0,
+        "mean_field_accuracy_pct": null,
+        "median_field_accuracy_pct": null,
+        "cohort_mean_field_accuracy_pct": null,
+        "mean_mae_pp": null
+      },
+      "worlds_primary": {
+        "event_count": 0,
+        "cohort_count": 0,
+        "mean_field_accuracy_pct": null,
+        "median_field_accuracy_pct": null,
+        "cohort_mean_field_accuracy_pct": null,
+        "mean_mae_pp": null
+      },
+      "event_wins_complete_case": 11.0,
+      "cohort_wins_complete_case": 7.0
+    }
+  },
+  "pairwise_v2_1_vs_50_50": {
+    "event_count": 34,
+    "v2_1_wins": 18,
+    "fifty_fifty_wins": 16,
+    "ties": 0,
+    "mean_v2_1_minus_50_50_pp": 0.0503834920017279
+  }
+}
