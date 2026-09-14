@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-04T21:15:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a93c8d6629039f77d8a5638",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Full Bench Fridays PTCGL Cash Event $10 #12",
+  "organizer": {
+    "id": 2705,
+    "name": "Hideout TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 179
+}

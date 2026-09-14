@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-06T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a93a43a629039f77d8a55b5",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Vault Of Games #1 🏆|SEASON 1|WEEKLY",
+  "organizer": {
+    "id": 2226,
+    "name": "Vault of Games"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 214
+}

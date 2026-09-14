@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-06T21:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a958db4629039f77d8a6771",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "#BATALHA DE LOJAS ELEU CARDS  VS GEEX HOBBY STORE#",
+  "organizer": {
+    "id": 236,
+    "name": "NIK"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 126
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-09T16:45:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6aa122dbab080c8c957fee32",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Circuito TCG #5 | Z2 Gaming",
+  "organizer": {
+    "id": 2585,
+    "name": "Z2 Gaming"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 63
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-07T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a978d0fab080c8c957f79ac",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Rare Candy Club Showdown #43 (50 CODES)",
+  "organizer": {
+    "id": 2518,
+    "name": "Rare Candy Club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 254
+}
