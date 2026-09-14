@@ -11,7 +11,9 @@ on:
       - "scripts/score_baseline_models.py"
       - "scripts/test_irl_weight_grid.py"
       - "scripts/test_top20_sensitivity.py"
+      - "scripts/build_current_archetype_prediction.py"
       - "scripts/build_research_site.py"
+      - "scripts/add_archetype_page.py"
       - "data/reference/legality-calendar.json"
       - "data/processed/format-tags/**"
 
@@ -53,20 +55,28 @@ jobs:
       - name: Test top-20 sensitivity
         run: python scripts/test_top20_sensitivity.py
 
+      - name: Build current archetype forecast
+        run: python scripts/build_current_archetype_prediction.py
+
       - name: Build research site
-        run: python scripts/build_research_site.py
+        run: |
+          python scripts/build_research_site.py
+          python scripts/add_archetype_page.py
 
       - name: Smoke test site
         run: |
           grep -q "Use the latest in-person major as the anchor" dashboard/index.html
           grep -q "The latest major does most of the work" dashboard/evidence.html
           grep -q "Predict the Day-1 share" dashboard/method.html
+          grep -q "Choose a deck. See what each signal says." dashboard/archetype.html
+          grep -q "Predicted field share" dashboard/archetype.html
+          grep -q 'href="archetype.html"' dashboard/index.html
 
       - name: Commit generated analysis outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/processed/prediction-windows results/prediction-windows data/processed/model-results results/model-results data/processed/weight-grid results/weight-grid data/processed/top20-sensitivity results/top20-sensitivity dashboard/index.html dashboard/evidence.html dashboard/method.html dashboard/models.html
+          git add data/processed/prediction-windows results/prediction-windows data/processed/model-results results/model-results data/processed/weight-grid results/weight-grid data/processed/top20-sensitivity results/top20-sensitivity data/processed/current-archetype-prediction.json dashboard/index.html dashboard/archetype.html dashboard/evidence.html dashboard/method.html dashboard/models.html
           if ! git diff --cached --quiet; then
             git commit -m "analysis: refresh research site"
             git push origin HEAD:historical-online-chunked
