@@ -1,4 +1,4 @@
-name: Chunked historical Online backfill
+name: Historical meta backfill
 
 on:
   pull_request:
@@ -96,5 +96,17 @@ jobs:
           git add results/online-audit
           if ! git diff --cached --quiet; then
             git commit -m "analysis: audit historical Online archive"
+            git push origin HEAD:${{ github.head_ref }}
+          fi
+
+      - name: Collect historical IRL Labs fields
+        run: |
+          set -euo pipefail
+          python scripts/fetch_irl_labs.py \
+            --start-date "2024-09-01" \
+            --end-date "2026-09-13"
+          git add data/raw/irl/labs
+          if ! git diff --cached --quiet; then
+            git commit -m "data: collect historical IRL Labs fields"
             git push origin HEAD:${{ github.head_ref }}
           fi
