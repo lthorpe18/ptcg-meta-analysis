@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-11T11:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69f4579be23aab068aad6b4a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "SEASAC Regional #2 | $25 PRIZE | FREE ENTRY",
+  "organizer": {
+    "id": 2623,
+    "name": "SEASAC League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 5,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 109
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-27T14:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a15c3250f6c1f0899861736",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "CA$H PRIZING | UNOWN WEEKLY #2 | FREE ENTRY",
+  "organizer": {
+    "id": 89,
+    "name": "Unown TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 55,
+  "specialRules": [
+    "NO_VMAX",
+    "NO_TAGTEAM"
+  ]
+}

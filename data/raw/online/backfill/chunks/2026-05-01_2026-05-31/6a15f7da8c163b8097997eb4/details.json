@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-28T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a15f7da8c163b8097997eb4",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "💥​Plantel Battle #24 CHAOS 💥​100 CODES ✔️​ TOP 8",
+  "organizer": {
+    "id": 1727,
+    "name": "Mighow"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 107
+}

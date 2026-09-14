@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-05T23:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69f3c02c4f71d664893e8327",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "LastPrize Series (100 Codes Prize Pool)",
+  "organizer": {
+    "id": 2227,
+    "name": "LastPrizeTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 196
+}

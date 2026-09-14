@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-29T22:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a1393938c163b8097996a8d",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "1º Liga Gladiators #Curitiba $30,00 + 100 Códigos.",
+  "organizer": {
+    "id": 2563,
+    "name": "LojaTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 57
+}

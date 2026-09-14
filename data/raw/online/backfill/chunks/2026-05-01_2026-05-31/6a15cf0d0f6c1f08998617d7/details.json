@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-27T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a15cf0d0f6c1f08998617d7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Gratuito Sidedeck Online 26 Mayo",
+  "organizer": {
+    "id": 2306,
+    "name": "Juanma_TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 94
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-27T21:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a16fecd0f6c1f089986214c",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Hideout TCG ptcgl cash tournamnet $20.00 (chaos✓)",
+  "organizer": {
+    "id": 2705,
+    "name": "Hideout TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 92
+}
