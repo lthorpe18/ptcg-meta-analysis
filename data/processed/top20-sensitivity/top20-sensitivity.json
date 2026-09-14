@@ -27,12 +27,12 @@
       "cohort_weighted_accuracy": 74.51291974874547
     },
     "top20_irl_only": {
-      "event_weighted_accuracy": 85.72442908322589,
-      "cohort_weighted_accuracy": 85.97357213978452
+      "event_weighted_accuracy": 85.70980364080624,
+      "cohort_weighted_accuracy": 85.96362683893916
     },
     "top20_best_blend": {
-      "event_weighted_accuracy": 86.41066445895146,
-      "cohort_weighted_accuracy": 86.47399873844735
+      "event_weighted_accuracy": 86.40166670526582,
+      "cohort_weighted_accuracy": 86.46788026594113
     }
   },
   "rows": [
@@ -332,8 +332,8 @@
       "full_irl_only": 84.42455384275375,
       "full_best_blend": 86.13214652042586,
       "top20_online_only": 82.51438234153002,
-      "top20_irl_only": 89.46779446048392,
-      "top20_best_blend": 90.10818381564452
+      "top20_irl_only": 88.97052941821639,
+      "top20_best_blend": 89.80226019033314
     },
     {
       "target_id": "0043",
