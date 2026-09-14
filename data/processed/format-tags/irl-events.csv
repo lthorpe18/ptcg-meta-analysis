@@ -1,0 +1,72 @@
+id,name,environment,event_type,start_date,end_date,players,field_count_ratio,target_eligible_ge_95,target_eligible_ge_98,display_format,regulation_marks,latest_expansion,format_start_date,days_into_format,format_opening_cohort,same_start_date_event_count,same_start_date_cohort
+0001,Regional Championship Baltimore,irl,Regional Championship,2024-09-13,2024-09-15,2307,0.9973992197659298,True,True,BRS-SFA,F-H,SFA,2024-09-01,12,True,1,False
+0002,Regional Championship Dortmund,irl,Regional Championship,2024-09-28,2024-09-29,1815,0.9983471074380166,True,True,BRS-SCR,F-H,SCR,2024-09-27,1,True,2,True
+0003,Regional Championship Joinville,irl,Regional Championship,2024-09-28,2024-09-29,578,1.0,True,True,BRS-SCR,F-H,SCR,2024-09-27,1,True,2,True
+0004,Special Event Lima,irl,Special Event,2024-10-05,2024-10-06,304,0.881578947368421,False,False,BRS-SCR,F-H,SCR,2024-09-27,8,False,1,False
+0005,Regional Championship Louisville,irl,Regional Championship,2024-10-11,2024-10-13,1938,0.9979360165118679,True,True,BRS-SCR,F-H,SCR,2024-09-27,14,False,1,False
+0006,Regional Championship Lille,irl,Regional Championship,2024-10-19,2024-10-20,1311,1.0,True,True,BRS-SCR,F-H,SCR,2024-09-27,22,False,1,False
+0007,Regional Championship Gdańsk,irl,Regional Championship,2024-11-02,2024-11-03,1372,0.9963556851311953,True,True,BRS-SCR,F-H,SCR,2024-09-27,36,False,1,False
+0008,Special Event Buenos Aires,irl,Special Event,2024-11-09,2024-11-10,275,0.9090909090909091,False,False,BRS-SCR,F-H,SCR,2024-09-27,43,False,1,False
+0009,International Championship São Paulo,irl,International Championship,2024-11-15,2024-11-17,1810,0.9972375690607734,True,True,BRS-SCR,F-H,SCR,2024-09-27,49,False,1,False
+0010,Regional Championship Sacramento,irl,Regional Championship,2024-11-22,2024-11-24,1705,0.9958944281524926,True,True,BRS-SSP,F-H,SSP,2024-11-22,0,True,1,False
+0011,Regional Championship Stuttgart,irl,Regional Championship,2024-11-30,2024-12-01,1702,0.9976498237367802,True,True,BRS-SSP,F-H,SSP,2024-11-22,8,False,1,False
+0012,Special Event Bogotá,irl,Special Event,2024-12-07,2024-12-08,215,0.986046511627907,True,True,BRS-SSP,F-H,SSP,2024-11-22,15,False,2,True
+0013,Regional Championship Perth,irl,Regional Championship,2024-12-07,2024-12-08,318,0.9937106918238994,True,True,BRS-SSP,F-H,SSP,2024-11-22,15,False,2,True
+0014,Regional Championship Toronto,irl,Regional Championship,2024-12-13,2024-12-15,2137,0.9990641085634067,True,True,BRS-SSP,F-H,SSP,2024-11-22,21,False,1,False
+0015,Regional Championship Birmingham,irl,Regional Championship,2025-01-18,2025-01-19,2018,0.998017839444995,True,True,BRS-SSP,F-H,SSP,2024-11-22,57,False,2,True
+0016,Regional Championship Rio de Janeiro,irl,Regional Championship,2025-01-18,2025-01-19,1139,0.9991220368744512,True,True,BRS-SSP,F-H,SSP,2024-11-22,57,False,2,True
+0017,Regional Championship San Antonio,irl,Regional Championship,2025-01-24,2025-01-26,2400,0.9970833333333333,True,True,BRS-SSP,F-H,SSP,2024-11-22,63,False,1,False
+0018,Regional Championship Mérida,irl,Regional Championship,2025-02-08,2025-02-09,1151,0.998262380538662,True,True,BRS-PRE,F-H,PRE,2025-01-31,8,True,1,False
+0019,Special Event San Juan,irl,Special Event,2025-02-15,2025-02-16,299,0.9866220735785953,True,True,BRS-PRE,F-H,PRE,2025-01-31,15,False,1,False
+0020,International Championship London,irl,International Championship,2025-02-21,2025-02-23,3361,0.9979172865218685,True,True,BRS-PRE,F-H,PRE,2025-01-31,21,False,1,False
+0021,Regional Championship Vancouver,irl,Regional Championship,2025-03-07,2025-03-09,1314,0.9992389649923896,True,True,BRS-PRE,F-H,PRE,2025-01-31,35,False,1,False
+0022,Regional Championship Fortaleza,irl,Regional Championship,2025-03-08,2025-03-09,715,0.993006993006993,True,True,BRS-PRE,F-H,PRE,2025-01-31,36,False,1,False
+0023,Regional Championship Stockholm,irl,Regional Championship,2025-03-22,2025-03-23,815,0.9987730061349693,True,True,BRS-PRE,F-H,PRE,2025-01-31,50,False,1,False
+0024,Regional Championship Brisbane,irl,Regional Championship,2025-03-29,2025-03-30,470,0.9957446808510638,True,True,BRS-PRE,F-H,PRE,2025-01-31,57,False,1,False
+0025,Regional Championship Atlanta,irl,Regional Championship,2025-04-11,2025-04-13,2684,0.9951564828614009,True,True,SVI-JTG,G-I,JTG,2025-04-11,0,True,1,False
+0026,Regional Championship Monterrey,irl,Regional Championship,2025-04-19,2025-04-20,1327,0.9924642049736248,True,True,SVI-JTG,G-I,JTG,2025-04-11,8,False,1,False
+0027,Special Event Seville,irl,Special Event,2025-04-26,2025-04-27,817,0.9975520195838433,True,True,SVI-JTG,G-I,JTG,2025-04-11,15,False,1,False
+0028,Regional Championship Milwaukee,irl,Regional Championship,2025-05-02,2025-05-04,1657,0.996378998189499,True,True,SVI-JTG,G-I,JTG,2025-04-11,21,False,1,False
+0029,Regional Championship Melbourne,irl,Regional Championship,2025-05-17,2025-05-18,563,0.9964476021314387,True,True,SVI-JTG,G-I,JTG,2025-04-11,36,False,3,True
+0030,Special Event Utrecht,irl,Special Event,2025-05-17,2025-05-18,1241,0.9983883964544722,True,True,SVI-JTG,G-I,JTG,2025-04-11,36,False,3,True
+0031,Regional Championship Santiago,irl,Regional Championship,2025-05-17,2025-05-18,1249,0.9935948759007206,True,True,SVI-JTG,G-I,JTG,2025-04-11,36,False,3,True
+0032,Regional Championship Portland,irl,Regional Championship,2025-05-23,2025-05-25,1688,0.9982227488151659,True,True,SVI-JTG,G-I,JTG,2025-04-11,42,False,1,False
+0033,Special Event Bologna,irl,Special Event,2025-05-31,2025-06-01,1239,0.9983857949959645,True,True,SVI-JTG,G-I,JTG,2025-04-11,50,False,1,False
+0034,International Championship New Orleans,irl,International Championship,2025-06-13,2025-06-15,3812,0.9979013641133263,True,True,SVI-DRI,G-I,DRI,2025-06-13,0,True,1,False
+0035,World Championship Anaheim,irl,World Championship,2025-08-15,2025-08-17,721,0.9958391123439667,True,True,SVI-BLK/WHT,G-I,BLK/WHT,2025-08-01,14,True,1,False
+0036,Regional Championship Frankfurt,irl,Regional Championship,2025-09-13,2025-09-14,2433,0.9958898479243732,True,True,SVI-BLK/WHT,G-I,BLK/WHT,2025-08-01,43,False,2,True
+0037,Regional Championship Monterrey,irl,Regional Championship,2025-09-13,2025-09-14,1620,0.9938271604938271,True,True,SVI-BLK/WHT,G-I,BLK/WHT,2025-08-01,43,False,2,True
+0038,Regional Championship Pittsburgh,irl,Regional Championship,2025-09-19,2025-09-21,2691,0.9996283909327388,True,True,SVI-BLK/WHT,G-I,BLK/WHT,2025-08-01,49,False,1,False
+0040,Regional Championship Milwaukee,irl,Regional Championship,2025-10-10,2025-10-12,2305,0.9978308026030369,True,True,SVI-MEG,G-I,MEG,2025-10-10,0,True,1,False
+0039,Regional Championship Belo Horizonte,irl,Regional Championship,2025-10-11,2025-10-12,1117,0.9946284691136974,True,True,SVI-MEG,G-I,MEG,2025-10-10,1,False,1,False
+0041,Regional Championship Lille,irl,Regional Championship,2025-10-25,2025-10-26,2028,0.9985207100591716,True,True,SVI-MEG,G-I,MEG,2025-10-10,15,False,1,False
+0042,Regional Championship Brisbane,irl,Regional Championship,2025-11-01,2025-11-02,617,0.9967585089141004,True,True,SVI-MEG,G-I,MEG,2025-10-10,22,False,2,True
+0043,Regional Championship Gdańsk,irl,Regional Championship,2025-11-01,2025-11-02,1675,0.9988059701492538,True,True,SVI-MEG,G-I,MEG,2025-10-10,22,False,2,True
+0044,Regional Championship Las Vegas,irl,Regional Championship,2025-11-14,2025-11-16,2919,0.9976019184652278,True,True,SVI-MEG,G-I,MEG,2025-10-10,35,False,1,False
+0045,Special Event Buenos Aires,irl,Special Event,2025-11-15,2025-11-16,350,0.9857142857142858,True,True,SVI-MEG,G-I,MEG,2025-10-10,36,False,1,False
+0046,International Championship São Paulo,irl,International Championship,2025-11-21,2025-11-23,2117,0.9990552668871044,True,True,SVI-MEG,G-I,MEG,2025-10-10,42,False,1,False
+0047,Regional Championship Stuttgart,irl,Regional Championship,2025-11-29,2025-11-30,2200,0.9977272727272727,True,True,SVI-PFL,G-I,PFL,2025-11-28,1,True,1,False
+0048,Regional Championship Toronto,irl,Regional Championship,2026-01-16,2026-01-18,2270,0.9986784140969163,True,True,SVI-PFL,G-I,PFL,2025-11-28,49,False,1,False
+0049,Regional Championship Birmingham,irl,Regional Championship,2026-01-24,2026-01-25,2344,0.9982935153583617,True,True,SVI-PFL,G-I,PFL,2025-11-28,57,False,3,True
+0050,Regional Championship Mérida,irl,Regional Championship,2026-01-24,2026-01-25,1690,0.9940828402366864,True,True,SVI-PFL,G-I,PFL,2025-11-28,57,False,3,True
+0051,Special Event Auckland,irl,Special Event,2026-01-24,2026-01-25,80,0.8875,False,False,SVI-PFL,G-I,PFL,2025-11-28,57,False,3,True
+0052,Regional Championship Sydney,irl,Regional Championship,2026-02-07,2026-02-08,699,0.9971387696709585,True,True,SVI-PFL,G-I,PFL,2025-11-28,71,False,2,True
+0053,Regional Championship Santiago,irl,Regional Championship,2026-02-07,2026-02-08,1670,0.9988023952095808,True,True,SVI-PFL,G-I,PFL,2025-11-28,71,False,2,True
+0054,International Championship London,irl,International Championship,2026-02-13,2026-02-15,4010,0.9987531172069826,True,True,SVI-PFL,G-I,PFL,2025-11-28,77,False,1,False
+0055,Regional Championship Seattle,irl,Regional Championship,2026-02-27,2026-03-01,2231,0.9968623935454953,True,True,SVI-PFL,G-I,PFL,2025-11-28,91,False,1,False
+0056,Special Event San Juan,irl,Special Event,2026-03-07,2026-03-08,356,0.9691011235955056,True,False,SVI-ASC,G-I,ASC,2026-03-06,1,True,1,False
+0057,Regional Championship Curitiba,irl,Regional Championship,2026-03-14,2026-03-15,1449,0.9986197377501725,True,True,SVI-ASC,G-I,ASC,2026-03-06,8,False,1,False
+0058,Regional Championship Houston,irl,Regional Championship,2026-03-20,2026-03-22,2635,0.9992409867172676,True,True,SVI-ASC,G-I,ASC,2026-03-06,14,False,1,False
+0059,Special Event Seville,irl,Special Event,2026-03-28,2026-03-29,1337,0.9992520568436799,True,True,SVI-ASC,G-I,ASC,2026-03-06,22,False,1,False
+0060,Regional Championship Orlando,irl,Regional Championship,2026-04-03,2026-04-05,2745,0.9959927140255009,True,True,SVI-ASC,G-I,ASC,2026-03-06,28,False,1,False
+0061,Regional Championship Querétaro,irl,Regional Championship,2026-04-04,2026-04-05,1446,0.991701244813278,True,True,SVI-ASC,G-I,ASC,2026-03-06,29,False,1,False
+0062,Regional Championship Prague,irl,Regional Championship,2026-04-25,2026-04-26,1370,0.9978102189781022,True,True,TEF-POR,H-J,POR,2026-04-10,15,True,1,False
+0063,Regional Championship Los Angeles,irl,Regional Championship,2026-05-08,2026-05-10,1849,0.9972958355868037,True,True,TEF-POR,H-J,POR,2026-04-10,28,False,1,False
+0064,Regional Championship Utrecht,irl,Regional Championship,2026-05-16,2026-05-17,2150,0.9967441860465116,True,True,TEF-POR,H-J,POR,2026-04-10,36,False,2,True
+0065,Regional Championship Campinas,irl,Regional Championship,2026-05-16,2026-05-17,1725,0.9982608695652174,True,True,TEF-POR,H-J,POR,2026-04-10,36,False,2,True
+0066,Regional Championship Melbourne,irl,Regional Championship,2026-05-23,2026-05-24,959,0.9989572471324296,True,True,TEF-POR,H-J,POR,2026-04-10,43,False,2,True
+0067,Special Event Lima,irl,Special Event,2026-05-23,2026-05-24,499,0.9719438877755511,True,False,TEF-POR,H-J,POR,2026-04-10,43,False,2,True
+0068,Regional Championship Indianapolis,irl,Regional Championship,2026-05-29,2026-05-31,1974,0.9979736575481256,True,True,TEF-POR,H-J,POR,2026-04-10,49,False,1,False
+0069,Special Event Turin,irl,Special Event,2026-06-06,2026-06-07,2033,0.999508116084604,True,True,TEF-CRI,H-J,CRI,2026-06-05,1,True,1,False
+0070,International Championship New Orleans,irl,International Championship,2026-06-12,2026-06-14,3752,0.9976012793176973,True,True,TEF-CRI,H-J,CRI,2026-06-05,7,False,1,False
+0071,World Championship San Francisco,irl,World Championship,2026-08-28,2026-08-30,797,1.0,True,True,TEF-PBL,H-J,PBL,2026-07-31,28,True,1,False
