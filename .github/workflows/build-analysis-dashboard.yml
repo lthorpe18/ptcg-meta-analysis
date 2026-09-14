@@ -68,8 +68,9 @@ jobs:
           grep -q "Use the latest in-person major as the anchor" dashboard/index.html
           grep -q "The latest major does most of the work" dashboard/evidence.html
           grep -q "Predict the Day-1 share" dashboard/method.html
-          grep -q "Pick the archetypes you want to compare" dashboard/archetype.html
+          grep -q "Choose any archetypes and compare the three estimates" dashboard/archetype.html
           grep -q "Predicted blend" dashboard/archetype.html
+          grep -q '<tbody id="deckRows"><tr>' dashboard/archetype.html
           grep -q 'href="archetype.html"' dashboard/index.html
 
       - name: Commit generated analysis outputs
