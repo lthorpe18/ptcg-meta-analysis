@@ -1,0 +1,24 @@
+{
+  "date": "2025-09-24T03:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68a55321196e12cfd56aa191",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "CHALLENGE OF DOOM! PRACTICE, PRACTICE, PRACTICE",
+  "organizer": {
+    "id": 349,
+    "name": "Doom's Events and Catering"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 64
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-03T23:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68b50244827e9d163f8344e1",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "⭐IMPULSE Mid Week Increased Prize Support!",
+  "organizer": {
+    "id": 2428,
+    "name": "Impulse"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 179
+}
