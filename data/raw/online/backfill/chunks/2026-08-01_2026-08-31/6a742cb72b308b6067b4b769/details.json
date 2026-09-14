@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-07T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a742cb72b308b6067b4b769",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "ASRcristiano # 180 - 60 codes prize pool!",
+  "organizer": {
+    "id": 1778,
+    "name": "ASRcristiano League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 87
+}

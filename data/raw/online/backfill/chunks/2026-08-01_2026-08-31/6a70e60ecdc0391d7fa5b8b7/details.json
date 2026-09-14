@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-10T22:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a70e60ecdc0391d7fa5b8b7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Sunny's Weekly #268 Stand Up Comedy!",
+  "organizer": {
+    "id": 145,
+    "name": "Sunny's Weekly"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 234
+}

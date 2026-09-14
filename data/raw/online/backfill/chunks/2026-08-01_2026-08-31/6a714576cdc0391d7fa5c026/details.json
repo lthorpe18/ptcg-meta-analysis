@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-11T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a714576cdc0391d7fa5c026",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🇧🇷 Hit League #4 | TCG Live",
+  "organizer": {
+    "id": 2612,
+    "name": "Hit Legends TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO3",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 73
+}

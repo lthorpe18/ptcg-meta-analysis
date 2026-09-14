@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-23T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a8132d35a30714095571ed0",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Vault Of Games #6 🏆|OFF-SEASON |WEEKLY",
+  "organizer": {
+    "id": 2226,
+    "name": "Vault of Games"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 216
+}

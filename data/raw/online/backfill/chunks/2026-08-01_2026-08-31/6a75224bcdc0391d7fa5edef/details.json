@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-10T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a75224bcdc0391d7fa5edef",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "RCC Showdown #36 | $150 USD PRIZE | NO ENTRY FEE",
+  "organizer": {
+    "id": 2518,
+    "name": "Rare Candy Club"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 9,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 497
+}

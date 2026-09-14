@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-04T16:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6a6f99d52b308b6067b48069",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Team Corna Weekly August #1",
+  "organizer": {
+    "id": 2583,
+    "name": "Team Corna"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 118
+}
