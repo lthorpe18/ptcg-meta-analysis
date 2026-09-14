@@ -1,0 +1,321 @@
+{
+  "classified_entries": 1236,
+  "classified_share": 0.9895916733386709,
+  "complete": true,
+  "deck_entries_sum": 1241,
+  "decks": [
+    {
+      "entries": 196,
+      "name": "Raging Bolt Ogerpon",
+      "share": 15.79,
+      "slug": "raging-bolt-ogerpon"
+    },
+    {
+      "entries": 174,
+      "name": "Gardevoir",
+      "share": 14.02,
+      "slug": "gardevoir-ex-sv"
+    },
+    {
+      "entries": 131,
+      "name": "Dragapult",
+      "share": 10.56,
+      "slug": "dragapult-ex"
+    },
+    {
+      "entries": 117,
+      "name": "Joltik Box",
+      "share": 9.43,
+      "slug": "joltik-box"
+    },
+    {
+      "entries": 94,
+      "name": "Dragapult Dusknoir",
+      "share": 7.57,
+      "slug": "dragapult-dusknoir"
+    },
+    {
+      "entries": 80,
+      "name": "Tera Box",
+      "share": 6.45,
+      "slug": "tera-box"
+    },
+    {
+      "entries": 76,
+      "name": "Gholdengo Dragapult",
+      "share": 6.12,
+      "slug": "gholdengo-dragapult"
+    },
+    {
+      "entries": 47,
+      "name": "N's Zoroark",
+      "share": 3.79,
+      "slug": "n-zoroark"
+    },
+    {
+      "entries": 33,
+      "name": "Dragapult Charizard",
+      "share": 2.66,
+      "slug": "dragapult-charizard"
+    },
+    {
+      "entries": 31,
+      "name": "Flareon Noctowl",
+      "share": 2.5,
+      "slug": "flareon-noctowl"
+    },
+    {
+      "entries": 27,
+      "name": "Poison Archaludon",
+      "share": 2.18,
+      "slug": "poison-archaludon"
+    },
+    {
+      "entries": 23,
+      "name": "Gholdengo",
+      "share": 1.85,
+      "slug": "gholdengo-ex"
+    },
+    {
+      "entries": 21,
+      "name": "Terapagos Noctowl",
+      "share": 1.69,
+      "slug": "terapagos-noctowl"
+    },
+    {
+      "entries": 19,
+      "name": "Gholdengo Dudunsparce",
+      "share": 1.53,
+      "slug": "gholdengo-dudunsparce"
+    },
+    {
+      "entries": 17,
+      "name": "Hop's Zacian",
+      "share": 1.37,
+      "slug": "hop-zacian"
+    },
+    {
+      "entries": 15,
+      "name": "Charizard Pidgeot",
+      "share": 1.21,
+      "slug": "charizard-pidgeot"
+    },
+    {
+      "entries": 14,
+      "name": "Roaring Moon",
+      "share": 1.13,
+      "slug": "roaring-moon-ex"
+    },
+    {
+      "entries": 13,
+      "name": "Roaring Moon Dudunsparce",
+      "share": 1.05,
+      "slug": "roaring-moon-dudunsparce"
+    },
+    {
+      "entries": 10,
+      "name": "Charizard Noctowl",
+      "share": 0.81,
+      "slug": "charizard-noctowl"
+    },
+    {
+      "entries": 10,
+      "name": "Milotic Farigiraf",
+      "share": 0.81,
+      "slug": "milotic-farigiraf"
+    },
+    {
+      "entries": 8,
+      "name": "Ceruledge",
+      "share": 0.64,
+      "slug": "ceruledge-ex"
+    },
+    {
+      "entries": 7,
+      "name": "Archaludon",
+      "share": 0.56,
+      "slug": "archaludon-ex"
+    },
+    {
+      "entries": 7,
+      "name": "Blissey",
+      "share": 0.56,
+      "slug": "blissey-ex"
+    },
+    {
+      "entries": 7,
+      "name": "Feraligatr",
+      "share": 0.56,
+      "slug": "feraligatr-tef"
+    },
+    {
+      "entries": 5,
+      "name": "Froslass Munkidori",
+      "share": 0.4,
+      "slug": "froslass-munkidori"
+    },
+    {
+      "entries": 5,
+      "name": "Hydreigon",
+      "share": 0.4,
+      "slug": "hydreigon-ex"
+    },
+    {
+      "entries": 5,
+      "name": "Other",
+      "share": 0.4,
+      "slug": "other"
+    },
+    {
+      "entries": 5,
+      "name": "Raging Bolt Bellibolt",
+      "share": 0.4,
+      "slug": "reging-bolt-bellibolt"
+    },
+    {
+      "entries": 4,
+      "name": "Archaludon Zoroark",
+      "share": 0.32,
+      "slug": "archaludon-zoroark"
+    },
+    {
+      "entries": 4,
+      "name": "Charizard Dusknoir",
+      "share": 0.32,
+      "slug": "charizard-dusknoir"
+    },
+    {
+      "entries": 3,
+      "name": "Dragapult Froslass",
+      "share": 0.24,
+      "slug": "dragapult-froslass"
+    },
+    {
+      "entries": 3,
+      "name": "Dragapult Iron Thorns",
+      "share": 0.24,
+      "slug": "dragapult-iron-thorns"
+    },
+    {
+      "entries": 3,
+      "name": "Hydrapple Ogerpon",
+      "share": 0.24,
+      "slug": "hydrapple-ogerpon"
+    },
+    {
+      "entries": 3,
+      "name": "Mamoswine",
+      "share": 0.24,
+      "slug": "mamoswine-ex"
+    },
+    {
+      "entries": 3,
+      "name": "Slowking",
+      "share": 0.24,
+      "slug": "slowking-scr"
+    },
+    {
+      "entries": 2,
+      "name": "Chien-Pao Baxcalibur",
+      "share": 0.16,
+      "slug": "chien-pao-baxcalibur"
+    },
+    {
+      "entries": 2,
+      "name": "Dragapult Pidgeot",
+      "share": 0.16,
+      "slug": "dragapult-pidgeot"
+    },
+    {
+      "entries": 2,
+      "name": "Future Box",
+      "share": 0.16,
+      "slug": "future-box"
+    },
+    {
+      "entries": 2,
+      "name": "Great Tusk Mill",
+      "share": 0.16,
+      "slug": "great-tusk-tef"
+    },
+    {
+      "entries": 2,
+      "name": "Iono's Bellibolt",
+      "share": 0.16,
+      "slug": "iono-bellibolt"
+    },
+    {
+      "entries": 2,
+      "name": "Iron Thorns",
+      "share": 0.16,
+      "slug": "iron-thorns-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Archaludon Dudunsparce",
+      "share": 0.08,
+      "slug": "archaludon-dudunsparce"
+    },
+    {
+      "entries": 1,
+      "name": "Charizard",
+      "share": 0.08,
+      "slug": "charizard-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Copperajah",
+      "share": 0.08,
+      "slug": "copperajah-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Dipplin",
+      "share": 0.08,
+      "slug": "festival-lead"
+    },
+    {
+      "entries": 1,
+      "name": "Future Hands",
+      "share": 0.08,
+      "slug": "iron-hands-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Greninja",
+      "share": 0.08,
+      "slug": "greninja-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Okidogi",
+      "share": 0.08,
+      "slug": "okidogi-twm"
+    },
+    {
+      "entries": 1,
+      "name": "Tinkaton",
+      "share": 0.08,
+      "slug": "tinkaton-ex"
+    },
+    {
+      "entries": 1,
+      "name": "Tyranitar",
+      "share": 0.08,
+      "slug": "tyranitar-jtg"
+    }
+  ],
+  "division": "Masters",
+  "end_date": "2025-05-18",
+  "event_type": "Regional Championship",
+  "field_count_ratio": 0.9935948759007206,
+  "id": "0031",
+  "name": "Regional Championship Santiago",
+  "other_entries": 5,
+  "players": 1249,
+  "source": "Limitless Labs",
+  "source_url": "https://labs.limitlesstcg.com/0031/decks?day=1",
+  "start_date": "2025-05-17",
+  "variant_grouping": false,
+  "view": "day1"
+}
