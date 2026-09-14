@@ -11,10 +11,7 @@ on:
       - "scripts/score_baseline_models.py"
       - "scripts/test_irl_weight_grid.py"
       - "scripts/test_top20_sensitivity.py"
-      - "scripts/build_dashboard.py"
-      - "scripts/build_model_comparison.py"
-      - "scripts/enhance_model_weight_analysis.py"
-      - "scripts/polish_model_dashboard.py"
+      - "scripts/build_research_site.py"
       - "data/reference/legality-calendar.json"
       - "data/processed/format-tags/**"
 
@@ -56,55 +53,33 @@ jobs:
       - name: Test top-20 sensitivity
         run: python scripts/test_top20_sensitivity.py
 
-      - name: Build interactive explorer
-        run: python scripts/build_dashboard.py
+      - name: Build research site
+        run: python scripts/build_research_site.py
 
-      - name: Build model comparison page
+      - name: Smoke test site
         run: |
-          python scripts/build_model_comparison.py
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('dashboard/models.html')
-          s = p.read_text(encoding='utf-8')
-          for broken, fixed in [
-              ("$('#class'].onchange", "$('#class').onchange"),
-              ("$('#type'].onchange", "$('#type').onchange"),
-              ("$('#search'].onchange", "$('#search').onchange"),
-              ("$('#detailModel'].onchange", "$('#detailModel').onchange"),
-              ("$('#close'].onclick", "$('#close').onclick"),
-          ]:
-              s = s.replace(broken, fixed)
-          p.write_text(s, encoding='utf-8')
-          PY
-          python scripts/enhance_model_weight_analysis.py
-          python scripts/polish_model_dashboard.py
-          python - <<'PY'
-          from pathlib import Path
-          s = Path('dashboard/models.html').read_text(encoding='utf-8')
-          start = s.index('<script>') + len('<script>')
-          end = s.index('</script>', start)
-          Path('/tmp/models.js').write_text(s[start:end], encoding='utf-8')
-          PY
-          node --check /tmp/models.js
+          grep -q "Use the latest in-person major as the anchor" dashboard/index.html
+          grep -q "The latest major does most of the work" dashboard/evidence.html
+          grep -q "Predict the Day-1 share" dashboard/method.html
 
       - name: Commit generated analysis outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/processed/prediction-windows results/prediction-windows data/processed/model-results results/model-results data/processed/weight-grid results/weight-grid data/processed/top20-sensitivity results/top20-sensitivity dashboard/index.html dashboard/models.html
+          git add data/processed/prediction-windows results/prediction-windows data/processed/model-results results/model-results data/processed/weight-grid results/weight-grid data/processed/top20-sensitivity results/top20-sensitivity dashboard/index.html dashboard/evidence.html dashboard/method.html dashboard/models.html
           if ! git diff --cached --quiet; then
-            git commit -m "analysis: score baseline models"
+            git commit -m "analysis: refresh research site"
             git push origin HEAD:historical-online-chunked
           fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload explorer
+      - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: dashboard
 
-      - name: Deploy explorer
+      - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4
