@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-11T22:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "67e0747dfb3a86a4cffce1b2",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Peladão da Baixada #148 • Crossing The Ruins",
+  "organizer": {
+    "id": 72,
+    "name": "Battle Factory & Poképauper BR"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 66
+}

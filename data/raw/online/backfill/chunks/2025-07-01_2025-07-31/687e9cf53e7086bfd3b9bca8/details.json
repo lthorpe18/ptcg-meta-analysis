@@ -1,0 +1,24 @@
+{
+  "date": "2025-07-28T22:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "687e9cf53e7086bfd3b9bca8",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Sunny's Weekly #215 Bananza!",
+  "organizer": {
+    "id": 145,
+    "name": "Sunny's Weekly"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 256
+}

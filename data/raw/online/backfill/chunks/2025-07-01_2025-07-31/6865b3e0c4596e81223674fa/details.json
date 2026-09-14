@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-10T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "6865b3e0c4596e81223674fa",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🐍TLS TCG SERIES QUALIFIER 1/10 S3 - CASH + CODES",
+  "organizer": {
+    "id": 434,
+    "name": "Team Lethal Strike"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 8,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 168
+}

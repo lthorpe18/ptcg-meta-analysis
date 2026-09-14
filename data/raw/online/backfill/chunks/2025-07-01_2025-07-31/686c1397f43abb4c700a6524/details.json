@@ -1,0 +1,24 @@
+{
+  "date": "2025-07-12T17:05:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "686c1397f43abb4c700a6524",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Jester's Weekly Casual #18 - 2x Prizing Special!",
+  "organizer": {
+    "id": 1709,
+    "name": "JesterTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 114
+}

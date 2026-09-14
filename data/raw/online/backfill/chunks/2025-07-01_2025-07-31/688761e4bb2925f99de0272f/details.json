@@ -1,0 +1,24 @@
+{
+  "date": "2025-07-29T01:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "688761e4bb2925f99de0272f",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "The  First  Teacher  Skwovet's  PTCG  Game",
+  "organizer": {
+    "id": 1849,
+    "name": "TaiwanPtcg"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 88
+}

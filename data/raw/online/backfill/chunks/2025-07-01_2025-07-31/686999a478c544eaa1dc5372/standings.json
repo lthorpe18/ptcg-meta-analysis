@@ -1,0 +1,1030 @@
+[
+  {
+    "country": "JP",
+    "deck": {
+      "icons": [
+        "charizard",
+        "pidgeot"
+      ],
+      "id": "charizard-pidgeot",
+      "name": "Charizard Pidgeot"
+    },
+    "drop": null,
+    "placing": 1,
+    "record": {
+      "losses": 0,
+      "ties": 2,
+      "wins": 8
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "charizard"
+      ],
+      "id": "dragapult-charizard",
+      "name": "Dragapult Charizard"
+    },
+    "drop": null,
+    "placing": 2,
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 9
+    }
+  },
+  {
+    "country": "MY",
+    "deck": {
+      "icons": [
+        "ceruledge"
+      ],
+      "id": "ceruledge-ex",
+      "name": "Ceruledge"
+    },
+    "drop": null,
+    "placing": 3,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 7
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "joltik",
+        "pikachu"
+      ],
+      "id": "joltik-box",
+      "name": "Joltik Box"
+    },
+    "drop": null,
+    "placing": 4,
+    "record": {
+      "losses": 2,
+      "ties": 1,
+      "wins": 6
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "raging-bolt",
+        "ogerpon"
+      ],
+      "id": "raging-bolt-ogerpon",
+      "name": "Raging Bolt Ogerpon"
+    },
+    "drop": null,
+    "placing": 5,
+    "record": {
+      "losses": 2,
+      "ties": 1,
+      "wins": 5
+    }
+  },
+  {
+    "country": "CA",
+    "deck": {
+      "icons": [
+        "dragapult"
+      ],
+      "id": "dragapult-ex",
+      "name": "Dragapult"
+    },
+    "drop": null,
+    "placing": 6,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 5
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "dusknoir"
+      ],
+      "id": "dragapult-dusknoir",
+      "name": "Dragapult Dusknoir"
+    },
+    "drop": null,
+    "placing": 7,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 5
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "raging-bolt",
+        "ogerpon"
+      ],
+      "id": "raging-bolt-ogerpon",
+      "name": "Raging Bolt Ogerpon"
+    },
+    "drop": null,
+    "placing": 8,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 5
+    }
+  },
+  {
+    "country": "PE",
+    "deck": {
+      "icons": [
+        "dragapult"
+      ],
+      "id": "dragapult-ex",
+      "name": "Dragapult"
+    },
+    "drop": null,
+    "placing": 9,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 5
+    }
+  },
+  {
+    "country": "SG",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "dusknoir"
+      ],
+      "id": "dragapult-dusknoir",
+      "name": "Dragapult Dusknoir"
+    },
+    "drop": null,
+    "placing": 10,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "HK",
+    "deck": {
+      "icons": [
+        "dragapult"
+      ],
+      "id": "dragapult-ex",
+      "name": "Dragapult"
+    },
+    "drop": null,
+    "placing": 11,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "flareon"
+      ],
+      "id": "flareon-ex",
+      "name": "Flareon"
+    },
+    "drop": null,
+    "placing": 12,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "raging-bolt",
+        "ogerpon"
+      ],
+      "id": "raging-bolt-ogerpon",
+      "name": "Raging Bolt Ogerpon"
+    },
+    "drop": null,
+    "placing": 13,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "SI",
+    "deck": {
+      "icons": [
+        "flareon",
+        "noctowl"
+      ],
+      "id": "flareon-noctowl",
+      "name": "Flareon Noctowl"
+    },
+    "drop": null,
+    "placing": 14,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "garchomp"
+      ],
+      "id": "cynthia-garchomp-ex",
+      "name": "Cynthia's Garchomp"
+    },
+    "drop": null,
+    "placing": 15,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 4
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "iron-thorns",
+        "crustle"
+      ],
+      "id": "iron-thorns-crustle",
+      "name": "Iron Thorns Crustle"
+    },
+    "drop": null,
+    "placing": 16,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "raging-bolt",
+        "bellibolt"
+      ],
+      "id": "reging-bolt-bellibolt",
+      "name": "Raging Bolt Bellibolt"
+    },
+    "drop": null,
+    "placing": 17,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "flareon",
+        "noctowl"
+      ],
+      "id": "flareon-noctowl",
+      "name": "Flareon Noctowl"
+    },
+    "drop": null,
+    "placing": 18,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "zacian-crowned",
+        "snorlax"
+      ],
+      "id": "hop-zacian",
+      "name": "Hop's Zacian"
+    },
+    "drop": 5,
+    "placing": 19,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "mamoswine"
+      ],
+      "id": "mamoswine-ex",
+      "name": "Mamoswine"
+    },
+    "drop": null,
+    "placing": 20,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "flareon",
+        "noctowl"
+      ],
+      "id": "flareon-noctowl",
+      "name": "Flareon Noctowl"
+    },
+    "drop": 5,
+    "placing": 21,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "gholdengo",
+        "dudunsparce"
+      ],
+      "id": "gholdengo-dudunsparce",
+      "name": "Gholdengo Dudunsparce"
+    },
+    "drop": null,
+    "placing": 22,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "tinkaton"
+      ],
+      "id": "tinkaton-ex",
+      "name": "Tinkaton"
+    },
+    "drop": 6,
+    "placing": 23,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 3
+    }
+  },
+  {
+    "country": "ES",
+    "deck": {
+      "icons": [
+        "grimmsnarl",
+        "froslass"
+      ],
+      "id": "grimmsnarl-froslass",
+      "name": "Grimmsnarl Froslass"
+    },
+    "drop": null,
+    "placing": 24,
+    "record": {
+      "losses": 3,
+      "ties": 1,
+      "wins": 2
+    }
+  },
+  {
+    "country": "VN",
+    "deck": {
+      "icons": [
+        "gardevoir"
+      ],
+      "id": "gardevoir-ex-sv",
+      "name": "Gardevoir"
+    },
+    "drop": null,
+    "placing": 25,
+    "record": {
+      "losses": 3,
+      "ties": 1,
+      "wins": 2
+    }
+  },
+  {
+    "country": "CL",
+    "deck": {
+      "icons": [
+        "gardevoir"
+      ],
+      "id": "gardevoir-ex-sv",
+      "name": "Gardevoir"
+    },
+    "drop": null,
+    "placing": 26,
+    "record": {
+      "losses": 3,
+      "ties": 1,
+      "wins": 2
+    }
+  },
+  {
+    "country": "CA",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "dusknoir"
+      ],
+      "id": "dragapult-dusknoir",
+      "name": "Dragapult Dusknoir"
+    },
+    "drop": 5,
+    "placing": 27,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "dragapult"
+      ],
+      "id": "dragapult-ex",
+      "name": "Dragapult"
+    },
+    "drop": 4,
+    "placing": 28,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "grimmsnarl",
+        "froslass"
+      ],
+      "id": "grimmsnarl-froslass",
+      "name": "Grimmsnarl Froslass"
+    },
+    "drop": 4,
+    "placing": 29,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "dusknoir"
+      ],
+      "id": "dragapult-dusknoir",
+      "name": "Dragapult Dusknoir"
+    },
+    "drop": 4,
+    "placing": 30,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "AU",
+    "deck": {
+      "icons": [
+        "charizard",
+        "pidgeot"
+      ],
+      "id": "charizard-pidgeot",
+      "name": "Charizard Pidgeot"
+    },
+    "drop": 5,
+    "placing": 31,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "joltik",
+        "pikachu"
+      ],
+      "id": "joltik-box",
+      "name": "Joltik Box"
+    },
+    "drop": 5,
+    "placing": 32,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "grimmsnarl",
+        "froslass"
+      ],
+      "id": "grimmsnarl-froslass",
+      "name": "Grimmsnarl Froslass"
+    },
+    "drop": 5,
+    "placing": 33,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 2
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "charizard",
+        "noctowl"
+      ],
+      "id": "charizard-noctowl",
+      "name": "Charizard Noctowl"
+    },
+    "drop": 4,
+    "placing": 34,
+    "record": {
+      "losses": 2,
+      "ties": 1,
+      "wins": 1
+    }
+  },
+  {
+    "country": "DE",
+    "deck": {
+      "icons": [
+        "froslass",
+        "munkidori"
+      ],
+      "id": "froslass-munkidori",
+      "name": "Froslass Munkidori"
+    },
+    "drop": 3,
+    "placing": 35,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "GB",
+    "deck": {
+      "icons": [
+        "archaludon"
+      ],
+      "id": "archaludon-ex",
+      "name": "Archaludon"
+    },
+    "drop": 3,
+    "placing": 36,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "AU",
+    "deck": {
+      "icons": [
+        "great-tusk"
+      ],
+      "id": "great-tusk-tef",
+      "name": "Great Tusk Mill"
+    },
+    "drop": 3,
+    "placing": 37,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "AU",
+    "deck": {
+      "icons": [
+        "toedscruel",
+        "ogerpon"
+      ],
+      "id": "toedscruel-ex",
+      "name": "Toedscruel"
+    },
+    "drop": null,
+    "placing": 38,
+    "record": {
+      "losses": 5,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "DE",
+    "deck": {
+      "icons": [
+        "charizard"
+      ],
+      "id": "charizard-ex",
+      "name": "Charizard"
+    },
+    "drop": 4,
+    "placing": 39,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "CL",
+    "deck": {
+      "icons": [
+        "grimmsnarl",
+        "froslass"
+      ],
+      "id": "grimmsnarl-froslass",
+      "name": "Grimmsnarl Froslass"
+    },
+    "drop": 3,
+    "placing": 40,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "noctowl",
+        "ogerpon-wellspring"
+      ],
+      "id": "tera-box",
+      "name": "Tera Box"
+    },
+    "drop": null,
+    "placing": 41,
+    "record": {
+      "losses": 5,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "espathra",
+        "froslass"
+      ],
+      "id": "espathra-froslass",
+      "name": "Espathra Froslass"
+    },
+    "drop": 3,
+    "placing": 42,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "DE",
+    "deck": {
+      "icons": [
+        "raging-bolt",
+        "ogerpon"
+      ],
+      "id": "raging-bolt-ogerpon",
+      "name": "Raging Bolt Ogerpon"
+    },
+    "drop": null,
+    "placing": 43,
+    "record": {
+      "losses": 5,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "charizard"
+      ],
+      "id": "dragapult-charizard",
+      "name": "Dragapult Charizard"
+    },
+    "drop": 6,
+    "placing": 44,
+    "record": {
+      "losses": 5,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "tyranitar"
+      ],
+      "id": "tyranitar-jtg",
+      "name": "Tyranitar"
+    },
+    "drop": null,
+    "placing": 45,
+    "record": {
+      "losses": 5,
+      "ties": 0,
+      "wins": 1
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "froslass",
+        "munkidori"
+      ],
+      "id": "froslass-munkidori",
+      "name": "Froslass Munkidori"
+    },
+    "drop": 1,
+    "placing": 46,
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "toedscruel",
+        "ogerpon"
+      ],
+      "id": "toedscruel-ex",
+      "name": "Toedscruel"
+    },
+    "drop": 2,
+    "placing": 47,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "mewtwo",
+        "spidops"
+      ],
+      "id": "rocket-mewtwo-ex",
+      "name": "Rocket's Mewtwo"
+    },
+    "drop": 1,
+    "placing": 48,
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "dusknoir"
+      ],
+      "id": "dragapult-dusknoir",
+      "name": "Dragapult Dusknoir"
+    },
+    "drop": 2,
+    "placing": 49,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "PE",
+    "deck": {
+      "icons": [
+        "dragapult",
+        "dusknoir"
+      ],
+      "id": "dragapult-dusknoir",
+      "name": "Dragapult Dusknoir"
+    },
+    "drop": 2,
+    "placing": 50,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "GB",
+    "deck": {
+      "icons": [
+        "iron-thorns",
+        "crustle"
+      ],
+      "id": "iron-thorns-crustle",
+      "name": "Iron Thorns Crustle"
+    },
+    "drop": 2,
+    "placing": 51,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "flareon",
+        "noctowl"
+      ],
+      "id": "flareon-noctowl",
+      "name": "Flareon Noctowl"
+    },
+    "drop": 1,
+    "placing": 52,
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "greninja",
+        "blaziken"
+      ],
+      "id": "greninja-blaziken",
+      "name": "Greninja Blaziken"
+    },
+    "drop": 3,
+    "placing": 53,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "dragapult"
+      ],
+      "id": "dragapult-ex",
+      "name": "Dragapult"
+    },
+    "drop": 2,
+    "placing": 54,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "archaludon",
+        "brute-bonnet"
+      ],
+      "id": "poison-archaludon",
+      "name": "Poison Archaludon"
+    },
+    "drop": 3,
+    "placing": 55,
+    "record": {
+      "losses": 3,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "US",
+    "deck": {
+      "icons": [
+        "charizard",
+        "noctowl"
+      ],
+      "id": "charizard-noctowl",
+      "name": "Charizard Noctowl"
+    },
+    "drop": null,
+    "placing": 56,
+    "record": {
+      "losses": 6,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": null,
+    "deck": {
+      "icons": [
+        "joltik",
+        "pikachu"
+      ],
+      "id": "joltik-box",
+      "name": "Joltik Box"
+    },
+    "drop": 1,
+    "placing": 57,
+    "record": {
+      "losses": 1,
+      "ties": 0,
+      "wins": 0
+    }
+  },
+  {
+    "country": "BR",
+    "deck": {
+      "icons": [
+        "grimmsnarl",
+        "froslass"
+      ],
+      "id": "grimmsnarl-froslass",
+      "name": "Grimmsnarl Froslass"
+    },
+    "drop": 2,
+    "placing": 58,
+    "record": {
+      "losses": 2,
+      "ties": 0,
+      "wins": 0
+    }
+  }
+]

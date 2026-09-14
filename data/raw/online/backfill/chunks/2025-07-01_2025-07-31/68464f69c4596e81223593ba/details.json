@@ -1,0 +1,42 @@
+{
+  "date": "2025-07-12T22:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68464f69c4596e81223593ba",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "REDACTED BIRTHDAY BASH! (RR #6) (400 Codes)",
+  "organizer": {
+    "id": 222,
+    "name": "Redacted Gaming"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 4,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 158
+}
