@@ -56,11 +56,20 @@ jobs:
           from pathlib import Path
           p = Path('dashboard/models.html')
           s = p.read_text(encoding='utf-8')
-          s = s.replace("$('#class'].onchange", "$('#class').onchange")
-          s = s.replace("$('#type'].onchange", "$('#type').onchange")
-          s = s.replace("$('#search'].onchange", "$('#search').onchange")
+          for broken, fixed in [
+              ("$('#class'].onchange", "$('#class').onchange"),
+              ("$('#type'].onchange", "$('#type').onchange"),
+              ("$('#search'].onchange", "$('#search').onchange"),
+              ("$('#detailModel'].onchange", "$('#detailModel').onchange"),
+              ("$('#close'].onclick", "$('#close').onclick"),
+          ]:
+              s = s.replace(broken, fixed)
           p.write_text(s, encoding='utf-8')
+          start = s.index('<script>') + len('<script>')
+          end = s.index('</script>', start)
+          Path('/tmp/models.js').write_text(s[start:end], encoding='utf-8')
           PY
+          node --check /tmp/models.js
 
       - name: Commit generated analysis outputs
         run: |
