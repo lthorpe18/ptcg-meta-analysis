@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-21T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68f6e6c2dd7011c665c3cc5b",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Lagoon crew tcg live tourney 10$usd",
+  "organizer": {
+    "id": 2429,
+    "name": "Lagoon Crew"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 116
+}

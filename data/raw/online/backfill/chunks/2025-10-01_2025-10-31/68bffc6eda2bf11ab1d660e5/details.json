@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-03T22:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68bffc6eda2bf11ab1d660e5",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "The Lucky Draw Quarterly Qualifier",
+  "organizer": {
+    "id": 1088,
+    "name": "Insight Astronomy "
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 64
+}

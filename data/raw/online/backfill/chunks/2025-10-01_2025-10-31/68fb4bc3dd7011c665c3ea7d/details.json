@@ -1,0 +1,24 @@
+{
+  "date": "2025-10-27T19:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68fb4bc3dd7011c665c3ea7d",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Pumpkaweekly - NO Gengar or Diancie",
+  "organizer": {
+    "id": 36,
+    "name": "The Dice Town League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 176
+}

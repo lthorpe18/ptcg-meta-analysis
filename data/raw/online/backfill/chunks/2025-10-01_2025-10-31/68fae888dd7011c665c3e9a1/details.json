@@ -1,0 +1,36 @@
+{
+  "date": "2025-10-28T19:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "68fae888dd7011c665c3e9a1",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Darksiders Tune Up Tourny! Standard Legal Only",
+  "organizer": {
+    "id": 1887,
+    "name": "Darksiders TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 115
+}
