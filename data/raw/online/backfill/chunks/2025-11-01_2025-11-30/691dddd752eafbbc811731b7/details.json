@@ -1,0 +1,94 @@
+{
+  "bannedCards": [
+    {
+      "name": "Gardevoir ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Dragapult ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Gholdengo ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Marnie's Grimmsnarl ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Ceruledge ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Charizard ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Raging Bolt ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Wellspring Mask Ogerpon ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "N's Zoroark ex",
+      "number": null,
+      "set": null
+    },
+    {
+      "name": "Mega Absol ex",
+      "number": null,
+      "set": null
+    }
+  ],
+  "date": "2025-11-20T23:30:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "691dddd752eafbbc811731b7",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Snipe The Bench AND Chef Husky's $50 Prize Pool",
+  "organizer": {
+    "id": 2435,
+    "name": "Snipe The Bench"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 3,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 3,
+      "rounds": 1,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 4,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 118
+}
