@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-21T02:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69e65a6b48d465883f718f13",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🏛💫 Card Temple Weekly Battles #55",
+  "organizer": {
+    "id": 2152,
+    "name": "Card Temple"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 5,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 58
+}

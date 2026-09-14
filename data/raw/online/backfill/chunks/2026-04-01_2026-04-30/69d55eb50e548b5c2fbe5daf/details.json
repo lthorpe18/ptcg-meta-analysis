@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-08T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69d55eb50e548b5c2fbe5daf",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Gratuito Aniversario Sidedeck 7 Abril",
+  "organizer": {
+    "id": 2306,
+    "name": "Juanma_TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 79
+}

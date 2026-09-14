@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-29T18:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69e8b5f878b359b789d69476",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "PokeMagee weekly FIRST EVER TOURNAMENT",
+  "organizer": {
+    "id": 2659,
+    "name": "MageeTCG Weekly"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 73
+}

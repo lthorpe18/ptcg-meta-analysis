@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-21T23:35:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69e699f778b359b789d682f4",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Dragapult Party - LastPrize Series (100 Codes)",
+  "organizer": {
+    "id": 2227,
+    "name": "LastPrizeTCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 227
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-05T22:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69c4a32c36f5b5c303dbdb38",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Tokyo Nation Bi-Weekly #1",
+  "organizer": {
+    "id": 2422,
+    "name": "Tokyo Nation Hobby Center"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 204
+}

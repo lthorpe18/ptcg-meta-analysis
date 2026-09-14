@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-06T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69d41c86800d329be2e7412a",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Dark League Tcg Live Pop Up 5$Usd",
+  "organizer": {
+    "id": 2045,
+    "name": "The Dark League"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 6,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 2,
+      "rounds": 1,
+      "type": "SINGLE_BRACKET"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 50
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-04-03T17:15:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69cfcb280e548b5c2fbe18f6",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "🦇Nachtwache Post Rotation #13 100 Codes Prizing🦇",
+  "organizer": {
+    "id": 2501,
+    "name": "Nachtwache Tournament"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 2,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO3",
+      "phase": 3,
+      "rounds": 3,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 75
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-22T00:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69e4ef0d48d465883f717ffc",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Torneo Gratuito Sidedeck Online 21 Abril",
+  "organizer": {
+    "id": 2306,
+    "name": "Juanma_TCG"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 7,
+      "type": "SWISS"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 98
+}

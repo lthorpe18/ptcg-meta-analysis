@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-22T23:00:00.000Z",
+  "decklists": true,
+  "format": "STANDARD",
+  "game": "PTCG",
+  "id": "69d2e78a800d329be2e73457",
+  "isOnline": true,
+  "isPublic": true,
+  "name": "Tokyo Nation Monthly #2",
+  "organizer": {
+    "id": 2422,
+    "name": "Tokyo Nation Hobby Center"
+  },
+  "phases": [
+    {
+      "mode": "BO1",
+      "phase": 1,
+      "rounds": 4,
+      "type": "SWISS"
+    },
+    {
+      "mode": "BO1",
+      "phase": 2,
+      "rounds": 4,
+      "type": "SINGLE_ELIMINATION"
+    }
+  ],
+  "platform": "PTCGL",
+  "players": 179
+}
