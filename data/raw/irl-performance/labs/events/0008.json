@@ -1,0 +1,749 @@
+{
+  "archetypes": {
+    "ancient-box": {
+      "day1_entries_archived": 6,
+      "day1_live": {
+        "entries": 6,
+        "losses": 19,
+        "name": "Ancient Box",
+        "points_rate_pct": 52.08,
+        "share_pct": 2.4,
+        "slug": "ancient-box",
+        "ties": 6,
+        "wins": 23
+      },
+      "day1_share_pct_archived": 2.4,
+      "day2_live": null,
+      "name": "Ancient Box",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "banette-gardevoir": {
+      "day1_entries_archived": 4,
+      "day1_live": {
+        "entries": 4,
+        "losses": 14,
+        "name": "Banette Gardevoir",
+        "points_rate_pct": 40.48,
+        "share_pct": 1.6,
+        "slug": "banette-gardevoir",
+        "ties": 4,
+        "wins": 10
+      },
+      "day1_share_pct_archived": 1.6,
+      "day2_live": null,
+      "name": "Banette Gardevoir",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "charizard-pidgeot": {
+      "day1_entries_archived": 19,
+      "day1_live": {
+        "entries": 19,
+        "losses": 60,
+        "name": "Charizard Pidgeot",
+        "points_rate_pct": 43.96,
+        "share_pct": 7.6,
+        "slug": "charizard-pidgeot",
+        "ties": 26,
+        "wins": 52
+      },
+      "day1_share_pct_archived": 7.6,
+      "day2_live": null,
+      "name": "Charizard Pidgeot",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "chien-pao-baxcalibur": {
+      "day1_entries_archived": 1,
+      "day1_live": {
+        "entries": 1,
+        "losses": 4,
+        "name": "Chien-Pao Baxcalibur",
+        "points_rate_pct": 41.67,
+        "share_pct": 0.4,
+        "slug": "chien-pao-baxcalibur",
+        "ties": 1,
+        "wins": 3
+      },
+      "day1_share_pct_archived": 0.4,
+      "day2_live": null,
+      "name": "Chien-Pao Baxcalibur",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "dragapult-dusknoir": {
+      "day1_entries_archived": 12,
+      "day1_live": {
+        "entries": 12,
+        "losses": 45,
+        "name": "Dragapult Dusknoir",
+        "points_rate_pct": 41.58,
+        "share_pct": 4.8,
+        "slug": "dragapult-dusknoir",
+        "ties": 14,
+        "wins": 34
+      },
+      "day1_share_pct_archived": 4.8,
+      "day2_live": null,
+      "name": "Dragapult Dusknoir",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "dragapult-iron-thorns": {
+      "day1_entries_archived": 2,
+      "day1_live": {
+        "entries": 2,
+        "losses": 4,
+        "name": "Dragapult Iron Thorns",
+        "points_rate_pct": 70.83,
+        "share_pct": 0.8,
+        "slug": "dragapult-iron-thorns",
+        "ties": 1,
+        "wins": 11
+      },
+      "day1_share_pct_archived": 0.8,
+      "day2_live": {
+        "entries": 1,
+        "losses": 1,
+        "name": "Dragapult Iron Thorns",
+        "points_rate_pct": 16.67,
+        "share_pct": 4.55,
+        "slug": "dragapult-iron-thorns",
+        "ties": 1,
+        "wins": 0
+      },
+      "name": "Dragapult Iron Thorns",
+      "top16": 0,
+      "top32": 1,
+      "top8": 0,
+      "winner": 0
+    },
+    "dragapult-lz-box": {
+      "day1_entries_archived": 1,
+      "day1_live": {
+        "entries": 1,
+        "losses": 3,
+        "name": "Dragapult LZ Box",
+        "points_rate_pct": 54.17,
+        "share_pct": 0.4,
+        "slug": "dragapult-lz-box",
+        "ties": 1,
+        "wins": 4
+      },
+      "day1_share_pct_archived": 0.4,
+      "day2_live": null,
+      "name": "Dragapult LZ Box",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "dragapult-pidgeot": {
+      "day1_entries_archived": 5,
+      "day1_live": {
+        "entries": 5,
+        "losses": 18,
+        "name": "Dragapult Pidgeot",
+        "points_rate_pct": 40.0,
+        "share_pct": 2.0,
+        "slug": "dragapult-pidgeot",
+        "ties": 9,
+        "wins": 13
+      },
+      "day1_share_pct_archived": 2.0,
+      "day2_live": null,
+      "name": "Dragapult Pidgeot",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "gardevoir-ex-sv": {
+      "day1_entries_archived": 16,
+      "day1_live": {
+        "entries": 16,
+        "losses": 57,
+        "name": "Gardevoir",
+        "points_rate_pct": 43.82,
+        "share_pct": 6.4,
+        "slug": "gardevoir-ex-sv",
+        "ties": 19,
+        "wins": 48
+      },
+      "day1_share_pct_archived": 6.4,
+      "day2_live": {
+        "entries": 2,
+        "losses": 1,
+        "name": "Gardevoir",
+        "points_rate_pct": 50.0,
+        "share_pct": 9.09,
+        "slug": "gardevoir-ex-sv",
+        "ties": 3,
+        "wins": 2
+      },
+      "name": "Gardevoir",
+      "top16": 1,
+      "top32": 2,
+      "top8": 1,
+      "winner": 0
+    },
+    "gholdengo-ex": {
+      "day1_entries_archived": 2,
+      "day1_live": {
+        "entries": 2,
+        "losses": 9,
+        "name": "Gholdengo",
+        "points_rate_pct": 31.25,
+        "share_pct": 0.8,
+        "slug": "gholdengo-ex",
+        "ties": 3,
+        "wins": 4
+      },
+      "day1_share_pct_archived": 0.8,
+      "day2_live": null,
+      "name": "Gholdengo",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "goodra-lz-box": {
+      "day1_entries_archived": 1,
+      "day1_live": {
+        "entries": 1,
+        "losses": 4,
+        "name": "Goodra LZ Box",
+        "points_rate_pct": 16.67,
+        "share_pct": 0.4,
+        "slug": "goodra-lz-box",
+        "ties": 4,
+        "wins": 0
+      },
+      "day1_share_pct_archived": 0.4,
+      "day2_live": null,
+      "name": "Goodra LZ Box",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "gouging-fire-ex": {
+      "day1_entries_archived": 2,
+      "day1_live": {
+        "entries": 2,
+        "losses": 6,
+        "name": "Gouging Fire",
+        "points_rate_pct": 62.5,
+        "share_pct": 0.8,
+        "slug": "gouging-fire-ex",
+        "ties": 0,
+        "wins": 10
+      },
+      "day1_share_pct_archived": 0.8,
+      "day2_live": {
+        "entries": 1,
+        "losses": 1,
+        "name": "Gouging Fire",
+        "points_rate_pct": 44.44,
+        "share_pct": 4.55,
+        "slug": "gouging-fire-ex",
+        "ties": 1,
+        "wins": 1
+      },
+      "name": "Gouging Fire",
+      "top16": 1,
+      "top32": 1,
+      "top8": 0,
+      "winner": 0
+    },
+    "great-tusk-tef": {
+      "day1_entries_archived": 1,
+      "day1_live": {
+        "entries": 1,
+        "losses": 3,
+        "name": "Great Tusk Mill",
+        "points_rate_pct": 28.57,
+        "share_pct": 0.4,
+        "slug": "great-tusk-tef",
+        "ties": 3,
+        "wins": 1
+      },
+      "day1_share_pct_archived": 0.4,
+      "day2_live": null,
+      "name": "Great Tusk Mill",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "iron-hands-ex": {
+      "day1_entries_archived": 2,
+      "day1_live": {
+        "entries": 2,
+        "losses": 8,
+        "name": "Future Hands",
+        "points_rate_pct": 27.27,
+        "share_pct": 0.8,
+        "slug": "iron-hands-ex",
+        "ties": 0,
+        "wins": 3
+      },
+      "day1_share_pct_archived": 0.8,
+      "day2_live": null,
+      "name": "Future Hands",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "iron-thorns-ex": {
+      "day1_entries_archived": 7,
+      "day1_live": {
+        "entries": 7,
+        "losses": 22,
+        "name": "Iron Thorns",
+        "points_rate_pct": 48.81,
+        "share_pct": 2.8,
+        "slug": "iron-thorns-ex",
+        "ties": 10,
+        "wins": 24
+      },
+      "day1_share_pct_archived": 2.8,
+      "day2_live": null,
+      "name": "Iron Thorns",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "klawf-par": {
+      "day1_entries_archived": 6,
+      "day1_live": {
+        "entries": 6,
+        "losses": 19,
+        "name": "Klawf",
+        "points_rate_pct": 48.23,
+        "share_pct": 2.4,
+        "slug": "klawf-par",
+        "ties": 8,
+        "wins": 20
+      },
+      "day1_share_pct_archived": 2.4,
+      "day2_live": {
+        "entries": 1,
+        "losses": 2,
+        "name": "Klawf",
+        "points_rate_pct": 0.0,
+        "share_pct": 4.55,
+        "slug": "klawf-par",
+        "ties": 0,
+        "wins": 0
+      },
+      "name": "Klawf",
+      "top16": 0,
+      "top32": 1,
+      "top8": 0,
+      "winner": 0
+    },
+    "lost-zone-box": {
+      "day1_entries_archived": 5,
+      "day1_live": {
+        "entries": 5,
+        "losses": 12,
+        "name": "Lost Zone Box",
+        "points_rate_pct": 61.67,
+        "share_pct": 2.0,
+        "slug": "lost-zone-box",
+        "ties": 5,
+        "wins": 23
+      },
+      "day1_share_pct_archived": 2.0,
+      "day2_live": {
+        "entries": 2,
+        "losses": 2,
+        "name": "Lost Zone Box",
+        "points_rate_pct": 52.38,
+        "share_pct": 9.09,
+        "slug": "lost-zone-box",
+        "ties": 2,
+        "wins": 3
+      },
+      "name": "Lost Zone Box",
+      "top16": 1,
+      "top32": 2,
+      "top8": 1,
+      "winner": 0
+    },
+    "lugia-archeops": {
+      "day1_entries_archived": 29,
+      "day1_live": {
+        "entries": 29,
+        "losses": 72,
+        "name": "Lugia Archeops",
+        "points_rate_pct": 55.66,
+        "share_pct": 11.6,
+        "slug": "lugia-archeops",
+        "ties": 35,
+        "wins": 108
+      },
+      "day1_share_pct_archived": 11.6,
+      "day2_live": {
+        "entries": 3,
+        "losses": 3,
+        "name": "Lugia Archeops",
+        "points_rate_pct": 38.89,
+        "share_pct": 13.64,
+        "slug": "lugia-archeops",
+        "ties": 1,
+        "wins": 2
+      },
+      "name": "Lugia Archeops",
+      "top16": 3,
+      "top32": 5,
+      "top8": 0,
+      "winner": 0
+    },
+    "lzb-charizard": {
+      "day1_entries_archived": 2,
+      "day1_live": {
+        "entries": 2,
+        "losses": 4,
+        "name": "Lost Box Charizard",
+        "points_rate_pct": 60.0,
+        "share_pct": 0.8,
+        "slug": "lzb-charizard",
+        "ties": 3,
+        "wins": 8
+      },
+      "day1_share_pct_archived": 0.8,
+      "day2_live": {
+        "entries": 1,
+        "losses": 2,
+        "name": "Lost Box Charizard",
+        "points_rate_pct": 0.0,
+        "share_pct": 4.55,
+        "slug": "lzb-charizard",
+        "ties": 0,
+        "wins": 0
+      },
+      "name": "Lost Box Charizard",
+      "top16": 0,
+      "top32": 1,
+      "top8": 0,
+      "winner": 0
+    },
+    "mimikyu-ogerpon": {
+      "day1_entries_archived": 5,
+      "day1_live": {
+        "entries": 5,
+        "losses": 16,
+        "name": "Mimikyu Ogerpon",
+        "points_rate_pct": 53.33,
+        "share_pct": 2.0,
+        "slug": "mimikyu-ogerpon",
+        "ties": 4,
+        "wins": 20
+      },
+      "day1_share_pct_archived": 2.0,
+      "day2_live": null,
+      "name": "Mimikyu Ogerpon",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "miraidon-ex": {
+      "day1_entries_archived": 5,
+      "day1_live": {
+        "entries": 5,
+        "losses": 21,
+        "name": "Miraidon",
+        "points_rate_pct": 39.32,
+        "share_pct": 2.0,
+        "slug": "miraidon-ex",
+        "ties": 4,
+        "wins": 14
+      },
+      "day1_share_pct_archived": 2.0,
+      "day2_live": {
+        "entries": 1,
+        "losses": 2,
+        "name": "Miraidon",
+        "points_rate_pct": 50.0,
+        "share_pct": 4.55,
+        "slug": "miraidon-ex",
+        "ties": 0,
+        "wins": 2
+      },
+      "name": "Miraidon",
+      "top16": 1,
+      "top32": 1,
+      "top8": 1,
+      "winner": 0
+    },
+    "okidogi-twm": {
+      "day1_entries_archived": 2,
+      "day1_live": {
+        "entries": 2,
+        "losses": 6,
+        "name": "Okidogi",
+        "points_rate_pct": 39.39,
+        "share_pct": 0.8,
+        "slug": "okidogi-twm",
+        "ties": 1,
+        "wins": 4
+      },
+      "day1_share_pct_archived": 0.8,
+      "day2_live": null,
+      "name": "Okidogi",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "palkia-dusknoir": {
+      "day1_entries_archived": 14,
+      "day1_live": {
+        "entries": 14,
+        "losses": 43,
+        "name": "Palkia Dusknoir",
+        "points_rate_pct": 50.47,
+        "share_pct": 5.6,
+        "slug": "palkia-dusknoir",
+        "ties": 15,
+        "wins": 49
+      },
+      "day1_share_pct_archived": 5.6,
+      "day2_live": {
+        "entries": 2,
+        "losses": 2,
+        "name": "Palkia Dusknoir",
+        "points_rate_pct": 62.96,
+        "share_pct": 9.09,
+        "slug": "palkia-dusknoir",
+        "ties": 2,
+        "wins": 5
+      },
+      "name": "Palkia Dusknoir",
+      "top16": 2,
+      "top32": 2,
+      "top8": 1,
+      "winner": 1
+    },
+    "palkia-noctowl": {
+      "day1_entries_archived": 4,
+      "day1_live": {
+        "entries": 4,
+        "losses": 9,
+        "name": "Palkia Noctowl",
+        "points_rate_pct": 52.56,
+        "share_pct": 1.6,
+        "slug": "palkia-noctowl",
+        "ties": 5,
+        "wins": 12
+      },
+      "day1_share_pct_archived": 1.6,
+      "day2_live": {
+        "entries": 1,
+        "losses": 1,
+        "name": "Palkia Noctowl",
+        "points_rate_pct": 44.44,
+        "share_pct": 4.55,
+        "slug": "palkia-noctowl",
+        "ties": 1,
+        "wins": 1
+      },
+      "name": "Palkia Noctowl",
+      "top16": 1,
+      "top32": 1,
+      "top8": 0,
+      "winner": 0
+    },
+    "pidgeot-control": {
+      "day1_entries_archived": 1,
+      "day1_live": {
+        "entries": 1,
+        "losses": 1,
+        "name": "Pidgeot Control",
+        "points_rate_pct": 54.17,
+        "share_pct": 0.4,
+        "slug": "pidgeot-control",
+        "ties": 4,
+        "wins": 3
+      },
+      "day1_share_pct_archived": 0.4,
+      "day2_live": null,
+      "name": "Pidgeot Control",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "raging-bolt-ogerpon": {
+      "day1_entries_archived": 43,
+      "day1_live": {
+        "entries": 43,
+        "losses": 135,
+        "name": "Raging Bolt Ogerpon",
+        "points_rate_pct": 48.5,
+        "share_pct": 17.2,
+        "slug": "raging-bolt-ogerpon",
+        "ties": 47,
+        "wins": 141
+      },
+      "day1_share_pct_archived": 17.2,
+      "day2_live": {
+        "entries": 1,
+        "losses": 1,
+        "name": "Raging Bolt Ogerpon",
+        "points_rate_pct": 66.67,
+        "share_pct": 4.55,
+        "slug": "raging-bolt-ogerpon",
+        "ties": 1,
+        "wins": 3
+      },
+      "name": "Raging Bolt Ogerpon",
+      "top16": 1,
+      "top32": 4,
+      "top8": 1,
+      "winner": 0
+    },
+    "regidrago-vstar": {
+      "day1_entries_archived": 21,
+      "day1_live": {
+        "entries": 21,
+        "losses": 66,
+        "name": "Regidrago",
+        "points_rate_pct": 48.01,
+        "share_pct": 8.4,
+        "slug": "regidrago-vstar",
+        "ties": 25,
+        "wins": 68
+      },
+      "day1_share_pct_archived": 8.4,
+      "day2_live": {
+        "entries": 2,
+        "losses": 2,
+        "name": "Regidrago",
+        "points_rate_pct": 33.33,
+        "share_pct": 9.09,
+        "slug": "regidrago-vstar",
+        "ties": 1,
+        "wins": 1
+      },
+      "name": "Regidrago",
+      "top16": 1,
+      "top32": 4,
+      "top8": 0,
+      "winner": 0
+    },
+    "roaring-moon-ex": {
+      "day1_entries_archived": 7,
+      "day1_live": {
+        "entries": 7,
+        "losses": 27,
+        "name": "Roaring Moon",
+        "points_rate_pct": 29.46,
+        "share_pct": 2.8,
+        "slug": "roaring-moon-ex",
+        "ties": 5,
+        "wins": 11
+      },
+      "day1_share_pct_archived": 2.8,
+      "day2_live": null,
+      "name": "Roaring Moon",
+      "top16": 0,
+      "top32": 0,
+      "top8": 0,
+      "winner": 0
+    },
+    "snorlax-stall": {
+      "day1_entries_archived": 6,
+      "day1_live": {
+        "entries": 6,
+        "losses": 16,
+        "name": "Snorlax Stall",
+        "points_rate_pct": 56.94,
+        "share_pct": 2.4,
+        "slug": "snorlax-stall",
+        "ties": 7,
+        "wins": 25
+      },
+      "day1_share_pct_archived": 2.4,
+      "day2_live": {
+        "entries": 1,
+        "losses": 1,
+        "name": "Snorlax Stall",
+        "points_rate_pct": 58.33,
+        "share_pct": 4.55,
+        "slug": "snorlax-stall",
+        "ties": 1,
+        "wins": 2
+      },
+      "name": "Snorlax Stall",
+      "top16": 1,
+      "top32": 3,
+      "top8": 1,
+      "winner": 0
+    },
+    "terapagos-noctowl": {
+      "day1_entries_archived": 19,
+      "day1_live": {
+        "entries": 19,
+        "losses": 57,
+        "name": "Terapagos Noctowl",
+        "points_rate_pct": 51.03,
+        "share_pct": 7.6,
+        "slug": "terapagos-noctowl",
+        "ties": 21,
+        "wins": 67
+      },
+      "day1_share_pct_archived": 7.6,
+      "day2_live": {
+        "entries": 3,
+        "losses": 2,
+        "name": "Terapagos Noctowl",
+        "points_rate_pct": 61.11,
+        "share_pct": 13.64,
+        "slug": "terapagos-noctowl",
+        "ties": 4,
+        "wins": 6
+      },
+      "name": "Terapagos Noctowl",
+      "top16": 3,
+      "top32": 4,
+      "top8": 2,
+      "winner": 0
+    }
+  },
+  "archived_only_slugs": [],
+  "day1_archived_named_slug_count": 30,
+  "day1_exact_slug_overlap_count": 30,
+  "day1_live_named_slug_count": 30,
+  "day1_total_live": 250,
+  "day2_total_live": 22,
+  "end_date": "2024-11-10",
+  "id": "0008",
+  "live_only_slugs": [],
+  "name": "Special Event Buenos Aires",
+  "players": 275,
+  "source_urls": {
+    "day1": "https://labs.limitlesstcg.com/0008/decks?day=1",
+    "day2": "https://labs.limitlesstcg.com/0008/decks?day=2",
+    "standings": "https://labs.limitlesstcg.com/0008/standings"
+  },
+  "standings_rows_with_deck": 250,
+  "start_date": "2024-11-09",
+  "top32_rows_with_deck": 32
+}

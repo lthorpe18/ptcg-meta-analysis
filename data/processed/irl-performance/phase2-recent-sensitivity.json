@@ -1,0 +1,155 @@
+{
+  "cutoff": "2025-06-12",
+  "definition": "latest 365 days ending at the final eligible target date",
+  "end": "2026-06-12",
+  "guardrail": "Recent in-sample fits are descriptive. The chronological recent-target comparison fits each target using all earlier historical pairs only.",
+  "primary_variant": "day2_bounded_all",
+  "recent_format_count": 6,
+  "recent_pair_count": 18,
+  "variants": {
+    "day2_bounded_0_5": {
+      "recent_in_sample": {
+        "beta": 0.11650382724820857,
+        "improvement_pp": 0.41398552892019325,
+        "pair_count": 18,
+        "performance_accuracy": 84.95352120321346,
+        "persistence_accuracy": 84.53953567429326
+      },
+      "recent_targets_chronological": {
+        "first_target": "2025-09-13",
+        "improvement_pp": 0.3692859575011198,
+        "last_target": "2026-06-12",
+        "mean_beta": 0.17134956929513218,
+        "performance_accuracy": 84.90882163179438,
+        "persistence_accuracy": 84.53953567429326,
+        "test_pairs": 18
+      }
+    },
+    "day2_bounded_1": {
+      "recent_in_sample": {
+        "beta": 0.12108338889043431,
+        "improvement_pp": 0.3831557502778935,
+        "pair_count": 18,
+        "performance_accuracy": 84.92269142457116,
+        "persistence_accuracy": 84.53953567429326
+      },
+      "recent_targets_chronological": {
+        "first_target": "2025-09-13",
+        "improvement_pp": 0.34930199190498,
+        "last_target": "2026-06-12",
+        "mean_beta": 0.17668983375022837,
+        "performance_accuracy": 84.88883766619824,
+        "persistence_accuracy": 84.53953567429326,
+        "test_pairs": 18
+      }
+    },
+    "day2_bounded_2": {
+      "recent_in_sample": {
+        "beta": 0.13697863360835755,
+        "improvement_pp": 0.3463085855938459,
+        "pair_count": 18,
+        "performance_accuracy": 84.88584425988711,
+        "persistence_accuracy": 84.53953567429326
+      },
+      "recent_targets_chronological": {
+        "first_target": "2025-09-13",
+        "improvement_pp": 0.356391275413003,
+        "last_target": "2026-06-12",
+        "mean_beta": 0.1911193511924888,
+        "performance_accuracy": 84.89592694970626,
+        "persistence_accuracy": 84.53953567429326,
+        "test_pairs": 18
+      }
+    },
+    "day2_bounded_all": {
+      "recent_in_sample": {
+        "beta": 0.10674118781724531,
+        "improvement_pp": 0.4472190436791692,
+        "pair_count": 18,
+        "performance_accuracy": 84.98675471797243,
+        "persistence_accuracy": 84.53953567429326
+      },
+      "recent_targets_chronological": {
+        "first_target": "2025-09-13",
+        "improvement_pp": 0.4228923657720003,
+        "last_target": "2026-06-12",
+        "mean_beta": 0.1608360102878309,
+        "performance_accuracy": 84.96242804006526,
+        "persistence_accuracy": 84.53953567429326,
+        "test_pairs": 18
+      }
+    },
+    "day2_raw_1": {
+      "recent_in_sample": {
+        "beta": 0.1160672292080487,
+        "improvement_pp": 0.3508637803918475,
+        "pair_count": 18,
+        "performance_accuracy": 84.89039945468511,
+        "persistence_accuracy": 84.53953567429326
+      },
+      "recent_targets_chronological": {
+        "first_target": "2025-09-13",
+        "improvement_pp": 0.31513058954794815,
+        "last_target": "2026-06-12",
+        "mean_beta": 0.1638863872985818,
+        "performance_accuracy": 84.85466626384121,
+        "persistence_accuracy": 84.53953567429326,
+        "test_pairs": 18
+      }
+    },
+    "points_1": {
+      "recent_in_sample": {
+        "beta": 0.025074664276584332,
+        "improvement_pp": 0.3052102802496677,
+        "pair_count": 18,
+        "performance_accuracy": 84.84474595454293,
+        "persistence_accuracy": 84.53953567429326
+      },
+      "recent_targets_chronological": {
+        "first_target": "2025-09-13",
+        "improvement_pp": 0.2785724554819069,
+        "last_target": "2026-06-12",
+        "mean_beta": 0.027929805138508276,
+        "performance_accuracy": 84.81810812977517,
+        "persistence_accuracy": 84.53953567429326,
+        "test_pairs": 18
+      }
+    },
+    "top32_1": {
+      "recent_in_sample": {
+        "beta": 0.09051706852183294,
+        "improvement_pp": 0.5013787028175187,
+        "pair_count": 18,
+        "performance_accuracy": 85.04091437711078,
+        "persistence_accuracy": 84.53953567429326
+      },
+      "recent_targets_chronological": {
+        "first_target": "2025-09-13",
+        "improvement_pp": 0.4301512505506082,
+        "last_target": "2026-06-12",
+        "mean_beta": 0.1163776523162837,
+        "performance_accuracy": 84.96968692484387,
+        "persistence_accuracy": 84.53953567429326,
+        "test_pairs": 18
+      }
+    },
+    "winner_1": {
+      "recent_in_sample": {
+        "beta": 0.22604165478872656,
+        "improvement_pp": 0.2380620838617773,
+        "pair_count": 18,
+        "performance_accuracy": 84.77759775815504,
+        "persistence_accuracy": 84.53953567429326
+      },
+      "recent_targets_chronological": {
+        "first_target": "2025-09-13",
+        "improvement_pp": 0.22481724265455227,
+        "last_target": "2026-06-12",
+        "mean_beta": 0.21150831051334695,
+        "performance_accuracy": 84.76435291694781,
+        "persistence_accuracy": 84.53953567429326,
+        "test_pairs": 18
+      }
+    }
+  }
+}

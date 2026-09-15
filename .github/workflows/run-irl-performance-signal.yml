@@ -1,0 +1,48 @@
+name: Run IRL performance signal audit
+
+on:
+  push:
+    branches:
+      - research/irl-performance-signal
+    paths:
+      - "scripts/collect_irl_performance.py"
+      - "scripts/analyse_irl_performance_signal.py"
+      - ".github/workflows/run-irl-performance-signal.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "irl-performance-signal-research"
+  cancel-in-progress: true
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scoped research branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/irl-performance-signal
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect aggregate IRL performance evidence
+        run: python scripts/collect_irl_performance.py
+
+      - name: Audit and construct candidate performance signals
+        run: python scripts/analyse_irl_performance_signal.py
+
+      - name: Commit generated research outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/irl-performance data/processed/irl-performance results/irl-performance
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: record IRL performance signal audit"
+            git push origin HEAD:research/irl-performance-signal
+          fi

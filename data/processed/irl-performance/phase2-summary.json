@@ -1,0 +1,253 @@
+{
+  "controlled_association": {
+    "format_cluster_bootstrap_95": {
+      "cluster": "format",
+      "high_95": 0.3162439454724553,
+      "low_95": 0.1830882890544816,
+      "replicates": 3000
+    },
+    "performance_coef": 0.0025040962283085963,
+    "performance_coef_pp_per_unit": 0.25040962283085966,
+    "prior_share_coef": -0.0675849907493617,
+    "rows": 3188
+  },
+  "format_count": 10,
+  "interpretation_guardrails": [
+    "Full-sample fitted results are descriptive/in-sample only.",
+    "Chronological holdout and expanding walk-forward determine whether performance demonstrates predictive value.",
+    "This phase contains no Online evidence and cannot answer mediation by Online adoption.",
+    "Performance signals are retrospective public Labs aggregates; historical publication-time taxonomy is not reconstructed."
+  ],
+  "pair_count": 36,
+  "phase": 2,
+  "primary_variant": "day2_bounded_all",
+  "question": "After accounting for previous IRL popularity, does prior-major archetype performance predict share change at the next adjacent same-format IRL cohort?",
+  "target_start_date_max": "2026-06-12",
+  "target_start_date_min": "2024-10-19",
+  "variants": {
+    "day2_bounded_0_5": {
+      "fixed_holdout": {
+        "beta": 0.1819726075544696,
+        "improvement_pp": 0.06929379493936949,
+        "pair_count": 11,
+        "performance_accuracy": 85.20608076437672,
+        "persistence_accuracy": 85.13678696943735,
+        "split_target_date": "2026-02-13",
+        "test_pairs": 11,
+        "train_pairs": 25
+      },
+      "full_in_sample": {
+        "beta": 0.1676039821754378,
+        "improvement_pp": 0.4101208539077277,
+        "pair_count": 36,
+        "performance_accuracy": 84.29559304957517,
+        "persistence_accuracy": 83.88547219566745
+      },
+      "walk_forward": {
+        "improvement_pp": 0.29556174023953474,
+        "last_beta": 0.15820419946266656,
+        "mean_beta": 0.17530476010592766,
+        "minimum_training_pairs": 15,
+        "performance_accuracy": 85.08418034431638,
+        "persistence_accuracy": 84.78861860407685,
+        "test_pairs": 21
+      }
+    },
+    "day2_bounded_1": {
+      "fixed_holdout": {
+        "beta": 0.18592234005750582,
+        "improvement_pp": 0.11273007094645493,
+        "pair_count": 11,
+        "performance_accuracy": 85.24951704038381,
+        "persistence_accuracy": 85.13678696943735,
+        "split_target_date": "2026-02-13",
+        "test_pairs": 11,
+        "train_pairs": 25
+      },
+      "full_in_sample": {
+        "beta": 0.173909215512464,
+        "improvement_pp": 0.40286973779193147,
+        "pair_count": 36,
+        "performance_accuracy": 84.28834193345938,
+        "persistence_accuracy": 83.88547219566745
+      },
+      "walk_forward": {
+        "improvement_pp": 0.2987109696111787,
+        "last_beta": 0.1646784843656235,
+        "mean_beta": 0.18057459718060617,
+        "minimum_training_pairs": 15,
+        "performance_accuracy": 85.08732957368802,
+        "persistence_accuracy": 84.78861860407685,
+        "test_pairs": 21
+      }
+    },
+    "day2_bounded_2": {
+      "fixed_holdout": {
+        "beta": 0.19981583365549593,
+        "improvement_pp": 0.15210592417875546,
+        "pair_count": 11,
+        "performance_accuracy": 85.28889289361611,
+        "persistence_accuracy": 85.13678696943735,
+        "split_target_date": "2026-02-13",
+        "test_pairs": 11,
+        "train_pairs": 25
+      },
+      "full_in_sample": {
+        "beta": 0.187312852567419,
+        "improvement_pp": 0.40200345745594745,
+        "pair_count": 36,
+        "performance_accuracy": 84.2874756531234,
+        "persistence_accuracy": 83.88547219566745
+      },
+      "walk_forward": {
+        "improvement_pp": 0.30008834844832677,
+        "last_beta": 0.17812059302793948,
+        "mean_beta": 0.19441461885040218,
+        "minimum_training_pairs": 15,
+        "performance_accuracy": 85.08870695252517,
+        "persistence_accuracy": 84.78861860407685,
+        "test_pairs": 21
+      }
+    },
+    "day2_bounded_all": {
+      "fixed_holdout": {
+        "beta": 0.17146544143370823,
+        "improvement_pp": 0.1350470271590325,
+        "pair_count": 11,
+        "performance_accuracy": 85.27183399659638,
+        "persistence_accuracy": 85.13678696943735,
+        "split_target_date": "2026-02-13",
+        "test_pairs": 11,
+        "train_pairs": 25
+      },
+      "full_in_sample": {
+        "beta": 0.15741156385624702,
+        "improvement_pp": 0.46205310927074095,
+        "pair_count": 36,
+        "performance_accuracy": 84.34752530493819,
+        "persistence_accuracy": 83.88547219566745
+      },
+      "walk_forward": {
+        "improvement_pp": 0.33406802404755354,
+        "last_beta": 0.14782058299828246,
+        "mean_beta": 0.16512846907192733,
+        "minimum_training_pairs": 15,
+        "performance_accuracy": 85.1226866281244,
+        "persistence_accuracy": 84.78861860407685,
+        "test_pairs": 21
+      }
+    },
+    "day2_raw_1": {
+      "fixed_holdout": {
+        "beta": 0.1716945282012533,
+        "improvement_pp": 0.1302801950744623,
+        "pair_count": 11,
+        "performance_accuracy": 85.26706716451181,
+        "persistence_accuracy": 85.13678696943735,
+        "split_target_date": "2026-02-13",
+        "test_pairs": 11,
+        "train_pairs": 25
+      },
+      "full_in_sample": {
+        "beta": 0.16265697724558853,
+        "improvement_pp": 0.37374480236665875,
+        "pair_count": 36,
+        "performance_accuracy": 84.2592169980341,
+        "persistence_accuracy": 83.88547219566745
+      },
+      "walk_forward": {
+        "improvement_pp": 0.2713624035094995,
+        "last_beta": 0.15379750122532007,
+        "mean_beta": 0.16738496014618884,
+        "minimum_training_pairs": 15,
+        "performance_accuracy": 85.05998100758634,
+        "persistence_accuracy": 84.78861860407685,
+        "test_pairs": 21
+      }
+    },
+    "points_1": {
+      "fixed_holdout": {
+        "beta": 0.02953841400149795,
+        "improvement_pp": 0.041671899477890406,
+        "pair_count": 11,
+        "performance_accuracy": 85.17845886891524,
+        "persistence_accuracy": 85.13678696943735,
+        "split_target_date": "2026-02-13",
+        "test_pairs": 11,
+        "train_pairs": 25
+      },
+      "full_in_sample": {
+        "beta": 0.027818549968014365,
+        "improvement_pp": 0.34685075271157473,
+        "pair_count": 36,
+        "performance_accuracy": 84.23232294837902,
+        "persistence_accuracy": 83.88547219566745
+      },
+      "walk_forward": {
+        "improvement_pp": 0.17262109742873122,
+        "last_beta": 0.02613823615002765,
+        "mean_beta": 0.028318728006639354,
+        "minimum_training_pairs": 15,
+        "performance_accuracy": 84.96123970150558,
+        "persistence_accuracy": 84.78861860407685,
+        "test_pairs": 21
+      }
+    },
+    "top32_1": {
+      "fixed_holdout": {
+        "beta": 0.11862985878650445,
+        "improvement_pp": 0.20792614051943303,
+        "pair_count": 11,
+        "performance_accuracy": 85.34471310995679,
+        "persistence_accuracy": 85.13678696943735,
+        "split_target_date": "2026-02-13",
+        "test_pairs": 11,
+        "train_pairs": 25
+      },
+      "full_in_sample": {
+        "beta": 0.11414215715067298,
+        "improvement_pp": 0.5961143501478716,
+        "pair_count": 36,
+        "performance_accuracy": 84.48158654581532,
+        "persistence_accuracy": 83.88547219566745
+      },
+      "walk_forward": {
+        "improvement_pp": 0.33155364980477486,
+        "last_beta": 0.10965194762745246,
+        "mean_beta": 0.11865723313498013,
+        "minimum_training_pairs": 15,
+        "performance_accuracy": 85.12017225388162,
+        "persistence_accuracy": 84.78861860407685,
+        "test_pairs": 21
+      }
+    },
+    "winner_1": {
+      "fixed_holdout": {
+        "beta": 0.2162889983641694,
+        "improvement_pp": 0.19797370077408516,
+        "pair_count": 11,
+        "performance_accuracy": 85.33476067021144,
+        "persistence_accuracy": 85.13678696943735,
+        "split_target_date": "2026-02-13",
+        "test_pairs": 11,
+        "train_pairs": 25
+      },
+      "full_in_sample": {
+        "beta": 0.21336404976847176,
+        "improvement_pp": 0.21322940470518859,
+        "pair_count": 36,
+        "performance_accuracy": 84.09870160037264,
+        "persistence_accuracy": 83.88547219566745
+      },
+      "walk_forward": {
+        "improvement_pp": 0.25746150548987146,
+        "last_beta": 0.21336404976847176,
+        "mean_beta": 0.2115508180850664,
+        "minimum_training_pairs": 15,
+        "performance_accuracy": 85.04608010956672,
+        "persistence_accuracy": 84.78861860407685,
+        "test_pairs": 21
+      }
+    }
+  }
+}

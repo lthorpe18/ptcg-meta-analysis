@@ -1,0 +1,143 @@
+{
+  "archetype_event_rows": 4643,
+  "candidate_signals": {
+    "primary": {
+      "definition": "log2((observed Day-2 archetype entrants + 0.5) / (expected Day-2 entrants from Day-1 share + 0.5))",
+      "forecast_variant": "bounded to [-2,+2] before modelling; minimum-share sensitivity retained rather than silently dropping small decks",
+      "name": "day2_log2_lift_smoothed_05",
+      "raw_interpretation": "0 = represented on Day 2 as expected from Day-1 share; +1 ~= twice expected; -1 ~= half expected after 0.5 smoothing"
+    },
+    "secondary": [
+      {
+        "definition": "source Day-1 displayed points-rate minus event-wide match-side weighted points-rate",
+        "name": "points_rate_centered_pp",
+        "reason": "uses all Day-1 match evidence and is not mechanically driven by deck popularity"
+      },
+      {
+        "definition": "log2((Top-32 count + 0.5)/(32 * Day-1 share + 0.5))",
+        "name": "top32_log2_lift_smoothed_05",
+        "reason": "high-finish performance; noisier than Day-2 conversion but closer to visible placements"
+      },
+      {
+        "definition": "1 if archetype won the tournament, otherwise 0",
+        "name": "winner",
+        "reason": "separate visibility/hype signal; never used as the main performance measure"
+      }
+    ]
+  },
+  "events": 71,
+  "joined_archetype_event_rows": 4643,
+  "minimum_share_threshold_coverage": {
+    "0": {
+      "day2_signal_available": 4643,
+      "events": 71,
+      "points_signal_available": 4643,
+      "rows": 4643,
+      "top32_signal_available": 4593
+    },
+    "0.5": {
+      "day2_signal_available": 1792,
+      "events": 71,
+      "points_signal_available": 1792,
+      "rows": 1792,
+      "top32_signal_available": 1753
+    },
+    "1.0": {
+      "day2_signal_available": 1346,
+      "events": 71,
+      "points_signal_available": 1346,
+      "rows": 1346,
+      "top32_signal_available": 1311
+    },
+    "2.0": {
+      "day2_signal_available": 942,
+      "events": 71,
+      "points_signal_available": 942,
+      "rows": 942,
+      "top32_signal_available": 919
+    }
+  },
+  "notes": [
+    "This phase does not inspect next-IRL outcomes and therefore cannot establish predictive value.",
+    "The 0.5 correction is a transparent finite-count stabilizer; threshold and transform sensitivity must be tested in Phase 2.",
+    "Top-8/16/32 are relative-to-Day-1 representation, never raw counts as the primary signal.",
+    "All field-share denominators come from the previously archived Day-1 event data."
+  ],
+  "phase": 1,
+  "question": "Which prior-IRL popularity-adjusted performance measures are reliably available and stable enough to test as next-IRL predictors?",
+  "share_bin_stability": {
+    "0.5-1%": {
+      "day2_abs_log2_max": 3.518475270381474,
+      "day2_abs_log2_median": 0.8048671285563335,
+      "day2_abs_log2_p90": 2.3351706857297536,
+      "day2_zero_rate": 0.3811659192825112,
+      "events": 69,
+      "rows": 446,
+      "top32_abs_log2_median": 0.5588000135004612,
+      "top32_abs_log2_p90": 0.9409557531309589,
+      "top32_zero_rate": 0.8778280542986425
+    },
+    "1-2%": {
+      "day2_abs_log2_max": 3.679016011454836,
+      "day2_abs_log2_median": 0.6525202129662468,
+      "day2_abs_log2_p90": 1.8881840471616567,
+      "day2_zero_rate": 0.15841584158415842,
+      "events": 71,
+      "rows": 404,
+      "top32_abs_log2_median": 0.8518758543620566,
+      "top32_abs_log2_p90": 1.1446828699861151,
+      "top32_zero_rate": 0.7321428571428571
+    },
+    "2-5%": {
+      "day2_abs_log2_max": 4.203977711684137,
+      "day2_abs_log2_median": 0.4874158414220632,
+      "day2_abs_log2_p90": 1.3735582606738703,
+      "day2_zero_rate": 0.05,
+      "events": 71,
+      "rows": 500,
+      "top32_abs_log2_median": 1.1957189039655394,
+      "top32_abs_log2_p90": 1.842948078236467,
+      "top32_zero_rate": 0.42915811088295686
+    },
+    "<0.5%": {
+      "day2_abs_log2_max": 2.6277292389743385,
+      "day2_abs_log2_median": 0.47253274395424133,
+      "day2_abs_log2_p90": 1.2935477142264007,
+      "day2_zero_rate": 0.8404068747807787,
+      "events": 70,
+      "rows": 2851,
+      "top32_abs_log2_median": 0.10563033367493706,
+      "top32_abs_log2_p90": 0.2989114421623904,
+      "top32_zero_rate": 0.9820422535211267
+    },
+    ">=5%": {
+      "day2_abs_log2_max": 2.927649155775316,
+      "day2_abs_log2_median": 0.3419020136884131,
+      "day2_abs_log2_p90": 0.8473796194492749,
+      "day2_zero_rate": 0.006787330316742082,
+      "events": 71,
+      "rows": 442,
+      "top32_abs_log2_median": 0.6600369273800559,
+      "top32_abs_log2_p90": 2.227416952913927,
+      "top32_zero_rate": 0.125
+    }
+  },
+  "signal_correlations_at_1pct_plus": {
+    "day2_vs_points": 0.756199938398454,
+    "day2_vs_top32": 0.5275561089267969,
+    "points_vs_top32": 0.4800511804814242,
+    "rows": 1346,
+    "share_threshold_pct": 1.0
+  },
+  "source_reliability": {
+    "day1_entry_exact_match_events": 71,
+    "day1_entry_exact_match_rate": 1.0,
+    "max_absolute_day1_entry_delta": 0,
+    "no_exact_slug_mismatch_events": 71,
+    "no_exact_slug_mismatch_rate": 1.0,
+    "source_points_rate_formula_max_abs_delta_pp": 0.005000000000002558,
+    "source_points_rate_formula_median_abs_delta_pp": 0.0026086956521709226,
+    "top32_complete_events": 69,
+    "top32_complete_rate": 0.971830985915493
+  }
+}
