@@ -6,7 +6,53 @@
   },
   "sample": {
     "event_count": 16,
-    "cohort_count": 11
+    "cohort_count": 11,
+    "cohorts": [
+      {
+        "cohort_id": "C030",
+        "date": "2025-09-13"
+      },
+      {
+        "cohort_id": "C031",
+        "date": "2025-09-19"
+      },
+      {
+        "cohort_id": "C033",
+        "date": "2025-10-25"
+      },
+      {
+        "cohort_id": "C034",
+        "date": "2025-11-01"
+      },
+      {
+        "cohort_id": "C038",
+        "date": "2026-01-16"
+      },
+      {
+        "cohort_id": "C039",
+        "date": "2026-01-24"
+      },
+      {
+        "cohort_id": "C040",
+        "date": "2026-02-07"
+      },
+      {
+        "cohort_id": "C046",
+        "date": "2026-03-28"
+      },
+      {
+        "cohort_id": "C049",
+        "date": "2026-05-08"
+      },
+      {
+        "cohort_id": "C050",
+        "date": "2026-05-16"
+      },
+      {
+        "cohort_id": "C054",
+        "date": "2026-06-12"
+      }
+    ]
   },
   "metric": "Cohort-weighted Field Accuracy; named archetypes only, matching frozen baseline scoring",
   "grid_definition": {
@@ -69,10 +115,10 @@
     "mean_event_accuracy": 85.02450491874389,
     "mean_cohort_accuracy": 84.77612796389059,
     "median_cohort_accuracy": 85.98774419599363,
+    "rank": 1,
     "delta_vs_50_50_pp": 0.6642030080373047,
     "delta_vs_irl_only_pp": 2.57299878153961,
-    "delta_vs_online_only_pp": 8.403875103617182,
-    "rank": 1
+    "delta_vs_online_only_pp": 8.403875103617182
   },
   "top_25_rules": [
     {
@@ -84,10 +130,10 @@
       "mean_event_accuracy": 85.02450491874389,
       "mean_cohort_accuracy": 84.77612796389059,
       "median_cohort_accuracy": 85.98774419599363,
+      "rank": 1,
       "delta_vs_50_50_pp": 0.6642030080373047,
       "delta_vs_irl_only_pp": 2.57299878153961,
-      "delta_vs_online_only_pp": 8.403875103617182,
-      "rank": 1
+      "delta_vs_online_only_pp": 8.403875103617182
     },
     {
       "start": 0.95,
@@ -98,10 +144,10 @@
       "mean_event_accuracy": 85.0327311401407,
       "mean_cohort_accuracy": 84.77563009687798,
       "median_cohort_accuracy": 86.12484027548152,
+      "rank": 2,
       "delta_vs_50_50_pp": 0.6637051410246926,
       "delta_vs_irl_only_pp": 2.572500914526998,
-      "delta_vs_online_only_pp": 8.40337723660457,
-      "rank": 2
+      "delta_vs_online_only_pp": 8.40337723660457
     },
     {
       "start": 0.95,
@@ -112,10 +158,10 @@
       "mean_event_accuracy": 85.01028360563946,
       "mean_cohort_accuracy": 84.77070677744956,
       "median_cohort_accuracy": 85.81983623717402,
+      "rank": 3,
       "delta_vs_50_50_pp": 0.6587818215962784,
       "delta_vs_irl_only_pp": 2.5675775950985837,
-      "delta_vs_online_only_pp": 8.398453917176155,
-      "rank": 3
+      "delta_vs_online_only_pp": 8.398453917176155
     },
     {
       "start": 0.85,
@@ -126,10 +172,10 @@
       "mean_event_accuracy": 85.06071050332267,
       "mean_cohort_accuracy": 84.76787120674815,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 4,
       "delta_vs_50_50_pp": 0.6559462508948712,
       "delta_vs_irl_only_pp": 2.5647420243971766,
-      "delta_vs_online_only_pp": 8.395618346474748,
-      "rank": 4
+      "delta_vs_online_only_pp": 8.395618346474748
     },
     {
       "start": 0.9,
@@ -140,10 +186,10 @@
       "mean_event_accuracy": 85.04778271939423,
       "mean_cohort_accuracy": 84.76780563217572,
       "median_cohort_accuracy": 85.88113470214797,
+      "rank": 5,
       "delta_vs_50_50_pp": 0.6558806763224396,
       "delta_vs_irl_only_pp": 2.564676449824745,
-      "delta_vs_online_only_pp": 8.395552771902317,
-      "rank": 5
+      "delta_vs_online_only_pp": 8.395552771902317
     },
     {
       "start": 0.9,
@@ -154,10 +200,10 @@
       "mean_event_accuracy": 85.05600894079106,
       "mean_cohort_accuracy": 84.7673077651631,
       "median_cohort_accuracy": 85.88113470214797,
+      "rank": 6,
       "delta_vs_50_50_pp": 0.6553828093098133,
       "delta_vs_irl_only_pp": 2.5641785828121186,
-      "delta_vs_online_only_pp": 8.39505490488969,
-      "rank": 6
+      "delta_vs_online_only_pp": 8.39505490488969
     },
     {
       "start": 0.95,
@@ -168,10 +214,10 @@
       "mean_event_accuracy": 84.99413247659615,
       "mean_cohort_accuracy": 84.76384168136534,
       "median_cohort_accuracy": 85.63693422940764,
+      "rank": 7,
       "delta_vs_50_50_pp": 0.6519167255120522,
       "delta_vs_irl_only_pp": 2.5607124990143575,
-      "delta_vs_online_only_pp": 8.39158882109193,
-      "rank": 7
+      "delta_vs_online_only_pp": 8.39158882109193
     },
     {
       "start": 0.9,
@@ -182,10 +228,10 @@
       "mean_event_accuracy": 85.0335614062898,
       "mean_cohort_accuracy": 84.7623844457347,
       "median_cohort_accuracy": 85.81983623717402,
+      "rank": 8,
       "delta_vs_50_50_pp": 0.6504594898814133,
       "delta_vs_irl_only_pp": 2.5592552633837187,
-      "delta_vs_online_only_pp": 8.39013158546129,
-      "rank": 8
+      "delta_vs_online_only_pp": 8.39013158546129
     },
     {
       "start": 0.95,
@@ -196,10 +242,10 @@
       "mean_event_accuracy": 85.02336003910118,
       "mean_cohort_accuracy": 84.76022867682303,
       "median_cohort_accuracy": 86.1443182794535,
+      "rank": 9,
       "delta_vs_50_50_pp": 0.64830372096975,
       "delta_vs_irl_only_pp": 2.5570994944720553,
-      "delta_vs_online_only_pp": 8.387975816549627,
-      "rank": 9
+      "delta_vs_online_only_pp": 8.387975816549627
     },
     {
       "start": 0.85,
@@ -210,10 +256,10 @@
       "mean_event_accuracy": 85.04221309591595,
       "mean_cohort_accuracy": 84.75928558324144,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 10,
       "delta_vs_50_50_pp": 0.6473606273881529,
       "delta_vs_irl_only_pp": 2.5561564008904583,
-      "delta_vs_online_only_pp": 8.38703272296803,
-      "rank": 10
+      "delta_vs_online_only_pp": 8.38703272296803
     },
     {
       "start": 0.85,
@@ -224,10 +270,10 @@
       "mean_event_accuracy": 85.05399888139516,
       "mean_cohort_accuracy": 84.75810884758089,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 11,
       "delta_vs_50_50_pp": 0.6461838917276026,
       "delta_vs_irl_only_pp": 2.554979665229908,
-      "delta_vs_online_only_pp": 8.38585598730748,
-      "rank": 11
+      "delta_vs_online_only_pp": 8.38585598730748
     },
     {
       "start": 0.9,
@@ -238,10 +284,10 @@
       "mean_event_accuracy": 85.0174102772465,
       "mean_cohort_accuracy": 84.75551934965046,
       "median_cohort_accuracy": 85.67700809089595,
+      "rank": 12,
       "delta_vs_50_50_pp": 0.6435943937971729,
       "delta_vs_irl_only_pp": 2.552390167299478,
-      "delta_vs_online_only_pp": 8.38326648937705,
-      "rank": 12
+      "delta_vs_online_only_pp": 8.38326648937705
     },
     {
       "start": 0.95,
@@ -252,10 +298,10 @@
       "mean_event_accuracy": 84.9702803588288,
       "mean_cohort_accuracy": 84.75136172305089,
       "median_cohort_accuracy": 85.48754793401021,
+      "rank": 13,
       "delta_vs_50_50_pp": 0.6394367671976084,
       "delta_vs_irl_only_pp": 2.548232540699914,
-      "delta_vs_online_only_pp": 8.379108862777485,
-      "rank": 13
+      "delta_vs_online_only_pp": 8.379108862777485
     },
     {
       "start": 0.85,
@@ -266,10 +312,10 @@
       "mean_event_accuracy": 85.04723169964716,
       "mean_cohort_accuracy": 84.74826567412923,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 14,
       "delta_vs_50_50_pp": 0.636340718275946,
       "delta_vs_irl_only_pp": 2.5451364917782513,
-      "delta_vs_online_only_pp": 8.376012813855823,
-      "rank": 14
+      "delta_vs_online_only_pp": 8.376012813855823
     },
     {
       "start": 0.8,
@@ -280,10 +326,10 @@
       "mean_event_accuracy": 85.07810941278483,
       "mean_cohort_accuracy": 84.7452152199693,
       "median_cohort_accuracy": 85.78385367986473,
+      "rank": 15,
       "delta_vs_50_50_pp": 0.6332902641160132,
       "delta_vs_irl_only_pp": 2.5420860376183185,
-      "delta_vs_online_only_pp": 8.37296235969589,
-      "rank": 15
+      "delta_vs_online_only_pp": 8.37296235969589
     },
     {
       "start": 0.9,
@@ -294,10 +340,10 @@
       "mean_event_accuracy": 84.99355815947916,
       "mean_cohort_accuracy": 84.74303939133601,
       "median_cohort_accuracy": 85.67700809089595,
+      "rank": 16,
       "delta_vs_50_50_pp": 0.6311144354827292,
       "delta_vs_irl_only_pp": 2.5399102089850345,
-      "delta_vs_online_only_pp": 8.370786531062606,
-      "rank": 16
+      "delta_vs_online_only_pp": 8.370786531062606
     },
     {
       "start": 0.85,
@@ -308,10 +354,10 @@
       "mean_event_accuracy": 85.01308059222977,
       "mean_cohort_accuracy": 84.7424087257675,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 17,
       "delta_vs_50_50_pp": 0.6304837699142212,
       "delta_vs_irl_only_pp": 2.5392795434165265,
-      "delta_vs_online_only_pp": 8.370155865494098,
-      "rank": 17
+      "delta_vs_online_only_pp": 8.370155865494098
     },
     {
       "start": 0.8,
@@ -322,10 +368,10 @@
       "mean_event_accuracy": 85.06645610340519,
       "mean_cohort_accuracy": 84.74162126545865,
       "median_cohort_accuracy": 85.63693422940764,
+      "rank": 18,
       "delta_vs_50_50_pp": 0.6296963096053645,
       "delta_vs_irl_only_pp": 2.53849208310767,
-      "delta_vs_online_only_pp": 8.369368405185241,
-      "rank": 18
+      "delta_vs_online_only_pp": 8.369368405185241
     },
     {
       "start": 1.0,
@@ -336,10 +382,10 @@
       "mean_event_accuracy": 84.96018049175998,
       "mean_cohort_accuracy": 84.73789455589689,
       "median_cohort_accuracy": 85.98774419599363,
+      "rank": 19,
       "delta_vs_50_50_pp": 0.6259696000436037,
       "delta_vs_irl_only_pp": 2.534765373545909,
-      "delta_vs_online_only_pp": 8.36564169562348,
-      "rank": 19
+      "delta_vs_online_only_pp": 8.36564169562348
     },
     {
       "start": 1.0,
@@ -350,10 +396,10 @@
       "mean_event_accuracy": 84.9684067131568,
       "mean_cohort_accuracy": 84.73739668888426,
       "median_cohort_accuracy": 86.12484027548152,
+      "rank": 20,
       "delta_vs_50_50_pp": 0.6254717330309774,
       "delta_vs_irl_only_pp": 2.5342675065332827,
-      "delta_vs_online_only_pp": 8.365143828610854,
-      "rank": 20
+      "delta_vs_online_only_pp": 8.365143828610854
     },
     {
       "start": 0.8,
@@ -364,10 +410,10 @@
       "mean_event_accuracy": 85.07134223103681,
       "mean_cohort_accuracy": 84.73537204651763,
       "median_cohort_accuracy": 85.78385367986473,
+      "rank": 21,
       "delta_vs_50_50_pp": 0.6234470906643423,
       "delta_vs_irl_only_pp": 2.5322428641666477,
-      "delta_vs_online_only_pp": 8.36311918624422,
-      "rank": 21
+      "delta_vs_online_only_pp": 8.36311918624422
     },
     {
       "start": 0.85,
@@ -378,10 +424,10 @@
       "mean_event_accuracy": 85.03832091110797,
       "mean_cohort_accuracy": 84.73530452716315,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 22,
       "delta_vs_50_50_pp": 0.6233795713098687,
       "delta_vs_irl_only_pp": 2.532175344812174,
-      "delta_vs_online_only_pp": 8.363051666889746,
-      "rank": 22
+      "delta_vs_online_only_pp": 8.363051666889746
     },
     {
       "start": 0.95,
@@ -392,10 +438,10 @@
       "mean_event_accuracy": 84.94114785514262,
       "mean_cohort_accuracy": 84.73448486557696,
       "median_cohort_accuracy": 85.48754793401021,
+      "rank": 23,
       "delta_vs_50_50_pp": 0.6225599097236767,
       "delta_vs_irl_only_pp": 2.531355683225982,
-      "delta_vs_online_only_pp": 8.362232005303554,
-      "rank": 23
+      "delta_vs_online_only_pp": 8.362232005303554
     },
     {
       "start": 1.0,
@@ -406,10 +452,10 @@
       "mean_event_accuracy": 84.94595917865554,
       "mean_cohort_accuracy": 84.73247336945585,
       "median_cohort_accuracy": 85.81983623717402,
+      "rank": 24,
       "delta_vs_50_50_pp": 0.6205484136025632,
       "delta_vs_irl_only_pp": 2.5293441871048685,
-      "delta_vs_online_only_pp": 8.36022050918244,
-      "rank": 24
+      "delta_vs_online_only_pp": 8.36022050918244
     },
     {
       "start": 0.8,
@@ -420,10 +466,10 @@
       "mean_event_accuracy": 85.04260398563784,
       "mean_cohort_accuracy": 84.72914130714418,
       "median_cohort_accuracy": 85.4823092733912,
+      "rank": 25,
       "delta_vs_50_50_pp": 0.6172163512908924,
       "delta_vs_irl_only_pp": 2.5260121247931977,
-      "delta_vs_online_only_pp": 8.35688844687077,
-      "rank": 25
+      "delta_vs_online_only_pp": 8.35688844687077
     }
   ],
   "bottom_10_rules": [
@@ -436,10 +482,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 216,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 216
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -450,10 +496,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 217,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 217
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -464,10 +510,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 218,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 218
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -478,10 +524,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 219,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 219
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -492,10 +538,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 220,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 220
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -506,10 +552,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 221,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 221
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -520,10 +566,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 222,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 222
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 0.8,
@@ -534,10 +580,10 @@
       "mean_event_accuracy": 83.9857872693674,
       "mean_cohort_accuracy": 83.5193057211724,
       "median_cohort_accuracy": 83.6230155003903,
+      "rank": 223,
       "delta_vs_50_50_pp": -0.5926192346808818,
       "delta_vs_irl_only_pp": 1.3161765388214235,
-      "delta_vs_online_only_pp": 7.147052860898995,
-      "rank": 223
+      "delta_vs_online_only_pp": 7.147052860898995
     },
     {
       "start": 0.8,
@@ -548,10 +594,10 @@
       "mean_event_accuracy": 83.85138832199722,
       "mean_cohort_accuracy": 83.37289775148537,
       "median_cohort_accuracy": 83.14425427056077,
+      "rank": 224,
       "delta_vs_50_50_pp": -0.7390272043679147,
       "delta_vs_irl_only_pp": 1.1697685691343906,
-      "delta_vs_online_only_pp": 7.000644891211962,
-      "rank": 224
+      "delta_vs_online_only_pp": 7.000644891211962
     },
     {
       "start": 0.8,
@@ -562,10 +608,10 @@
       "mean_event_accuracy": 83.80722302289217,
       "mean_cohort_accuracy": 83.33219146011004,
       "median_cohort_accuracy": 83.14425427056077,
+      "rank": 225,
       "delta_vs_50_50_pp": -0.779733495743244,
       "delta_vs_irl_only_pp": 1.1290622777590613,
-      "delta_vs_online_only_pp": 6.959938599836633,
-      "rank": 225
+      "delta_vs_online_only_pp": 6.959938599836633
     }
   ],
   "best_by_initial": [
@@ -707,6 +753,123 @@
       "best_floor": 0.1
     }
   ],
+  "fixed_chronological_holdout": {
+    "train_cohorts": [
+      "C030",
+      "C031",
+      "C033",
+      "C034",
+      "C038",
+      "C039"
+    ],
+    "test_cohorts": [
+      "C040",
+      "C046",
+      "C049",
+      "C050",
+      "C054"
+    ],
+    "selected_from_training": {
+      "start": 0.8,
+      "floor": 0.25,
+      "decay_per_day": 0.02,
+      "event_count": 9,
+      "cohort_count": 6,
+      "mean_event_accuracy": 85.50911777537158,
+      "mean_cohort_accuracy": 85.12024953489448,
+      "median_cohort_accuracy": 86.48647938934704
+    },
+    "test_selected_rule": {
+      "start": 0.8,
+      "floor": 0.25,
+      "decay_per_day": 0.02,
+      "event_count": 7,
+      "cohort_count": 5,
+      "mean_event_accuracy": 84.52395580374471,
+      "mean_cohort_accuracy": 84.29517404205906,
+      "median_cohort_accuracy": 83.5703017105827,
+      "rows": [
+        {
+          "target_id": "0052",
+          "target_name": "Regional Championship Sydney",
+          "date": "2026-02-07",
+          "cohort_id": "C040",
+          "days_since_major": 13,
+          "irl_weight": 0.54,
+          "accuracy": 82.86877960439293
+        },
+        {
+          "target_id": "0053",
+          "target_name": "Regional Championship Santiago",
+          "date": "2026-02-07",
+          "cohort_id": "C040",
+          "days_since_major": 13,
+          "irl_weight": 0.54,
+          "accuracy": 84.25834707789446
+        },
+        {
+          "target_id": "0059",
+          "target_name": "Special Event Seville",
+          "date": "2026-03-28",
+          "cohort_id": "C046",
+          "days_since_major": 6,
+          "irl_weight": 0.68,
+          "accuracy": 85.4823092733912
+        },
+        {
+          "target_id": "0063",
+          "target_name": "Regional Championship Los Angeles",
+          "date": "2026-05-08",
+          "cohort_id": "C049",
+          "days_since_major": 12,
+          "irl_weight": 0.56,
+          "accuracy": 83.5703017105827
+        },
+        {
+          "target_id": "0064",
+          "target_name": "Regional Championship Utrecht",
+          "date": "2026-05-16",
+          "cohort_id": "C050",
+          "days_since_major": 6,
+          "irl_weight": 0.68,
+          "accuracy": 88.27869402574541
+        },
+        {
+          "target_id": "0065",
+          "target_name": "Regional Championship Campinas",
+          "date": "2026-05-16",
+          "cohort_id": "C050",
+          "days_since_major": 6,
+          "irl_weight": 0.68,
+          "accuracy": 84.97782012380253
+        },
+        {
+          "target_id": "0070",
+          "target_name": "International Championship New Orleans",
+          "date": "2026-06-12",
+          "cohort_id": "C054",
+          "days_since_major": 5,
+          "irl_weight": 0.7000000000000001,
+          "accuracy": 82.23143881040376
+        }
+      ]
+    },
+    "test_baselines": {
+      "fifty_fifty": {
+        "event": 83.81321307852592,
+        "cohort": 83.39843319205232
+      },
+      "irl_only": {
+        "event": 83.57992099293563,
+        "cohort": 83.08440285670221
+      },
+      "online_only": {
+        "event": 75.44011518888757,
+        "cohort": 75.14473022172209
+      }
+    },
+    "warning": "Only five independent holdout cohorts; directional validation, not decisive model selection."
+  },
   "all_rules": [
     {
       "start": 0.95,
@@ -717,10 +880,10 @@
       "mean_event_accuracy": 85.02450491874389,
       "mean_cohort_accuracy": 84.77612796389059,
       "median_cohort_accuracy": 85.98774419599363,
+      "rank": 1,
       "delta_vs_50_50_pp": 0.6642030080373047,
       "delta_vs_irl_only_pp": 2.57299878153961,
-      "delta_vs_online_only_pp": 8.403875103617182,
-      "rank": 1
+      "delta_vs_online_only_pp": 8.403875103617182
     },
     {
       "start": 0.95,
@@ -731,10 +894,10 @@
       "mean_event_accuracy": 85.0327311401407,
       "mean_cohort_accuracy": 84.77563009687798,
       "median_cohort_accuracy": 86.12484027548152,
+      "rank": 2,
       "delta_vs_50_50_pp": 0.6637051410246926,
       "delta_vs_irl_only_pp": 2.572500914526998,
-      "delta_vs_online_only_pp": 8.40337723660457,
-      "rank": 2
+      "delta_vs_online_only_pp": 8.40337723660457
     },
     {
       "start": 0.95,
@@ -745,10 +908,10 @@
       "mean_event_accuracy": 85.01028360563946,
       "mean_cohort_accuracy": 84.77070677744956,
       "median_cohort_accuracy": 85.81983623717402,
+      "rank": 3,
       "delta_vs_50_50_pp": 0.6587818215962784,
       "delta_vs_irl_only_pp": 2.5675775950985837,
-      "delta_vs_online_only_pp": 8.398453917176155,
-      "rank": 3
+      "delta_vs_online_only_pp": 8.398453917176155
     },
     {
       "start": 0.85,
@@ -759,10 +922,10 @@
       "mean_event_accuracy": 85.06071050332267,
       "mean_cohort_accuracy": 84.76787120674815,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 4,
       "delta_vs_50_50_pp": 0.6559462508948712,
       "delta_vs_irl_only_pp": 2.5647420243971766,
-      "delta_vs_online_only_pp": 8.395618346474748,
-      "rank": 4
+      "delta_vs_online_only_pp": 8.395618346474748
     },
     {
       "start": 0.9,
@@ -773,10 +936,10 @@
       "mean_event_accuracy": 85.04778271939423,
       "mean_cohort_accuracy": 84.76780563217572,
       "median_cohort_accuracy": 85.88113470214797,
+      "rank": 5,
       "delta_vs_50_50_pp": 0.6558806763224396,
       "delta_vs_irl_only_pp": 2.564676449824745,
-      "delta_vs_online_only_pp": 8.395552771902317,
-      "rank": 5
+      "delta_vs_online_only_pp": 8.395552771902317
     },
     {
       "start": 0.9,
@@ -787,10 +950,10 @@
       "mean_event_accuracy": 85.05600894079106,
       "mean_cohort_accuracy": 84.7673077651631,
       "median_cohort_accuracy": 85.88113470214797,
+      "rank": 6,
       "delta_vs_50_50_pp": 0.6553828093098133,
       "delta_vs_irl_only_pp": 2.5641785828121186,
-      "delta_vs_online_only_pp": 8.39505490488969,
-      "rank": 6
+      "delta_vs_online_only_pp": 8.39505490488969
     },
     {
       "start": 0.95,
@@ -801,10 +964,10 @@
       "mean_event_accuracy": 84.99413247659615,
       "mean_cohort_accuracy": 84.76384168136534,
       "median_cohort_accuracy": 85.63693422940764,
+      "rank": 7,
       "delta_vs_50_50_pp": 0.6519167255120522,
       "delta_vs_irl_only_pp": 2.5607124990143575,
-      "delta_vs_online_only_pp": 8.39158882109193,
-      "rank": 7
+      "delta_vs_online_only_pp": 8.39158882109193
     },
     {
       "start": 0.9,
@@ -815,10 +978,10 @@
       "mean_event_accuracy": 85.0335614062898,
       "mean_cohort_accuracy": 84.7623844457347,
       "median_cohort_accuracy": 85.81983623717402,
+      "rank": 8,
       "delta_vs_50_50_pp": 0.6504594898814133,
       "delta_vs_irl_only_pp": 2.5592552633837187,
-      "delta_vs_online_only_pp": 8.39013158546129,
-      "rank": 8
+      "delta_vs_online_only_pp": 8.39013158546129
     },
     {
       "start": 0.95,
@@ -829,10 +992,10 @@
       "mean_event_accuracy": 85.02336003910118,
       "mean_cohort_accuracy": 84.76022867682303,
       "median_cohort_accuracy": 86.1443182794535,
+      "rank": 9,
       "delta_vs_50_50_pp": 0.64830372096975,
       "delta_vs_irl_only_pp": 2.5570994944720553,
-      "delta_vs_online_only_pp": 8.387975816549627,
-      "rank": 9
+      "delta_vs_online_only_pp": 8.387975816549627
     },
     {
       "start": 0.85,
@@ -843,10 +1006,10 @@
       "mean_event_accuracy": 85.04221309591595,
       "mean_cohort_accuracy": 84.75928558324144,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 10,
       "delta_vs_50_50_pp": 0.6473606273881529,
       "delta_vs_irl_only_pp": 2.5561564008904583,
-      "delta_vs_online_only_pp": 8.38703272296803,
-      "rank": 10
+      "delta_vs_online_only_pp": 8.38703272296803
     },
     {
       "start": 0.85,
@@ -857,10 +1020,10 @@
       "mean_event_accuracy": 85.05399888139516,
       "mean_cohort_accuracy": 84.75810884758089,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 11,
       "delta_vs_50_50_pp": 0.6461838917276026,
       "delta_vs_irl_only_pp": 2.554979665229908,
-      "delta_vs_online_only_pp": 8.38585598730748,
-      "rank": 11
+      "delta_vs_online_only_pp": 8.38585598730748
     },
     {
       "start": 0.9,
@@ -871,10 +1034,10 @@
       "mean_event_accuracy": 85.0174102772465,
       "mean_cohort_accuracy": 84.75551934965046,
       "median_cohort_accuracy": 85.67700809089595,
+      "rank": 12,
       "delta_vs_50_50_pp": 0.6435943937971729,
       "delta_vs_irl_only_pp": 2.552390167299478,
-      "delta_vs_online_only_pp": 8.38326648937705,
-      "rank": 12
+      "delta_vs_online_only_pp": 8.38326648937705
     },
     {
       "start": 0.95,
@@ -885,10 +1048,10 @@
       "mean_event_accuracy": 84.9702803588288,
       "mean_cohort_accuracy": 84.75136172305089,
       "median_cohort_accuracy": 85.48754793401021,
+      "rank": 13,
       "delta_vs_50_50_pp": 0.6394367671976084,
       "delta_vs_irl_only_pp": 2.548232540699914,
-      "delta_vs_online_only_pp": 8.379108862777485,
-      "rank": 13
+      "delta_vs_online_only_pp": 8.379108862777485
     },
     {
       "start": 0.85,
@@ -899,10 +1062,10 @@
       "mean_event_accuracy": 85.04723169964716,
       "mean_cohort_accuracy": 84.74826567412923,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 14,
       "delta_vs_50_50_pp": 0.636340718275946,
       "delta_vs_irl_only_pp": 2.5451364917782513,
-      "delta_vs_online_only_pp": 8.376012813855823,
-      "rank": 14
+      "delta_vs_online_only_pp": 8.376012813855823
     },
     {
       "start": 0.8,
@@ -913,10 +1076,10 @@
       "mean_event_accuracy": 85.07810941278483,
       "mean_cohort_accuracy": 84.7452152199693,
       "median_cohort_accuracy": 85.78385367986473,
+      "rank": 15,
       "delta_vs_50_50_pp": 0.6332902641160132,
       "delta_vs_irl_only_pp": 2.5420860376183185,
-      "delta_vs_online_only_pp": 8.37296235969589,
-      "rank": 15
+      "delta_vs_online_only_pp": 8.37296235969589
     },
     {
       "start": 0.9,
@@ -927,10 +1090,10 @@
       "mean_event_accuracy": 84.99355815947916,
       "mean_cohort_accuracy": 84.74303939133601,
       "median_cohort_accuracy": 85.67700809089595,
+      "rank": 16,
       "delta_vs_50_50_pp": 0.6311144354827292,
       "delta_vs_irl_only_pp": 2.5399102089850345,
-      "delta_vs_online_only_pp": 8.370786531062606,
-      "rank": 16
+      "delta_vs_online_only_pp": 8.370786531062606
     },
     {
       "start": 0.85,
@@ -941,10 +1104,10 @@
       "mean_event_accuracy": 85.01308059222977,
       "mean_cohort_accuracy": 84.7424087257675,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 17,
       "delta_vs_50_50_pp": 0.6304837699142212,
       "delta_vs_irl_only_pp": 2.5392795434165265,
-      "delta_vs_online_only_pp": 8.370155865494098,
-      "rank": 17
+      "delta_vs_online_only_pp": 8.370155865494098
     },
     {
       "start": 0.8,
@@ -955,10 +1118,10 @@
       "mean_event_accuracy": 85.06645610340519,
       "mean_cohort_accuracy": 84.74162126545865,
       "median_cohort_accuracy": 85.63693422940764,
+      "rank": 18,
       "delta_vs_50_50_pp": 0.6296963096053645,
       "delta_vs_irl_only_pp": 2.53849208310767,
-      "delta_vs_online_only_pp": 8.369368405185241,
-      "rank": 18
+      "delta_vs_online_only_pp": 8.369368405185241
     },
     {
       "start": 1.0,
@@ -969,10 +1132,10 @@
       "mean_event_accuracy": 84.96018049175998,
       "mean_cohort_accuracy": 84.73789455589689,
       "median_cohort_accuracy": 85.98774419599363,
+      "rank": 19,
       "delta_vs_50_50_pp": 0.6259696000436037,
       "delta_vs_irl_only_pp": 2.534765373545909,
-      "delta_vs_online_only_pp": 8.36564169562348,
-      "rank": 19
+      "delta_vs_online_only_pp": 8.36564169562348
     },
     {
       "start": 1.0,
@@ -983,10 +1146,10 @@
       "mean_event_accuracy": 84.9684067131568,
       "mean_cohort_accuracy": 84.73739668888426,
       "median_cohort_accuracy": 86.12484027548152,
+      "rank": 20,
       "delta_vs_50_50_pp": 0.6254717330309774,
       "delta_vs_irl_only_pp": 2.5342675065332827,
-      "delta_vs_online_only_pp": 8.365143828610854,
-      "rank": 20
+      "delta_vs_online_only_pp": 8.365143828610854
     },
     {
       "start": 0.8,
@@ -997,10 +1160,10 @@
       "mean_event_accuracy": 85.07134223103681,
       "mean_cohort_accuracy": 84.73537204651763,
       "median_cohort_accuracy": 85.78385367986473,
+      "rank": 21,
       "delta_vs_50_50_pp": 0.6234470906643423,
       "delta_vs_irl_only_pp": 2.5322428641666477,
-      "delta_vs_online_only_pp": 8.36311918624422,
-      "rank": 21
+      "delta_vs_online_only_pp": 8.36311918624422
     },
     {
       "start": 0.85,
@@ -1011,10 +1174,10 @@
       "mean_event_accuracy": 85.03832091110797,
       "mean_cohort_accuracy": 84.73530452716315,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 22,
       "delta_vs_50_50_pp": 0.6233795713098687,
       "delta_vs_irl_only_pp": 2.532175344812174,
-      "delta_vs_online_only_pp": 8.363051666889746,
-      "rank": 22
+      "delta_vs_online_only_pp": 8.363051666889746
     },
     {
       "start": 0.95,
@@ -1025,10 +1188,10 @@
       "mean_event_accuracy": 84.94114785514262,
       "mean_cohort_accuracy": 84.73448486557696,
       "median_cohort_accuracy": 85.48754793401021,
+      "rank": 23,
       "delta_vs_50_50_pp": 0.6225599097236767,
       "delta_vs_irl_only_pp": 2.531355683225982,
-      "delta_vs_online_only_pp": 8.362232005303554,
-      "rank": 23
+      "delta_vs_online_only_pp": 8.362232005303554
     },
     {
       "start": 1.0,
@@ -1039,10 +1202,10 @@
       "mean_event_accuracy": 84.94595917865554,
       "mean_cohort_accuracy": 84.73247336945585,
       "median_cohort_accuracy": 85.81983623717402,
+      "rank": 24,
       "delta_vs_50_50_pp": 0.6205484136025632,
       "delta_vs_irl_only_pp": 2.5293441871048685,
-      "delta_vs_online_only_pp": 8.36022050918244,
-      "rank": 24
+      "delta_vs_online_only_pp": 8.36022050918244
     },
     {
       "start": 0.8,
@@ -1053,10 +1216,10 @@
       "mean_event_accuracy": 85.04260398563784,
       "mean_cohort_accuracy": 84.72914130714418,
       "median_cohort_accuracy": 85.4823092733912,
+      "rank": 25,
       "delta_vs_50_50_pp": 0.6172163512908924,
       "delta_vs_irl_only_pp": 2.5260121247931977,
-      "delta_vs_online_only_pp": 8.35688844687077,
-      "rank": 25
+      "delta_vs_online_only_pp": 8.35688844687077
     },
     {
       "start": 0.9,
@@ -1067,10 +1230,10 @@
       "mean_event_accuracy": 85.011843641686,
       "mean_cohort_accuracy": 84.72660147378777,
       "median_cohort_accuracy": 85.86596469492929,
+      "rank": 26,
       "delta_vs_50_50_pp": 0.614676517934484,
       "delta_vs_irl_only_pp": 2.5234722914367893,
-      "delta_vs_online_only_pp": 8.354348613514361,
-      "rank": 26
+      "delta_vs_online_only_pp": 8.354348613514361
     },
     {
       "start": 0.9,
@@ -1081,10 +1244,10 @@
       "mean_event_accuracy": 84.96442565579297,
       "mean_cohort_accuracy": 84.72616253386208,
       "median_cohort_accuracy": 85.67700809089595,
+      "rank": 27,
       "delta_vs_50_50_pp": 0.6142375780087974,
       "delta_vs_irl_only_pp": 2.5230333515111028,
-      "delta_vs_online_only_pp": 8.353909673588674,
-      "rank": 27
+      "delta_vs_online_only_pp": 8.353909673588674
     },
     {
       "start": 1.0,
@@ -1095,10 +1258,10 @@
       "mean_event_accuracy": 84.92980804961223,
       "mean_cohort_accuracy": 84.72560827337162,
       "median_cohort_accuracy": 85.63693422940764,
+      "rank": 28,
       "delta_vs_50_50_pp": 0.6136833175183369,
       "delta_vs_irl_only_pp": 2.5224790910206423,
-      "delta_vs_online_only_pp": 8.353355413098214,
-      "rank": 28
+      "delta_vs_online_only_pp": 8.353355413098214
     },
     {
       "start": 0.9,
@@ -1109,10 +1272,10 @@
       "mean_event_accuracy": 84.97785184867693,
       "mean_cohort_accuracy": 84.72473930126078,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 29,
       "delta_vs_50_50_pp": 0.6128143454075001,
       "delta_vs_irl_only_pp": 2.5216101189098055,
-      "delta_vs_online_only_pp": 8.352486440987377,
-      "rank": 29
+      "delta_vs_online_only_pp": 8.352486440987377
     },
     {
       "start": 0.8,
@@ -1123,10 +1286,10 @@
       "mean_event_accuracy": 85.06243144249763,
       "mean_cohort_accuracy": 84.72241089955156,
       "median_cohort_accuracy": 85.78385367986473,
+      "rank": 30,
       "delta_vs_50_50_pp": 0.6104859436982792,
       "delta_vs_irl_only_pp": 2.5192817172005846,
-      "delta_vs_online_only_pp": 8.350158039278156,
-      "rank": 30
+      "delta_vs_online_only_pp": 8.350158039278156
     },
     {
       "start": 0.85,
@@ -1137,10 +1300,10 @@
       "mean_event_accuracy": 84.9803484188119,
       "mean_cohort_accuracy": 84.72208149827398,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 31,
       "delta_vs_50_50_pp": 0.6101565424206967,
       "delta_vs_irl_only_pp": 2.518952315923002,
-      "delta_vs_online_only_pp": 8.349828638000574,
-      "rank": 31
+      "delta_vs_online_only_pp": 8.349828638000574
     },
     {
       "start": 0.85,
@@ -1151,10 +1314,10 @@
       "mean_event_accuracy": 85.02651505957195,
       "mean_cohort_accuracy": 84.7181323794744,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 32,
       "delta_vs_50_50_pp": 0.6062074236211146,
       "delta_vs_irl_only_pp": 2.51500319712342,
-      "delta_vs_online_only_pp": 8.345879519200992,
-      "rank": 32
+      "delta_vs_online_only_pp": 8.345879519200992
     },
     {
       "start": 0.9,
@@ -1165,10 +1328,10 @@
       "mean_event_accuracy": 84.97115967359197,
       "mean_cohort_accuracy": 84.71500522840991,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 33,
       "delta_vs_50_50_pp": 0.6030802725566247,
       "delta_vs_irl_only_pp": 2.51187604605893,
-      "delta_vs_online_only_pp": 8.342752368136502,
-      "rank": 33
+      "delta_vs_online_only_pp": 8.342752368136502
     },
     {
       "start": 1.0,
@@ -1179,10 +1342,10 @@
       "mean_event_accuracy": 84.93946496081267,
       "mean_cohort_accuracy": 84.71425244944189,
       "median_cohort_accuracy": 85.5410739416503,
+      "rank": 34,
       "delta_vs_50_50_pp": 0.6023274935886036,
       "delta_vs_irl_only_pp": 2.511123267090909,
-      "delta_vs_online_only_pp": 8.34199958916848,
-      "rank": 34
+      "delta_vs_online_only_pp": 8.34199958916848
     },
     {
       "start": 0.95,
@@ -1193,10 +1356,10 @@
       "mean_event_accuracy": 84.90841568172475,
       "mean_cohort_accuracy": 84.71415763808344,
       "median_cohort_accuracy": 85.48754793401021,
+      "rank": 35,
       "delta_vs_50_50_pp": 0.6022326822301522,
       "delta_vs_irl_only_pp": 2.5110284557324576,
-      "delta_vs_online_only_pp": 8.34190477781003,
-      "rank": 35
+      "delta_vs_online_only_pp": 8.34190477781003
     },
     {
       "start": 1.0,
@@ -1207,10 +1370,10 @@
       "mean_event_accuracy": 84.9059559318449,
       "mean_cohort_accuracy": 84.71312831505716,
       "median_cohort_accuracy": 85.52543996538736,
+      "rank": 36,
       "delta_vs_50_50_pp": 0.601203359203879,
       "delta_vs_irl_only_pp": 2.5099991327061844,
-      "delta_vs_online_only_pp": 8.340875454783756,
-      "rank": 36
+      "delta_vs_online_only_pp": 8.340875454783756
     },
     {
       "start": 0.9,
@@ -1221,10 +1384,10 @@
       "mean_event_accuracy": 84.95538629969091,
       "mean_cohort_accuracy": 84.71271113811423,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 37,
       "delta_vs_50_50_pp": 0.600786182260947,
       "delta_vs_irl_only_pp": 2.5095819557632524,
-      "delta_vs_online_only_pp": 8.340458277840824,
-      "rank": 37
+      "delta_vs_online_only_pp": 8.340458277840824
     },
     {
       "start": 0.8,
@@ -1235,10 +1398,10 @@
       "mean_event_accuracy": 85.01347148195164,
       "mean_cohort_accuracy": 84.71226444967024,
       "median_cohort_accuracy": 85.4823092733912,
+      "rank": 38,
       "delta_vs_50_50_pp": 0.6003394938169606,
       "delta_vs_irl_only_pp": 2.509135267319266,
-      "delta_vs_online_only_pp": 8.340011589396838,
-      "rank": 38
+      "delta_vs_online_only_pp": 8.340011589396838
     },
     {
       "start": 1.0,
@@ -1249,10 +1412,10 @@
       "mean_event_accuracy": 84.92524364770823,
       "mean_cohort_accuracy": 84.70883126300085,
       "median_cohort_accuracy": 85.5410739416503,
+      "rank": 39,
       "delta_vs_50_50_pp": 0.5969063071475631,
       "delta_vs_irl_only_pp": 2.5057020806498684,
-      "delta_vs_online_only_pp": 8.33657840272744,
-      "rank": 39
+      "delta_vs_online_only_pp": 8.33657840272744
     },
     {
       "start": 0.9,
@@ -1263,10 +1426,10 @@
       "mean_event_accuracy": 84.9316934823751,
       "mean_cohort_accuracy": 84.70583530636856,
       "median_cohort_accuracy": 85.67700809089595,
+      "rank": 40,
       "delta_vs_50_50_pp": 0.593910350515273,
       "delta_vs_irl_only_pp": 2.5027061240175783,
-      "delta_vs_online_only_pp": 8.33358244609515,
-      "rank": 40
+      "delta_vs_online_only_pp": 8.33358244609515
     },
     {
       "start": 0.9,
@@ -1277,10 +1440,10 @@
       "mean_event_accuracy": 84.96444805166448,
       "mean_cohort_accuracy": 84.70524286924264,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 41,
       "delta_vs_50_50_pp": 0.593317913389356,
       "delta_vs_irl_only_pp": 2.5021136868916614,
-      "delta_vs_online_only_pp": 8.332990008969233,
-      "rank": 41
+      "delta_vs_online_only_pp": 8.332990008969233
     },
     {
       "start": 0.8,
@@ -1291,10 +1454,10 @@
       "mean_event_accuracy": 85.05062559096162,
       "mean_cohort_accuracy": 84.7052387518628,
       "median_cohort_accuracy": 85.78385367986473,
+      "rank": 42,
       "delta_vs_50_50_pp": 0.593313796009511,
       "delta_vs_irl_only_pp": 2.5021095695118163,
-      "delta_vs_online_only_pp": 8.332985891589388,
-      "rank": 42
+      "delta_vs_online_only_pp": 8.332985891589388
     },
     {
       "start": 1.0,
@@ -1305,10 +1468,10 @@
       "mean_event_accuracy": 84.93459266955085,
       "mean_cohort_accuracy": 84.7042283914048,
       "median_cohort_accuracy": 85.5410739416503,
+      "rank": 43,
       "delta_vs_50_50_pp": 0.5923034355515142,
       "delta_vs_irl_only_pp": 2.5010992090538195,
-      "delta_vs_online_only_pp": 8.331975531131391,
-      "rank": 43
+      "delta_vs_online_only_pp": 8.331975531131391
     },
     {
       "start": 1.0,
@@ -1319,10 +1482,10 @@
       "mean_event_accuracy": 84.90909251866492,
       "mean_cohort_accuracy": 84.70196616691663,
       "median_cohort_accuracy": 85.5410739416503,
+      "rank": 44,
       "delta_vs_50_50_pp": 0.5900412110633511,
       "delta_vs_irl_only_pp": 2.4988369845656564,
-      "delta_vs_online_only_pp": 8.329713306643228,
-      "rank": 44
+      "delta_vs_online_only_pp": 8.329713306643228
     },
     {
       "start": 1.0,
@@ -1333,10 +1496,10 @@
       "mean_event_accuracy": 84.92424141405174,
       "mean_cohort_accuracy": 84.69669039750892,
       "median_cohort_accuracy": 85.86596469492929,
+      "rank": 45,
       "delta_vs_50_50_pp": 0.5847654416556338,
       "delta_vs_irl_only_pp": 2.493561215157939,
-      "delta_vs_online_only_pp": 8.32443753723551,
-      "rank": 45
+      "delta_vs_online_only_pp": 8.32443753723551
     },
     {
       "start": 1.0,
@@ -1347,10 +1510,10 @@
       "mean_event_accuracy": 84.8768234281587,
       "mean_cohort_accuracy": 84.69625145758323,
       "median_cohort_accuracy": 85.52543996538736,
+      "rank": 46,
       "delta_vs_50_50_pp": 0.5843265017299473,
       "delta_vs_irl_only_pp": 2.4931222752322526,
-      "delta_vs_online_only_pp": 8.323998597309824,
-      "rank": 46
+      "delta_vs_online_only_pp": 8.323998597309824
     },
     {
       "start": 0.9,
@@ -1361,10 +1524,10 @@
       "mean_event_accuracy": 84.95768086991646,
       "mean_cohort_accuracy": 84.69539969579098,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 47,
       "delta_vs_50_50_pp": 0.5834747399376994,
       "delta_vs_irl_only_pp": 2.4922705134400047,
-      "delta_vs_online_only_pp": 8.323146835517576,
-      "rank": 47
+      "delta_vs_online_only_pp": 8.323146835517576
     },
     {
       "start": 0.9,
@@ -1375,10 +1538,10 @@
       "mean_event_accuracy": 84.92265412627304,
       "mean_cohort_accuracy": 84.69238391062072,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 48,
       "delta_vs_50_50_pp": 0.5804589547674368,
       "delta_vs_irl_only_pp": 2.489254728269742,
-      "delta_vs_online_only_pp": 8.320131050347314,
-      "rank": 48
+      "delta_vs_online_only_pp": 8.320131050347314
     },
     {
       "start": 0.8,
@@ -1389,10 +1552,10 @@
       "mean_event_accuracy": 84.98073930853378,
       "mean_cohort_accuracy": 84.69193722217673,
       "median_cohort_accuracy": 85.4823092733912,
+      "rank": 49,
       "delta_vs_50_50_pp": 0.5800122663234504,
       "delta_vs_irl_only_pp": 2.4888080398257557,
-      "delta_vs_online_only_pp": 8.319684361903327,
-      "rank": 49
+      "delta_vs_online_only_pp": 8.319684361903327
     },
     {
       "start": 1.0,
@@ -1403,10 +1566,10 @@
       "mean_event_accuracy": 84.88524040089759,
       "mean_cohort_accuracy": 84.68948620860216,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 50,
       "delta_vs_50_50_pp": 0.5775612527488789,
       "delta_vs_irl_only_pp": 2.4863570262511843,
-      "delta_vs_online_only_pp": 8.317233348328756,
-      "rank": 50
+      "delta_vs_online_only_pp": 8.317233348328756
     },
     {
       "start": 0.85,
@@ -1417,10 +1580,10 @@
       "mean_event_accuracy": 84.92999038388322,
       "mean_cohort_accuracy": 84.68852705304454,
       "median_cohort_accuracy": 85.63911605951881,
+      "rank": 51,
       "delta_vs_50_50_pp": 0.5766020971912553,
       "delta_vs_irl_only_pp": 2.4853978706935607,
-      "delta_vs_online_only_pp": 8.316274192771132,
-      "rank": 51
+      "delta_vs_online_only_pp": 8.316274192771132
     },
     {
       "start": 1.0,
@@ -1431,10 +1594,10 @@
       "mean_event_accuracy": 84.90622709470587,
       "mean_cohort_accuracy": 84.68773919747044,
       "median_cohort_accuracy": 85.68348894671244,
+      "rank": 52,
       "delta_vs_50_50_pp": 0.5758142416171523,
       "delta_vs_irl_only_pp": 2.4846100151194577,
-      "delta_vs_online_only_pp": 8.31548633719703,
-      "rank": 52
+      "delta_vs_online_only_pp": 8.31548633719703
     },
     {
       "start": 1.0,
@@ -1445,10 +1608,10 @@
       "mean_event_accuracy": 84.92278681801484,
       "mean_cohort_accuracy": 84.68705624371604,
       "median_cohort_accuracy": 85.5410739416503,
+      "rank": 53,
       "delta_vs_50_50_pp": 0.5751312878627601,
       "delta_vs_irl_only_pp": 2.4839270613650655,
-      "delta_vs_online_only_pp": 8.314803383442637,
-      "rank": 53
+      "delta_vs_online_only_pp": 8.314803383442637
     },
     {
       "start": 0.9,
@@ -1459,10 +1622,10 @@
       "mean_event_accuracy": 84.94877008137728,
       "mean_cohort_accuracy": 84.6824385488249,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 54,
       "delta_vs_50_50_pp": 0.5705135929716221,
       "delta_vs_irl_only_pp": 2.4793093664739274,
-      "delta_vs_online_only_pp": 8.310185688551499,
-      "rank": 54
+      "delta_vs_online_only_pp": 8.310185688551499
     },
     {
       "start": 0.95,
@@ -1473,10 +1636,10 @@
       "mean_event_accuracy": 84.89232984535158,
       "mean_cohort_accuracy": 84.68220437233373,
       "median_cohort_accuracy": 85.71053210564799,
+      "rank": 55,
       "delta_vs_50_50_pp": 0.5702794164804459,
       "delta_vs_irl_only_pp": 2.4790751899827512,
-      "delta_vs_online_only_pp": 8.309951512060323,
-      "rank": 55
+      "delta_vs_online_only_pp": 8.309951512060323
     },
     {
       "start": 0.95,
@@ -1487,10 +1650,10 @@
       "mean_event_accuracy": 84.85805764679607,
       "mean_cohort_accuracy": 84.680603192854,
       "median_cohort_accuracy": 85.48754793401021,
+      "rank": 56,
       "delta_vs_50_50_pp": 0.5686782370007109,
       "delta_vs_irl_only_pp": 2.477474010503016,
-      "delta_vs_online_only_pp": 8.308350332580588,
-      "rank": 56
+      "delta_vs_online_only_pp": 8.308350332580588
     },
     {
       "start": 0.85,
@@ -1501,10 +1664,10 @@
       "mean_event_accuracy": 85.00024940201067,
       "mean_cohort_accuracy": 84.67756183733631,
       "median_cohort_accuracy": 85.81833698245055,
+      "rank": 57,
       "delta_vs_50_50_pp": 0.5656368814830302,
       "delta_vs_irl_only_pp": 2.4744326549853355,
-      "delta_vs_online_only_pp": 8.305308977062907,
-      "rank": 57
+      "delta_vs_online_only_pp": 8.305308977062907
     },
     {
       "start": 0.85,
@@ -1515,10 +1678,10 @@
       "mean_event_accuracy": 85.00847562340748,
       "mean_cohort_accuracy": 84.67706397032369,
       "median_cohort_accuracy": 85.81833698245055,
+      "rank": 58,
       "delta_vs_50_50_pp": 0.5651390144704038,
       "delta_vs_irl_only_pp": 2.473934787972709,
-      "delta_vs_online_only_pp": 8.30481111005028,
-      "rank": 58
+      "delta_vs_online_only_pp": 8.30481111005028
     },
     {
       "start": 0.95,
@@ -1529,10 +1692,10 @@
       "mean_event_accuracy": 84.93840024415795,
       "mean_cohort_accuracy": 84.67606781655284,
       "median_cohort_accuracy": 85.78407878337305,
+      "rank": 59,
       "delta_vs_50_50_pp": 0.5641428606995618,
       "delta_vs_irl_only_pp": 2.472938634201867,
-      "delta_vs_online_only_pp": 8.303814956279439,
-      "rank": 59
+      "delta_vs_online_only_pp": 8.303814956279439
     },
     {
       "start": 1.0,
@@ -1543,10 +1706,10 @@
       "mean_event_accuracy": 84.84409125474085,
       "mean_cohort_accuracy": 84.67592423008972,
       "median_cohort_accuracy": 85.52543996538736,
+      "rank": 60,
       "delta_vs_50_50_pp": 0.563999274236437,
       "delta_vs_irl_only_pp": 2.4727950477387424,
-      "delta_vs_online_only_pp": 8.303671369816314,
-      "rank": 60
+      "delta_vs_online_only_pp": 8.303671369816314
     },
     {
       "start": 0.95,
@@ -1557,10 +1720,10 @@
       "mean_event_accuracy": 84.94662646555476,
       "mean_cohort_accuracy": 84.67556994954022,
       "median_cohort_accuracy": 85.78407878337305,
+      "rank": 61,
       "delta_vs_50_50_pp": 0.5636449936869354,
       "delta_vs_irl_only_pp": 2.4724407671892408,
-      "delta_vs_online_only_pp": 8.303317089266812,
-      "rank": 61
+      "delta_vs_online_only_pp": 8.303317089266812
     },
     {
       "start": 1.0,
@@ -1571,10 +1734,10 @@
       "mean_event_accuracy": 84.85610789721139,
       "mean_cohort_accuracy": 84.67260935112823,
       "median_cohort_accuracy": 85.28298993421839,
+      "rank": 62,
       "delta_vs_50_50_pp": 0.5606843952749472,
       "delta_vs_irl_only_pp": 2.4694801687772525,
-      "delta_vs_online_only_pp": 8.300356490854824,
-      "rank": 62
+      "delta_vs_online_only_pp": 8.300356490854824
     },
     {
       "start": 1.0,
@@ -1585,10 +1748,10 @@
       "mean_event_accuracy": 84.82862516958677,
       "mean_cohort_accuracy": 84.67243316755271,
       "median_cohort_accuracy": 85.52543996538736,
+      "rank": 63,
       "delta_vs_50_50_pp": 0.5605082116994282,
       "delta_vs_irl_only_pp": 2.4693039852017336,
-      "delta_vs_online_only_pp": 8.300180307279305,
-      "rank": 63
+      "delta_vs_online_only_pp": 8.300180307279305
     },
     {
       "start": 0.9,
@@ -1599,10 +1762,10 @@
       "mean_event_accuracy": 84.88133544744642,
       "mean_cohort_accuracy": 84.67228086113913,
       "median_cohort_accuracy": 85.67700809089595,
+      "rank": 64,
       "delta_vs_50_50_pp": 0.5603559052858458,
       "delta_vs_irl_only_pp": 2.469151678788151,
-      "delta_vs_online_only_pp": 8.300028000865723,
-      "rank": 64
+      "delta_vs_online_only_pp": 8.300028000865723
     },
     {
       "start": 0.85,
@@ -1613,10 +1776,10 @@
       "mean_event_accuracy": 84.98602808890624,
       "mean_cohort_accuracy": 84.67214065089527,
       "median_cohort_accuracy": 85.81833698245055,
+      "rank": 65,
       "delta_vs_50_50_pp": 0.5602156950419896,
       "delta_vs_irl_only_pp": 2.469011468544295,
-      "delta_vs_online_only_pp": 8.299887790621867,
-      "rank": 65
+      "delta_vs_online_only_pp": 8.299887790621867
     },
     {
       "start": 0.95,
@@ -1627,10 +1790,10 @@
       "mean_event_accuracy": 84.92417893105352,
       "mean_cohort_accuracy": 84.67064663011182,
       "median_cohort_accuracy": 85.78407878337305,
+      "rank": 66,
       "delta_vs_50_50_pp": 0.5587216742585355,
       "delta_vs_irl_only_pp": 2.467517447760841,
-      "delta_vs_online_only_pp": 8.298393769838412,
-      "rank": 66
+      "delta_vs_online_only_pp": 8.298393769838412
     },
     {
       "start": 0.85,
@@ -1641,10 +1804,10 @@
       "mean_event_accuracy": 84.96987695986293,
       "mean_cohort_accuracy": 84.66527555481106,
       "median_cohort_accuracy": 85.63693422940764,
+      "rank": 67,
       "delta_vs_50_50_pp": 0.5533505989577776,
       "delta_vs_irl_only_pp": 2.462146372460083,
-      "delta_vs_online_only_pp": 8.293022694537655,
-      "rank": 67
+      "delta_vs_online_only_pp": 8.293022694537655
     },
     {
       "start": 0.9,
@@ -1655,10 +1818,10 @@
       "mean_event_accuracy": 84.93696422984125,
       "mean_cohort_accuracy": 84.66526640113615,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 68,
       "delta_vs_50_50_pp": 0.553341445282868,
       "delta_vs_irl_only_pp": 2.4621372187851733,
-      "delta_vs_online_only_pp": 8.293013540862745,
-      "rank": 68
+      "delta_vs_online_only_pp": 8.293013540862745
     },
     {
       "start": 0.95,
@@ -1669,10 +1832,10 @@
       "mean_event_accuracy": 84.90802780201021,
       "mean_cohort_accuracy": 84.66378153402759,
       "median_cohort_accuracy": 85.71053210564799,
+      "rank": 69,
       "delta_vs_50_50_pp": 0.5518565781743092,
       "delta_vs_irl_only_pp": 2.4606523516766146,
-      "delta_vs_online_only_pp": 8.291528673754186,
-      "rank": 69
+      "delta_vs_online_only_pp": 8.291528673754186
     },
     {
       "start": 1.0,
@@ -1683,10 +1846,10 @@
       "mean_event_accuracy": 84.87833833381865,
       "mean_cohort_accuracy": 84.65959648596207,
       "median_cohort_accuracy": 85.68348894671244,
+      "rank": 70,
       "delta_vs_50_50_pp": 0.5476715301087864,
       "delta_vs_irl_only_pp": 2.456467303611092,
-      "delta_vs_online_only_pp": 8.287343625688663,
-      "rank": 70
+      "delta_vs_online_only_pp": 8.287343625688663
     },
     {
       "start": 0.9,
@@ -1697,10 +1860,10 @@
       "mean_event_accuracy": 84.87229609134437,
       "mean_cohort_accuracy": 84.65882946539128,
       "median_cohort_accuracy": 85.44869574894784,
+      "rank": 71,
       "delta_vs_50_50_pp": 0.5469045095379954,
       "delta_vs_irl_only_pp": 2.4557002830403007,
-      "delta_vs_online_only_pp": 8.286576605117872,
-      "rank": 71
+      "delta_vs_online_only_pp": 8.286576605117872
     },
     {
       "start": 0.8,
@@ -1711,10 +1874,10 @@
       "mean_event_accuracy": 84.93038127360511,
       "mean_cohort_accuracy": 84.65838277694729,
       "median_cohort_accuracy": 85.4823092733912,
+      "rank": 72,
       "delta_vs_50_50_pp": 0.546457821094009,
       "delta_vs_irl_only_pp": 2.4552535945963143,
-      "delta_vs_online_only_pp": 8.286129916673886,
-      "rank": 72
+      "delta_vs_online_only_pp": 8.286129916673886
     },
     {
       "start": 0.85,
@@ -1725,10 +1888,10 @@
       "mean_event_accuracy": 84.94602484209558,
       "mean_cohort_accuracy": 84.6527955964966,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 73,
       "delta_vs_50_50_pp": 0.5408706406433197,
       "delta_vs_irl_only_pp": 2.449666414145625,
-      "delta_vs_online_only_pp": 8.280542736223197,
-      "rank": 73
+      "delta_vs_online_only_pp": 8.280542736223197
     },
     {
       "start": 1.0,
@@ -1739,10 +1902,10 @@
       "mean_event_accuracy": 84.82337572379353,
       "mean_cohort_accuracy": 84.65228212363472,
       "median_cohort_accuracy": 85.28298993421839,
+      "rank": 74,
       "delta_vs_50_50_pp": 0.5403571677814369,
       "delta_vs_irl_only_pp": 2.4491529412837423,
-      "delta_vs_online_only_pp": 8.280029263361314,
-      "rank": 74
+      "delta_vs_online_only_pp": 8.280029263361314
     },
     {
       "start": 0.95,
@@ -1753,10 +1916,10 @@
       "mean_event_accuracy": 84.88417568424286,
       "mean_cohort_accuracy": 84.65130157571315,
       "median_cohort_accuracy": 85.71053210564799,
+      "rank": 75,
       "delta_vs_50_50_pp": 0.5393766198598655,
       "delta_vs_irl_only_pp": 2.448172393362171,
-      "delta_vs_online_only_pp": 8.279048715439743,
-      "rank": 75
+      "delta_vs_online_only_pp": 8.279048715439743
     },
     {
       "start": 0.95,
@@ -1767,10 +1930,10 @@
       "mean_event_accuracy": 84.86065342213577,
       "mean_cohort_accuracy": 84.64855233380193,
       "median_cohort_accuracy": 85.71053210564799,
+      "rank": 76,
       "delta_vs_50_50_pp": 0.5366273779486477,
       "delta_vs_irl_only_pp": 2.445423151450953,
-      "delta_vs_online_only_pp": 8.276299473528525,
-      "rank": 76
+      "delta_vs_online_only_pp": 8.276299473528525
     },
     {
       "start": 0.9,
@@ -1781,10 +1944,10 @@
       "mean_event_accuracy": 84.91117981647974,
       "mean_cohort_accuracy": 84.64186431288304,
       "median_cohort_accuracy": 85.27038881478728,
+      "rank": 77,
       "delta_vs_50_50_pp": 0.529939357029761,
       "delta_vs_irl_only_pp": 2.4387351305320664,
-      "delta_vs_online_only_pp": 8.269611452609638,
-      "rank": 77
+      "delta_vs_online_only_pp": 8.269611452609638
     },
     {
       "start": 0.95,
@@ -1795,10 +1958,10 @@
       "mean_event_accuracy": 84.91733797000619,
       "mean_cohort_accuracy": 84.64127860126048,
       "median_cohort_accuracy": 85.1589727026679,
+      "rank": 78,
       "delta_vs_50_50_pp": 0.5293536454071983,
       "delta_vs_irl_only_pp": 2.4381494189095037,
-      "delta_vs_online_only_pp": 8.269025740987075,
-      "rank": 78
+      "delta_vs_online_only_pp": 8.269025740987075
     },
     {
       "start": 0.85,
@@ -1809,10 +1972,10 @@
       "mean_event_accuracy": 84.90262109901934,
       "mean_cohort_accuracy": 84.64061135335878,
       "median_cohort_accuracy": 85.3797631846199,
+      "rank": 79,
       "delta_vs_50_50_pp": 0.5286863975054956,
       "delta_vs_irl_only_pp": 2.437482171007801,
-      "delta_vs_online_only_pp": 8.268358493085373,
-      "rank": 79
+      "delta_vs_online_only_pp": 8.268358493085373
     },
     {
       "start": 0.85,
@@ -1823,10 +1986,10 @@
       "mean_event_accuracy": 84.96431032430243,
       "mean_cohort_accuracy": 84.63635767894836,
       "median_cohort_accuracy": 85.81833698245055,
+      "rank": 80,
       "delta_vs_50_50_pp": 0.5244327230950745,
       "delta_vs_irl_only_pp": 2.43322849659738,
-      "delta_vs_online_only_pp": 8.264104818674952,
-      "rank": 80
+      "delta_vs_online_only_pp": 8.264104818674952
     },
     {
       "start": 0.85,
@@ -1837,10 +2000,10 @@
       "mean_event_accuracy": 84.9168923384094,
       "mean_cohort_accuracy": 84.63591873902266,
       "median_cohort_accuracy": 85.3797631846199,
+      "rank": 81,
       "delta_vs_50_50_pp": 0.5239937831693737,
       "delta_vs_irl_only_pp": 2.432789556671679,
-      "delta_vs_online_only_pp": 8.26366587874925,
-      "rank": 81
+      "delta_vs_online_only_pp": 8.26366587874925
     },
     {
       "start": 0.95,
@@ -1851,10 +2014,10 @@
       "mean_event_accuracy": 84.90246116644971,
       "mean_cohort_accuracy": 84.6348636581649,
       "median_cohort_accuracy": 85.78407878337305,
+      "rank": 82,
       "delta_vs_50_50_pp": 0.5229387023116203,
       "delta_vs_irl_only_pp": 2.4317344758139257,
-      "delta_vs_online_only_pp": 8.262610797891497,
-      "rank": 82
+      "delta_vs_online_only_pp": 8.262610797891497
     },
     {
       "start": 0.95,
@@ -1865,10 +2028,10 @@
       "mean_event_accuracy": 84.85504318055668,
       "mean_cohort_accuracy": 84.6344247182392,
       "median_cohort_accuracy": 85.71053210564799,
+      "rank": 83,
       "delta_vs_50_50_pp": 0.5224997623859196,
       "delta_vs_irl_only_pp": 2.431295535888225,
-      "delta_vs_online_only_pp": 8.262171857965797,
-      "rank": 83
+      "delta_vs_online_only_pp": 8.262171857965797
     },
     {
       "start": 1.0,
@@ -1879,10 +2042,10 @@
       "mean_event_accuracy": 84.77301768886485,
       "mean_cohort_accuracy": 84.61872767840528,
       "median_cohort_accuracy": 85.28298993421839,
+      "rank": 84,
       "delta_vs_50_50_pp": 0.5068027225519955,
       "delta_vs_irl_only_pp": 2.415598496054301,
-      "delta_vs_online_only_pp": 8.246474818131873,
-      "rank": 84
+      "delta_vs_online_only_pp": 8.246474818131873
     },
     {
       "start": 0.85,
@@ -1893,10 +2056,10 @@
       "mean_event_accuracy": 84.88416016499153,
       "mean_cohort_accuracy": 84.61559151152915,
       "median_cohort_accuracy": 85.3797631846199,
+      "rank": 85,
       "delta_vs_50_50_pp": 0.5036665556758635,
       "delta_vs_irl_only_pp": 2.412462329178169,
-      "delta_vs_online_only_pp": 8.24333865125574,
-      "rank": 85
+      "delta_vs_online_only_pp": 8.24333865125574
     },
     {
       "start": 0.9,
@@ -1907,10 +2070,10 @@
       "mean_event_accuracy": 84.88329105559252,
       "mean_cohort_accuracy": 84.61372160137468,
       "median_cohort_accuracy": 85.27038881478728,
+      "rank": 86,
       "delta_vs_50_50_pp": 0.5017966455213951,
       "delta_vs_irl_only_pp": 2.4105924190237005,
-      "delta_vs_online_only_pp": 8.241468741101272,
-      "rank": 86
+      "delta_vs_online_only_pp": 8.241468741101272
     },
     {
       "start": 0.95,
@@ -1921,10 +2084,10 @@
       "mean_event_accuracy": 84.88944920911896,
       "mean_cohort_accuracy": 84.61313588975213,
       "median_cohort_accuracy": 85.1589727026679,
+      "rank": 87,
       "delta_vs_50_50_pp": 0.5012109338988466,
       "delta_vs_irl_only_pp": 2.410006707401152,
-      "delta_vs_online_only_pp": 8.240883029478724,
-      "rank": 87
+      "delta_vs_online_only_pp": 8.240883029478724
     },
     {
       "start": 0.8,
@@ -1935,10 +2098,10 @@
       "mean_event_accuracy": 84.87491706104292,
       "mean_cohort_accuracy": 84.60130351832176,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 88,
       "delta_vs_50_50_pp": 0.4893785624684739,
       "delta_vs_irl_only_pp": 2.3981743359707792,
-      "delta_vs_online_only_pp": 8.229050658048351,
-      "rank": 88
+      "delta_vs_online_only_pp": 8.229050658048351
     },
     {
       "start": 0.8,
@@ -1949,10 +2112,10 @@
       "mean_event_accuracy": 84.87069638830472,
       "mean_cohort_accuracy": 84.59516435797528,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 89,
       "delta_vs_50_50_pp": 0.48323940212199545,
       "delta_vs_irl_only_pp": 2.392035175624301,
-      "delta_vs_online_only_pp": 8.222911497701872,
-      "rank": 89
+      "delta_vs_online_only_pp": 8.222911497701872
     },
     {
       "start": 0.8,
@@ -1963,10 +2126,10 @@
       "mean_event_accuracy": 84.86591415269044,
       "mean_cohort_accuracy": 84.58820837889996,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 90,
       "delta_vs_50_50_pp": 0.4762834230466808,
       "delta_vs_irl_only_pp": 2.385079196548986,
-      "delta_vs_online_only_pp": 8.215955518626558,
-      "rank": 90
+      "delta_vs_online_only_pp": 8.215955518626558
     },
     {
       "start": 1.0,
@@ -1977,10 +2140,10 @@
       "mean_event_accuracy": 84.80589989508209,
       "mean_cohort_accuracy": 84.58193139842669,
       "median_cohort_accuracy": 85.68348894671244,
+      "rank": 91,
       "delta_vs_50_50_pp": 0.47000644257340696,
       "delta_vs_irl_only_pp": 2.3788022160757123,
-      "delta_vs_online_only_pp": 8.209678538153284,
-      "rank": 91
+      "delta_vs_online_only_pp": 8.209678538153284
     },
     {
       "start": 0.8,
@@ -1991,10 +2154,10 @@
       "mean_event_accuracy": 84.85998732803091,
       "mean_cohort_accuracy": 84.57958754303156,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 92,
       "delta_vs_50_50_pp": 0.4676625871782818,
       "delta_vs_irl_only_pp": 2.376458360680587,
-      "delta_vs_online_only_pp": 8.207334682758159,
-      "rank": 92
+      "delta_vs_online_only_pp": 8.207334682758159
     },
     {
       "start": 0.95,
@@ -2005,10 +2168,10 @@
       "mean_event_accuracy": 84.81042084062275,
       "mean_cohort_accuracy": 84.57907774450992,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 93,
       "delta_vs_50_50_pp": 0.4671527886566338,
       "delta_vs_irl_only_pp": 2.375948562158939,
-      "delta_vs_online_only_pp": 8.20682488423651,
-      "rank": 93
+      "delta_vs_online_only_pp": 8.20682488423651
     },
     {
       "start": 0.8,
@@ -2019,10 +2182,10 @@
       "mean_event_accuracy": 84.85732212610243,
       "mean_cohort_accuracy": 84.57571088568105,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 94,
       "delta_vs_50_50_pp": 0.4637859298277647,
       "delta_vs_irl_only_pp": 2.37258170333007,
-      "delta_vs_online_only_pp": 8.203458025407642,
-      "rank": 94
+      "delta_vs_online_only_pp": 8.203458025407642
     },
     {
       "start": 0.8,
@@ -2033,10 +2196,10 @@
       "mean_event_accuracy": 84.85732212610243,
       "mean_cohort_accuracy": 84.57571088568105,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 95,
       "delta_vs_50_50_pp": 0.4637859298277647,
       "delta_vs_irl_only_pp": 2.37258170333007,
-      "delta_vs_online_only_pp": 8.203458025407642,
-      "rank": 95
+      "delta_vs_online_only_pp": 8.203458025407642
     },
     {
       "start": 0.8,
@@ -2047,10 +2210,10 @@
       "mean_event_accuracy": 84.85732212610243,
       "mean_cohort_accuracy": 84.57571088568105,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 96,
       "delta_vs_50_50_pp": 0.4637859298277647,
       "delta_vs_irl_only_pp": 2.37258170333007,
-      "delta_vs_online_only_pp": 8.203458025407642,
-      "rank": 96
+      "delta_vs_online_only_pp": 8.203458025407642
     },
     {
       "start": 0.8,
@@ -2061,10 +2224,10 @@
       "mean_event_accuracy": 84.85732212610243,
       "mean_cohort_accuracy": 84.57571088568105,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 97,
       "delta_vs_50_50_pp": 0.4637859298277647,
       "delta_vs_irl_only_pp": 2.37258170333007,
-      "delta_vs_online_only_pp": 8.203458025407642,
-      "rank": 97
+      "delta_vs_online_only_pp": 8.203458025407642
     },
     {
       "start": 0.8,
@@ -2075,10 +2238,10 @@
       "mean_event_accuracy": 84.85732212610243,
       "mean_cohort_accuracy": 84.57571088568105,
       "median_cohort_accuracy": 85.60122402814164,
+      "rank": 98,
       "delta_vs_50_50_pp": 0.4637859298277647,
       "delta_vs_irl_only_pp": 2.37258170333007,
-      "delta_vs_online_only_pp": 8.203458025407642,
-      "rank": 98
+      "delta_vs_online_only_pp": 8.203458025407642
     },
     {
       "start": 0.95,
@@ -2089,10 +2252,10 @@
       "mean_event_accuracy": 84.80449401596323,
       "mean_cohort_accuracy": 84.5704569086415,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 99,
       "delta_vs_50_50_pp": 0.45853195278822056,
       "delta_vs_irl_only_pp": 2.367327726290526,
-      "delta_vs_online_only_pp": 8.198204048368098,
-      "rank": 99
+      "delta_vs_online_only_pp": 8.198204048368098
     },
     {
       "start": 0.8,
@@ -2103,10 +2266,10 @@
       "mean_event_accuracy": 84.88289598290542,
       "mean_cohort_accuracy": 84.56725515201249,
       "median_cohort_accuracy": 84.82082236993953,
+      "rank": 100,
       "delta_vs_50_50_pp": 0.4553301961592098,
       "delta_vs_irl_only_pp": 2.364125969661515,
-      "delta_vs_online_only_pp": 8.195002291739087,
-      "rank": 100
+      "delta_vs_online_only_pp": 8.195002291739087
     },
     {
       "start": 0.95,
@@ -2117,10 +2280,10 @@
       "mean_event_accuracy": 84.78503189366124,
       "mean_cohort_accuracy": 84.56409104534829,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 101,
       "delta_vs_50_50_pp": 0.4521660894950088,
       "delta_vs_irl_only_pp": 2.360961862997314,
-      "delta_vs_online_only_pp": 8.191838185074886,
-      "rank": 101
+      "delta_vs_online_only_pp": 8.191838185074886
     },
     {
       "start": 0.85,
@@ -2131,10 +2294,10 @@
       "mean_event_accuracy": 84.88316648938576,
       "mean_cohort_accuracy": 84.56232839410838,
       "median_cohort_accuracy": 84.70810559236341,
+      "rank": 102,
       "delta_vs_50_50_pp": 0.4504034382550941,
       "delta_vs_irl_only_pp": 2.3591992117573994,
-      "delta_vs_online_only_pp": 8.190075533834971,
-      "rank": 102
+      "delta_vs_online_only_pp": 8.190075533834971
     },
     {
       "start": 0.95,
@@ -2145,10 +2308,10 @@
       "mean_event_accuracy": 84.79780184087825,
       "mean_cohort_accuracy": 84.56072283579064,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 103,
       "delta_vs_50_50_pp": 0.4487978799373593,
       "delta_vs_irl_only_pp": 2.3575936534396646,
-      "delta_vs_online_only_pp": 8.188469975517236,
-      "rank": 103
+      "delta_vs_online_only_pp": 8.188469975517236
     },
     {
       "start": 0.9,
@@ -2159,10 +2322,10 @@
       "mean_event_accuracy": 84.87994126687173,
       "mean_cohort_accuracy": 84.55472585525276,
       "median_cohort_accuracy": 84.59245329776456,
+      "rank": 104,
       "delta_vs_50_50_pp": 0.4428008993994723,
       "delta_vs_irl_only_pp": 2.3515966729017777,
-      "delta_vs_online_only_pp": 8.18247299497935,
-      "rank": 104
+      "delta_vs_online_only_pp": 8.18247299497935
     },
     {
       "start": 0.95,
@@ -2173,10 +2336,10 @@
       "mean_event_accuracy": 84.79109021895076,
       "mean_cohort_accuracy": 84.55096047662337,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 105,
       "delta_vs_50_50_pp": 0.43903552077009067,
       "delta_vs_irl_only_pp": 2.347831294272396,
-      "delta_vs_online_only_pp": 8.178707616349968,
-      "rank": 105
+      "delta_vs_online_only_pp": 8.178707616349968
     },
     {
       "start": 0.95,
@@ -2187,10 +2350,10 @@
       "mean_event_accuracy": 84.78432303720274,
       "mean_cohort_accuracy": 84.54111730317172,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 106,
       "delta_vs_50_50_pp": 0.42919234731843403,
       "delta_vs_irl_only_pp": 2.3379881208207394,
-      "delta_vs_online_only_pp": 8.168864442898311,
-      "rank": 106
+      "delta_vs_online_only_pp": 8.168864442898311
     },
     {
       "start": 0.9,
@@ -2201,10 +2364,10 @@
       "mean_event_accuracy": 84.81378218510443,
       "mean_cohort_accuracy": 84.54031770401889,
       "median_cohort_accuracy": 85.27038881478728,
+      "rank": 107,
       "delta_vs_50_50_pp": 0.42839274816560646,
       "delta_vs_irl_only_pp": 2.337188521667912,
-      "delta_vs_online_only_pp": 8.168064843745483,
-      "rank": 107
+      "delta_vs_online_only_pp": 8.168064843745483
     },
     {
       "start": 0.9,
@@ -2215,10 +2378,10 @@
       "mean_event_accuracy": 84.85278228695175,
       "mean_cohort_accuracy": 84.54027814813576,
       "median_cohort_accuracy": 85.83723186726664,
+      "rank": 108,
       "delta_vs_50_50_pp": 0.42835319228247215,
       "delta_vs_irl_only_pp": 2.3371489657847775,
-      "delta_vs_online_only_pp": 8.16802528786235,
-      "rank": 108
+      "delta_vs_online_only_pp": 8.16802528786235
     },
     {
       "start": 0.9,
@@ -2229,10 +2392,10 @@
       "mean_event_accuracy": 84.86100850834858,
       "mean_cohort_accuracy": 84.53978028112313,
       "median_cohort_accuracy": 85.83723186726664,
+      "rank": 109,
       "delta_vs_50_50_pp": 0.4278553252698458,
       "delta_vs_irl_only_pp": 2.336651098772151,
-      "delta_vs_online_only_pp": 8.167527420849723,
-      "rank": 109
+      "delta_vs_online_only_pp": 8.167527420849723
     },
     {
       "start": 0.8,
@@ -2243,10 +2406,10 @@
       "mean_event_accuracy": 84.8550072220182,
       "mean_cohort_accuracy": 84.53911244050413,
       "median_cohort_accuracy": 84.82082236993953,
+      "rank": 110,
       "delta_vs_50_50_pp": 0.4271874846508439,
       "delta_vs_irl_only_pp": 2.3359832581531492,
-      "delta_vs_online_only_pp": 8.166859580230721,
-      "rank": 110
+      "delta_vs_online_only_pp": 8.166859580230721
     },
     {
       "start": 0.95,
@@ -2257,10 +2420,10 @@
       "mean_event_accuracy": 84.81701077038241,
       "mean_cohort_accuracy": 84.53547080221674,
       "median_cohort_accuracy": 85.1589727026679,
+      "rank": 111,
       "delta_vs_50_50_pp": 0.42354584636345294,
       "delta_vs_irl_only_pp": 2.3323416198657583,
-      "delta_vs_online_only_pp": 8.16321794194333,
-      "rank": 111
+      "delta_vs_online_only_pp": 8.16321794194333
     },
     {
       "start": 0.9,
@@ -2271,10 +2434,10 @@
       "mean_event_accuracy": 84.83856097384732,
       "mean_cohort_accuracy": 84.53485696169473,
       "median_cohort_accuracy": 85.81983623717402,
+      "rank": 112,
       "delta_vs_50_50_pp": 0.42293200584144586,
       "delta_vs_irl_only_pp": 2.331727779343751,
-      "delta_vs_online_only_pp": 8.162604101421323,
-      "rank": 112
+      "delta_vs_online_only_pp": 8.162604101421323
     },
     {
       "start": 0.85,
@@ -2285,10 +2448,10 @@
       "mean_event_accuracy": 84.85527772849855,
       "mean_cohort_accuracy": 84.53418568260001,
       "median_cohort_accuracy": 84.8119899875662,
+      "rank": 113,
       "delta_vs_50_50_pp": 0.4222607267467282,
       "delta_vs_irl_only_pp": 2.3310565002490335,
-      "delta_vs_online_only_pp": 8.161932822326605,
-      "rank": 113
+      "delta_vs_online_only_pp": 8.161932822326605
     },
     {
       "start": 0.95,
@@ -2299,10 +2462,10 @@
       "mean_event_accuracy": 84.73467385873256,
       "mean_cohort_accuracy": 84.53053660011886,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 114,
       "delta_vs_50_50_pp": 0.4186116442655816,
       "delta_vs_irl_only_pp": 2.327407417767887,
-      "delta_vs_online_only_pp": 8.158283739845459,
-      "rank": 114
+      "delta_vs_online_only_pp": 8.158283739845459
     },
     {
       "start": 0.8,
@@ -2313,10 +2476,10 @@
       "mean_event_accuracy": 84.89152191602543,
       "mean_cohort_accuracy": 84.52904435014219,
       "median_cohort_accuracy": 85.90144666042292,
+      "rank": 115,
       "delta_vs_50_50_pp": 0.4171193942889033,
       "delta_vs_irl_only_pp": 2.3259151677912087,
-      "delta_vs_online_only_pp": 8.15679148986878,
-      "rank": 115
+      "delta_vs_online_only_pp": 8.15679148986878
     },
     {
       "start": 0.8,
@@ -2327,10 +2490,10 @@
       "mean_event_accuracy": 84.89974813742224,
       "mean_cohort_accuracy": 84.52854648312956,
       "median_cohort_accuracy": 85.90144666042292,
+      "rank": 116,
       "delta_vs_50_50_pp": 0.416621527276277,
       "delta_vs_irl_only_pp": 2.3254173007785823,
-      "delta_vs_online_only_pp": 8.156293622856154,
-      "rank": 116
+      "delta_vs_online_only_pp": 8.156293622856154
     },
     {
       "start": 0.95,
@@ -2341,10 +2504,10 @@
       "mean_event_accuracy": 84.77541224866357,
       "mean_cohort_accuracy": 84.52815615620565,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 117,
       "delta_vs_50_50_pp": 0.41623120035237093,
       "delta_vs_irl_only_pp": 2.3250269738546763,
-      "delta_vs_online_only_pp": 8.155903295932248,
-      "rank": 117
+      "delta_vs_online_only_pp": 8.155903295932248
     },
     {
       "start": 0.9,
@@ -2355,10 +2518,10 @@
       "mean_event_accuracy": 84.82240984480401,
       "mean_cohort_accuracy": 84.5279918656105,
       "median_cohort_accuracy": 85.63693422940764,
+      "rank": 118,
       "delta_vs_50_50_pp": 0.4160669097572196,
       "delta_vs_irl_only_pp": 2.324862683259525,
-      "delta_vs_online_only_pp": 8.155739005337097,
-      "rank": 118
+      "delta_vs_online_only_pp": 8.155739005337097
     },
     {
       "start": 0.9,
@@ -2369,10 +2532,10 @@
       "mean_event_accuracy": 84.8520525059845,
       "mean_cohort_accuracy": 84.5265831437444,
       "median_cohort_accuracy": 84.8119899875662,
+      "rank": 119,
       "delta_vs_50_50_pp": 0.41465818789112063,
       "delta_vs_irl_only_pp": 2.323453961393426,
-      "delta_vs_online_only_pp": 8.154330283470998,
-      "rank": 119
+      "delta_vs_online_only_pp": 8.154330283470998
     },
     {
       "start": 0.8,
@@ -2383,10 +2546,10 @@
       "mean_event_accuracy": 84.877300602921,
       "mean_cohort_accuracy": 84.52362316370116,
       "median_cohort_accuracy": 85.81983623717402,
+      "rank": 120,
       "delta_vs_50_50_pp": 0.41169820784787703,
       "delta_vs_irl_only_pp": 2.3204939813501824,
-      "delta_vs_online_only_pp": 8.151370303427754,
-      "rank": 120
+      "delta_vs_online_only_pp": 8.151370303427754
     },
     {
       "start": 1.0,
@@ -2397,10 +2560,10 @@
       "mean_event_accuracy": 84.77696607198763,
       "mean_cohort_accuracy": 84.51733370515988,
       "median_cohort_accuracy": 85.73587281317951,
+      "rank": 121,
       "delta_vs_50_50_pp": 0.4054087493066021,
       "delta_vs_irl_only_pp": 2.3142045228089074,
-      "delta_vs_online_only_pp": 8.145080844886479,
-      "rank": 121
+      "delta_vs_online_only_pp": 8.145080844886479
     },
     {
       "start": 1.0,
@@ -2411,10 +2574,10 @@
       "mean_event_accuracy": 84.78519229338445,
       "mean_cohort_accuracy": 84.51683583814726,
       "median_cohort_accuracy": 85.73587281317951,
+      "rank": 122,
       "delta_vs_50_50_pp": 0.40491088229397576,
       "delta_vs_irl_only_pp": 2.313706655796281,
-      "delta_vs_online_only_pp": 8.144582977873853,
-      "rank": 122
+      "delta_vs_online_only_pp": 8.144582977873853
     },
     {
       "start": 0.8,
@@ -2425,10 +2588,10 @@
       "mean_event_accuracy": 84.86114947387769,
       "mean_cohort_accuracy": 84.51675806761693,
       "median_cohort_accuracy": 85.63693422940764,
+      "rank": 123,
       "delta_vs_50_50_pp": 0.4048331117636508,
       "delta_vs_irl_only_pp": 2.313628885265956,
-      "delta_vs_online_only_pp": 8.144505207343528,
-      "rank": 123
+      "delta_vs_online_only_pp": 8.144505207343528
     },
     {
       "start": 0.9,
@@ -2439,10 +2602,10 @@
       "mean_event_accuracy": 84.79855772703667,
       "mean_cohort_accuracy": 84.51551190729604,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 124,
       "delta_vs_50_50_pp": 0.4035869514427617,
       "delta_vs_irl_only_pp": 2.312382724945067,
-      "delta_vs_online_only_pp": 8.143259047022639,
-      "rank": 124
+      "delta_vs_online_only_pp": 8.143259047022639
     },
     {
       "start": 1.0,
@@ -2453,10 +2616,10 @@
       "mean_event_accuracy": 84.7627447588832,
       "mean_cohort_accuracy": 84.51191251871886,
       "median_cohort_accuracy": 85.73587281317951,
+      "rank": 125,
       "delta_vs_50_50_pp": 0.3999875628655758,
       "delta_vs_irl_only_pp": 2.308783336367881,
-      "delta_vs_online_only_pp": 8.139659658445453,
-      "rank": 125
+      "delta_vs_online_only_pp": 8.139659658445453
     },
     {
       "start": 0.95,
@@ -2467,10 +2630,10 @@
       "mean_event_accuracy": 84.76360639712755,
       "mean_cohort_accuracy": 84.51098400851689,
       "median_cohort_accuracy": 85.23982736810925,
+      "rank": 126,
       "delta_vs_50_50_pp": 0.39905905266360264,
       "delta_vs_irl_only_pp": 2.307854826165908,
-      "delta_vs_online_only_pp": 8.13873114824348,
-      "rank": 126
+      "delta_vs_online_only_pp": 8.13873114824348
     },
     {
       "start": 1.0,
@@ -2481,10 +2644,10 @@
       "mean_event_accuracy": 84.7465936298399,
       "mean_cohort_accuracy": 84.50504742263463,
       "median_cohort_accuracy": 85.68348894671244,
+      "rank": 127,
       "delta_vs_50_50_pp": 0.39312246678134954,
       "delta_vs_irl_only_pp": 2.301918240283655,
-      "delta_vs_online_only_pp": 8.132794562361227,
-      "rank": 127
+      "delta_vs_online_only_pp": 8.132794562361227
     },
     {
       "start": 0.8,
@@ -2495,10 +2658,10 @@
       "mean_event_accuracy": 84.83729735611034,
       "mean_cohort_accuracy": 84.50427810930249,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 128,
       "delta_vs_50_50_pp": 0.39235315344920707,
       "delta_vs_irl_only_pp": 2.3011489269515124,
-      "delta_vs_online_only_pp": 8.132025249029084,
-      "rank": 128
+      "delta_vs_online_only_pp": 8.132025249029084
     },
     {
       "start": 0.9,
@@ -2509,10 +2672,10 @@
       "mean_event_accuracy": 84.81684320924352,
       "mean_cohort_accuracy": 84.4990739897478,
       "median_cohort_accuracy": 85.83723186726664,
+      "rank": 129,
       "delta_vs_50_50_pp": 0.3871490338945165,
       "delta_vs_irl_only_pp": 2.295944807396822,
-      "delta_vs_online_only_pp": 8.126821129474394,
-      "rank": 129
+      "delta_vs_online_only_pp": 8.126821129474394
     },
     {
       "start": 1.0,
@@ -2523,10 +2686,10 @@
       "mean_event_accuracy": 84.72274151207256,
       "mean_cohort_accuracy": 84.49256746432019,
       "median_cohort_accuracy": 85.68348894671244,
+      "rank": 130,
       "delta_vs_50_50_pp": 0.38064250846690584,
       "delta_vs_irl_only_pp": 2.289438281969211,
-      "delta_vs_online_only_pp": 8.120314604046783,
-      "rank": 130
+      "delta_vs_online_only_pp": 8.120314604046783
     },
     {
       "start": 0.8,
@@ -2537,10 +2700,10 @@
       "mean_event_accuracy": 84.85558283831719,
       "mean_cohort_accuracy": 84.48784019175424,
       "median_cohort_accuracy": 85.86596469492929,
+      "rank": 131,
       "delta_vs_50_50_pp": 0.3759152359009619,
       "delta_vs_irl_only_pp": 2.284711009403267,
-      "delta_vs_online_only_pp": 8.115587331480839,
-      "rank": 131
+      "delta_vs_online_only_pp": 8.115587331480839
     },
     {
       "start": 0.8,
@@ -2551,10 +2714,10 @@
       "mean_event_accuracy": 84.80816485242416,
       "mean_cohort_accuracy": 84.48740125182854,
       "median_cohort_accuracy": 85.11210525982335,
+      "rank": 132,
       "delta_vs_50_50_pp": 0.3754762959752611,
       "delta_vs_irl_only_pp": 2.2842720694775664,
-      "delta_vs_online_only_pp": 8.115148391555138,
-      "rank": 132
+      "delta_vs_online_only_pp": 8.115148391555138
     },
     {
       "start": 1.0,
@@ -2565,10 +2728,10 @@
       "mean_event_accuracy": 84.7410269942794,
       "mean_cohort_accuracy": 84.47612954677193,
       "median_cohort_accuracy": 85.73587281317951,
+      "rank": 133,
       "delta_vs_50_50_pp": 0.36420459091864643,
       "delta_vs_irl_only_pp": 2.2730003644209518,
-      "delta_vs_online_only_pp": 8.103876686498523,
-      "rank": 133
+      "delta_vs_online_only_pp": 8.103876686498523
     },
     {
       "start": 0.85,
@@ -2579,10 +2742,10 @@
       "mean_event_accuracy": 84.78283928976198,
       "mean_cohort_accuracy": 84.45652059506462,
       "median_cohort_accuracy": 85.11210525982335,
+      "rank": 134,
       "delta_vs_50_50_pp": 0.3445956392113345,
       "delta_vs_irl_only_pp": 2.25339141271364,
-      "delta_vs_online_only_pp": 8.084267734791212,
-      "rank": 134
+      "delta_vs_online_only_pp": 8.084267734791212
     },
     {
       "start": 0.9,
@@ -2593,10 +2756,10 @@
       "mean_event_accuracy": 84.77961406724793,
       "mean_cohort_accuracy": 84.44891805620901,
       "median_cohort_accuracy": 85.11210525982335,
+      "rank": 135,
       "delta_vs_50_50_pp": 0.33699310035572694,
       "delta_vs_irl_only_pp": 2.2457888738580323,
-      "delta_vs_online_only_pp": 8.076665195935604,
-      "rank": 135
+      "delta_vs_online_only_pp": 8.076665195935604
     },
     {
       "start": 0.85,
@@ -2607,10 +2770,10 @@
       "mean_event_accuracy": 84.67979580350926,
       "mean_cohort_accuracy": 84.44307133325889,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 136,
       "delta_vs_50_50_pp": 0.33114637740560227,
       "delta_vs_irl_only_pp": 2.2399421509079076,
-      "delta_vs_online_only_pp": 8.07081847298548,
-      "rank": 136
+      "delta_vs_online_only_pp": 8.07081847298548
     },
     {
       "start": 0.85,
@@ -2621,10 +2784,10 @@
       "mean_event_accuracy": 84.67557513077107,
       "mean_cohort_accuracy": 84.4369321729124,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 137,
       "delta_vs_50_50_pp": 0.32500721705912383,
       "delta_vs_irl_only_pp": 2.233802990561429,
-      "delta_vs_online_only_pp": 8.064679312639,
-      "rank": 137
+      "delta_vs_online_only_pp": 8.064679312639
     },
     {
       "start": 0.85,
@@ -2635,10 +2798,10 @@
       "mean_event_accuracy": 84.6707928951568,
       "mean_cohort_accuracy": 84.42997619383709,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 138,
       "delta_vs_50_50_pp": 0.3180512379838092,
       "delta_vs_irl_only_pp": 2.2268470114861145,
-      "delta_vs_online_only_pp": 8.057723333563686,
-      "rank": 138
+      "delta_vs_online_only_pp": 8.057723333563686
     },
     {
       "start": 0.85,
@@ -2649,10 +2812,10 @@
       "mean_event_accuracy": 84.66876993666901,
       "mean_cohort_accuracy": 84.42703370876396,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 139,
       "delta_vs_50_50_pp": 0.31510875291067464,
       "delta_vs_irl_only_pp": 2.22390452641298,
-      "delta_vs_online_only_pp": 8.054780848490552,
-      "rank": 139
+      "delta_vs_online_only_pp": 8.054780848490552
     },
     {
       "start": 0.85,
@@ -2663,10 +2826,10 @@
       "mean_event_accuracy": 84.66876993666901,
       "mean_cohort_accuracy": 84.42703370876396,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 140,
       "delta_vs_50_50_pp": 0.31510875291067464,
       "delta_vs_irl_only_pp": 2.22390452641298,
-      "delta_vs_online_only_pp": 8.054780848490552,
-      "rank": 140
+      "delta_vs_online_only_pp": 8.054780848490552
     },
     {
       "start": 0.85,
@@ -2677,10 +2840,10 @@
       "mean_event_accuracy": 84.66876993666901,
       "mean_cohort_accuracy": 84.42703370876396,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 141,
       "delta_vs_50_50_pp": 0.31510875291067464,
       "delta_vs_irl_only_pp": 2.22390452641298,
-      "delta_vs_online_only_pp": 8.054780848490552,
-      "rank": 141
+      "delta_vs_online_only_pp": 8.054780848490552
     },
     {
       "start": 0.85,
@@ -2691,10 +2854,10 @@
       "mean_event_accuracy": 84.66876993666901,
       "mean_cohort_accuracy": 84.42703370876396,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 142,
       "delta_vs_50_50_pp": 0.31510875291067464,
       "delta_vs_irl_only_pp": 2.22390452641298,
-      "delta_vs_online_only_pp": 8.054780848490552,
-      "rank": 142
+      "delta_vs_online_only_pp": 8.054780848490552
     },
     {
       "start": 0.85,
@@ -2705,10 +2868,10 @@
       "mean_event_accuracy": 84.66876993666901,
       "mean_cohort_accuracy": 84.42703370876396,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 143,
       "delta_vs_50_50_pp": 0.31510875291067464,
       "delta_vs_irl_only_pp": 2.22390452641298,
-      "delta_vs_online_only_pp": 8.054780848490552,
-      "rank": 143
+      "delta_vs_online_only_pp": 8.054780848490552
     },
     {
       "start": 0.85,
@@ -2719,10 +2882,10 @@
       "mean_event_accuracy": 84.66876993666901,
       "mean_cohort_accuracy": 84.42703370876396,
       "median_cohort_accuracy": 85.40787017029868,
+      "rank": 144,
       "delta_vs_50_50_pp": 0.31510875291067464,
       "delta_vs_irl_only_pp": 2.22390452641298,
-      "delta_vs_online_only_pp": 8.054780848490552,
-      "rank": 144
+      "delta_vs_online_only_pp": 8.054780848490552
     },
     {
       "start": 0.8,
@@ -2733,10 +2896,10 @@
       "mean_event_accuracy": 84.78595877202706,
       "mean_cohort_accuracy": 84.42420974926434,
       "median_cohort_accuracy": 84.37536032623116,
+      "rank": 145,
       "delta_vs_50_50_pp": 0.3122847934110524,
       "delta_vs_irl_only_pp": 2.2210805669133578,
-      "delta_vs_online_only_pp": 8.05195688899093,
-      "rank": 145
+      "delta_vs_online_only_pp": 8.05195688899093
     },
     {
       "start": 0.95,
@@ -2747,10 +2910,10 @@
       "mean_event_accuracy": 84.7132785376993,
       "mean_cohort_accuracy": 84.41618126858504,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 146,
       "delta_vs_50_50_pp": 0.30425631273175213,
       "delta_vs_irl_only_pp": 2.2130520862340575,
-      "delta_vs_online_only_pp": 8.04392840831163,
-      "rank": 146
+      "delta_vs_online_only_pp": 8.04392840831163
     },
     {
       "start": 0.85,
@@ -2761,10 +2924,10 @@
       "mean_event_accuracy": 84.76476924875458,
       "mean_cohort_accuracy": 84.40237858339025,
       "median_cohort_accuracy": 84.37536032623116,
+      "rank": 147,
       "delta_vs_50_50_pp": 0.29045362753696224,
       "delta_vs_irl_only_pp": 2.1992494010392676,
-      "delta_vs_online_only_pp": 8.03012572311684,
-      "rank": 147
+      "delta_vs_online_only_pp": 8.03012572311684
     },
     {
       "start": 0.8,
@@ -2775,10 +2938,10 @@
       "mean_event_accuracy": 84.75807001113985,
       "mean_cohort_accuracy": 84.39606703775597,
       "median_cohort_accuracy": 84.8119899875662,
+      "rank": 148,
       "delta_vs_50_50_pp": 0.2841420819026865,
       "delta_vs_irl_only_pp": 2.192937855404992,
-      "delta_vs_online_only_pp": 8.023814177482564,
-      "rank": 148
+      "delta_vs_online_only_pp": 8.023814177482564
     },
     {
       "start": 0.85,
@@ -2789,10 +2952,10 @@
       "mean_event_accuracy": 84.73688048786735,
       "mean_cohort_accuracy": 84.37423587188188,
       "median_cohort_accuracy": 84.8119899875662,
+      "rank": 149,
       "delta_vs_50_50_pp": 0.26231091602859635,
       "delta_vs_irl_only_pp": 2.1711066895309017,
-      "delta_vs_online_only_pp": 8.001983011608473,
-      "rank": 149
+      "delta_vs_online_only_pp": 8.001983011608473
     },
     {
       "start": 1.0,
@@ -2803,10 +2966,10 @@
       "mean_event_accuracy": 84.58242032949975,
       "mean_cohort_accuracy": 84.36518037877798,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 150,
       "delta_vs_50_50_pp": 0.2532554229246955,
       "delta_vs_irl_only_pp": 2.162051196427001,
-      "delta_vs_online_only_pp": 7.9929275185045725,
-      "rank": 150
+      "delta_vs_online_only_pp": 7.9929275185045725
     },
     {
       "start": 1.0,
@@ -2817,10 +2980,10 @@
       "mean_event_accuracy": 84.57763809388548,
       "mean_cohort_accuracy": 84.35822439970266,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 151,
       "delta_vs_50_50_pp": 0.24629944384938085,
       "delta_vs_irl_only_pp": 2.155095217351686,
-      "delta_vs_online_only_pp": 7.985971539429258,
-      "rank": 151
+      "delta_vs_online_only_pp": 7.985971539429258
     },
     {
       "start": 0.85,
@@ -2831,10 +2994,10 @@
       "mean_event_accuracy": 84.68850623455424,
       "mean_cohort_accuracy": 84.35090259230617,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 152,
       "delta_vs_50_50_pp": 0.23897763645288705,
       "delta_vs_irl_only_pp": 2.1477734099551924,
-      "delta_vs_online_only_pp": 7.978649732032764,
-      "rank": 152
+      "delta_vs_online_only_pp": 7.978649732032764
     },
     {
       "start": 1.0,
@@ -2845,10 +3008,10 @@
       "mean_event_accuracy": 84.57171126922594,
       "mean_cohort_accuracy": 84.34960356383426,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 153,
       "delta_vs_50_50_pp": 0.23767860798098184,
       "delta_vs_irl_only_pp": 2.146474381483287,
-      "delta_vs_online_only_pp": 7.977350703560859,
-      "rank": 153
+      "delta_vs_online_only_pp": 7.977350703560859
     },
     {
       "start": 1.0,
@@ -2859,10 +3022,10 @@
       "mean_event_accuracy": 84.56501909414098,
       "mean_cohort_accuracy": 84.3398694909834,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 154,
       "delta_vs_50_50_pp": 0.22794453513012058,
       "delta_vs_irl_only_pp": 2.136740308632426,
-      "delta_vs_online_only_pp": 7.967616630709998,
-      "rank": 154
+      "delta_vs_online_only_pp": 7.967616630709998
     },
     {
       "start": 1.0,
@@ -2873,10 +3036,10 @@
       "mean_event_accuracy": 84.5418205927132,
       "mean_cohort_accuracy": 84.3387228776519,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 155,
       "delta_vs_50_50_pp": 0.2267979217986209,
       "delta_vs_irl_only_pp": 2.1355936953009262,
-      "delta_vs_online_only_pp": 7.966470017378498,
-      "rank": 155
+      "delta_vs_online_only_pp": 7.966470017378498
     },
     {
       "start": 0.85,
@@ -2887,10 +3050,10 @@
       "mean_event_accuracy": 84.6957964542645,
       "mean_cohort_accuracy": 84.33027766393691,
       "median_cohort_accuracy": 85.48821653385956,
+      "rank": 156,
       "delta_vs_50_50_pp": 0.2183527080836285,
       "delta_vs_irl_only_pp": 2.127148481585934,
-      "delta_vs_online_only_pp": 7.9580248036635055,
-      "rank": 156
+      "delta_vs_online_only_pp": 7.9580248036635055
     },
     {
       "start": 1.0,
@@ -2901,10 +3064,10 @@
       "mean_event_accuracy": 84.55830747221349,
       "mean_cohort_accuracy": 84.33010713181613,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 157,
       "delta_vs_50_50_pp": 0.21818217596285194,
       "delta_vs_irl_only_pp": 2.1269779494651573,
-      "delta_vs_online_only_pp": 7.957854271542729,
-      "rank": 157
+      "delta_vs_online_only_pp": 7.957854271542729
     },
     {
       "start": 0.85,
@@ -2915,10 +3078,10 @@
       "mean_event_accuracy": 84.7040226756613,
       "mean_cohort_accuracy": 84.32977979692429,
       "median_cohort_accuracy": 85.48821653385956,
+      "rank": 158,
       "delta_vs_50_50_pp": 0.21785484107100217,
       "delta_vs_irl_only_pp": 2.1266506145733075,
-      "delta_vs_online_only_pp": 7.957526936650879,
-      "rank": 158
+      "delta_vs_online_only_pp": 7.957526936650879
     },
     {
       "start": 0.9,
@@ -2929,10 +3092,10 @@
       "mean_event_accuracy": 84.67588183456483,
       "mean_cohort_accuracy": 84.3296285225773,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 159,
       "delta_vs_50_50_pp": 0.21770356672401192,
       "delta_vs_irl_only_pp": 2.1264993402263173,
-      "delta_vs_online_only_pp": 7.957375662303889,
-      "rank": 159
+      "delta_vs_online_only_pp": 7.957375662303889
     },
     {
       "start": 0.95,
@@ -2943,10 +3106,10 @@
       "mean_event_accuracy": 84.64983351528927,
       "mean_cohort_accuracy": 84.32722687235648,
       "median_cohort_accuracy": 85.1589727026679,
+      "rank": 160,
       "delta_vs_50_50_pp": 0.21530191650319352,
       "delta_vs_irl_only_pp": 2.124097690005499,
-      "delta_vs_online_only_pp": 7.9549740120830705,
-      "rank": 160
+      "delta_vs_online_only_pp": 7.9549740120830705
     },
     {
       "start": 0.95,
@@ -2957,10 +3120,10 @@
       "mean_event_accuracy": 84.65805973668608,
       "mean_cohort_accuracy": 84.32672900534385,
       "median_cohort_accuracy": 85.1589727026679,
+      "rank": 161,
       "delta_vs_50_50_pp": 0.2148040494905672,
       "delta_vs_irl_only_pp": 2.1235998229928725,
-      "delta_vs_online_only_pp": 7.954476145070444,
-      "rank": 161
+      "delta_vs_online_only_pp": 7.954476145070444
     },
     {
       "start": 0.85,
@@ -2971,10 +3134,10 @@
       "mean_event_accuracy": 84.68157514116005,
       "mean_cohort_accuracy": 84.32485647749587,
       "median_cohort_accuracy": 85.48821653385956,
+      "rank": 162,
       "delta_vs_50_50_pp": 0.212931521642588,
       "delta_vs_irl_only_pp": 2.1217272951448933,
-      "delta_vs_online_only_pp": 7.952603617222465,
-      "rank": 162
+      "delta_vs_online_only_pp": 7.952603617222465
     },
     {
       "start": 0.95,
@@ -2985,10 +3148,10 @@
       "mean_event_accuracy": 84.63561220218483,
       "mean_cohort_accuracy": 84.32180568591545,
       "median_cohort_accuracy": 85.1589727026679,
+      "rank": 163,
       "delta_vs_50_50_pp": 0.20988073006216723,
       "delta_vs_irl_only_pp": 2.1186765035644726,
-      "delta_vs_online_only_pp": 7.949552825642044,
-      "rank": 163
+      "delta_vs_online_only_pp": 7.949552825642044
     },
     {
       "start": 1.0,
@@ -2999,10 +3162,10 @@
       "mean_event_accuracy": 84.55154029046547,
       "mean_cohort_accuracy": 84.32026395836448,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 164,
       "delta_vs_50_50_pp": 0.2083390025111953,
       "delta_vs_irl_only_pp": 2.1171347760135006,
-      "delta_vs_online_only_pp": 7.948011098091072,
-      "rank": 164
+      "delta_vs_online_only_pp": 7.948011098091072
     },
     {
       "start": 0.8,
@@ -3013,10 +3176,10 @@
       "mean_event_accuracy": 84.68563157240328,
       "mean_cohort_accuracy": 84.31840195022059,
       "median_cohort_accuracy": 85.11210525982335,
+      "rank": 165,
       "delta_vs_50_50_pp": 0.20647699436730704,
       "delta_vs_irl_only_pp": 2.1152727678696124,
-      "delta_vs_online_only_pp": 7.946149089947184,
-      "rank": 165
+      "delta_vs_online_only_pp": 7.946149089947184
     },
     {
       "start": 0.85,
@@ -3027,10 +3190,10 @@
       "mean_event_accuracy": 84.66542401211676,
       "mean_cohort_accuracy": 84.31799138141166,
       "median_cohort_accuracy": 85.48821653385956,
+      "rank": 166,
       "delta_vs_50_50_pp": 0.20606642555837595,
       "delta_vs_irl_only_pp": 2.1148621990606813,
-      "delta_vs_online_only_pp": 7.945738521138253,
-      "rank": 166
+      "delta_vs_online_only_pp": 7.945738521138253
     },
     {
       "start": 0.95,
@@ -3041,10 +3204,10 @@
       "mean_event_accuracy": 84.61946107314154,
       "mean_cohort_accuracy": 84.31494058983122,
       "median_cohort_accuracy": 85.1589727026679,
+      "rank": 167,
       "delta_vs_50_50_pp": 0.20301563397794098,
       "delta_vs_irl_only_pp": 2.1118114074802463,
-      "delta_vs_online_only_pp": 7.942687729557818,
-      "rank": 167
+      "delta_vs_online_only_pp": 7.942687729557818
     },
     {
       "start": 1.0,
@@ -3055,10 +3218,10 @@
       "mean_event_accuracy": 84.5426295019263,
       "mean_cohort_accuracy": 84.3073028113984,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 168,
       "delta_vs_50_50_pp": 0.195377855545118,
       "delta_vs_irl_only_pp": 2.1041736290474233,
-      "delta_vs_online_only_pp": 7.935049951124995,
-      "rank": 168
+      "delta_vs_online_only_pp": 7.935049951124995
     },
     {
       "start": 0.85,
@@ -3069,10 +3232,10 @@
       "mean_event_accuracy": 84.66444204913078,
       "mean_cohort_accuracy": 84.29657078434649,
       "median_cohort_accuracy": 85.11210525982335,
+      "rank": 169,
       "delta_vs_50_50_pp": 0.18464582849320266,
       "delta_vs_irl_only_pp": 2.093441601995508,
-      "delta_vs_online_only_pp": 7.92431792407308,
-      "rank": 169
+      "delta_vs_online_only_pp": 7.92431792407308
     },
     {
       "start": 1.0,
@@ -3083,10 +3246,10 @@
       "mean_event_accuracy": 84.53082365039027,
       "mean_cohort_accuracy": 84.29013066370963,
       "median_cohort_accuracy": 85.00409240495733,
+      "rank": 170,
       "delta_vs_50_50_pp": 0.1782057078563497,
       "delta_vs_irl_only_pp": 2.087001481358655,
-      "delta_vs_online_only_pp": 7.917877803436227,
-      "rank": 170
+      "delta_vs_online_only_pp": 7.917877803436227
     },
     {
       "start": 0.85,
@@ -3097,10 +3260,10 @@
       "mean_event_accuracy": 84.65985737655625,
       "mean_cohort_accuracy": 84.28907350554896,
       "median_cohort_accuracy": 85.48821653385956,
+      "rank": 171,
       "delta_vs_50_50_pp": 0.17714854969567284,
       "delta_vs_irl_only_pp": 2.085944323197978,
-      "delta_vs_online_only_pp": 7.91682064527555,
-      "rank": 171
+      "delta_vs_online_only_pp": 7.91682064527555
     },
     {
       "start": 0.95,
@@ -3111,10 +3274,10 @@
       "mean_event_accuracy": 84.61389443758104,
       "mean_cohort_accuracy": 84.28602271396852,
       "median_cohort_accuracy": 85.1589727026679,
+      "rank": 172,
       "delta_vs_50_50_pp": 0.17409775811523787,
       "delta_vs_irl_only_pp": 2.082893531617543,
-      "delta_vs_online_only_pp": 7.913769853695115,
-      "rank": 172
+      "delta_vs_online_only_pp": 7.913769853695115
     },
     {
       "start": 0.9,
@@ -3125,10 +3288,10 @@
       "mean_event_accuracy": 84.41761752117769,
       "mean_cohort_accuracy": 84.21868199771212,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 173,
       "delta_vs_50_50_pp": 0.10675704185884172,
       "delta_vs_irl_only_pp": 2.015552815361147,
-      "delta_vs_online_only_pp": 7.846429137438719,
-      "rank": 173
+      "delta_vs_online_only_pp": 7.846429137438719
     },
     {
       "start": 0.9,
@@ -3139,10 +3302,10 @@
       "mean_event_accuracy": 84.41339684843949,
       "mean_cohort_accuracy": 84.21254283736566,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 174,
       "delta_vs_50_50_pp": 0.1006178815123775,
       "delta_vs_irl_only_pp": 2.009413655014683,
-      "delta_vs_online_only_pp": 7.8402899770922545,
-      "rank": 174
+      "delta_vs_online_only_pp": 7.8402899770922545
     },
     {
       "start": 0.9,
@@ -3153,10 +3316,10 @@
       "mean_event_accuracy": 84.41148395419378,
       "mean_cohort_accuracy": 84.20976044573553,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 175,
       "delta_vs_50_50_pp": 0.09783548988224311,
       "delta_vs_irl_only_pp": 2.0066312633845484,
-      "delta_vs_online_only_pp": 7.83750758546212,
-      "rank": 175
+      "delta_vs_online_only_pp": 7.83750758546212
     },
     {
       "start": 0.9,
@@ -3167,10 +3330,10 @@
       "mean_event_accuracy": 84.41148395419378,
       "mean_cohort_accuracy": 84.20976044573553,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 176,
       "delta_vs_50_50_pp": 0.09783548988224311,
       "delta_vs_irl_only_pp": 2.0066312633845484,
-      "delta_vs_online_only_pp": 7.83750758546212,
-      "rank": 176
+      "delta_vs_online_only_pp": 7.83750758546212
     },
     {
       "start": 0.9,
@@ -3181,10 +3344,10 @@
       "mean_event_accuracy": 84.41148395419378,
       "mean_cohort_accuracy": 84.20976044573553,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 177,
       "delta_vs_50_50_pp": 0.09783548988224311,
       "delta_vs_irl_only_pp": 2.0066312633845484,
-      "delta_vs_online_only_pp": 7.83750758546212,
-      "rank": 177
+      "delta_vs_online_only_pp": 7.83750758546212
     },
     {
       "start": 0.9,
@@ -3195,10 +3358,10 @@
       "mean_event_accuracy": 84.41148395419378,
       "mean_cohort_accuracy": 84.20976044573553,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 178,
       "delta_vs_50_50_pp": 0.09783548988224311,
       "delta_vs_irl_only_pp": 2.0066312633845484,
-      "delta_vs_online_only_pp": 7.83750758546212,
-      "rank": 178
+      "delta_vs_online_only_pp": 7.83750758546212
     },
     {
       "start": 0.9,
@@ -3209,10 +3372,10 @@
       "mean_event_accuracy": 84.41148395419378,
       "mean_cohort_accuracy": 84.20976044573553,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 179,
       "delta_vs_50_50_pp": 0.09783548988224311,
       "delta_vs_irl_only_pp": 2.0066312633845484,
-      "delta_vs_online_only_pp": 7.83750758546212,
-      "rank": 179
+      "delta_vs_online_only_pp": 7.83750758546212
     },
     {
       "start": 0.9,
@@ -3223,10 +3386,10 @@
       "mean_event_accuracy": 84.41148395419378,
       "mean_cohort_accuracy": 84.20976044573553,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 180,
       "delta_vs_50_50_pp": 0.09783548988224311,
       "delta_vs_irl_only_pp": 2.0066312633845484,
-      "delta_vs_online_only_pp": 7.83750758546212,
-      "rank": 180
+      "delta_vs_online_only_pp": 7.83750758546212
     },
     {
       "start": 0.9,
@@ -3237,10 +3400,10 @@
       "mean_event_accuracy": 84.41148395419378,
       "mean_cohort_accuracy": 84.20976044573553,
       "median_cohort_accuracy": 85.24342267124692,
+      "rank": 181,
       "delta_vs_50_50_pp": 0.09783548988224311,
       "delta_vs_irl_only_pp": 2.0066312633845484,
-      "delta_vs_online_only_pp": 7.83750758546212,
-      "rank": 181
+      "delta_vs_online_only_pp": 7.83750758546212
     },
     {
       "start": 0.8,
@@ -3251,10 +3414,10 @@
       "mean_event_accuracy": 84.58189933972018,
       "mean_cohort_accuracy": 84.19911241658889,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 182,
       "delta_vs_50_50_pp": 0.08718746073560624,
       "delta_vs_irl_only_pp": 1.9959832342379116,
-      "delta_vs_online_only_pp": 7.826859556315483,
-      "rank": 182
+      "delta_vs_online_only_pp": 7.826859556315483
     },
     {
       "start": 0.8,
@@ -3265,10 +3428,10 @@
       "mean_event_accuracy": 84.5852874995609,
       "mean_cohort_accuracy": 84.19564133510018,
       "median_cohort_accuracy": 84.37536032623116,
+      "rank": 183,
       "delta_vs_50_50_pp": 0.08371637924689423,
       "delta_vs_irl_only_pp": 1.9925121527491996,
-      "delta_vs_online_only_pp": 7.823388474826771,
-      "rank": 183
+      "delta_vs_online_only_pp": 7.823388474826771
     },
     {
       "start": 0.9,
@@ -3279,10 +3442,10 @@
       "mean_event_accuracy": 84.55817990324054,
       "mean_cohort_accuracy": 84.193646801254,
       "median_cohort_accuracy": 85.1167321148796,
+      "rank": 184,
       "delta_vs_50_50_pp": 0.0817218454007218,
       "delta_vs_irl_only_pp": 1.9905176189030271,
-      "delta_vs_online_only_pp": 7.821393940980599,
-      "rank": 184
+      "delta_vs_online_only_pp": 7.821393940980599
     },
     {
       "start": 0.85,
@@ -3293,10 +3456,10 @@
       "mean_event_accuracy": 84.56070981644768,
       "mean_cohort_accuracy": 84.17728125071478,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 185,
       "delta_vs_50_50_pp": 0.06535629486150185,
       "delta_vs_irl_only_pp": 1.9741520683638072,
-      "delta_vs_online_only_pp": 7.805028390441379,
-      "rank": 185
+      "delta_vs_online_only_pp": 7.805028390441379
     },
     {
       "start": 0.8,
@@ -3307,10 +3470,10 @@
       "mean_event_accuracy": 84.5573987386737,
       "mean_cohort_accuracy": 84.16749862359181,
       "median_cohort_accuracy": 84.8119899875662,
+      "rank": 186,
       "delta_vs_50_50_pp": 0.05557366773852834,
       "delta_vs_irl_only_pp": 1.9643694412408337,
-      "delta_vs_online_only_pp": 7.795245763318405,
-      "rank": 186
+      "delta_vs_online_only_pp": 7.795245763318405
     },
     {
       "start": 0.8,
@@ -3321,10 +3484,10 @@
       "mean_event_accuracy": 84.48496029993713,
       "mean_cohort_accuracy": 84.08983353605642,
       "median_cohort_accuracy": 85.11210525982335,
+      "rank": 187,
       "delta_vs_50_50_pp": -0.022091419796865353,
       "delta_vs_irl_only_pp": 1.88670435370544,
-      "delta_vs_online_only_pp": 7.717580675783012,
-      "rank": 187
+      "delta_vs_online_only_pp": 7.717580675783012
     },
     {
       "start": 0.9,
@@ -3335,10 +3498,10 @@
       "mean_event_accuracy": 84.4631777344181,
       "mean_cohort_accuracy": 84.08342963322909,
       "median_cohort_accuracy": 84.59245329776456,
+      "rank": 188,
       "delta_vs_50_50_pp": -0.028495322624195296,
       "delta_vs_irl_only_pp": 1.88030045087811,
-      "delta_vs_online_only_pp": 7.711176772955682,
-      "rank": 188
+      "delta_vs_online_only_pp": 7.711176772955682
     },
     {
       "start": 0.9,
@@ -3349,10 +3512,10 @@
       "mean_event_accuracy": 84.4714039558149,
       "mean_cohort_accuracy": 84.08293176621646,
       "median_cohort_accuracy": 84.59245329776456,
+      "rank": 189,
       "delta_vs_50_50_pp": -0.028993189636821626,
       "delta_vs_irl_only_pp": 1.8798025838654837,
-      "delta_vs_online_only_pp": 7.710678905943055,
-      "rank": 189
+      "delta_vs_online_only_pp": 7.710678905943055
     },
     {
       "start": 0.9,
@@ -3363,10 +3526,10 @@
       "mean_event_accuracy": 84.44895642131365,
       "mean_cohort_accuracy": 84.07800844678805,
       "median_cohort_accuracy": 84.59245329776456,
+      "rank": 190,
       "delta_vs_50_50_pp": -0.0339165090652358,
       "delta_vs_irl_only_pp": 1.8748792644370695,
-      "delta_vs_online_only_pp": 7.705755586514641,
-      "rank": 190
+      "delta_vs_online_only_pp": 7.705755586514641
     },
     {
       "start": 0.8,
@@ -3377,10 +3540,10 @@
       "mean_event_accuracy": 84.4737511951025,
       "mean_cohort_accuracy": 84.07702711229338,
       "median_cohort_accuracy": 85.1167321148796,
+      "rank": 191,
       "delta_vs_50_50_pp": -0.03489784355990366,
       "delta_vs_irl_only_pp": 1.8738979299424017,
-      "delta_vs_online_only_pp": 7.704774252019973,
-      "rank": 191
+      "delta_vs_online_only_pp": 7.704774252019973
     },
     {
       "start": 0.8,
@@ -3391,10 +3554,10 @@
       "mean_event_accuracy": 84.45621049011147,
       "mean_cohort_accuracy": 84.04321036602136,
       "median_cohort_accuracy": 84.86907583555964,
+      "rank": 192,
       "delta_vs_50_50_pp": -0.06871458983192724,
       "delta_vs_irl_only_pp": 1.840081183670378,
-      "delta_vs_online_only_pp": 7.67095750574795,
-      "rank": 192
+      "delta_vs_online_only_pp": 7.67095750574795
     },
     {
       "start": 0.8,
@@ -3405,10 +3568,10 @@
       "mean_event_accuracy": 84.46443671150828,
       "mean_cohort_accuracy": 84.04271249900873,
       "median_cohort_accuracy": 84.86907583555964,
+      "rank": 193,
       "delta_vs_50_50_pp": -0.06921245684455357,
       "delta_vs_irl_only_pp": 1.8395833166577518,
-      "delta_vs_online_only_pp": 7.670459638735323,
-      "rank": 193
+      "delta_vs_online_only_pp": 7.670459638735323
     },
     {
       "start": 0.9,
@@ -3419,10 +3582,10 @@
       "mean_event_accuracy": 84.42723865670985,
       "mean_cohort_accuracy": 84.04222547484113,
       "median_cohort_accuracy": 84.59245329776456,
+      "rank": 194,
       "delta_vs_50_50_pp": -0.06969948101215095,
       "delta_vs_irl_only_pp": 1.8390962924901544,
-      "delta_vs_online_only_pp": 7.669972614567726,
-      "rank": 194
+      "delta_vs_online_only_pp": 7.669972614567726
     },
     {
       "start": 0.85,
@@ -3433,10 +3596,10 @@
       "mean_event_accuracy": 84.4430078851234,
       "mean_cohort_accuracy": 84.04129952939148,
       "median_cohort_accuracy": 85.1167321148796,
+      "rank": 195,
       "delta_vs_50_50_pp": -0.07062542646180248,
       "delta_vs_irl_only_pp": 1.8381703470405029,
-      "delta_vs_online_only_pp": 7.6690466691180745,
-      "rank": 195
+      "delta_vs_online_only_pp": 7.6690466691180745
     },
     {
       "start": 0.8,
@@ -3447,10 +3610,10 @@
       "mean_event_accuracy": 84.44198917700703,
       "mean_cohort_accuracy": 84.03778917958033,
       "median_cohort_accuracy": 84.86907583555964,
+      "rank": 196,
       "delta_vs_50_50_pp": -0.07413577627295354,
       "delta_vs_irl_only_pp": 1.8346599972293518,
-      "delta_vs_online_only_pp": 7.6655363193069235,
-      "rank": 196
+      "delta_vs_online_only_pp": 7.6655363193069235
     },
     {
       "start": 0.8,
@@ -3461,10 +3624,10 @@
       "mean_event_accuracy": 84.42027141240322,
       "mean_cohort_accuracy": 84.0020062076334,
       "median_cohort_accuracy": 84.86907583555964,
+      "rank": 197,
       "delta_vs_50_50_pp": -0.1099187482198829,
       "delta_vs_irl_only_pp": 1.7988770252824224,
-      "delta_vs_online_only_pp": 7.629753347359994,
-      "rank": 197
+      "delta_vs_online_only_pp": 7.629753347359994
     },
     {
       "start": 0.8,
@@ -3475,10 +3638,10 @@
       "mean_event_accuracy": 84.38122806725403,
       "mean_cohort_accuracy": 83.97054400242472,
       "median_cohort_accuracy": 85.39257988658912,
+      "rank": 198,
       "delta_vs_50_50_pp": -0.14138095342856616,
       "delta_vs_irl_only_pp": 1.7674148200737392,
-      "delta_vs_online_only_pp": 7.598291142151311,
-      "rank": 198
+      "delta_vs_online_only_pp": 7.598291142151311
     },
     {
       "start": 0.95,
@@ -3489,10 +3652,10 @@
       "mean_event_accuracy": 84.0788711789495,
       "mean_cohort_accuracy": 83.91727384816421,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 199,
       "delta_vs_50_50_pp": -0.19465110768906868,
       "delta_vs_irl_only_pp": 1.7141446658132367,
-      "delta_vs_online_only_pp": 7.545020987890808,
-      "rank": 199
+      "delta_vs_online_only_pp": 7.545020987890808
     },
     {
       "start": 0.95,
@@ -3503,10 +3666,10 @@
       "mean_event_accuracy": 84.07726202283342,
       "mean_cohort_accuracy": 83.91493325744992,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 200,
       "delta_vs_50_50_pp": -0.19699169840336594,
       "delta_vs_irl_only_pp": 1.7118040750989394,
-      "delta_vs_online_only_pp": 7.542680397176511,
-      "rank": 200
+      "delta_vs_online_only_pp": 7.542680397176511
     },
     {
       "start": 0.95,
@@ -3517,10 +3680,10 @@
       "mean_event_accuracy": 84.07726202283342,
       "mean_cohort_accuracy": 83.91493325744992,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 201,
       "delta_vs_50_50_pp": -0.19699169840336594,
       "delta_vs_irl_only_pp": 1.7118040750989394,
-      "delta_vs_online_only_pp": 7.542680397176511,
-      "rank": 201
+      "delta_vs_online_only_pp": 7.542680397176511
     },
     {
       "start": 0.95,
@@ -3531,10 +3694,10 @@
       "mean_event_accuracy": 84.07726202283342,
       "mean_cohort_accuracy": 83.91493325744992,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 202,
       "delta_vs_50_50_pp": -0.19699169840336594,
       "delta_vs_irl_only_pp": 1.7118040750989394,
-      "delta_vs_online_only_pp": 7.542680397176511,
-      "rank": 202
+      "delta_vs_online_only_pp": 7.542680397176511
     },
     {
       "start": 0.95,
@@ -3545,10 +3708,10 @@
       "mean_event_accuracy": 84.07726202283342,
       "mean_cohort_accuracy": 83.91493325744992,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 203,
       "delta_vs_50_50_pp": -0.19699169840336594,
       "delta_vs_irl_only_pp": 1.7118040750989394,
-      "delta_vs_online_only_pp": 7.542680397176511,
-      "rank": 203
+      "delta_vs_online_only_pp": 7.542680397176511
     },
     {
       "start": 0.95,
@@ -3559,10 +3722,10 @@
       "mean_event_accuracy": 84.07726202283342,
       "mean_cohort_accuracy": 83.91493325744992,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 204,
       "delta_vs_50_50_pp": -0.19699169840336594,
       "delta_vs_irl_only_pp": 1.7118040750989394,
-      "delta_vs_online_only_pp": 7.542680397176511,
-      "rank": 204
+      "delta_vs_online_only_pp": 7.542680397176511
     },
     {
       "start": 0.95,
@@ -3573,10 +3736,10 @@
       "mean_event_accuracy": 84.07726202283342,
       "mean_cohort_accuracy": 83.91493325744992,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 205,
       "delta_vs_50_50_pp": -0.19699169840336594,
       "delta_vs_irl_only_pp": 1.7118040750989394,
-      "delta_vs_online_only_pp": 7.542680397176511,
-      "rank": 205
+      "delta_vs_online_only_pp": 7.542680397176511
     },
     {
       "start": 0.95,
@@ -3587,10 +3750,10 @@
       "mean_event_accuracy": 84.07726202283342,
       "mean_cohort_accuracy": 83.91493325744992,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 206,
       "delta_vs_50_50_pp": -0.19699169840336594,
       "delta_vs_irl_only_pp": 1.7118040750989394,
-      "delta_vs_online_only_pp": 7.542680397176511,
-      "rank": 206
+      "delta_vs_online_only_pp": 7.542680397176511
     },
     {
       "start": 0.95,
@@ -3601,10 +3764,10 @@
       "mean_event_accuracy": 84.07726202283342,
       "mean_cohort_accuracy": 83.91493325744992,
       "median_cohort_accuracy": 84.95017379832859,
+      "rank": 207,
       "delta_vs_50_50_pp": -0.19699169840336594,
       "delta_vs_irl_only_pp": 1.7118040750989394,
-      "delta_vs_online_only_pp": 7.542680397176511,
-      "rank": 207
+      "delta_vs_online_only_pp": 7.542680397176511
     },
     {
       "start": 0.85,
@@ -3615,10 +3778,10 @@
       "mean_event_accuracy": 84.30989993642999,
       "mean_cohort_accuracy": 83.89092013235604,
       "median_cohort_accuracy": 84.42764997829873,
+      "rank": 208,
       "delta_vs_50_50_pp": -0.22100482349723904,
       "delta_vs_irl_only_pp": 1.6877909500050663,
-      "delta_vs_online_only_pp": 7.518667272082638,
-      "rank": 208
+      "delta_vs_online_only_pp": 7.518667272082638
     },
     {
       "start": 0.8,
@@ -3629,10 +3792,10 @@
       "mean_event_accuracy": 84.26352613592974,
       "mean_cohort_accuracy": 83.83456228110141,
       "median_cohort_accuracy": 85.1167321148796,
+      "rank": 209,
       "delta_vs_50_50_pp": -0.2773626747518705,
       "delta_vs_irl_only_pp": 1.6314330987504349,
-      "delta_vs_online_only_pp": 7.4623094208280065,
-      "rank": 209
+      "delta_vs_online_only_pp": 7.4623094208280065
     },
     {
       "start": 0.85,
@@ -3643,10 +3806,10 @@
       "mean_event_accuracy": 84.19028736305354,
       "mean_cohort_accuracy": 83.76243328872424,
       "median_cohort_accuracy": 83.9433648082955,
+      "rank": 210,
       "delta_vs_50_50_pp": -0.349491667129044,
       "delta_vs_irl_only_pp": 1.5593041063732613,
-      "delta_vs_online_only_pp": 7.390180428450833,
-      "rank": 210
+      "delta_vs_online_only_pp": 7.390180428450833
     },
     {
       "start": 0.85,
@@ -3657,10 +3820,10 @@
       "mean_event_accuracy": 84.19851358445035,
       "mean_cohort_accuracy": 83.76193542171161,
       "median_cohort_accuracy": 83.9433648082955,
+      "rank": 211,
       "delta_vs_50_50_pp": -0.34998953414167033,
       "delta_vs_irl_only_pp": 1.558806239360635,
-      "delta_vs_online_only_pp": 7.389682561438207,
-      "rank": 211
+      "delta_vs_online_only_pp": 7.389682561438207
     },
     {
       "start": 0.85,
@@ -3671,10 +3834,10 @@
       "mean_event_accuracy": 84.1543482853453,
       "mean_cohort_accuracy": 83.72122913033628,
       "median_cohort_accuracy": 83.9433648082955,
+      "rank": 212,
       "delta_vs_50_50_pp": -0.39069582551699966,
       "delta_vs_irl_only_pp": 1.5180999479853057,
-      "delta_vs_online_only_pp": 7.348976270062877,
-      "rank": 212
+      "delta_vs_online_only_pp": 7.348976270062877
     },
     {
       "start": 0.8,
@@ -3685,10 +3848,10 @@
       "mean_event_accuracy": 84.13041818723632,
       "mean_cohort_accuracy": 83.68418288406598,
       "median_cohort_accuracy": 84.42764997829873,
+      "rank": 213,
       "delta_vs_50_50_pp": -0.42774207178730705,
       "delta_vs_irl_only_pp": 1.4810537017149983,
-      "delta_vs_online_only_pp": 7.31193002379257,
-      "rank": 213
+      "delta_vs_online_only_pp": 7.31193002379257
     },
     {
       "start": 1.0,
@@ -3699,10 +3862,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 214,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 214
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -3713,10 +3876,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 215,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 215
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -3727,10 +3890,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 216,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 216
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -3741,10 +3904,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 217,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 217
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -3755,10 +3918,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 218,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 218
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -3769,10 +3932,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 219,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 219
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -3783,10 +3946,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 220,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 220
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -3797,10 +3960,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 221,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 221
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 1.0,
@@ -3811,10 +3974,10 @@
       "mean_event_accuracy": 83.65600692023548,
       "mean_cohort_accuracy": 83.53135316658587,
       "median_cohort_accuracy": 84.50905946791761,
+      "rank": 222,
       "delta_vs_50_50_pp": -0.5805717892674096,
       "delta_vs_irl_only_pp": 1.3282239842348957,
-      "delta_vs_online_only_pp": 7.159100306312467,
-      "rank": 222
+      "delta_vs_online_only_pp": 7.159100306312467
     },
     {
       "start": 0.8,
@@ -3825,10 +3988,10 @@
       "mean_event_accuracy": 83.9857872693674,
       "mean_cohort_accuracy": 83.5193057211724,
       "median_cohort_accuracy": 83.6230155003903,
+      "rank": 223,
       "delta_vs_50_50_pp": -0.5926192346808818,
       "delta_vs_irl_only_pp": 1.3161765388214235,
-      "delta_vs_online_only_pp": 7.147052860898995,
-      "rank": 223
+      "delta_vs_online_only_pp": 7.147052860898995
     },
     {
       "start": 0.8,
@@ -3839,10 +4002,10 @@
       "mean_event_accuracy": 83.85138832199722,
       "mean_cohort_accuracy": 83.37289775148537,
       "median_cohort_accuracy": 83.14425427056077,
+      "rank": 224,
       "delta_vs_50_50_pp": -0.7390272043679147,
       "delta_vs_irl_only_pp": 1.1697685691343906,
-      "delta_vs_online_only_pp": 7.000644891211962,
-      "rank": 224
+      "delta_vs_online_only_pp": 7.000644891211962
     },
     {
       "start": 0.8,
@@ -3853,11 +4016,11 @@
       "mean_event_accuracy": 83.80722302289217,
       "mean_cohort_accuracy": 83.33219146011004,
       "median_cohort_accuracy": 83.14425427056077,
+      "rank": 225,
       "delta_vs_50_50_pp": -0.779733495743244,
       "delta_vs_irl_only_pp": 1.1290622777590613,
-      "delta_vs_online_only_pp": 6.959938599836633,
-      "rank": 225
+      "delta_vs_online_only_pp": 6.959938599836633
     }
   ],
-  "interpretation_boundary": "All 225 rules are fitted and scored on the same recent 11 cohorts. Ranking is descriptive/in-sample, not out-of-sample validation."
+  "interpretation_boundary": "All 225 full-period rankings are in-sample. The fixed chronological holdout is the stronger validation check but contains only five independent test cohorts."
 }

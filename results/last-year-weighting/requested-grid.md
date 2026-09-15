@@ -14,7 +14,7 @@ IRL weight = max(floor, initial IRL weight − daily percentage-point loss × da
 | 100% IRL | 82.20% |
 | 100% Online | 76.37% |
 
-## Best rule
+## Best in-sample rule
 
 **95% initial IRL, lose 3pp/day, floor 20% IRL** = **84.78%**.
 Vs 50/50: **+0.66pp**; vs 100% IRL: **+2.57pp**; vs 100% Online: **+8.40pp**.
@@ -26,7 +26,7 @@ Vs 50/50: **+0.66pp**; vs 100% IRL: **+2.57pp**; vs 100% Online: **+8.40pp**.
 - 100% Online: **225 / 225**
 - all three: **186 / 225**
 
-## Top 15 rules
+## Top 15 in-sample rules
 
 | Rank | Initial IRL | Loss/day | Floor | Accuracy | vs 50/50 | vs IRL | vs Online |
 |---:|---:|---:|---:|---:|---:|---:|---:|
@@ -45,6 +45,20 @@ Vs 50/50: **+0.66pp**; vs 100% IRL: **+2.57pp**; vs 100% Online: **+8.40pp**.
 | 13 | 95% | 3pp | 35% | 84.75% | +0.64 | +2.55 | +8.38 |
 | 14 | 85% | 2pp | 20% | 84.75% | +0.64 | +2.55 | +8.38 |
 | 15 | 80% | 2pp | 25% | 84.75% | +0.63 | +2.54 | +8.37 |
+
+## Fixed chronological holdout
+
+Tune on first 6 recent cohorts; score the selected rule on the final 5 untouched cohorts.
+Training selected **80% start / 2pp-day / 25% floor**.
+
+| Holdout model | Cohort accuracy |
+|---|---:|
+| Training-selected requested-grid rule | **84.30%** |
+| Flat 50/50 | 83.40% |
+| 100% IRL | 83.08% |
+| 100% Online | 75.14% |
+
+Only five independent holdout cohorts are available, so this is directional rather than decisive.
 
 ## Best result available at each initial weight
 
@@ -82,4 +96,4 @@ Vs 50/50: **+0.66pp**; vs 100% IRL: **+2.57pp**; vs 100% Online: **+8.40pp**.
 
 Full 225-rule ranking is stored in `data/processed/last-year-weighting/requested-grid/all_rules.csv` and `summary.json`.
 
-**Interpretation boundary:** this is an exhaustive in-sample ranking over the same 11 recent cohorts, not proof that the winning rule will outperform on future tournaments.
+**Interpretation boundary:** the full-period ranking is in-sample. The chronological holdout is the stronger validation check, but only five independent test cohorts are available.
