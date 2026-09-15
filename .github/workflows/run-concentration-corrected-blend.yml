@@ -1,0 +1,44 @@
+name: Run concentration-corrected blend experiment
+
+on:
+  push:
+    branches:
+      - research/concentration-corrected-blend
+    paths:
+      - "scripts/analyse_concentration_corrected_blend.py"
+      - ".github/workflows/run-concentration-corrected-blend.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "concentration-corrected-blend-research"
+  cancel-in-progress: true
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scoped research branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/concentration-corrected-blend
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run concentration-corrected blend experiment
+        run: python scripts/analyse_concentration_corrected_blend.py
+
+      - name: Commit generated research outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/concentration-corrected-blend results/concentration-corrected-blend
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: record concentration-corrected blend results"
+            git push origin HEAD:research/concentration-corrected-blend
+          fi
