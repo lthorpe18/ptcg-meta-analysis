@@ -22,7 +22,7 @@ Compare the resulting rules with flat 50/50, 100% IRL and 100% Online.
 
 **Verified:** 5 initial weights x 5 decay rates x 9 floors = 225 combinations. Weight rule: `max(floor, initial_IRL_weight - daily_loss * days_since_previous_major)`. Online receives the remainder.
 
-## Generated result
+## Full-period in-sample result
 
 Baselines:
 - flat 50/50: 84.11%
@@ -42,7 +42,7 @@ Rule counts:
 - 225 / 225 beat 100% Online;
 - 186 / 225 beat all three baselines.
 
-The top of the grid is very shallow: ranks 1-15 span about 84.75%-84.78%. Nearby winners include 95/3pp/15, 95/3pp/25, 85/2pp/30, and 90/3pp/20. This supports a broad pattern more strongly than one exact triplet.
+The top is very shallow: ranks 1-15 span about 84.75%-84.78%. Nearby winners include 95/3pp/15, 95/3pp/25, 85/2pp/30, 90/3pp/20 and 80/2pp/25. This supports a broad region more strongly than one exact triplet.
 
 Best available result by initial weight:
 - 100% start: 84.74% at 4pp/day, 20% floor;
@@ -60,11 +60,27 @@ Best available result by daily loss:
 
 Best available result by floor rises from 84.69% at 50% to ~84.77-84.78% around 15-30%, then is 84.76% at 10%. This suggests the recent sample generally prefers allowing Online evidence to become the majority after enough time, rather than holding IRL at >=50%.
 
+## Fixed chronological validation
+
+**Verified validation design:** tune all 225 rules using only the first six recent independent cohorts, freeze the selected rule, then score it on the final five untouched cohorts.
+
+Training selected **80% initial IRL / 2pp per day / 25% floor**.
+
+Untouched five-cohort holdout:
+- selected rule: **84.30%**
+- flat 50/50: 83.40%
+- 100% IRL: 83.08%
+- 100% Online: 75.14%
+
+**Verified:** the training-selected blend beats all three requested baselines on this holdout, including flat 50/50 by +0.90pp. Only five independent test cohorts are available, so this is directional rather than decisive.
+
 ## Interpretation boundary
 
-**Verified:** these are exhaustive in-sample comparisons across the same 11 recent cohorts. They do not establish an out-of-sample winning formula.
+**Verified:** the exact full-period 95/3/20 winner is in-sample and should not be called a demonstrated future winner.
 
-**Inferred:** the stable high-performing region is roughly high initial IRL weight (85-95%), relatively fast decay (2-3pp/day), and a low/moderate IRL floor (15-35%).
+**Verified:** a related fast-decay / low-floor blend selected without seeing the final five cohorts also beat the three requested baselines on that holdout.
+
+**Inferred:** the stable high-performing region is roughly high initial IRL weight, relatively fast decay (especially 2-3pp/day), and a low/moderate IRL floor. The precise initial weight is less stable than the broader shape.
 
 Do not infer that 95/3/20 is meaningfully superior to nearby rules: the numerical differences are only hundredths of an accuracy point.
 
@@ -77,7 +93,8 @@ Do not use this result as automatic authority to change PTCG Tools.
 - Generated JSON: `data/processed/last-year-weighting/requested-grid/summary.json`
 - Human-readable result: `results/last-year-weighting/requested-grid.md`
 - Workflow: `.github/workflows/run-last-year-weighting.yml`
-- Successful run: `34958292924`
+- Successful exhaustive-grid run: `34958292924`
+- Successful chronological-validation rerun: `34958505511`
 
 ## Exact next action
 
