@@ -6,6 +6,7 @@ on:
       - research/irl-performance-to-next-irl
     paths:
       - "scripts/analyse_irl_performance_to_next_irl.py"
+      - "scripts/analyse_irl_performance_validation_sensitivity.py"
       - ".github/workflows/run-irl-performance-to-next-irl.yml"
   workflow_dispatch:
 
@@ -32,6 +33,9 @@ jobs:
 
       - name: Run Phase 2 IRL performance prediction analysis
         run: python scripts/analyse_irl_performance_to_next_irl.py
+
+      - name: Run validation leverage sensitivity
+        run: python scripts/analyse_irl_performance_validation_sensitivity.py
 
       - name: Commit generated research outputs
         run: |
