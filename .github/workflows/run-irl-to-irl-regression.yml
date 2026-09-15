@@ -6,6 +6,7 @@ on:
       - research/irl-to-irl-regression
     paths:
       - "scripts/analyse_irl_to_irl_regression.py"
+      - "scripts/analyse_irl_regression_sensitivity.py"
       - ".github/workflows/run-irl-to-irl-regression.yml"
   workflow_dispatch:
 
@@ -32,6 +33,9 @@ jobs:
 
       - name: Run IRL-to-IRL regression analysis
         run: python scripts/analyse_irl_to_irl_regression.py
+
+      - name: Run leverage/time-window sensitivity
+        run: python scripts/analyse_irl_regression_sensitivity.py
 
       - name: Commit generated research outputs
         run: |
