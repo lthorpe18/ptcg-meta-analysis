@@ -1,5 +1,13 @@
 # PTCG Meta Analysis
 
+> **Start here:** [CURRENT_STATE.md](CURRENT_STATE.md) distinguishes the default branch from the active/deployed research branch. Read the [research handoff](handoffs/historical-field-prediction.md) before continuing.
+>
+> **SUPERSEDED as current status — retained for historical reference.** The initial data-audit-only description and prospective analysis sequence below describe the bootstrap stage. Historical ingestion, baselines, weighting experiments, walk-forward analysis and a research website now exist on open [PR #5](https://github.com/lthorpe18/ptcg-meta-analysis/pull/5), branch `historical-online-chunked`, audited at `67310cbab568a2632cec96cedfce1b8118d25d3c`. Main has not merged that work.
+>
+> The repository remains independent of the production PTCG Tools application. See the [documentation/evidence inventory](docs/FORENSIC_AUDIT_2026-09-14.md) for provenance and unresolved questions.
+
+## Original bootstrap documentation
+
 Standalone research workspace for testing Pokémon TCG metagame prediction methods independently of the production **PTCG Tools** application.
 
 ## Research objective
