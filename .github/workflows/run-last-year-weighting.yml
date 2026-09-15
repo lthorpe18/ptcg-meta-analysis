@@ -8,6 +8,7 @@ on:
       - "scripts/analyse_last_year_weighting.py"
       - "scripts/analyse_requested_weight_grid.py"
       - "scripts/analyse_flat_and_online_recency.py"
+      - "scripts/analyse_latest_online_snapshot.py"
       - ".github/workflows/run-last-year-weighting.yml"
   workflow_dispatch:
 
@@ -41,12 +42,15 @@ jobs:
       - name: Run flat split and Online recency analysis
         run: python scripts/analyse_flat_and_online_recency.py
 
+      - name: Run latest Online snapshot analysis
+        run: python scripts/analyse_latest_online_snapshot.py
+
       - name: Commit generated research outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/processed/last-year-weighting results/last-year-weighting
           if ! git diff --cached --quiet; then
-            git commit -m "analysis: record flat split and Online recency results"
+            git commit -m "analysis: record latest Online snapshot results"
             git push origin HEAD:research/last-year-weighting
           fi
