@@ -1,0 +1,981 @@
+{
+  "research_questions": [
+    "Do flat IRL/Online splits other than 50/50 improve recent-year prediction accuracy?",
+    "Does recency-weighting Online evidence toward the target tournament improve accuracy?",
+    "Does recency weighting still help when combined with the owner-requested IRL decay grid?"
+  ],
+  "evidence_window": {
+    "start": "2025-08-28",
+    "end": "2026-08-28"
+  },
+  "sample": {
+    "event_count": 16,
+    "cohort_count": 11,
+    "cohorts": [
+      {
+        "cohort_id": "C030",
+        "date": "2025-09-13"
+      },
+      {
+        "cohort_id": "C031",
+        "date": "2025-09-19"
+      },
+      {
+        "cohort_id": "C033",
+        "date": "2025-10-25"
+      },
+      {
+        "cohort_id": "C034",
+        "date": "2025-11-01"
+      },
+      {
+        "cohort_id": "C038",
+        "date": "2026-01-16"
+      },
+      {
+        "cohort_id": "C039",
+        "date": "2026-01-24"
+      },
+      {
+        "cohort_id": "C040",
+        "date": "2026-02-07"
+      },
+      {
+        "cohort_id": "C046",
+        "date": "2026-03-28"
+      },
+      {
+        "cohort_id": "C049",
+        "date": "2026-05-08"
+      },
+      {
+        "cohort_id": "C050",
+        "date": "2026-05-16"
+      },
+      {
+        "cohort_id": "C054",
+        "date": "2026-06-12"
+      }
+    ],
+    "selection": ">=95% IRL capture, settled-format, complete latest-IRL and post-major Online components"
+  },
+  "metric": "Cohort-weighted Field Accuracy; named archetypes only, frozen historical windows",
+  "online_recency_semantics": {
+    "event_size": "Deck/player-entry counts remain the base weight; each event's entries are multiplied by its recency factor.",
+    "equal": "Current aggregation: every Online deck entry since the latest major has factor 1.",
+    "windows": "Only Online events within N days of the target cutoff receive weight; other post-major events receive zero.",
+    "linear": "Within each target's post-major evidence span, newest Online event factor=1 and oldest factor=0, with linear interpolation.",
+    "exponential": "Event factor halves every specified half-life days before the target cutoff."
+  },
+  "method_coverage": [
+    {
+      "key": "equal",
+      "label": "Equal/current",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 20.9375
+    },
+    {
+      "key": "window_7",
+      "label": "Last 7 days only",
+      "event_count": 11,
+      "cohort_count": 8,
+      "complete": false,
+      "mean_online_events_used": 9.25
+    },
+    {
+      "key": "window_14",
+      "label": "Last 14 days only",
+      "event_count": 15,
+      "cohort_count": 10,
+      "complete": false,
+      "mean_online_events_used": 14.5
+    },
+    {
+      "key": "window_21",
+      "label": "Last 21 days only",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 19.0
+    },
+    {
+      "key": "window_28",
+      "label": "Last 28 days only",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 19.9375
+    },
+    {
+      "key": "linear",
+      "label": "Linear recency",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 19.9375
+    },
+    {
+      "key": "exp_3",
+      "label": "Exponential, 3-day half-life",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 20.9375
+    },
+    {
+      "key": "exp_7",
+      "label": "Exponential, 7-day half-life",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 20.9375
+    },
+    {
+      "key": "exp_14",
+      "label": "Exponential, 14-day half-life",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 20.9375
+    },
+    {
+      "key": "exp_21",
+      "label": "Exponential, 21-day half-life",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 20.9375
+    },
+    {
+      "key": "exp_28",
+      "label": "Exponential, 28-day half-life",
+      "event_count": 16,
+      "cohort_count": 11,
+      "complete": true,
+      "mean_online_events_used": 20.9375
+    }
+  ],
+  "baselines": {
+    "online_only": {
+      "online_method": "equal",
+      "irl_weight": 0.0,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 79.07296421500833,
+      "mean_cohort_accuracy": 78.39108507059883
+    },
+    "irl_only": {
+      "online_method": "equal",
+      "irl_weight": 1.0,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 82.26312574567724,
+      "mean_cohort_accuracy": 82.20312918235098
+    },
+    "flat_50_50": {
+      "online_method": "equal",
+      "irl_weight": 0.5,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 84.52773248882868,
+      "mean_cohort_accuracy": 84.11192495585328
+    }
+  },
+  "flat_splits_equal_online": {
+    "weights_tested": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "best": {
+      "online_method": "equal",
+      "irl_weight": 0.6,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 84.75039407390999,
+      "mean_cohort_accuracy": 84.40277995424071
+    },
+    "ranking": [
+      {
+        "online_method": "equal",
+        "irl_weight": 0.6,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.75039407390999,
+        "mean_cohort_accuracy": 84.40277995424071
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.65,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.70397292996411,
+        "mean_cohort_accuracy": 84.40205368461788
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.55,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.69670438263871,
+        "mean_cohort_accuracy": 84.31489716342567
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.7,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.56065239280987,
+        "mean_cohort_accuracy": 84.29793031733156
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.75,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.36568854711341,
+        "mean_cohort_accuracy": 84.14425262408783
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.52773248882868,
+        "mean_cohort_accuracy": 84.11192495585328
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.8,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.08275620788217,
+        "mean_cohort_accuracy": 83.90578551801879
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.45,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.28958251600305,
+        "mean_cohort_accuracy": 83.83778409479909
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.85,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 83.71985055958723,
+        "mean_cohort_accuracy": 83.58234996144564
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.4,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 83.94514930170307,
+        "mean_cohort_accuracy": 83.45657505403368
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.9,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 83.30430273899603,
+        "mean_cohort_accuracy": 83.19874084754878
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.35,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 83.53637014570916,
+        "mean_cohort_accuracy": 83.00931497390428
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.95,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 82.80565723505185,
+        "mean_cohort_accuracy": 82.72676289829435
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.3,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 83.09464106648718,
+        "mean_cohort_accuracy": 82.52334445675314
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 1.0,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 82.26312574567724,
+        "mean_cohort_accuracy": 82.20312918235098
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.25,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 82.60272146322515,
+        "mean_cohort_accuracy": 81.99172716500918
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.2,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 82.02663150540958,
+        "mean_cohort_accuracy": 81.3825864089634
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.15,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 81.39137308663845,
+        "mean_cohort_accuracy": 80.71575009734475
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.1,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 80.6767817123317,
+        "mean_cohort_accuracy": 79.98692340632151
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.05,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 79.89524799688513,
+        "mean_cohort_accuracy": 79.20777183937639
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.0,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 79.07296421500833,
+        "mean_cohort_accuracy": 78.39108507059883
+      }
+    ]
+  },
+  "recency_at_flat_50_50": {
+    "best": {
+      "online_method": "exp_7",
+      "irl_weight": 0.5,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 84.55786331448998,
+      "mean_cohort_accuracy": 84.13952042275221
+    },
+    "ranking": [
+      {
+        "online_method": "exp_7",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.55786331448998,
+        "mean_cohort_accuracy": 84.13952042275221
+      },
+      {
+        "online_method": "exp_14",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.55000264522428,
+        "mean_cohort_accuracy": 84.13344389474759
+      },
+      {
+        "online_method": "exp_21",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.54404913567043,
+        "mean_cohort_accuracy": 84.1276186940579
+      },
+      {
+        "online_method": "exp_3",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.54992744260636,
+        "mean_cohort_accuracy": 84.1244634750528
+      },
+      {
+        "online_method": "exp_28",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.54037391857022,
+        "mean_cohort_accuracy": 84.12403053254144
+      },
+      {
+        "online_method": "window_28",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.5314494807707,
+        "mean_cohort_accuracy": 84.11733148958716
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.52773248882868,
+        "mean_cohort_accuracy": 84.11192495585328
+      },
+      {
+        "online_method": "window_21",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.51184020763812,
+        "mean_cohort_accuracy": 84.08880891048521
+      },
+      {
+        "online_method": "linear",
+        "irl_weight": 0.5,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.34189796034711,
+        "mean_cohort_accuracy": 83.85994017549159
+      }
+    ]
+  },
+  "best_flat_split_by_online_method": {
+    "best": {
+      "online_method": "exp_3",
+      "irl_weight": 0.65,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 84.76066211716379,
+      "mean_cohort_accuracy": 84.45354641659624
+    },
+    "ranking": [
+      {
+        "online_method": "exp_3",
+        "irl_weight": 0.65,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.76066211716379,
+        "mean_cohort_accuracy": 84.45354641659624
+      },
+      {
+        "online_method": "exp_7",
+        "irl_weight": 0.65,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.73993707269629,
+        "mean_cohort_accuracy": 84.43563149143326
+      },
+      {
+        "online_method": "exp_14",
+        "irl_weight": 0.65,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.72361268917825,
+        "mean_cohort_accuracy": 84.42083944515194
+      },
+      {
+        "online_method": "exp_21",
+        "irl_weight": 0.6,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.7640043980668,
+        "mean_cohort_accuracy": 84.41590664260804
+      },
+      {
+        "online_method": "exp_28",
+        "irl_weight": 0.6,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.76100939774742,
+        "mean_cohort_accuracy": 84.41318731754734
+      },
+      {
+        "online_method": "window_28",
+        "irl_weight": 0.65,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.71138531101934,
+        "mean_cohort_accuracy": 84.41283532978913
+      },
+      {
+        "online_method": "equal",
+        "irl_weight": 0.6,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.75039407390999,
+        "mean_cohort_accuracy": 84.40277995424071
+      },
+      {
+        "online_method": "window_21",
+        "irl_weight": 0.65,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.69457610890774,
+        "mean_cohort_accuracy": 84.38838558126317
+      },
+      {
+        "online_method": "linear",
+        "irl_weight": 0.65,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.65277591327411,
+        "mean_cohort_accuracy": 84.29995490789555
+      }
+    ]
+  },
+  "combined_recency_plus_dynamic_irl": {
+    "candidate_count": 2025,
+    "grid": {
+      "starts": [
+        1.0,
+        0.95,
+        0.9,
+        0.85,
+        0.8
+      ],
+      "decays_per_day": [
+        0.01,
+        0.02,
+        0.03,
+        0.04,
+        0.05
+      ],
+      "floors": [
+        0.5,
+        0.45,
+        0.4,
+        0.35,
+        0.3,
+        0.25,
+        0.2,
+        0.15,
+        0.1
+      ],
+      "online_methods": [
+        "equal",
+        "window_21",
+        "window_28",
+        "linear",
+        "exp_3",
+        "exp_7",
+        "exp_14",
+        "exp_21",
+        "exp_28"
+      ]
+    },
+    "best": {
+      "online_method": "exp_3",
+      "start": 0.95,
+      "floor": 0.2,
+      "decay_per_day": 0.03,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 85.15451827551959,
+      "mean_cohort_accuracy": 84.88246121279045
+    },
+    "top_25": [
+      {
+        "online_method": "exp_3",
+        "start": 0.95,
+        "floor": 0.2,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.15451827551959,
+        "mean_cohort_accuracy": 84.88246121279045
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.95,
+        "floor": 0.25,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.14160834932355,
+        "mean_cohort_accuracy": 84.8808668129214
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.9,
+        "floor": 0.2,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.17930036476926,
+        "mean_cohort_accuracy": 84.87247290854468
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.85,
+        "floor": 0.3,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.18561334137135,
+        "mean_cohort_accuracy": 84.8711817371422
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.9,
+        "floor": 0.25,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.1663904385732,
+        "mean_cohort_accuracy": 84.87087850867562
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.95,
+        "floor": 0.3,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.11709224551888,
+        "mean_cohort_accuracy": 84.86782003075393
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.95,
+        "floor": 0.15,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.14101204084226,
+        "mean_cohort_accuracy": 84.86404582990566
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.85,
+        "floor": 0.25,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.17903656304694,
+        "mean_cohort_accuracy": 84.86161551412488
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.9,
+        "floor": 0.3,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.14187433476853,
+        "mean_cohort_accuracy": 84.85783172650817
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.85,
+        "floor": 0.35,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.16208124741622,
+        "mean_cohort_accuracy": 84.85780488447344
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.9,
+        "floor": 0.15,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.16579413009191,
+        "mean_cohort_accuracy": 84.8540575256599
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.95,
+        "floor": 0.35,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.08694314380429,
+        "mean_cohort_accuracy": 84.84963080880557
+      },
+      {
+        "online_method": "exp_3",
+        "start": 1.0,
+        "floor": 0.2,
+        "decay_per_day": 0.04,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.09356042640911,
+        "mean_cohort_accuracy": 84.84899084106522
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.8,
+        "floor": 0.25,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.20541845446486,
+        "mean_cohort_accuracy": 84.84741021484825
+      },
+      {
+        "online_method": "exp_3",
+        "start": 1.0,
+        "floor": 0.25,
+        "decay_per_day": 0.04,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.08065050021305,
+        "mean_cohort_accuracy": 84.84739644119617
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.85,
+        "floor": 0.2,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.16831893667083,
+        "mean_cohort_accuracy": 84.846026239396
+      },
+      {
+        "online_method": "exp_7",
+        "start": 0.9,
+        "floor": 0.2,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.13108553297113,
+        "mean_cohort_accuracy": 84.84166353814429
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.95,
+        "floor": 0.1,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.12129535151635,
+        "mean_cohort_accuracy": 84.8410315329074
+      },
+      {
+        "online_method": "exp_7",
+        "start": 0.95,
+        "floor": 0.2,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.09947734158361,
+        "mean_cohort_accuracy": 84.83986866545666
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.9,
+        "floor": 0.35,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.11172523305395,
+        "mean_cohort_accuracy": 84.83964250455979
+      },
+      {
+        "online_method": "exp_7",
+        "start": 0.9,
+        "floor": 0.15,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.1372833233365,
+        "mean_cohort_accuracy": 84.83874253747504
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.8,
+        "floor": 0.3,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.18591445172189,
+        "mean_cohort_accuracy": 84.8380085970893
+      },
+      {
+        "online_method": "exp_7",
+        "start": 0.95,
+        "floor": 0.15,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.10567513194898,
+        "mean_cohort_accuracy": 84.83694766478742
+      },
+      {
+        "online_method": "exp_7",
+        "start": 0.9,
+        "floor": 0.25,
+        "decay_per_day": 0.03,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.11517426702527,
+        "mean_cohort_accuracy": 84.83602535735996
+      },
+      {
+        "online_method": "exp_3",
+        "start": 0.85,
+        "floor": 0.4,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.12702226643077,
+        "mean_cohort_accuracy": 84.83567605253695
+      }
+    ]
+  },
+  "fixed_chronological_holdout": {
+    "train_cohorts": [
+      "C030",
+      "C031",
+      "C033",
+      "C034",
+      "C038",
+      "C039"
+    ],
+    "test_cohorts": [
+      "C040",
+      "C046",
+      "C049",
+      "C050",
+      "C054"
+    ],
+    "flat_equal_online": {
+      "selected_on_training": {
+        "online_method": "equal",
+        "irl_weight": 0.55,
+        "event_count": 9,
+        "cohort_count": 6,
+        "mean_event_accuracy": 85.13380408643962,
+        "mean_cohort_accuracy": 84.799461137226
+      },
+      "holdout": {
+        "online_method": "equal",
+        "irl_weight": 0.55,
+        "event_count": 7,
+        "cohort_count": 5,
+        "mean_event_accuracy": 84.1347190491804,
+        "mean_cohort_accuracy": 83.73342039486529
+      }
+    },
+    "recency_at_50_50": {
+      "selected_on_training": {
+        "online_method": "exp_7",
+        "irl_weight": 0.5,
+        "event_count": 9,
+        "cohort_count": 6,
+        "mean_event_accuracy": 85.11374361095835,
+        "mean_cohort_accuracy": 84.72638873618025
+      },
+      "holdout": {
+        "online_method": "exp_7",
+        "irl_weight": 0.5,
+        "event_count": 7,
+        "cohort_count": 5,
+        "mean_event_accuracy": 83.84316007617352,
+        "mean_cohort_accuracy": 83.43527844663856
+      }
+    },
+    "flat_plus_recency": {
+      "selected_on_training": {
+        "online_method": "exp_7",
+        "irl_weight": 0.55,
+        "event_count": 9,
+        "cohort_count": 6,
+        "mean_event_accuracy": 85.15722339391496,
+        "mean_cohort_accuracy": 84.81781454820694
+      },
+      "holdout": {
+        "online_method": "exp_7",
+        "irl_weight": 0.55,
+        "event_count": 7,
+        "cohort_count": 5,
+        "mean_event_accuracy": 84.16416050583123,
+        "mean_cohort_accuracy": 83.7708477689553
+      }
+    },
+    "combined_recency_plus_dynamic_irl": {
+      "selected_on_training": {
+        "online_method": "exp_3",
+        "start": 0.8,
+        "floor": 0.25,
+        "decay_per_day": 0.02,
+        "event_count": 9,
+        "cohort_count": 6,
+        "mean_event_accuracy": 85.70680542669919,
+        "mean_cohort_accuracy": 85.26826692206579
+      },
+      "holdout": {
+        "online_method": "exp_3",
+        "start": 0.8,
+        "floor": 0.25,
+        "decay_per_day": 0.02,
+        "event_count": 7,
+        "cohort_count": 5,
+        "mean_event_accuracy": 84.56077806159215,
+        "mean_cohort_accuracy": 84.3423821661872
+      }
+    },
+    "baselines": {
+      "online_only": {
+        "online_method": "equal",
+        "irl_weight": 0.0,
+        "event_count": 7,
+        "cohort_count": 5,
+        "mean_event_accuracy": 77.92595882459717,
+        "mean_cohort_accuracy": 77.05980533429982
+      },
+      "irl_only": {
+        "online_method": "equal",
+        "irl_weight": 1.0,
+        "event_count": 7,
+        "cohort_count": 5,
+        "mean_event_accuracy": 83.57992099293563,
+        "mean_cohort_accuracy": 83.08440285670221
+      },
+      "flat_50_50": {
+        "online_method": "equal",
+        "irl_weight": 0.5,
+        "event_count": 7,
+        "cohort_count": 5,
+        "mean_event_accuracy": 83.81321307852592,
+        "mean_cohort_accuracy": 83.39843319205232
+      }
+    },
+    "warning": "Only five independent holdout cohorts; directional validation, not decisive model selection."
+  },
+  "interpretation_boundary": "Full-period winners are in-sample. The five-cohort chronological holdout is the stronger check, but remains small. No production formula change is authorised."
+}
