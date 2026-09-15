@@ -1,0 +1,407 @@
+{
+  "interpretive_regression_primary": {
+    "format_cluster_bootstrap": {
+      "ci95": [
+        0.38561141168181,
+        0.7735544329245776
+      ],
+      "iterations_requested": 3000,
+      "iterations_successful": 3000,
+      "median": 0.5922812519467308
+    },
+    "format_count": 10,
+    "pair_count": 36,
+    "performance_coef": 0.592794771024517,
+    "prior_share_coef": -0.11415774553493695,
+    "r2_within_pair": 0.09638498884306823,
+    "row_count": 703
+  },
+  "interpretive_regression_recent_year": {
+    "cutoff": "2025-06-12",
+    "format_cluster_bootstrap": {
+      "ci95": [
+        0.23412842675845796,
+        0.7273001619241976
+      ],
+      "iterations_requested": 3000,
+      "iterations_successful": 3000,
+      "median": 0.4793033687096243
+    },
+    "format_count": 6,
+    "pair_count": 18,
+    "performance_coef": 0.4780804306299947,
+    "prior_share_coef": -0.1010394059099724,
+    "r2_within_pair": 0.0712677607388752,
+    "row_count": 350
+  },
+  "notes": [
+    "The interpretive regression uses within-pair demeaning and controls for previous share; its performance coefficient is descriptive, not itself the forecasting rule.",
+    "Fixed holdout and walk-forward parameters are fitted only on earlier pairs.",
+    "Every forecast remains a valid non-negative field-share distribution after clipping/renormalisation.",
+    "Sensitivity scenarios are reported against persistence on their own matched available pair subsets.",
+    "No Online evidence is used in Phase 2; Online mediation is deliberately deferred."
+  ],
+  "phase": 2,
+  "primary_specification": {
+    "forecast": "persistence + beta * previous_share * (performance - active-share-weighted mean performance), then clip/renormalise",
+    "minimum_prior_share_pct": 1.0,
+    "performance": "log2((observed Day-2 + 0.5)/(expected Day-2 from Day-1 share + 0.5)), bounded [-2,+2]",
+    "scenario_id": "day2_bounded_share1",
+    "selection_status": "predeclared from Phase-1 stability audit before next-IRL outcomes were analysed in this script"
+  },
+  "question": "After controlling for previous IRL share, does prior-major relative performance predict archetype share movement at the next adjacent same-format IRL cohort?",
+  "sample": {
+    "eligible_adjacent_same_format_pairs": 36,
+    "fixed_split_holdout_pairs": 11,
+    "fixed_split_train_pairs": 25,
+    "formats": 10,
+    "target_end": "2026-06-12",
+    "target_start": "2024-10-19",
+    "walk_forward_min_training_pairs": 15
+  },
+  "scenarios": {
+    "day2_bounded_share0_5": {
+      "available_pair_count": 36,
+      "fixed_holdout": {
+        "beta": 0.1810374035704987,
+        "format_count": 4,
+        "global_holdout_pair_count": 11,
+        "global_train_pair_count": 25,
+        "improvement_pp": 0.07308877295250227,
+        "mean_accuracy": 85.20987574238985,
+        "mean_persistence_accuracy": 85.13678696943735,
+        "pair_count": 11,
+        "training_available_pair_count": 25
+      },
+      "full_sample": {
+        "beta": 0.16660139875565158,
+        "format_count": 10,
+        "improvement_pp": 0.4146769735342559,
+        "mean_accuracy": 84.3001491692017,
+        "mean_persistence_accuracy": 83.88547219566745,
+        "pair_count": 36
+      },
+      "recent_year_descriptive": {
+        "beta": 0.11554671336111486,
+        "cutoff": "2025-06-12",
+        "format_count": 6,
+        "improvement_pp": 0.413723748502008,
+        "mean_accuracy": 84.95325942279527,
+        "mean_persistence_accuracy": 84.53953567429326,
+        "pair_count": 18
+      },
+      "scenario": {
+        "bound": 2.0,
+        "id": "day2_bounded_share0_5",
+        "kind": "day2",
+        "label": "Day-2 lift, bounded [-2,+2], prior share >=0.5%",
+        "primary": false,
+        "threshold_pct": 0.5
+      },
+      "walk_forward": {
+        "format_count": 7,
+        "improvement_pp": 0.2977761474982401,
+        "mean_accuracy": 85.08639475157509,
+        "mean_fitted_beta": 0.1743087461607851,
+        "mean_persistence_accuracy": 84.78861860407685,
+        "median_fitted_beta": 0.1729515853207898,
+        "minimum_prior_pair_count": 15,
+        "pair_count": 21
+      }
+    },
+    "day2_bounded_share1": {
+      "available_pair_count": 36,
+      "fixed_holdout": {
+        "beta": 0.1848962106731868,
+        "format_count": 4,
+        "global_holdout_pair_count": 11,
+        "global_train_pair_count": 25,
+        "improvement_pp": 0.11606745967488052,
+        "mean_accuracy": 85.25285442911223,
+        "mean_persistence_accuracy": 85.13678696943735,
+        "pair_count": 11,
+        "training_available_pair_count": 25
+      },
+      "full_sample": {
+        "beta": 0.17301887606474453,
+        "format_count": 10,
+        "improvement_pp": 0.4025518623656126,
+        "mean_accuracy": 84.28802405803306,
+        "mean_persistence_accuracy": 83.88547219566745,
+        "pair_count": 36
+      },
+      "recent_year_descriptive": {
+        "beta": 0.12057532177868613,
+        "cutoff": "2025-06-12",
+        "format_count": 6,
+        "improvement_pp": 0.3797515652275223,
+        "mean_accuracy": 84.91928723952078,
+        "mean_persistence_accuracy": 84.53953567429326,
+        "pair_count": 18
+      },
+      "scenario": {
+        "bound": 2.0,
+        "id": "day2_bounded_share1",
+        "kind": "day2",
+        "label": "Day-2 lift, bounded [-2,+2], prior share >=1%",
+        "primary": true,
+        "threshold_pct": 1.0
+      },
+      "walk_forward": {
+        "format_count": 7,
+        "improvement_pp": 0.2960311308445682,
+        "mean_accuracy": 85.08464973492141,
+        "mean_fitted_beta": 0.17951813363000763,
+        "mean_persistence_accuracy": 84.78861860407685,
+        "median_fitted_beta": 0.17783427162548343,
+        "minimum_prior_pair_count": 15,
+        "pair_count": 21
+      }
+    },
+    "day2_bounded_share2": {
+      "available_pair_count": 36,
+      "fixed_holdout": {
+        "beta": 0.19960792159923804,
+        "format_count": 4,
+        "global_holdout_pair_count": 11,
+        "global_train_pair_count": 25,
+        "improvement_pp": 0.1499028287016273,
+        "mean_accuracy": 85.28668979813898,
+        "mean_persistence_accuracy": 85.13678696943735,
+        "pair_count": 11,
+        "training_available_pair_count": 25
+      },
+      "full_sample": {
+        "beta": 0.18741039155057326,
+        "format_count": 10,
+        "improvement_pp": 0.38829552254566124,
+        "mean_accuracy": 84.27376771821311,
+        "mean_persistence_accuracy": 83.88547219566745,
+        "pair_count": 36
+      },
+      "recent_year_descriptive": {
+        "beta": 0.1378897672315621,
+        "cutoff": "2025-06-12",
+        "format_count": 6,
+        "improvement_pp": 0.32925805669987085,
+        "mean_accuracy": 84.86879373099313,
+        "mean_persistence_accuracy": 84.53953567429326,
+        "pair_count": 18
+      },
+      "scenario": {
+        "bound": 2.0,
+        "id": "day2_bounded_share2",
+        "kind": "day2",
+        "label": "Day-2 lift, bounded [-2,+2], prior share >=2%",
+        "primary": false,
+        "threshold_pct": 2.0
+      },
+      "walk_forward": {
+        "format_count": 7,
+        "improvement_pp": 0.2748011318165453,
+        "mean_accuracy": 85.06341973589339,
+        "mean_fitted_beta": 0.19426395974408878,
+        "mean_persistence_accuracy": 84.78861860407685,
+        "median_fitted_beta": 0.1932573246944198,
+        "minimum_prior_pair_count": 15,
+        "pair_count": 21
+      }
+    },
+    "day2_unbounded_share1": {
+      "available_pair_count": 36,
+      "fixed_holdout": {
+        "beta": 0.17033109122524426,
+        "format_count": 4,
+        "global_holdout_pair_count": 11,
+        "global_train_pair_count": 25,
+        "improvement_pp": 0.13270810162057955,
+        "mean_accuracy": 85.26949507105793,
+        "mean_persistence_accuracy": 85.13678696943735,
+        "pair_count": 11,
+        "training_available_pair_count": 25
+      },
+      "full_sample": {
+        "beta": 0.16149460841121976,
+        "format_count": 10,
+        "improvement_pp": 0.3747935718252364,
+        "mean_accuracy": 84.26026576749268,
+        "mean_persistence_accuracy": 83.88547219566745,
+        "pair_count": 36
+      },
+      "recent_year_descriptive": {
+        "beta": 0.11543080527491462,
+        "cutoff": "2025-06-12",
+        "format_count": 6,
+        "improvement_pp": 0.34872221835101413,
+        "mean_accuracy": 84.88825789264428,
+        "mean_persistence_accuracy": 84.53953567429326,
+        "pair_count": 18
+      },
+      "scenario": {
+        "bound": null,
+        "id": "day2_unbounded_share1",
+        "kind": "day2",
+        "label": "Day-2 lift, unbounded, prior share >=1%",
+        "primary": false,
+        "threshold_pct": 1.0
+      },
+      "walk_forward": {
+        "format_count": 7,
+        "improvement_pp": 0.270743609978922,
+        "mean_accuracy": 85.05936221405577,
+        "mean_fitted_beta": 0.166010095823572,
+        "mean_persistence_accuracy": 84.78861860407685,
+        "median_fitted_beta": 0.1648179380564562,
+        "minimum_prior_pair_count": 15,
+        "pair_count": 21
+      }
+    },
+    "points_share1": {
+      "available_pair_count": 36,
+      "fixed_holdout": {
+        "beta": 0.029842920798633883,
+        "format_count": 4,
+        "global_holdout_pair_count": 11,
+        "global_train_pair_count": 25,
+        "improvement_pp": 0.024545762467766963,
+        "mean_accuracy": 85.16133273190512,
+        "mean_persistence_accuracy": 85.13678696943735,
+        "pair_count": 11,
+        "training_available_pair_count": 25
+      },
+      "full_sample": {
+        "beta": 0.028175965508263935,
+        "format_count": 10,
+        "improvement_pp": 0.3259495801075616,
+        "mean_accuracy": 84.21142177577501,
+        "mean_persistence_accuracy": 83.88547219566745,
+        "pair_count": 36
+      },
+      "recent_year_descriptive": {
+        "beta": 0.02554311330801518,
+        "cutoff": "2025-06-12",
+        "format_count": 6,
+        "improvement_pp": 0.28439875193865305,
+        "mean_accuracy": 84.82393442623192,
+        "mean_persistence_accuracy": 84.53953567429326,
+        "pair_count": 18
+      },
+      "scenario": {
+        "bound": null,
+        "id": "points_share1",
+        "kind": "points",
+        "label": "Event-centred Day-1 points rate, prior share >=1%",
+        "primary": false,
+        "threshold_pct": 1.0
+      },
+      "walk_forward": {
+        "format_count": 7,
+        "improvement_pp": 0.14871877649352427,
+        "mean_accuracy": 84.93733738057037,
+        "mean_fitted_beta": 0.028641924651706414,
+        "mean_persistence_accuracy": 84.78861860407685,
+        "median_fitted_beta": 0.028702986863329474,
+        "minimum_prior_pair_count": 15,
+        "pair_count": 21
+      }
+    },
+    "top32_bounded_share1": {
+      "available_pair_count": 36,
+      "fixed_holdout": {
+        "beta": 0.13619580412668775,
+        "format_count": 4,
+        "global_holdout_pair_count": 11,
+        "global_train_pair_count": 25,
+        "improvement_pp": 0.17396100052192764,
+        "mean_accuracy": 85.31074796995928,
+        "mean_persistence_accuracy": 85.13678696943735,
+        "pair_count": 11,
+        "training_available_pair_count": 25
+      },
+      "full_sample": {
+        "beta": 0.12735192035401152,
+        "format_count": 10,
+        "improvement_pp": 0.6611483500073376,
+        "mean_accuracy": 84.54662054567478,
+        "mean_persistence_accuracy": 83.88547219566745,
+        "pair_count": 36
+      },
+      "recent_year_descriptive": {
+        "beta": 0.09719593456067062,
+        "cutoff": "2025-06-12",
+        "format_count": 6,
+        "improvement_pp": 0.5958380056432873,
+        "mean_accuracy": 85.13537367993655,
+        "mean_persistence_accuracy": 84.53953567429326,
+        "pair_count": 18
+      },
+      "scenario": {
+        "bound": 2.0,
+        "id": "top32_bounded_share1",
+        "kind": "top32",
+        "label": "Top-32 lift, bounded [-2,+2], prior share >=1%",
+        "primary": false,
+        "threshold_pct": 1.0
+      },
+      "walk_forward": {
+        "format_count": 7,
+        "improvement_pp": 0.38944911051727615,
+        "mean_accuracy": 85.17806771459412,
+        "mean_fitted_beta": 0.1351624149670867,
+        "mean_persistence_accuracy": 84.78861860407685,
+        "median_fitted_beta": 0.13450038127814798,
+        "minimum_prior_pair_count": 15,
+        "pair_count": 21
+      }
+    },
+    "winner_all": {
+      "available_pair_count": 36,
+      "fixed_holdout": {
+        "beta": 0.21913644884782735,
+        "format_count": 4,
+        "global_holdout_pair_count": 11,
+        "global_train_pair_count": 25,
+        "improvement_pp": 0.20020445918183327,
+        "mean_accuracy": 85.33699142861919,
+        "mean_persistence_accuracy": 85.13678696943735,
+        "pair_count": 11,
+        "training_available_pair_count": 25
+      },
+      "full_sample": {
+        "beta": 0.21567414246696087,
+        "format_count": 10,
+        "improvement_pp": 0.216258834520076,
+        "mean_accuracy": 84.10173103018752,
+        "mean_persistence_accuracy": 83.88547219566745,
+        "pair_count": 36
+      },
+      "recent_year_descriptive": {
+        "beta": 0.23218467257540906,
+        "cutoff": "2025-06-12",
+        "format_count": 6,
+        "improvement_pp": 0.24688157440661485,
+        "mean_accuracy": 84.78641724869988,
+        "mean_persistence_accuracy": 84.53953567429326,
+        "pair_count": 18
+      },
+      "scenario": {
+        "bound": null,
+        "id": "winner_all",
+        "kind": "winner",
+        "label": "Tournament-winner visibility indicator",
+        "primary": false,
+        "threshold_pct": 0.0
+      },
+      "walk_forward": {
+        "format_count": 7,
+        "improvement_pp": 0.26362585256470084,
+        "mean_accuracy": 85.05224445664155,
+        "mean_fitted_beta": 0.212902053926081,
+        "mean_persistence_accuracy": 84.78861860407685,
+        "median_fitted_beta": 0.21564858889458408,
+        "minimum_prior_pair_count": 15,
+        "pair_count": 21
+      }
+    }
+  }
+}
