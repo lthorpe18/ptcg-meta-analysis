@@ -1,0 +1,279 @@
+{
+  "model": "fixed 80% start / -1pp per day / 55% floor + 75% top-10 concentration correction",
+  "event_count": 34,
+  "cohort_count": 25,
+  "mean_event_accuracy": 84.11895629326192,
+  "median": 84.84472126368053,
+  "min": 75.26842958689582,
+  "q1": 81.21628931258284,
+  "q3": 86.81123986261005,
+  "max": 90.93792992132447,
+  "stddev": 3.774049100715256,
+  "histogram": [
+    {
+      "range": "0-75",
+      "count": 0,
+      "pct": 0.0
+    },
+    {
+      "range": "75-80",
+      "count": 4,
+      "pct": 11.764705882352942
+    },
+    {
+      "range": "80-85",
+      "count": 13,
+      "pct": 38.23529411764706
+    },
+    {
+      "range": "85-90",
+      "count": 15,
+      "pct": 44.11764705882353
+    },
+    {
+      "range": "90-100",
+      "count": 2,
+      "pct": 5.882352941176471
+    }
+  ],
+  "events": [
+    {
+      "target_id": "0022",
+      "target_name": "Regional Championship Fortaleza",
+      "date": "2025-03-08",
+      "cohort_id": "C018",
+      "score": 75.26842958689582
+    },
+    {
+      "target_id": "0028",
+      "target_name": "Regional Championship Milwaukee",
+      "date": "2025-05-02",
+      "cohort_id": "C024",
+      "score": 75.80393630819957
+    },
+    {
+      "target_id": "0019",
+      "target_name": "Special Event San Juan",
+      "date": "2025-02-15",
+      "cohort_id": "C016",
+      "score": 78.91322914450431
+    },
+    {
+      "target_id": "0048",
+      "target_name": "Regional Championship Toronto",
+      "date": "2026-01-16",
+      "cohort_id": "C038",
+      "score": 79.39759300721579
+    },
+    {
+      "target_id": "0024",
+      "target_name": "Regional Championship Brisbane",
+      "date": "2025-03-29",
+      "cohort_id": "C020",
+      "score": 80.46898745655315
+    },
+    {
+      "target_id": "0063",
+      "target_name": "Regional Championship Los Angeles",
+      "date": "2026-05-08",
+      "cohort_id": "C049",
+      "score": 80.55716557848707
+    },
+    {
+      "target_id": "0029",
+      "target_name": "Regional Championship Melbourne",
+      "date": "2025-05-17",
+      "cohort_id": "C025",
+      "score": 80.85412114352282
+    },
+    {
+      "target_id": "0016",
+      "target_name": "Regional Championship Rio de Janeiro",
+      "date": "2025-01-18",
+      "cohort_id": "C013",
+      "score": 81.08699302868067
+    },
+    {
+      "target_id": "0021",
+      "target_name": "Regional Championship Vancouver",
+      "date": "2025-03-07",
+      "cohort_id": "C018",
+      "score": 81.19651751606098
+    },
+    {
+      "target_id": "0023",
+      "target_name": "Regional Championship Stockholm",
+      "date": "2025-03-22",
+      "cohort_id": "C019",
+      "score": 81.27560470214841
+    },
+    {
+      "target_id": "0036",
+      "target_name": "Regional Championship Frankfurt",
+      "date": "2025-09-13",
+      "cohort_id": "C030",
+      "score": 81.56522096884035
+    },
+    {
+      "target_id": "0037",
+      "target_name": "Regional Championship Monterrey",
+      "date": "2025-09-13",
+      "cohort_id": "C030",
+      "score": 81.78746675680522
+    },
+    {
+      "target_id": "0031",
+      "target_name": "Regional Championship Santiago",
+      "date": "2025-05-17",
+      "cohort_id": "C025",
+      "score": 82.72028771664277
+    },
+    {
+      "target_id": "0050",
+      "target_name": "Regional Championship M\u00e9rida",
+      "date": "2026-01-24",
+      "cohort_id": "C039",
+      "score": 83.4501763366775
+    },
+    {
+      "target_id": "0014",
+      "target_name": "Regional Championship Toronto",
+      "date": "2024-12-13",
+      "cohort_id": "C012",
+      "score": 84.02725749622688
+    },
+    {
+      "target_id": "0070",
+      "target_name": "International Championship New Orleans",
+      "date": "2026-06-12",
+      "cohort_id": "C054",
+      "score": 84.43541414732253
+    },
+    {
+      "target_id": "0030",
+      "target_name": "Special Event Utrecht",
+      "date": "2025-05-17",
+      "cohort_id": "C025",
+      "score": 84.58433017441254
+    },
+    {
+      "target_id": "0065",
+      "target_name": "Regional Championship Campinas",
+      "date": "2026-05-16",
+      "cohort_id": "C050",
+      "score": 85.10511235294851
+    },
+    {
+      "target_id": "0052",
+      "target_name": "Regional Championship Sydney",
+      "date": "2026-02-07",
+      "cohort_id": "C040",
+      "score": 85.38494903018457
+    },
+    {
+      "target_id": "0043",
+      "target_name": "Regional Championship Gda\u0144sk",
+      "date": "2025-11-01",
+      "cohort_id": "C034",
+      "score": 85.56278910048181
+    },
+    {
+      "target_id": "0015",
+      "target_name": "Regional Championship Birmingham",
+      "date": "2025-01-18",
+      "cohort_id": "C013",
+      "score": 85.74435253613657
+    },
+    {
+      "target_id": "0011",
+      "target_name": "Regional Championship Stuttgart",
+      "date": "2024-11-30",
+      "cohort_id": "C010",
+      "score": 86.00852994372863
+    },
+    {
+      "target_id": "0041",
+      "target_name": "Regional Championship Lille",
+      "date": "2025-10-25",
+      "cohort_id": "C033",
+      "score": 86.12100036653116
+    },
+    {
+      "target_id": "0042",
+      "target_name": "Regional Championship Brisbane",
+      "date": "2025-11-01",
+      "cohort_id": "C034",
+      "score": 86.52681389740587
+    },
+    {
+      "target_id": "0027",
+      "target_name": "Special Event Seville",
+      "date": "2025-04-26",
+      "cohort_id": "C023",
+      "score": 86.74544112235697
+    },
+    {
+      "target_id": "0059",
+      "target_name": "Special Event Seville",
+      "date": "2026-03-28",
+      "cohort_id": "C046",
+      "score": 86.83317277602775
+    },
+    {
+      "target_id": "0064",
+      "target_name": "Regional Championship Utrecht",
+      "date": "2026-05-16",
+      "cohort_id": "C050",
+      "score": 87.11669764940791
+    },
+    {
+      "target_id": "0033",
+      "target_name": "Special Event Bologna",
+      "date": "2025-05-31",
+      "cohort_id": "C027",
+      "score": 87.28366050646356
+    },
+    {
+      "target_id": "0053",
+      "target_name": "Regional Championship Santiago",
+      "date": "2026-02-07",
+      "cohort_id": "C040",
+      "score": 87.31268734219907
+    },
+    {
+      "target_id": "0007",
+      "target_name": "Regional Championship Gda\u0144sk",
+      "date": "2024-11-02",
+      "cohort_id": "C006",
+      "score": 87.97735521319503
+    },
+    {
+      "target_id": "0049",
+      "target_name": "Regional Championship Birmingham",
+      "date": "2026-01-24",
+      "cohort_id": "C039",
+      "score": 88.14595049866577
+    },
+    {
+      "target_id": "0038",
+      "target_name": "Regional Championship Pittsburgh",
+      "date": "2025-09-19",
+      "cohort_id": "C031",
+      "score": 89.17130504836824
+    },
+    {
+      "target_id": "0006",
+      "target_name": "Regional Championship Lille",
+      "date": "2024-10-19",
+      "cohort_id": "C005",
+      "score": 90.67403559628283
+    },
+    {
+      "target_id": "0032",
+      "target_name": "Regional Championship Portland",
+      "date": "2025-05-23",
+      "cohort_id": "C026",
+      "score": 90.93792992132447
+    }
+  ]
+}
