@@ -1,0 +1,136 @@
+{
+  "question": "Does prediction Field Accuracy change systematically over chronological time?",
+  "evidence_window": {
+    "start": "2024-09-13",
+    "end": "2026-08-28",
+    "primary_irl_capture_threshold": ">=95%",
+    "excluded_target_ids": [
+      "0004",
+      "0008",
+      "0051"
+    ]
+  },
+  "analysis_unit": "Mean Field Accuracy per correlated tournament cohort.",
+  "metric": "Field Accuracy = 100% - 0.5 * sum(abs(predicted share - actual share)).",
+  "trend_test": {
+    "primary": "Linear slope in percentage points of Field Accuracy per calendar year.",
+    "significance": "Two-sided permutation test with 20,000 shuffles; seed 20260915.",
+    "reason": "Cohort aggregation prevents multi-major weekends receiving extra weight."
+  },
+  "series": {
+    "online_all_primary": {
+      "label": "Online-only — all primary windows",
+      "event_count": 68,
+      "cohort_count": 53,
+      "start": "2024-09-13",
+      "end": "2026-08-28",
+      "mean_accuracy_pct": 72.217177387893,
+      "slope_pp_per_year": 1.979587711566311,
+      "pearson_r": 0.23535007547546993,
+      "permutation_p_two_sided": 0.0928453577321134,
+      "half_split": {
+        "early_cohorts": 26,
+        "late_cohorts": 27,
+        "early_mean_accuracy_pct": 70.4847779276381,
+        "late_mean_accuracy_pct": 73.88541390517548,
+        "late_minus_early_pp": 3.4006359775373767,
+        "note": "Descriptive only; the half split is not the primary inferential test."
+      }
+    },
+    "online_settled_primary": {
+      "label": "Online-only — settled primary windows",
+      "event_count": 53,
+      "cohort_count": 40,
+      "start": "2024-10-11",
+      "end": "2026-06-12",
+      "mean_accuracy_pct": 71.98611714339064,
+      "slope_pp_per_year": 3.8357643744694334,
+      "pearson_r": 0.4715447732459872,
+      "permutation_p_two_sided": 0.0022498875056247186,
+      "half_split": {
+        "early_cohorts": 20,
+        "late_cohorts": 20,
+        "early_mean_accuracy_pct": 69.42044712969374,
+        "late_mean_accuracy_pct": 74.55178715708755,
+        "late_minus_early_pp": 5.131340027393804,
+        "note": "Descriptive only; the half split is not the primary inferential test."
+      }
+    },
+    "online_transition_primary": {
+      "label": "Online-only — transition primary windows",
+      "event_count": 15,
+      "cohort_count": 13,
+      "start": "2024-09-13",
+      "end": "2026-08-28",
+      "mean_accuracy_pct": 72.9281319863618,
+      "slope_pp_per_year": -2.2756802393019364,
+      "pearson_r": -0.2551618945858046,
+      "permutation_p_two_sided": 0.39578021098945054,
+      "half_split": {
+        "early_cohorts": 6,
+        "late_cohorts": 7,
+        "early_mean_accuracy_pct": 74.03254725411935,
+        "late_mean_accuracy_pct": 71.98149032828391,
+        "late_minus_early_pp": -2.0510569258354394,
+        "note": "Descriptive only; the half split is not the primary inferential test."
+      }
+    },
+    "irl_settled_primary": {
+      "label": "IRL-only — settled primary windows",
+      "event_count": 53,
+      "cohort_count": 40,
+      "start": "2024-10-11",
+      "end": "2026-06-12",
+      "mean_accuracy_pct": 83.10927480259315,
+      "slope_pp_per_year": 0.9353055924092634,
+      "pearson_r": 0.10983763625132109,
+      "permutation_p_two_sided": 0.5045247737613119,
+      "half_split": {
+        "early_cohorts": 20,
+        "late_cohorts": 20,
+        "early_mean_accuracy_pct": 82.44041370522189,
+        "late_mean_accuracy_pct": 83.7781358999644,
+        "late_minus_early_pp": 1.3377221947425113,
+        "note": "Descriptive only; the half split is not the primary inferential test."
+      }
+    },
+    "fifty_fifty_complete_case": {
+      "label": "50/50 — complete-case settled windows",
+      "event_count": 34,
+      "cohort_count": 25,
+      "start": "2024-10-19",
+      "end": "2026-06-12",
+      "mean_accuracy_pct": 83.15592485826045,
+      "slope_pp_per_year": 0.7522091927323314,
+      "pearson_r": 0.10667227300260697,
+      "permutation_p_two_sided": 0.6091695415229239,
+      "half_split": {
+        "early_cohorts": 12,
+        "late_cohorts": 13,
+        "early_mean_accuracy_pct": 81.84048987070912,
+        "late_mean_accuracy_pct": 84.37017253907707,
+        "late_minus_early_pp": 2.529682668367954,
+        "note": "Descriptive only; the half split is not the primary inferential test."
+      }
+    },
+    "current_v2_1_complete_case": {
+      "label": "Current v2.1 — complete-case settled windows",
+      "event_count": 34,
+      "cohort_count": 25,
+      "start": "2024-10-19",
+      "end": "2026-06-12",
+      "mean_accuracy_pct": 83.3013555471592,
+      "slope_pp_per_year": 1.059764764669785,
+      "pearson_r": 0.1383946093877325,
+      "permutation_p_two_sided": 0.5021748912554372,
+      "half_split": {
+        "early_cohorts": 12,
+        "late_cohorts": 13,
+        "early_mean_accuracy_pct": 81.64995718560132,
+        "late_mean_accuracy_pct": 84.82572326552034,
+        "late_minus_early_pp": 3.175766079919015,
+        "note": "Descriptive only; the half split is not the primary inferential test."
+      }
+    }
+  }
+}
