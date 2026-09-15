@@ -1,0 +1,554 @@
+{
+  "question": "Does correcting structural Online concentration/tail dilution improve next-IRL field prediction?",
+  "sample": {
+    "event_count": 34,
+    "cohort_count": 25,
+    "selection": ">=95% IRL capture, settled, complete previous-IRL and post-major Online components"
+  },
+  "method": {
+    "primary_top_n": 10,
+    "strengths": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "description": "Preserve Online within-group relative shares, but shrink the previous-IRL top-10 group's total Online share toward its previous-IRL total before IRL/Online blending.",
+    "weight_grid": {
+      "starts": [
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95
+      ],
+      "floors": [
+        0.3,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6
+      ],
+      "decays_per_day": [
+        0.005,
+        0.01,
+        0.015,
+        0.02
+      ]
+    }
+  },
+  "full_sample": {
+    "best_raw": {
+      "start": 0.8,
+      "floor": 0.55,
+      "decay_per_day": 0.01,
+      "strength": 0.0,
+      "top_n": 10,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 83.90476733686627,
+      "mean_cohort_accuracy": 84.01350989877893
+    },
+    "best_corrected": {
+      "start": 0.7,
+      "floor": 0.3,
+      "decay_per_day": 0.005,
+      "strength": 0.75,
+      "top_n": 10,
+      "event_count": 34,
+      "cohort_count": 25,
+      "mean_event_accuracy": 84.18031248411876,
+      "mean_cohort_accuracy": 84.34117193386723
+    },
+    "delta_pp": 0.32766203508829506,
+    "fixed_historical_80_55_1pp_strength_sweep": [
+      {
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "strength": 0.0,
+        "top_n": 10,
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_event_accuracy": 83.90476733686627,
+        "mean_cohort_accuracy": 84.01350989877893
+      },
+      {
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "strength": 0.25,
+        "top_n": 10,
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_event_accuracy": 84.05240947662956,
+        "mean_cohort_accuracy": 84.17368756978647
+      },
+      {
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "strength": 0.5,
+        "top_n": 10,
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_event_accuracy": 84.12021915879662,
+        "mean_cohort_accuracy": 84.25882147655308
+      },
+      {
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "strength": 0.75,
+        "top_n": 10,
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_event_accuracy": 84.11895629326192,
+        "mean_cohort_accuracy": 84.27913105255298
+      },
+      {
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "strength": 1.0,
+        "top_n": 10,
+        "event_count": 34,
+        "cohort_count": 25,
+        "mean_event_accuracy": 84.02024501752224,
+        "mean_cohort_accuracy": 84.19352462961098
+      }
+    ],
+    "top_n_sensitivity": {
+      "5": [
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 0.0,
+          "top_n": 5,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 83.90476733686627,
+          "mean_cohort_accuracy": 84.01350989877893
+        },
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 0.25,
+          "top_n": 5,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 83.93069428902575,
+          "mean_cohort_accuracy": 84.07219354998507
+        },
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 0.5,
+          "top_n": 5,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 83.8921102202002,
+          "mean_cohort_accuracy": 84.0690072282102
+        },
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 0.75,
+          "top_n": 5,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 83.80307219114837,
+          "mean_cohort_accuracy": 84.0172803884767
+        },
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 1.0,
+          "top_n": 5,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 83.63510716769657,
+          "mean_cohort_accuracy": 83.88181127747454
+        }
+      ],
+      "20": [
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 0.0,
+          "top_n": 20,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 83.90476733686627,
+          "mean_cohort_accuracy": 84.01350989877893
+        },
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 0.25,
+          "top_n": 20,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 84.10497954914426,
+          "mean_cohort_accuracy": 84.21571538727865
+        },
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 0.5,
+          "top_n": 20,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 84.23609209797262,
+          "mean_cohort_accuracy": 84.35198970082816
+        },
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 0.75,
+          "top_n": 20,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 84.28498733758087,
+          "mean_cohort_accuracy": 84.40860753956234
+        },
+        {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01,
+          "strength": 1.0,
+          "top_n": 20,
+          "event_count": 34,
+          "cohort_count": 25,
+          "mean_event_accuracy": 84.25504713068132,
+          "mean_cohort_accuracy": 84.38640726547165
+        }
+      ]
+    },
+    "warning": "Best raw and corrected rows are in-sample fits on the same 25 cohorts."
+  },
+  "expanding_walk_forward": {
+    "tested_cohorts": 15,
+    "raw_mean_accuracy": 83.92894232221957,
+    "corrected_mean_accuracy": 84.31496653029619,
+    "delta_pp": 0.38602420807661225,
+    "cohorts_improved": 11,
+    "cohorts_worse": 4,
+    "cohorts_tied": 0,
+    "rows": [
+      {
+        "cohort_id": "C024",
+        "date": "2025-05-02",
+        "raw_accuracy": 74.44938398589547,
+        "corrected_accuracy": 74.52865230191456,
+        "delta_pp": 0.07926831601909612,
+        "raw_selected": {
+          "start": 0.85,
+          "floor": 0.3,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.85,
+          "floor": 0.3,
+          "decay_per_day": 0.005,
+          "strength": 0.5
+        }
+      },
+      {
+        "cohort_id": "C025",
+        "date": "2025-05-17",
+        "raw_accuracy": 82.11170935224641,
+        "corrected_accuracy": 82.55838638681935,
+        "delta_pp": 0.44667703457294294,
+        "raw_selected": {
+          "start": 0.8,
+          "floor": 0.3,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005,
+          "strength": 0.5
+        }
+      },
+      {
+        "cohort_id": "C026",
+        "date": "2025-05-23",
+        "raw_accuracy": 89.60973213411603,
+        "corrected_accuracy": 90.24002444037042,
+        "delta_pp": 0.6302923062543897,
+        "raw_selected": {
+          "start": 0.8,
+          "floor": 0.3,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005,
+          "strength": 0.5
+        }
+      },
+      {
+        "cohort_id": "C027",
+        "date": "2025-05-31",
+        "raw_accuracy": 86.4805228214329,
+        "corrected_accuracy": 87.38573661908208,
+        "delta_pp": 0.9052137976491821,
+        "raw_selected": {
+          "start": 0.85,
+          "floor": 0.3,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005,
+          "strength": 0.75
+        }
+      },
+      {
+        "cohort_id": "C030",
+        "date": "2025-09-13",
+        "raw_accuracy": 81.16929702568258,
+        "corrected_accuracy": 80.83570973017066,
+        "delta_pp": -0.33358729551191857,
+        "raw_selected": {
+          "start": 0.85,
+          "floor": 0.3,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005,
+          "strength": 0.75
+        }
+      },
+      {
+        "cohort_id": "C031",
+        "date": "2025-09-19",
+        "raw_accuracy": 88.04574081992791,
+        "corrected_accuracy": 88.71678660632773,
+        "delta_pp": 0.6710457863998158,
+        "raw_selected": {
+          "start": 0.8,
+          "floor": 0.3,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005,
+          "strength": 0.5
+        }
+      },
+      {
+        "cohort_id": "C033",
+        "date": "2025-10-25",
+        "raw_accuracy": 86.78161852060686,
+        "corrected_accuracy": 86.04296037406786,
+        "delta_pp": -0.7386581465389952,
+        "raw_selected": {
+          "start": 0.85,
+          "floor": 0.6,
+          "decay_per_day": 0.01
+        },
+        "corrected_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005,
+          "strength": 0.75
+        }
+      },
+      {
+        "cohort_id": "C034",
+        "date": "2025-11-01",
+        "raw_accuracy": 85.40787017029868,
+        "corrected_accuracy": 85.99635436797641,
+        "delta_pp": 0.5884841976777295,
+        "raw_selected": {
+          "start": 0.85,
+          "floor": 0.6,
+          "decay_per_day": 0.01
+        },
+        "corrected_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005,
+          "strength": 0.5
+        }
+      },
+      {
+        "cohort_id": "C038",
+        "date": "2026-01-16",
+        "raw_accuracy": 77.58912812373822,
+        "corrected_accuracy": 78.8822011855205,
+        "delta_pp": 1.2930730617822803,
+        "raw_selected": {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01
+        },
+        "corrected_selected": {
+          "start": 0.7,
+          "floor": 0.55,
+          "decay_per_day": 0.005,
+          "strength": 0.5
+        }
+      },
+      {
+        "cohort_id": "C039",
+        "date": "2026-01-24",
+        "raw_accuracy": 86.56819156143784,
+        "corrected_accuracy": 86.14252374507691,
+        "delta_pp": -0.425667816360928,
+        "raw_selected": {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01
+        },
+        "corrected_selected": {
+          "start": 0.7,
+          "floor": 0.3,
+          "decay_per_day": 0.005,
+          "strength": 0.75
+        }
+      },
+      {
+        "cohort_id": "C040",
+        "date": "2026-02-07",
+        "raw_accuracy": 84.77523101345255,
+        "corrected_accuracy": 85.683976179868,
+        "delta_pp": 0.9087451664154429,
+        "raw_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.7,
+          "floor": 0.3,
+          "decay_per_day": 0.005,
+          "strength": 0.5
+        }
+      },
+      {
+        "cohort_id": "C046",
+        "date": "2026-03-28",
+        "raw_accuracy": 85.88113470214797,
+        "corrected_accuracy": 86.43483295642046,
+        "delta_pp": 0.55369825427249,
+        "raw_selected": {
+          "start": 0.75,
+          "floor": 0.6,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.7,
+          "floor": 0.3,
+          "decay_per_day": 0.005,
+          "strength": 0.75
+        }
+      },
+      {
+        "cohort_id": "C049",
+        "date": "2026-05-08",
+        "raw_accuracy": 80.92750307379274,
+        "corrected_accuracy": 81.03633069098993,
+        "delta_pp": 0.1088276171971927,
+        "raw_selected": {
+          "start": 0.8,
+          "floor": 0.6,
+          "decay_per_day": 0.005
+        },
+        "corrected_selected": {
+          "start": 0.7,
+          "floor": 0.3,
+          "decay_per_day": 0.005,
+          "strength": 0.75
+        }
+      },
+      {
+        "cohort_id": "C050",
+        "date": "2026-05-16",
+        "raw_accuracy": 86.52995667139362,
+        "corrected_accuracy": 86.30157265393888,
+        "delta_pp": -0.22838401745474357,
+        "raw_selected": {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01
+        },
+        "corrected_selected": {
+          "start": 0.7,
+          "floor": 0.3,
+          "decay_per_day": 0.005,
+          "strength": 0.75
+        }
+      },
+      {
+        "cohort_id": "C054",
+        "date": "2026-06-12",
+        "raw_accuracy": 82.60711485712372,
+        "corrected_accuracy": 83.93844971589893,
+        "delta_pp": 1.3313348587752074,
+        "raw_selected": {
+          "start": 0.8,
+          "floor": 0.55,
+          "decay_per_day": 0.01
+        },
+        "corrected_selected": {
+          "start": 0.75,
+          "floor": 0.5,
+          "decay_per_day": 0.01,
+          "strength": 0.5
+        }
+      }
+    ]
+  },
+  "frozen_recent_test": {
+    "cutoff": "2025-08-28",
+    "train_cohorts": 14,
+    "test_cohorts": 11,
+    "raw_selected": {
+      "start": 0.85,
+      "floor": 0.3,
+      "decay_per_day": 0.005,
+      "strength": 0.0,
+      "top_n": 10,
+      "event_count": 18,
+      "cohort_count": 14,
+      "mean_event_accuracy": 83.25653060791701,
+      "mean_cohort_accuracy": 83.731401441652
+    },
+    "corrected_selected": {
+      "start": 0.75,
+      "floor": 0.6,
+      "decay_per_day": 0.005,
+      "strength": 0.75,
+      "top_n": 10,
+      "event_count": 18,
+      "cohort_count": 14,
+      "mean_event_accuracy": 83.51879136309384,
+      "mean_cohort_accuracy": 83.9899176034386
+    },
+    "raw_test_accuracy": 84.1068296673378,
+    "corrected_test_accuracy": 84.68031423054835,
+    "delta_pp": 0.5734845632105419
+  },
+  "interpretation_boundary": "The correction family was motivated by the full historical spread diagnostic, so even chronological replay is not a wholly untouched model-discovery test. Future-event validation remains required before adoption."
+}
