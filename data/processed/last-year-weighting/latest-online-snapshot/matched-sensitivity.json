@@ -1,0 +1,1756 @@
+{
+  "evidence_window": {
+    "start": "2025-08-28",
+    "end": "2026-08-28"
+  },
+  "purpose": "Matched-subset comparison of latest-N size-threshold Online snapshots versus broad post-major Online evidence.",
+  "matched_full_period": [
+    {
+      "snapshot": "latest_5_min_200",
+      "label": "Latest 5 Online >= 200 players",
+      "event_count": 4,
+      "cohort_count": 3,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "Regional Championship Brisbane",
+        "Regional Championship Gda\u0144sk",
+        "Regional Championship Birmingham",
+        "Regional Championship M\u00e9rida",
+        "Regional Championship Sydney",
+        "Regional Championship Santiago",
+        "Special Event Seville",
+        "Regional Championship Los Angeles",
+        "Regional Championship Utrecht",
+        "Regional Championship Campinas",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 83.03919563349176,
+        "broad_accuracy": 82.96815860517465,
+        "delta_snapshot_minus_broad_pp": 0.07103702831710734
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_5_min_200",
+          "irl_weight": 0.45,
+          "event_count": 4,
+          "cohort_count": 3,
+          "mean_event_accuracy": 83.4721624975455,
+          "mean_cohort_accuracy": 83.03928185070718
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.45,
+          "event_count": 4,
+          "cohort_count": 3,
+          "mean_event_accuracy": 83.44747590104969,
+          "mean_cohort_accuracy": 82.99263787221084
+        },
+        "delta_snapshot_minus_broad_pp": 0.04664397849634838
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_5_min_200",
+          "start": 1.0,
+          "floor": 0.25,
+          "decay_per_day": 0.03,
+          "event_count": 4,
+          "cohort_count": 3,
+          "mean_event_accuracy": 84.36750277444388,
+          "mean_cohort_accuracy": 83.72332521130065
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 1.0,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 4,
+          "cohort_count": 3,
+          "mean_event_accuracy": 84.07882707097761,
+          "mean_cohort_accuracy": 83.44252136263893
+        },
+        "delta_snapshot_minus_broad_pp": 0.28080384866171926
+      }
+    },
+    {
+      "snapshot": "latest_5_min_100",
+      "label": "Latest 5 Online >= 100 players",
+      "event_count": 14,
+      "cohort_count": 9,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 84.18433755814654,
+        "broad_accuracy": 84.30994629676002,
+        "delta_snapshot_minus_broad_pp": -0.12560873861347943
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_5_min_100",
+          "irl_weight": 0.6,
+          "event_count": 14,
+          "cohort_count": 9,
+          "mean_event_accuracy": 84.77295626731511,
+          "mean_cohort_accuracy": 84.44173833402662
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 14,
+          "cohort_count": 9,
+          "mean_event_accuracy": 84.84045473069644,
+          "mean_cohort_accuracy": 84.46562672709312
+        },
+        "delta_snapshot_minus_broad_pp": -0.023888393066499702
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_5_min_100",
+          "start": 0.85,
+          "floor": 0.35,
+          "decay_per_day": 0.02,
+          "event_count": 14,
+          "cohort_count": 9,
+          "mean_event_accuracy": 84.95242197831365,
+          "mean_cohort_accuracy": 84.62768561706518
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 14,
+          "cohort_count": 9,
+          "mean_event_accuracy": 85.10076562092858,
+          "mean_cohort_accuracy": 84.7064817231228
+        },
+        "delta_snapshot_minus_broad_pp": -0.07879610605762366
+      }
+    },
+    {
+      "snapshot": "latest_4_min_100",
+      "label": "Latest 4 Online >= 100 players",
+      "event_count": 15,
+      "cohort_count": 10,
+      "missing_targets": [
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 84.11932812236056,
+        "broad_accuracy": 84.49871900182191,
+        "delta_snapshot_minus_broad_pp": -0.3793908794613543
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_4_min_100",
+          "irl_weight": 0.65,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 84.78037670938396,
+          "mean_cohort_accuracy": 84.56731621489817
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 84.98038378344349,
+          "mean_cohort_accuracy": 84.71300310657404
+        },
+        "delta_snapshot_minus_broad_pp": -0.14568689167586513
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_4_min_100",
+          "start": 0.85,
+          "floor": 0.35,
+          "decay_per_day": 0.02,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 85.07731163515419,
+          "mean_cohort_accuracy": 84.87467469596447
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 85.26788745294357,
+          "mean_cohort_accuracy": 84.99659286092584
+        },
+        "delta_snapshot_minus_broad_pp": -0.12191816496137164
+      }
+    },
+    {
+      "snapshot": "latest_5_min_150",
+      "label": "Latest 5 Online >= 150 players",
+      "event_count": 9,
+      "cohort_count": 6,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "Regional Championship Brisbane",
+        "Regional Championship Gda\u0144sk",
+        "Special Event Seville",
+        "Regional Championship Utrecht",
+        "Regional Championship Campinas",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 83.6924506635523,
+        "broad_accuracy": 83.93037933455004,
+        "delta_snapshot_minus_broad_pp": -0.2379286709977464
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_5_min_150",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.13354927585344,
+          "mean_cohort_accuracy": 83.74920558136961
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.33672703237718,
+          "mean_cohort_accuracy": 83.95875899508191
+        },
+        "delta_snapshot_minus_broad_pp": -0.20955341371229963
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_5_min_150",
+          "start": 0.8,
+          "floor": 0.3,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.48307877573698,
+          "mean_cohort_accuracy": 83.94292260884001
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.56366789719912,
+          "mean_cohort_accuracy": 84.07472117705093
+        },
+        "delta_snapshot_minus_broad_pp": -0.13179856821092528
+      }
+    },
+    {
+      "snapshot": "latest_5_min_50",
+      "label": "Latest 5 Online >= 50 players",
+      "event_count": 16,
+      "cohort_count": 11,
+      "missing_targets": [],
+      "fixed_50": {
+        "snapshot_accuracy": 83.51743707826316,
+        "broad_accuracy": 84.11192495585328,
+        "delta_snapshot_minus_broad_pp": -0.5944878775901259
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_5_min_50",
+          "irl_weight": 0.7,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.47982415318926,
+          "mean_cohort_accuracy": 84.18796092823156
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.75039407390999,
+          "mean_cohort_accuracy": 84.40277995424071
+        },
+        "delta_snapshot_minus_broad_pp": -0.21481902600915248
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_5_min_50",
+          "start": 1.0,
+          "floor": 0.4,
+          "decay_per_day": 0.03,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.80934213256401,
+          "mean_cohort_accuracy": 84.62298548319146
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.95,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 85.02450491874389,
+          "mean_cohort_accuracy": 84.77612796389059
+        },
+        "delta_snapshot_minus_broad_pp": -0.15314248069913106
+      }
+    },
+    {
+      "snapshot": "latest_3_min_100",
+      "label": "Latest 3 Online >= 100 players",
+      "event_count": 15,
+      "cohort_count": 10,
+      "missing_targets": [
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 83.86626326224302,
+        "broad_accuracy": 84.49871900182191,
+        "delta_snapshot_minus_broad_pp": -0.6324557395788872
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_3_min_100",
+          "irl_weight": 0.65,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 84.60911759862302,
+          "mean_cohort_accuracy": 84.39652833097871
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 84.98038378344349,
+          "mean_cohort_accuracy": 84.71300310657404
+        },
+        "delta_snapshot_minus_broad_pp": -0.31647477559532433
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_3_min_100",
+          "start": 0.9,
+          "floor": 0.35,
+          "decay_per_day": 0.02,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 84.94186028575953,
+          "mean_cohort_accuracy": 84.74447587517716
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 85.26788745294357,
+          "mean_cohort_accuracy": 84.99659286092584
+        },
+        "delta_snapshot_minus_broad_pp": -0.25211698574868535
+      }
+    },
+    {
+      "snapshot": "latest_4_min_50",
+      "label": "Latest 4 Online >= 50 players",
+      "event_count": 16,
+      "cohort_count": 11,
+      "missing_targets": [],
+      "fixed_50": {
+        "snapshot_accuracy": 83.20612184650305,
+        "broad_accuracy": 84.11192495585328,
+        "delta_snapshot_minus_broad_pp": -0.9058031093502308
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_4_min_50",
+          "irl_weight": 0.7,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.37583614078227,
+          "mean_cohort_accuracy": 84.03261992534084
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.75039407390999,
+          "mean_cohort_accuracy": 84.40277995424071
+        },
+        "delta_snapshot_minus_broad_pp": -0.37016002889987476
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_4_min_50",
+          "start": 0.9,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.7492225116631,
+          "mean_cohort_accuracy": 84.41743665688495
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.95,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 85.02450491874389,
+          "mean_cohort_accuracy": 84.77612796389059
+        },
+        "delta_snapshot_minus_broad_pp": -0.35869130700564256
+      }
+    },
+    {
+      "snapshot": "latest_4_min_150",
+      "label": "Latest 4 Online >= 150 players",
+      "event_count": 11,
+      "cohort_count": 7,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "Special Event Seville",
+        "Regional Championship Utrecht",
+        "Regional Championship Campinas",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 83.6484635300645,
+        "broad_accuracy": 84.15902454659822,
+        "delta_snapshot_minus_broad_pp": -0.510561016533714
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_4_min_150",
+          "irl_weight": 0.55,
+          "event_count": 11,
+          "cohort_count": 7,
+          "mean_event_accuracy": 84.17342950133617,
+          "mean_cohort_accuracy": 83.77161635215325
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 11,
+          "cohort_count": 7,
+          "mean_event_accuracy": 84.60104801739223,
+          "mean_cohort_accuracy": 84.22043520292162
+        },
+        "delta_snapshot_minus_broad_pp": -0.4488188507683759
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_4_min_150",
+          "start": 0.8,
+          "floor": 0.3,
+          "decay_per_day": 0.02,
+          "event_count": 11,
+          "cohort_count": 7,
+          "mean_event_accuracy": 84.42528980871057,
+          "mean_cohort_accuracy": 83.90829764217203
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 11,
+          "cohort_count": 7,
+          "mean_event_accuracy": 84.7883541154601,
+          "mean_cohort_accuracy": 84.32110987999144
+        },
+        "delta_snapshot_minus_broad_pp": -0.41281223781940923
+      }
+    },
+    {
+      "snapshot": "latest_3_min_150",
+      "label": "Latest 3 Online >= 150 players",
+      "event_count": 11,
+      "cohort_count": 7,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "Special Event Seville",
+        "Regional Championship Utrecht",
+        "Regional Championship Campinas",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 83.57952217057091,
+        "broad_accuracy": 84.15902454659822,
+        "delta_snapshot_minus_broad_pp": -0.5795023760273068
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_3_min_150",
+          "irl_weight": 0.6,
+          "event_count": 11,
+          "cohort_count": 7,
+          "mean_event_accuracy": 84.02072402748082,
+          "mean_cohort_accuracy": 83.71154394092109
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 11,
+          "cohort_count": 7,
+          "mean_event_accuracy": 84.60104801739223,
+          "mean_cohort_accuracy": 84.22043520292162
+        },
+        "delta_snapshot_minus_broad_pp": -0.5088912620005317
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_3_min_150",
+          "start": 0.85,
+          "floor": 0.35,
+          "decay_per_day": 0.02,
+          "event_count": 11,
+          "cohort_count": 7,
+          "mean_event_accuracy": 84.32401292119721,
+          "mean_cohort_accuracy": 83.89094077567854
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 11,
+          "cohort_count": 7,
+          "mean_event_accuracy": 84.7883541154601,
+          "mean_cohort_accuracy": 84.32110987999144
+        },
+        "delta_snapshot_minus_broad_pp": -0.43016910431289546
+      }
+    },
+    {
+      "snapshot": "latest_3_min_50",
+      "label": "Latest 3 Online >= 50 players",
+      "event_count": 16,
+      "cohort_count": 11,
+      "missing_targets": [],
+      "fixed_50": {
+        "snapshot_accuracy": 82.63338742044259,
+        "broad_accuracy": 84.11192495585328,
+        "delta_snapshot_minus_broad_pp": -1.4785375354106947
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_3_min_50",
+          "irl_weight": 0.75,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.07784531141678,
+          "mean_cohort_accuracy": 83.78879126195099
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.75039407390999,
+          "mean_cohort_accuracy": 84.40277995424071
+        },
+        "delta_snapshot_minus_broad_pp": -0.6139886922897233
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_3_min_50",
+          "start": 0.95,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.58973125185888,
+          "mean_cohort_accuracy": 84.29405447744203
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.95,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 85.02450491874389,
+          "mean_cohort_accuracy": 84.77612796389059
+        },
+        "delta_snapshot_minus_broad_pp": -0.48207348644855585
+      }
+    },
+    {
+      "snapshot": "latest_4_min_200",
+      "label": "Latest 4 Online >= 200 players",
+      "event_count": 7,
+      "cohort_count": 5,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "Regional Championship Brisbane",
+        "Regional Championship Gda\u0144sk",
+        "Regional Championship Sydney",
+        "Regional Championship Santiago",
+        "Special Event Seville",
+        "Regional Championship Utrecht",
+        "Regional Championship Campinas",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 83.33573713736045,
+        "broad_accuracy": 84.08280819839446,
+        "delta_snapshot_minus_broad_pp": -0.7470710610340063
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_4_min_200",
+          "irl_weight": 0.55,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 83.8331403127245,
+          "mean_cohort_accuracy": 83.36146550023076
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.5,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.62790927007681,
+          "mean_cohort_accuracy": 84.08280819839446
+        },
+        "delta_snapshot_minus_broad_pp": -0.7213426981636957
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_4_min_200",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.4453452630964,
+          "mean_cohort_accuracy": 83.70177140340618
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 85.00058253725147,
+          "mean_cohort_accuracy": 84.24581422831004
+        },
+        "delta_snapshot_minus_broad_pp": -0.5440428249038547
+      }
+    },
+    {
+      "snapshot": "latest_2_min_50",
+      "label": "Latest 2 Online >= 50 players",
+      "event_count": 16,
+      "cohort_count": 11,
+      "missing_targets": [],
+      "fixed_50": {
+        "snapshot_accuracy": 82.23227896300185,
+        "broad_accuracy": 84.11192495585328,
+        "delta_snapshot_minus_broad_pp": -1.8796459928514366
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_2_min_50",
+          "irl_weight": 0.75,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.05891121448816,
+          "mean_cohort_accuracy": 83.81186029880504
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.75039407390999,
+          "mean_cohort_accuracy": 84.40277995424071
+        },
+        "delta_snapshot_minus_broad_pp": -0.5909196554356697
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_2_min_50",
+          "start": 0.95,
+          "floor": 0.45,
+          "decay_per_day": 0.02,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.44940562497696,
+          "mean_cohort_accuracy": 84.21125953508908
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.95,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 85.02450491874389,
+          "mean_cohort_accuracy": 84.77612796389059
+        },
+        "delta_snapshot_minus_broad_pp": -0.5648684288015033
+      }
+    },
+    {
+      "snapshot": "latest_2_min_100",
+      "label": "Latest 2 Online >= 100 players",
+      "event_count": 16,
+      "cohort_count": 11,
+      "missing_targets": [],
+      "fixed_50": {
+        "snapshot_accuracy": 82.84335873594658,
+        "broad_accuracy": 84.11192495585328,
+        "delta_snapshot_minus_broad_pp": -1.2685662199067025
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_2_min_100",
+          "irl_weight": 0.75,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 83.94107594515992,
+          "mean_cohort_accuracy": 83.72809521146442
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.75039407390999,
+          "mean_cohort_accuracy": 84.40277995424071
+        },
+        "delta_snapshot_minus_broad_pp": -0.674684742776293
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_2_min_100",
+          "start": 0.95,
+          "floor": 0.45,
+          "decay_per_day": 0.02,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.3807666489969,
+          "mean_cohort_accuracy": 84.19072845757546
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.95,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 85.02450491874389,
+          "mean_cohort_accuracy": 84.77612796389059
+        },
+        "delta_snapshot_minus_broad_pp": -0.5853995063151274
+      }
+    },
+    {
+      "snapshot": "latest_3_min_200",
+      "label": "Latest 3 Online >= 200 players",
+      "event_count": 9,
+      "cohort_count": 6,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "Regional Championship Brisbane",
+        "Regional Championship Gda\u0144sk",
+        "Special Event Seville",
+        "Regional Championship Utrecht",
+        "Regional Championship Campinas",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 83.15575389516084,
+        "broad_accuracy": 83.93037933455004,
+        "delta_snapshot_minus_broad_pp": -0.7746254393891974
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_3_min_200",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.57403790045441,
+          "mean_cohort_accuracy": 83.22590226322889
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.33672703237718,
+          "mean_cohort_accuracy": 83.95875899508191
+        },
+        "delta_snapshot_minus_broad_pp": -0.732856731853019
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_3_min_200",
+          "start": 0.8,
+          "floor": 0.3,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.99927862221642,
+          "mean_cohort_accuracy": 83.47259451761735
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.56366789719912,
+          "mean_cohort_accuracy": 84.07472117705093
+        },
+        "delta_snapshot_minus_broad_pp": -0.6021266594335799
+      }
+    },
+    {
+      "snapshot": "latest_2_min_150",
+      "label": "Latest 2 Online >= 150 players",
+      "event_count": 14,
+      "cohort_count": 9,
+      "missing_targets": [
+        "Special Event Seville",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 83.79273219339882,
+        "broad_accuracy": 84.64921508307316,
+        "delta_snapshot_minus_broad_pp": -0.8564828896743393
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_2_min_150",
+          "irl_weight": 0.65,
+          "event_count": 14,
+          "cohort_count": 9,
+          "mean_event_accuracy": 84.28802804689964,
+          "mean_cohort_accuracy": 84.07987752647308
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 14,
+          "cohort_count": 9,
+          "mean_event_accuracy": 85.03043800582643,
+          "mean_cohort_accuracy": 84.749192306337
+        },
+        "delta_snapshot_minus_broad_pp": -0.6693147798639103
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_2_min_150",
+          "start": 0.9,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 14,
+          "cohort_count": 9,
+          "mean_event_accuracy": 84.55609496316417,
+          "mean_cohort_accuracy": 84.31159327221854
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 14,
+          "cohort_count": 9,
+          "mean_event_accuracy": 85.25257160862587,
+          "mean_cohort_accuracy": 84.94262437065191
+        },
+        "delta_snapshot_minus_broad_pp": -0.6310310984333682
+      }
+    },
+    {
+      "snapshot": "latest_2_min_200",
+      "label": "Latest 2 Online >= 200 players",
+      "event_count": 9,
+      "cohort_count": 6,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "Regional Championship Brisbane",
+        "Regional Championship Gda\u0144sk",
+        "Special Event Seville",
+        "Regional Championship Utrecht",
+        "Regional Championship Campinas",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 82.98560382691564,
+        "broad_accuracy": 83.93037933455004,
+        "delta_snapshot_minus_broad_pp": -0.9447755076344038
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_2_min_200",
+          "irl_weight": 0.6,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.57470653537219,
+          "mean_cohort_accuracy": 83.21026350221247
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.33672703237718,
+          "mean_cohort_accuracy": 83.95875899508191
+        },
+        "delta_snapshot_minus_broad_pp": -0.7484954928694378
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_2_min_200",
+          "start": 0.85,
+          "floor": 0.35,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.84732113747529,
+          "mean_cohort_accuracy": 83.33721325323869
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.56366789719912,
+          "mean_cohort_accuracy": 84.07472117705093
+        },
+        "delta_snapshot_minus_broad_pp": -0.7375079238122453
+      }
+    },
+    {
+      "snapshot": "latest_1_min_200",
+      "label": "Latest 1 Online >= 200 players",
+      "event_count": 12,
+      "cohort_count": 8,
+      "missing_targets": [
+        "Regional Championship Pittsburgh",
+        "Regional Championship Utrecht",
+        "Regional Championship Campinas",
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 81.92831008596193,
+        "broad_accuracy": 84.03217826209354,
+        "delta_snapshot_minus_broad_pp": -2.1038681761316127
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_1_min_200",
+          "irl_weight": 0.75,
+          "event_count": 12,
+          "cohort_count": 8,
+          "mean_event_accuracy": 83.44276441891718,
+          "mean_cohort_accuracy": 83.09722202429475
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 12,
+          "cohort_count": 8,
+          "mean_event_accuracy": 84.538711585427,
+          "mean_cohort_accuracy": 84.19246586769063
+        },
+        "delta_snapshot_minus_broad_pp": -1.0952438433958775
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_1_min_200",
+          "start": 0.95,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 12,
+          "cohort_count": 8,
+          "mean_event_accuracy": 83.79413150393243,
+          "mean_cohort_accuracy": 83.38890807332834
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 12,
+          "cohort_count": 8,
+          "mean_event_accuracy": 84.84618371195437,
+          "mean_cohort_accuracy": 84.46625980416641
+        },
+        "delta_snapshot_minus_broad_pp": -1.0773517308380747
+      }
+    },
+    {
+      "snapshot": "latest_1_min_150",
+      "label": "Latest 1 Online >= 150 players",
+      "event_count": 15,
+      "cohort_count": 10,
+      "missing_targets": [
+        "International Championship New Orleans"
+      ],
+      "fixed_50": {
+        "snapshot_accuracy": 82.04639365025699,
+        "broad_accuracy": 84.49871900182191,
+        "delta_snapshot_minus_broad_pp": -2.452325351564923
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_1_min_150",
+          "irl_weight": 0.8,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 83.67199438941981,
+          "mean_cohort_accuracy": 83.58870258995816
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 84.98038378344349,
+          "mean_cohort_accuracy": 84.71300310657404
+        },
+        "delta_snapshot_minus_broad_pp": -1.1243005166158753
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_1_min_150",
+          "start": 1.0,
+          "floor": 0.5,
+          "decay_per_day": 0.02,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 84.01982723395808,
+          "mean_cohort_accuracy": 83.91172265836856
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 15,
+          "cohort_count": 10,
+          "mean_event_accuracy": 85.26788745294357,
+          "mean_cohort_accuracy": 84.99659286092584
+        },
+        "delta_snapshot_minus_broad_pp": -1.0848702025572834
+      }
+    },
+    {
+      "snapshot": "latest_1_min_50",
+      "label": "Latest 1 Online >= 50 players",
+      "event_count": 16,
+      "cohort_count": 11,
+      "missing_targets": [],
+      "fixed_50": {
+        "snapshot_accuracy": 80.2001178059485,
+        "broad_accuracy": 84.11192495585328,
+        "delta_snapshot_minus_broad_pp": -3.9118071499047886
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_1_min_50",
+          "irl_weight": 0.85,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 83.39377911590047,
+          "mean_cohort_accuracy": 83.165293051358
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.75039407390999,
+          "mean_cohort_accuracy": 84.40277995424071
+        },
+        "delta_snapshot_minus_broad_pp": -1.2374869028827078
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_1_min_50",
+          "start": 1.0,
+          "floor": 0.5,
+          "decay_per_day": 0.02,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 83.82516805763605,
+          "mean_cohort_accuracy": 83.60429360731615
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.95,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 85.02450491874389,
+          "mean_cohort_accuracy": 84.77612796389059
+        },
+        "delta_snapshot_minus_broad_pp": -1.1718343565744362
+      }
+    },
+    {
+      "snapshot": "latest_1_min_100",
+      "label": "Latest 1 Online >= 100 players",
+      "event_count": 16,
+      "cohort_count": 11,
+      "missing_targets": [],
+      "fixed_50": {
+        "snapshot_accuracy": 80.3676763996914,
+        "broad_accuracy": 84.11192495585328,
+        "delta_snapshot_minus_broad_pp": -3.744248556161878
+      },
+      "best_flat": {
+        "snapshot": {
+          "snapshot": "latest_1_min_100",
+          "irl_weight": 0.8,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 83.34248307017762,
+          "mean_cohort_accuracy": 83.07299626700602
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.6,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 84.75039407390999,
+          "mean_cohort_accuracy": 84.40277995424071
+        },
+        "delta_snapshot_minus_broad_pp": -1.3297836872346949
+      },
+      "best_dynamic": {
+        "snapshot": {
+          "snapshot": "latest_1_min_100",
+          "start": 1.0,
+          "floor": 0.5,
+          "decay_per_day": 0.02,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 83.75720069927387,
+          "mean_cohort_accuracy": 83.53053695358479
+        },
+        "broad": {
+          "snapshot": "all_post_major",
+          "start": 0.95,
+          "floor": 0.2,
+          "decay_per_day": 0.03,
+          "event_count": 16,
+          "cohort_count": 11,
+          "mean_event_accuracy": 85.02450491874389,
+          "mean_cohort_accuracy": 84.77612796389059
+        },
+        "delta_snapshot_minus_broad_pp": -1.2455910103058017
+      }
+    }
+  ],
+  "chronological_holdout_when_full_test_coverage": [
+    {
+      "snapshot": "latest_5_min_50",
+      "label": "Latest 5 Online >= 50 players",
+      "training_event_count": 9,
+      "training_cohort_count": 6,
+      "flat": {
+        "selected_snapshot": {
+          "snapshot": "latest_5_min_50",
+          "irl_weight": 0.65,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.64127264077128,
+          "mean_cohort_accuracy": 84.43085271620906
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.13380408643962,
+          "mean_cohort_accuracy": 84.799461137226
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_5_min_50",
+          "irl_weight": 0.65,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.33238441311998,
+          "mean_cohort_accuracy": 83.88244395738033
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.1347190491804,
+          "mean_cohort_accuracy": 83.73342039486529
+        },
+        "delta_snapshot_minus_broad_pp": 0.14902356251504045
+      },
+      "dynamic": {
+        "selected_snapshot": {
+          "snapshot": "latest_5_min_50",
+          "start": 0.85,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.12088098716394,
+          "mean_cohort_accuracy": 84.80678425694812
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.50911777537158,
+          "mean_cohort_accuracy": 85.12024953489448
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_5_min_50",
+          "start": 0.85,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.57398807243342,
+          "mean_cohort_accuracy": 84.32921886661966
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.52395580374471,
+          "mean_cohort_accuracy": 84.29517404205906
+        },
+        "delta_snapshot_minus_broad_pp": 0.034044824560595544
+      }
+    },
+    {
+      "snapshot": "latest_4_min_50",
+      "label": "Latest 4 Online >= 50 players",
+      "training_event_count": 9,
+      "training_cohort_count": 6,
+      "flat": {
+        "selected_snapshot": {
+          "snapshot": "latest_4_min_50",
+          "irl_weight": 0.65,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.55768543976393,
+          "mean_cohort_accuracy": 84.23190097923928
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.13380408643962,
+          "mean_cohort_accuracy": 84.799461137226
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_4_min_50",
+          "irl_weight": 0.65,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.13146167853704,
+          "mean_cohort_accuracy": 83.65839782972215
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.1347190491804,
+          "mean_cohort_accuracy": 83.73342039486529
+        },
+        "delta_snapshot_minus_broad_pp": -0.07502256514314354
+      },
+      "dynamic": {
+        "selected_snapshot": {
+          "snapshot": "latest_4_min_50",
+          "start": 0.9,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.88086018468758,
+          "mean_cohort_accuracy": 84.5349470681064
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.50911777537158,
+          "mean_cohort_accuracy": 85.12024953489448
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_4_min_50",
+          "start": 0.9,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.57997407491735,
+          "mean_cohort_accuracy": 84.27642416341921
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.52395580374471,
+          "mean_cohort_accuracy": 84.29517404205906
+        },
+        "delta_snapshot_minus_broad_pp": -0.018749878639852113
+      }
+    },
+    {
+      "snapshot": "latest_2_min_50",
+      "label": "Latest 2 Online >= 50 players",
+      "training_event_count": 9,
+      "training_cohort_count": 6,
+      "flat": {
+        "selected_snapshot": {
+          "snapshot": "latest_2_min_50",
+          "irl_weight": 0.75,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.83760671824491,
+          "mean_cohort_accuracy": 83.77844203136753
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.13380408643962,
+          "mean_cohort_accuracy": 84.799461137226
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_2_min_50",
+          "irl_weight": 0.75,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.34344556680092,
+          "mean_cohort_accuracy": 83.85196221973005
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.1347190491804,
+          "mean_cohort_accuracy": 83.73342039486529
+        },
+        "delta_snapshot_minus_broad_pp": 0.11854182486476361
+      },
+      "dynamic": {
+        "selected_snapshot": {
+          "snapshot": "latest_2_min_50",
+          "start": 0.95,
+          "floor": 0.45,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.46273836671205,
+          "mean_cohort_accuracy": 84.25256168014604
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.50911777537158,
+          "mean_cohort_accuracy": 85.12024953489448
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_2_min_50",
+          "start": 0.95,
+          "floor": 0.45,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.43226352846042,
+          "mean_cohort_accuracy": 84.16169696102072
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.52395580374471,
+          "mean_cohort_accuracy": 84.29517404205906
+        },
+        "delta_snapshot_minus_broad_pp": -0.1334770810383361
+      }
+    },
+    {
+      "snapshot": "latest_2_min_100",
+      "label": "Latest 2 Online >= 100 players",
+      "training_event_count": 9,
+      "training_cohort_count": 6,
+      "flat": {
+        "selected_snapshot": {
+          "snapshot": "latest_2_min_100",
+          "irl_weight": 0.65,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.11006339336927,
+          "mean_cohort_accuracy": 83.90564218855852
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.13380408643962,
+          "mean_cohort_accuracy": 84.799461137226
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_2_min_100",
+          "irl_weight": 0.65,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 83.60292803649351,
+          "mean_cohort_accuracy": 83.23336751404176
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.1347190491804,
+          "mean_cohort_accuracy": 83.73342039486529
+        },
+        "delta_snapshot_minus_broad_pp": -0.5000528808235316
+      },
+      "dynamic": {
+        "selected_snapshot": {
+          "snapshot": "latest_2_min_100",
+          "start": 0.9,
+          "floor": 0.45,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.44348055596195,
+          "mean_cohort_accuracy": 84.24564261235525
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.50911777537158,
+          "mean_cohort_accuracy": 85.12024953489448
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_2_min_100",
+          "start": 0.9,
+          "floor": 0.45,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.20145160808558,
+          "mean_cohort_accuracy": 83.98386268826334
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.52395580374471,
+          "mean_cohort_accuracy": 84.29517404205906
+        },
+        "delta_snapshot_minus_broad_pp": -0.3113113537957162
+      }
+    },
+    {
+      "snapshot": "latest_3_min_50",
+      "label": "Latest 3 Online >= 50 players",
+      "training_event_count": 9,
+      "training_cohort_count": 6,
+      "flat": {
+        "selected_snapshot": {
+          "snapshot": "latest_3_min_50",
+          "irl_weight": 0.7,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.14024482305065,
+          "mean_cohort_accuracy": 83.97695207836786
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.13380408643962,
+          "mean_cohort_accuracy": 84.799461137226
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_3_min_50",
+          "irl_weight": 0.7,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 83.97915751093662,
+          "mean_cohort_accuracy": 83.45342035088284
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.1347190491804,
+          "mean_cohort_accuracy": 83.73342039486529
+        },
+        "delta_snapshot_minus_broad_pp": -0.28000004398245437
+      },
+      "dynamic": {
+        "selected_snapshot": {
+          "snapshot": "latest_3_min_50",
+          "start": 0.9,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 84.80412649914153,
+          "mean_cohort_accuracy": 84.46866327766396
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.50911777537158,
+          "mean_cohort_accuracy": 85.12024953489448
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_3_min_50",
+          "start": 0.9,
+          "floor": 0.4,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.228262277219,
+          "mean_cohort_accuracy": 83.91365935136368
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.52395580374471,
+          "mean_cohort_accuracy": 84.29517404205906
+        },
+        "delta_snapshot_minus_broad_pp": -0.3815146906953828
+      }
+    },
+    {
+      "snapshot": "latest_1_min_50",
+      "label": "Latest 1 Online >= 50 players",
+      "training_event_count": 9,
+      "training_cohort_count": 6,
+      "flat": {
+        "selected_snapshot": {
+          "snapshot": "latest_1_min_50",
+          "irl_weight": 0.8,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.03146733544874,
+          "mean_cohort_accuracy": 82.9864630400134
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.13380408643962,
+          "mean_cohort_accuracy": 84.799461137226
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_1_min_50",
+          "irl_weight": 0.8,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 83.9469901560595,
+          "mean_cohort_accuracy": 83.35348140429917
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.1347190491804,
+          "mean_cohort_accuracy": 83.73342039486529
+        },
+        "delta_snapshot_minus_broad_pp": -0.37993899056611724
+      },
+      "dynamic": {
+        "selected_snapshot": {
+          "snapshot": "latest_1_min_50",
+          "start": 1.0,
+          "floor": 0.5,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.600452536484,
+          "mean_cohort_accuracy": 83.47736712647124
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.50911777537158,
+          "mean_cohort_accuracy": 85.12024953489448
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_1_min_50",
+          "start": 1.0,
+          "floor": 0.5,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.11408801340296,
+          "mean_cohort_accuracy": 83.75660538433006
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.52395580374471,
+          "mean_cohort_accuracy": 84.29517404205906
+        },
+        "delta_snapshot_minus_broad_pp": -0.5385686577290016
+      }
+    },
+    {
+      "snapshot": "latest_1_min_100",
+      "label": "Latest 1 Online >= 100 players",
+      "training_event_count": 9,
+      "training_cohort_count": 6,
+      "flat": {
+        "selected_snapshot": {
+          "snapshot": "latest_1_min_100",
+          "irl_weight": 0.8,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.03146733544874,
+          "mean_cohort_accuracy": 82.9864630400134
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.13380408643962,
+          "mean_cohort_accuracy": 84.799461137226
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_1_min_100",
+          "irl_weight": 0.8,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 83.74236044340046,
+          "mean_cohort_accuracy": 83.17683613939717
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "irl_weight": 0.55,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.1347190491804,
+          "mean_cohort_accuracy": 83.73342039486529
+        },
+        "delta_snapshot_minus_broad_pp": -0.556584255468124
+      },
+      "dynamic": {
+        "selected_snapshot": {
+          "snapshot": "latest_1_min_100",
+          "start": 1.0,
+          "floor": 0.5,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 83.600452536484,
+          "mean_cohort_accuracy": 83.47736712647124
+        },
+        "selected_broad": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 9,
+          "cohort_count": 6,
+          "mean_event_accuracy": 85.50911777537158,
+          "mean_cohort_accuracy": 85.12024953489448
+        },
+        "snapshot_holdout": {
+          "snapshot": "latest_1_min_100",
+          "start": 1.0,
+          "floor": 0.5,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 83.95873405143227,
+          "mean_cohort_accuracy": 83.59434074612106
+        },
+        "broad_holdout": {
+          "snapshot": "all_post_major",
+          "start": 0.8,
+          "floor": 0.25,
+          "decay_per_day": 0.02,
+          "event_count": 7,
+          "cohort_count": 5,
+          "mean_event_accuracy": 84.52395580374471,
+          "mean_cohort_accuracy": 84.29517404205906
+        },
+        "delta_snapshot_minus_broad_pp": -0.700833295937997
+      }
+    }
+  ],
+  "interpretation_boundary": "Matched full-period comparisons are in-sample. Holdout sensitivities only include scenarios available for every final holdout target and may use fewer than six training cohorts when a threshold is unavailable historically."
+}

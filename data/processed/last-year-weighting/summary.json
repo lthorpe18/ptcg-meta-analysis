@@ -1,0 +1,687 @@
+{
+  "research_question": "Which interpretable IRL/Online decay rule is most accurate on the latest 365 days of archived play?",
+  "evidence_window": {
+    "start": "2025-08-28",
+    "end": "2026-08-28"
+  },
+  "sample": {
+    "event_count": 16,
+    "cohort_count": 11,
+    "cohorts": [
+      {
+        "cohort_id": "C030",
+        "date": "2025-09-13"
+      },
+      {
+        "cohort_id": "C031",
+        "date": "2025-09-19"
+      },
+      {
+        "cohort_id": "C033",
+        "date": "2025-10-25"
+      },
+      {
+        "cohort_id": "C034",
+        "date": "2025-11-01"
+      },
+      {
+        "cohort_id": "C038",
+        "date": "2026-01-16"
+      },
+      {
+        "cohort_id": "C039",
+        "date": "2026-01-24"
+      },
+      {
+        "cohort_id": "C040",
+        "date": "2026-02-07"
+      },
+      {
+        "cohort_id": "C046",
+        "date": "2026-03-28"
+      },
+      {
+        "cohort_id": "C049",
+        "date": "2026-05-08"
+      },
+      {
+        "cohort_id": "C050",
+        "date": "2026-05-16"
+      },
+      {
+        "cohort_id": "C054",
+        "date": "2026-06-12"
+      }
+    ],
+    "selection": ">=95% IRL capture, settled-format, complete IRL/50-50/current/Online components"
+  },
+  "metric": "Cohort-weighted Field Accuracy; named archetypes only, matching frozen baseline scoring",
+  "grid": {
+    "starts": [
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "floors": [
+      0.3,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6
+    ],
+    "decays_per_day": [
+      0.005,
+      0.01,
+      0.015,
+      0.02
+    ]
+  },
+  "baselines": {
+    "online_only": {
+      "event": 76.66139945538352,
+      "cohort": 76.3722528602734
+    },
+    "irl_only": {
+      "event": 82.26312574567724,
+      "cohort": 82.20312918235098
+    },
+    "fifty_fifty": {
+      "event": 84.52773248882866,
+      "cohort": 84.11192495585328
+    },
+    "current_v2_1": {
+      "event": 84.85042094183835,
+      "cohort": 84.4584558158948
+    },
+    "full_history_grid_winner_80_55_1pp": {
+      "start": 0.8,
+      "floor": 0.55,
+      "decay_per_day": 0.01,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 84.84536091882994,
+      "mean_cohort_accuracy": 84.58235209603822,
+      "median_cohort_accuracy": 85.60122402814164
+    },
+    "current_formula_recalculated_70_30_2pp": {
+      "start": 0.7,
+      "floor": 0.3,
+      "decay_per_day": 0.02,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 84.85042094183835,
+      "mean_cohort_accuracy": 84.4584558158948,
+      "median_cohort_accuracy": 85.63693422940764
+    }
+  },
+  "recent_in_sample": {
+    "best_rule": {
+      "start": 0.85,
+      "floor": 0.3,
+      "decay_per_day": 0.02,
+      "event_count": 16,
+      "cohort_count": 11,
+      "mean_event_accuracy": 85.06071050332267,
+      "mean_cohort_accuracy": 84.76787120674815,
+      "median_cohort_accuracy": 85.63911605951881,
+      "rows": [
+        {
+          "target_id": "0036",
+          "target_name": "Regional Championship Frankfurt",
+          "date": "2025-09-13",
+          "cohort_id": "C030",
+          "days_since_major": 27,
+          "irl_weight": 0.30999999999999994,
+          "accuracy": 87.35902395896498
+        },
+        {
+          "target_id": "0037",
+          "target_name": "Regional Championship Monterrey",
+          "date": "2025-09-13",
+          "cohort_id": "C030",
+          "days_since_major": 27,
+          "irl_weight": 0.30999999999999994,
+          "accuracy": 83.82916913408008
+        },
+        {
+          "target_id": "0038",
+          "target_name": "Regional Championship Pittsburgh",
+          "date": "2025-09-19",
+          "cohort_id": "C031",
+          "days_since_major": 5,
+          "irl_weight": 0.75,
+          "accuracy": 87.90730793181277
+        },
+        {
+          "target_id": "0041",
+          "target_name": "Regional Championship Lille",
+          "date": "2025-10-25",
+          "cohort_id": "C033",
+          "days_since_major": 13,
+          "irl_weight": 0.59,
+          "accuracy": 87.3184676247438
+        },
+        {
+          "target_id": "0042",
+          "target_name": "Regional Championship Brisbane",
+          "date": "2025-11-01",
+          "cohort_id": "C034",
+          "days_since_major": 6,
+          "irl_weight": 0.73,
+          "accuracy": 86.16680039507789
+        },
+        {
+          "target_id": "0043",
+          "target_name": "Regional Championship Gda\u0144sk",
+          "date": "2025-11-01",
+          "cohort_id": "C034",
+          "days_since_major": 6,
+          "irl_weight": 0.73,
+          "accuracy": 85.11143172395973
+        },
+        {
+          "target_id": "0048",
+          "target_name": "Regional Championship Toronto",
+          "date": "2026-01-16",
+          "cohort_id": "C038",
+          "days_since_major": 47,
+          "irl_weight": 0.3,
+          "accuracy": 77.1872106090166
+        },
+        {
+          "target_id": "0049",
+          "target_name": "Regional Championship Birmingham",
+          "date": "2026-01-24",
+          "cohort_id": "C039",
+          "days_since_major": 6,
+          "irl_weight": 0.73,
+          "accuracy": 89.74737781242645
+        },
+        {
+          "target_id": "0050",
+          "target_name": "Regional Championship M\u00e9rida",
+          "date": "2026-01-24",
+          "cohort_id": "C039",
+          "days_since_major": 6,
+          "irl_weight": 0.73,
+          "accuracy": 83.62662742968102
+        },
+        {
+          "target_id": "0052",
+          "target_name": "Regional Championship Sydney",
+          "date": "2026-02-07",
+          "cohort_id": "C040",
+          "days_since_major": 13,
+          "irl_weight": 0.59,
+          "accuracy": 83.27662747738067
+        },
+        {
+          "target_id": "0053",
+          "target_name": "Regional Championship Santiago",
+          "date": "2026-02-07",
+          "cohort_id": "C040",
+          "days_since_major": 13,
+          "irl_weight": 0.59,
+          "accuracy": 84.81576891174751
+        },
+        {
+          "target_id": "0059",
+          "target_name": "Special Event Seville",
+          "date": "2026-03-28",
+          "cohort_id": "C046",
+          "days_since_major": 6,
+          "irl_weight": 0.73,
+          "accuracy": 85.97519852549945
+        },
+        {
+          "target_id": "0063",
+          "target_name": "Regional Championship Los Angeles",
+          "date": "2026-05-08",
+          "cohort_id": "C049",
+          "days_since_major": 12,
+          "irl_weight": 0.61,
+          "accuracy": 82.92649894710028
+        },
+        {
+          "target_id": "0064",
+          "target_name": "Regional Championship Utrecht",
+          "date": "2026-05-16",
+          "cohort_id": "C050",
+          "days_since_major": 6,
+          "irl_weight": 0.73,
+          "accuracy": 88.13267132526403
+        },
+        {
+          "target_id": "0065",
+          "target_name": "Regional Championship Campinas",
+          "date": "2026-05-16",
+          "cohort_id": "C050",
+          "days_since_major": 6,
+          "irl_weight": 0.73,
+          "accuracy": 84.98407138928359
+        },
+        {
+          "target_id": "0070",
+          "target_name": "International Championship New Orleans",
+          "date": "2026-06-12",
+          "cohort_id": "C054",
+          "days_since_major": 5,
+          "irl_weight": 0.75,
+          "accuracy": 82.60711485712372
+        }
+      ]
+    },
+    "top_20_rules": [
+      {
+        "start": 0.85,
+        "floor": 0.3,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.06071050332267,
+        "mean_cohort_accuracy": 84.76787120674815,
+        "median_cohort_accuracy": 85.63911605951881
+      },
+      {
+        "start": 0.85,
+        "floor": 0.4,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.01308059222977,
+        "mean_cohort_accuracy": 84.7424087257675,
+        "median_cohort_accuracy": 85.63911605951881
+      },
+      {
+        "start": 0.8,
+        "floor": 0.3,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.06645610340519,
+        "mean_cohort_accuracy": 84.74162126545865,
+        "median_cohort_accuracy": 85.63693422940764
+      },
+      {
+        "start": 0.8,
+        "floor": 0.4,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.0339729617956,
+        "mean_cohort_accuracy": 84.73013673395157,
+        "median_cohort_accuracy": 85.71053210564799
+      },
+      {
+        "start": 0.85,
+        "floor": 0.45,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.9803484188119,
+        "mean_cohort_accuracy": 84.72208149827398,
+        "median_cohort_accuracy": 85.63911605951881
+      },
+      {
+        "start": 0.9,
+        "floor": 0.3,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.97115967359197,
+        "mean_cohort_accuracy": 84.71500522840991,
+        "median_cohort_accuracy": 85.44869574894784
+      },
+      {
+        "start": 0.8,
+        "floor": 0.3,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.02502557527927,
+        "mean_cohort_accuracy": 84.71445208939825,
+        "median_cohort_accuracy": 85.71053210564799
+      },
+      {
+        "start": 0.9,
+        "floor": 0.4,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.95538629969091,
+        "mean_cohort_accuracy": 84.71271113811423,
+        "median_cohort_accuracy": 85.44869574894784
+      },
+      {
+        "start": 0.8,
+        "floor": 0.4,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.01347148195164,
+        "mean_cohort_accuracy": 84.71226444967024,
+        "median_cohort_accuracy": 85.4823092733912
+      },
+      {
+        "start": 0.8,
+        "floor": 0.45,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.00124078837774,
+        "mean_cohort_accuracy": 84.70980950645806,
+        "median_cohort_accuracy": 85.71053210564799
+      },
+      {
+        "start": 0.75,
+        "floor": 0.3,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.05064905330836,
+        "mean_cohort_accuracy": 84.70064107348831,
+        "median_cohort_accuracy": 85.41924770538978
+      },
+      {
+        "start": 0.9,
+        "floor": 0.45,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.92265412627304,
+        "mean_cohort_accuracy": 84.69238391062072,
+        "median_cohort_accuracy": 85.44869574894784
+      },
+      {
+        "start": 0.8,
+        "floor": 0.45,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.98073930853378,
+        "mean_cohort_accuracy": 84.69193722217673,
+        "median_cohort_accuracy": 85.4823092733912
+      },
+      {
+        "start": 0.75,
+        "floor": 0.4,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 85.02487524735706,
+        "mean_cohort_accuracy": 84.69107394170155,
+        "median_cohort_accuracy": 85.27038881478728
+      },
+      {
+        "start": 0.85,
+        "floor": 0.5,
+        "decay_per_day": 0.02,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.92999038388322,
+        "mean_cohort_accuracy": 84.68852705304454,
+        "median_cohort_accuracy": 85.63911605951881
+      },
+      {
+        "start": 0.85,
+        "floor": 0.45,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.95167281662927,
+        "mean_cohort_accuracy": 84.6857959360356,
+        "median_cohort_accuracy": 85.52543996538736
+      },
+      {
+        "start": 0.85,
+        "floor": 0.4,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.95078658585793,
+        "mean_cohort_accuracy": 84.68167341502787,
+        "median_cohort_accuracy": 85.52543996538736
+      },
+      {
+        "start": 0.8,
+        "floor": 0.5,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.95088275344906,
+        "mean_cohort_accuracy": 84.67625506122862,
+        "median_cohort_accuracy": 85.71053210564799
+      },
+      {
+        "start": 0.75,
+        "floor": 0.45,
+        "decay_per_day": 0.015,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.99214307393919,
+        "mean_cohort_accuracy": 84.67074671420802,
+        "median_cohort_accuracy": 85.27038881478728
+      },
+      {
+        "start": 0.75,
+        "floor": 0.45,
+        "decay_per_day": 0.01,
+        "event_count": 16,
+        "cohort_count": 11,
+        "mean_event_accuracy": 84.9820511524286,
+        "mean_cohort_accuracy": 84.66551472326093,
+        "median_cohort_accuracy": 85.58289911005183
+      }
+    ],
+    "warning": "Selected and scored on the same 11 recent cohorts; descriptive/in-sample only."
+  },
+  "fixed_chronological_holdout": {
+    "train_cohorts": [
+      "C030",
+      "C031",
+      "C033",
+      "C034",
+      "C038",
+      "C039"
+    ],
+    "test_cohorts": [
+      "C040",
+      "C046",
+      "C049",
+      "C050",
+      "C054"
+    ],
+    "selected_from_training": {
+      "start": 0.7,
+      "floor": 0.3,
+      "decay_per_day": 0.015,
+      "mean_cohort_accuracy": 85.11769911212025,
+      "mean_event_accuracy": 85.56559174477894
+    },
+    "test_selected_rule": {
+      "start": 0.7,
+      "floor": 0.3,
+      "decay_per_day": 0.015,
+      "event_count": 7,
+      "cohort_count": 5,
+      "mean_event_accuracy": 84.26150253351425,
+      "mean_cohort_accuracy": 83.99116297523199,
+      "median_cohort_accuracy": 83.81569961765851,
+      "rows": [
+        {
+          "target_id": "0052",
+          "target_name": "Regional Championship Sydney",
+          "date": "2026-02-07",
+          "cohort_id": "C040",
+          "days_since_major": 13,
+          "irl_weight": 0.5049999999999999,
+          "accuracy": 82.58159550684965
+        },
+        {
+          "target_id": "0053",
+          "target_name": "Regional Championship Santiago",
+          "date": "2026-02-07",
+          "cohort_id": "C040",
+          "days_since_major": 13,
+          "irl_weight": 0.5049999999999999,
+          "accuracy": 83.85929150495063
+        },
+        {
+          "target_id": "0059",
+          "target_name": "Special Event Seville",
+          "date": "2026-03-28",
+          "cohort_id": "C046",
+          "days_since_major": 6,
+          "irl_weight": 0.61,
+          "accuracy": 84.70810559236341
+        },
+        {
+          "target_id": "0063",
+          "target_name": "Regional Championship Los Angeles",
+          "date": "2026-05-08",
+          "cohort_id": "C049",
+          "days_since_major": 12,
+          "irl_weight": 0.52,
+          "accuracy": 83.81569961765851
+        },
+        {
+          "target_id": "0064",
+          "target_name": "Regional Championship Utrecht",
+          "date": "2026-05-16",
+          "cohort_id": "C050",
+          "days_since_major": 6,
+          "irl_weight": 0.61,
+          "accuracy": 88.34211554664574
+        },
+        {
+          "target_id": "0065",
+          "target_name": "Regional Championship Campinas",
+          "date": "2026-05-16",
+          "cohort_id": "C050",
+          "days_since_major": 6,
+          "irl_weight": 0.61,
+          "accuracy": 84.96640315843351
+        },
+        {
+          "target_id": "0070",
+          "target_name": "International Championship New Orleans",
+          "date": "2026-06-12",
+          "cohort_id": "C054",
+          "days_since_major": 5,
+          "irl_weight": 0.625,
+          "accuracy": 81.55730680769828
+        }
+      ]
+    },
+    "test_baselines": {
+      "online_only": {
+        "event": 75.44011518888757,
+        "cohort": 75.14473022172209
+      },
+      "irl_only": {
+        "event": 83.57992099293563,
+        "cohort": 83.08440285670221
+      },
+      "fifty_fifty": {
+        "event": 83.81321307852592,
+        "cohort": 83.39843319205232
+      },
+      "current_v2_1": {
+        "event": 83.99327480071085,
+        "cohort": 83.76695137455451
+      },
+      "full_history_grid_winner_80_55_1pp": {
+        "start": 0.8,
+        "floor": 0.55,
+        "decay_per_day": 0.01,
+        "event_count": 7,
+        "cohort_count": 5,
+        "mean_event_accuracy": 84.70999458611213,
+        "mean_cohort_accuracy": 84.35506346691179,
+        "median_cohort_accuracy": 84.66468809683245
+      }
+    },
+    "warning": "Only five independent holdout cohorts; treat as a directional validation, not a final model selection result."
+  },
+  "recent_expanding_walk_forward": {
+    "min_training_cohorts": 5,
+    "tested_cohorts": 6,
+    "tuned_rule_mean_accuracy": 84.45916168913719,
+    "current_v2_1_mean_accuracy": 84.45819180516224,
+    "fifty_fifty_mean_accuracy": 84.09968825543264,
+    "irl_only_mean_accuracy": 83.0411764851517,
+    "rows": [
+      {
+        "cohort_id": "C039",
+        "date": "2026-01-24",
+        "selected_start": 0.85,
+        "selected_floor": 0.3,
+        "selected_decay_per_day": 0.02,
+        "accuracy": 86.68700262105374,
+        "current": 87.91439395820089,
+        "fifty": 87.60596357233425,
+        "irl_only": 82.82504462739908
+      },
+      {
+        "cohort_id": "C040",
+        "date": "2026-02-07",
+        "selected_start": 0.7,
+        "selected_floor": 0.3,
+        "selected_decay_per_day": 0.015,
+        "accuracy": 83.22044350590014,
+        "current": 82.47791656743445,
+        "fifty": 83.16823501532792,
+        "irl_only": 84.87902330470743
+      },
+      {
+        "cohort_id": "C046",
+        "date": "2026-03-28",
+        "selected_start": 0.8,
+        "selected_floor": 0.4,
+        "selected_decay_per_day": 0.015,
+        "accuracy": 85.78407878337306,
+        "current": 84.3437539632213,
+        "fifty": 83.14425427056077,
+        "irl_only": 87.5391797073351
+      },
+      {
+        "cohort_id": "C049",
+        "date": "2026-05-08",
+        "selected_start": 0.9,
+        "selected_floor": 0.3,
+        "selected_decay_per_day": 0.02,
+        "accuracy": 82.20374933931849,
+        "current": 84.07228774644044,
+        "fifty": 83.90360160411406,
+        "irl_only": 76.25845908877066
+      },
+      {
+        "cohort_id": "C050",
+        "date": "2026-05-16",
+        "selected_start": 0.8,
+        "selected_floor": 0.3,
+        "selected_decay_per_day": 0.02,
+        "accuracy": 86.62825707477397,
+        "current": 86.64025016476884,
+        "fifty": 86.53209057409188,
+        "irl_only": 84.75840936233092
+      },
+      {
+        "cohort_id": "C054",
+        "date": "2026-06-12",
+        "selected_start": 0.8,
+        "selected_floor": 0.3,
+        "selected_decay_per_day": 0.02,
+        "accuracy": 82.23143881040376,
+        "current": 81.30054843090754,
+        "fifty": 80.24398449616699,
+        "irl_only": 81.98694282036693
+      }
+    ],
+    "warning": "Very small recent training histories; supplementary to the fixed holdout."
+  }
+}
