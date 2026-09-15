@@ -6,6 +6,7 @@ on:
       - research/last-year-weighting
     paths:
       - "scripts/analyse_last_year_weighting.py"
+      - "scripts/analyse_requested_weight_grid.py"
       - ".github/workflows/run-last-year-weighting.yml"
   workflow_dispatch:
 
@@ -33,12 +34,15 @@ jobs:
       - name: Run last-year weighting analysis
         run: python scripts/analyse_last_year_weighting.py
 
+      - name: Run exhaustive requested grid
+        run: python scripts/analyse_requested_weight_grid.py
+
       - name: Commit generated research outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/processed/last-year-weighting results/last-year-weighting
           if ! git diff --cached --quiet; then
-            git commit -m "analysis: record last-year weighting results"
+            git commit -m "analysis: record exhaustive requested weighting grid"
             git push origin HEAD:research/last-year-weighting
           fi
