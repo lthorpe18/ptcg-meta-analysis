@@ -1,0 +1,1709 @@
+{
+  "research_question": "How predictive is one IRL major weekend of the next same-format IRL major weekend, and does that relationship decay with elapsed time?",
+  "evidence": {
+    "cohort_definition": "Existing prediction-window overlapping-date IRL cohorts",
+    "pair_definition": "Adjacent cohorts within identical display_format; no skipping intervening cohorts",
+    "minimum_capture_each_event": 0.95,
+    "online_evidence_used": false,
+    "event_within_cohort_weighting": "field-entry weighted",
+    "cohort_count_total": 55,
+    "eligible_pair_count": 36,
+    "format_count_in_pairs": 10,
+    "date_range": [
+      "2024-10-11",
+      "2026-06-12"
+    ]
+  },
+  "persistence_baseline": {
+    "mean_accuracy": 83.88547219566745,
+    "median_accuracy": 84.57185002791341,
+    "min_accuracy": 71.34514141995439,
+    "max_accuracy": 90.75816928645808
+  },
+  "gap_summary": {
+    "median_gap_days": 6.0,
+    "mean_gap_days": 9.61111111111111,
+    "min_gap_days": 5,
+    "max_gap_days": 47,
+    "bins": [
+      {
+        "label": "0-7",
+        "pair_count": 25,
+        "mean_gap_days": 5.52,
+        "mean_persistence_accuracy": 84.52839416694982,
+        "median_persistence_accuracy": 85.26101201310522
+      },
+      {
+        "label": "8-14",
+        "pair_count": 8,
+        "mean_gap_days": 12.5,
+        "mean_persistence_accuracy": 83.57638759054367,
+        "median_persistence_accuracy": 83.70484061068558
+      },
+      {
+        "label": "22-35",
+        "pair_count": 2,
+        "mean_gap_days": 30.5,
+        "mean_persistence_accuracy": 81.36944534613087,
+        "median_persistence_accuracy": 81.36944534613087
+      },
+      {
+        "label": "36+",
+        "pair_count": 1,
+        "mean_gap_days": 47.0,
+        "mean_persistence_accuracy": 75.31715345367172,
+        "median_persistence_accuracy": 75.31715345367172
+      }
+    ],
+    "overall_regression": {
+      "intercept": 85.51123364049933,
+      "slope": -0.16915436998250769,
+      "r2": 0.11082115718357899,
+      "n": 36
+    },
+    "overall_cluster_bootstrap": {
+      "bootstrap_count": 3000,
+      "ci95": [
+        -0.37821438045473155,
+        0.0626706399858112
+      ],
+      "median": -0.17558056989479714
+    },
+    "within_format_regression": {
+      "slope": -0.19984236100248212,
+      "n": 35,
+      "format_count": 9
+    },
+    "within_format_cluster_bootstrap": {
+      "bootstrap_count": 3000,
+      "ci95": [
+        -0.4458050083756286,
+        0.04519958139267661
+      ],
+      "median": -0.20702964434793675
+    },
+    "pearson_gap_vs_accuracy": -0.3328981183238783,
+    "spearman_gap_vs_accuracy": -0.3232603778996231
+  },
+  "archetype_retention": {
+    "model": "pair-fixed-effect target_share ~ prior_share + prior_share*gap; gap centered at median",
+    "gap_center_days": 6.0,
+    "observation_count": 3188,
+    "fit": {
+      "coef": [
+        0.9537435211281928,
+        -0.001957015159786057
+      ],
+      "n": 3188,
+      "sse": 0.23475487642100878,
+      "r2": 0.8859864534234483
+    },
+    "cluster_bootstrap": {
+      "bootstrap_count": 3000,
+      "beta_ci95": [
+        0.9315100651322213,
+        0.9890726217854122
+      ],
+      "gap_interaction_ci95": [
+        -0.011048586199340451,
+        0.001955314329844239
+      ]
+    },
+    "implied_prior_share_slope_by_gap": {
+      "0": 0.9654856120869092,
+      "7": 0.9517865059684067,
+      "14": 0.9380873998499044,
+      "21": 0.924388293731402,
+      "28": 0.9106891876128995,
+      "35": 0.8969900814943972
+    },
+    "warning": "Descriptive compositional sensitivity; rows within a pair are not independent. Pair fixed effects and format-cluster bootstrap mitigate but do not eliminate compositional dependence."
+  },
+  "composition_preserving_models_full_sample": {
+    "warning": "In-sample fits only; use holdout/walk-forward for predictive conclusions.",
+    "fits": {
+      "shrink_constant": {
+        "coef": [
+          0.8492337202861965
+        ],
+        "n": 3553,
+        "sse": 0.23868448421137747,
+        "r2": 0.25995786955570366,
+        "model": "shrink_constant",
+        "gap_center": 6.0,
+        "age_center": 35.5
+      },
+      "shrink_gap": {
+        "coef": [
+          0.8586093634400638,
+          -0.0037519210594765453
+        ],
+        "n": 3553,
+        "sse": 0.23863190027991216,
+        "r2": 0.26012090623065687,
+        "model": "shrink_gap",
+        "gap_center": 6.0,
+        "age_center": 35.5
+      },
+      "shrink_gap_age": {
+        "coef": [
+          0.8582420089698969,
+          -0.0037855581698755334,
+          7.566300571818105e-05
+        ],
+        "n": 3553,
+        "sse": 0.23863173571877286,
+        "r2": 0.26012141645308084,
+        "model": "shrink_gap_age",
+        "gap_center": 6.0,
+        "age_center": 35.5
+      },
+      "momentum": {
+        "coef": [
+          -0.11270967154884083
+        ],
+        "n": 2433,
+        "sse": 0.13394305459195432,
+        "r2": 0.016306824701269984,
+        "model": "momentum",
+        "gap_center": 6.0,
+        "age_center": 35.5
+      },
+      "combined": {
+        "coef": [
+          0.9540419819932823,
+          -0.08603513655347166
+        ],
+        "n": 2561,
+        "sse": 0.1338470762720466,
+        "r2": 0.37290861409181064,
+        "model": "combined",
+        "gap_center": 6.0,
+        "age_center": 35.5
+      }
+    },
+    "evaluation": {
+      "shrink_constant": {
+        "pair_count": 36,
+        "mean_accuracy": 84.00541295169543,
+        "median_accuracy": 84.53041440065431,
+        "rows": [
+          {
+            "pair_id": "C004->C005",
+            "target_date": "2024-10-19",
+            "accuracy": 90.06857139076045
+          },
+          {
+            "pair_id": "C005->C006",
+            "target_date": "2024-11-02",
+            "accuracy": 88.36905714386553
+          },
+          {
+            "pair_id": "C009->C010",
+            "target_date": "2024-11-30",
+            "accuracy": 85.2678909166173
+          },
+          {
+            "pair_id": "C010->C011",
+            "target_date": "2024-12-07",
+            "accuracy": 79.9649247323296
+          },
+          {
+            "pair_id": "C011->C012",
+            "target_date": "2024-12-13",
+            "accuracy": 83.65322225538465
+          },
+          {
+            "pair_id": "C012->C013",
+            "target_date": "2025-01-18",
+            "accuracy": 86.82797773164039
+          },
+          {
+            "pair_id": "C013->C014",
+            "target_date": "2025-01-24",
+            "accuracy": 86.81268685398479
+          },
+          {
+            "pair_id": "C015->C016",
+            "target_date": "2025-02-15",
+            "accuracy": 77.11727950012016
+          },
+          {
+            "pair_id": "C016->C017",
+            "target_date": "2025-02-21",
+            "accuracy": 84.09662887483297
+          },
+          {
+            "pair_id": "C017->C018",
+            "target_date": "2025-03-07",
+            "accuracy": 81.30059347149387
+          },
+          {
+            "pair_id": "C018->C019",
+            "target_date": "2025-03-22",
+            "accuracy": 84.14882714212139
+          },
+          {
+            "pair_id": "C019->C020",
+            "target_date": "2025-03-29",
+            "accuracy": 82.8864031861787
+          },
+          {
+            "pair_id": "C021->C022",
+            "target_date": "2025-04-19",
+            "accuracy": 78.86621315192744
+          },
+          {
+            "pair_id": "C022->C023",
+            "target_date": "2025-04-26",
+            "accuracy": 83.35660530610835
+          },
+          {
+            "pair_id": "C023->C024",
+            "target_date": "2025-05-02",
+            "accuracy": 70.4449051206478
+          },
+          {
+            "pair_id": "C024->C025",
+            "target_date": "2025-05-17",
+            "accuracy": 83.68580115248017
+          },
+          {
+            "pair_id": "C025->C026",
+            "target_date": "2025-05-23",
+            "accuracy": 89.53162251088905
+          },
+          {
+            "pair_id": "C026->C027",
+            "target_date": "2025-05-31",
+            "accuracy": 84.62928631198913
+          },
+          {
+            "pair_id": "C029->C030",
+            "target_date": "2025-09-13",
+            "accuracy": 76.55578296114078
+          },
+          {
+            "pair_id": "C030->C031",
+            "target_date": "2025-09-19",
+            "accuracy": 88.76705186213229
+          },
+          {
+            "pair_id": "C032->C033",
+            "target_date": "2025-10-25",
+            "accuracy": 83.51585510461692
+          },
+          {
+            "pair_id": "C033->C034",
+            "target_date": "2025-11-01",
+            "accuracy": 85.85438430691337
+          },
+          {
+            "pair_id": "C034->C035",
+            "target_date": "2025-11-14",
+            "accuracy": 87.69297867117449
+          },
+          {
+            "pair_id": "C035->C036",
+            "target_date": "2025-11-21",
+            "accuracy": 87.89104068402477
+          },
+          {
+            "pair_id": "C037->C038",
+            "target_date": "2026-01-16",
+            "accuracy": 75.31715345367172
+          },
+          {
+            "pair_id": "C040->C041",
+            "target_date": "2026-02-13",
+            "accuracy": 89.55252323204687
+          },
+          {
+            "pair_id": "C041->C042",
+            "target_date": "2026-02-27",
+            "accuracy": 84.92854790865837
+          },
+          {
+            "pair_id": "C043->C044",
+            "target_date": "2026-03-14",
+            "accuracy": 84.43154248931947
+          },
+          {
+            "pair_id": "C044->C045",
+            "target_date": "2026-03-20",
+            "accuracy": 89.05595135281918
+          },
+          {
+            "pair_id": "C045->C046",
+            "target_date": "2026-03-28",
+            "accuracy": 88.11862278702819
+          },
+          {
+            "pair_id": "C046->C047",
+            "target_date": "2026-04-03",
+            "accuracy": 89.39176624598907
+          },
+          {
+            "pair_id": "C048->C049",
+            "target_date": "2026-05-08",
+            "accuracy": 76.25845908877066
+          },
+          {
+            "pair_id": "C049->C050",
+            "target_date": "2026-05-16",
+            "accuracy": 86.0746005965795
+          },
+          {
+            "pair_id": "C050->C051",
+            "target_date": "2026-05-23",
+            "accuracy": 84.90335879481346
+          },
+          {
+            "pair_id": "C051->C052",
+            "target_date": "2026-05-29",
+            "accuracy": 82.86980714759804
+          },
+          {
+            "pair_id": "C053->C054",
+            "target_date": "2026-06-12",
+            "accuracy": 81.98694282036693
+          }
+        ]
+      },
+      "shrink_gap": {
+        "pair_count": 36,
+        "mean_accuracy": 84.01805028850322,
+        "median_accuracy": 84.56013075227585,
+        "rows": [
+          {
+            "pair_id": "C004->C005",
+            "target_date": "2024-10-19",
+            "accuracy": 90.0382952573824
+          },
+          {
+            "pair_id": "C005->C006",
+            "target_date": "2024-11-02",
+            "accuracy": 88.36932757083456
+          },
+          {
+            "pair_id": "C009->C010",
+            "target_date": "2024-11-30",
+            "accuracy": 85.2678909166173
+          },
+          {
+            "pair_id": "C010->C011",
+            "target_date": "2024-12-07",
+            "accuracy": 79.94934159744795
+          },
+          {
+            "pair_id": "C011->C012",
+            "target_date": "2024-12-13",
+            "accuracy": 83.61196747114286
+          },
+          {
+            "pair_id": "C012->C013",
+            "target_date": "2025-01-18",
+            "accuracy": 87.13410475574325
+          },
+          {
+            "pair_id": "C013->C014",
+            "target_date": "2025-01-24",
+            "accuracy": 86.84504699105278
+          },
+          {
+            "pair_id": "C015->C016",
+            "target_date": "2025-02-15",
+            "accuracy": 77.11727950012016
+          },
+          {
+            "pair_id": "C016->C017",
+            "target_date": "2025-02-21",
+            "accuracy": 84.07634282871624
+          },
+          {
+            "pair_id": "C017->C018",
+            "target_date": "2025-03-07",
+            "accuracy": 81.29572628078155
+          },
+          {
+            "pair_id": "C018->C019",
+            "target_date": "2025-03-22",
+            "accuracy": 84.14221090908784
+          },
+          {
+            "pair_id": "C019->C020",
+            "target_date": "2025-03-29",
+            "accuracy": 82.80514209503802
+          },
+          {
+            "pair_id": "C021->C022",
+            "target_date": "2025-04-19",
+            "accuracy": 78.86621315192744
+          },
+          {
+            "pair_id": "C022->C023",
+            "target_date": "2025-04-26",
+            "accuracy": 83.34618089226895
+          },
+          {
+            "pair_id": "C023->C024",
+            "target_date": "2025-05-02",
+            "accuracy": 70.5239668209732
+          },
+          {
+            "pair_id": "C024->C025",
+            "target_date": "2025-05-17",
+            "accuracy": 83.74792844535834
+          },
+          {
+            "pair_id": "C025->C026",
+            "target_date": "2025-05-23",
+            "accuracy": 89.67948939381569
+          },
+          {
+            "pair_id": "C026->C027",
+            "target_date": "2025-05-31",
+            "accuracy": 84.68871901523224
+          },
+          {
+            "pair_id": "C029->C030",
+            "target_date": "2025-09-13",
+            "accuracy": 76.55578296114078
+          },
+          {
+            "pair_id": "C030->C031",
+            "target_date": "2025-09-19",
+            "accuracy": 88.69909865161837
+          },
+          {
+            "pair_id": "C032->C033",
+            "target_date": "2025-10-25",
+            "accuracy": 83.51585510461692
+          },
+          {
+            "pair_id": "C033->C034",
+            "target_date": "2025-11-01",
+            "accuracy": 85.8195923779261
+          },
+          {
+            "pair_id": "C034->C035",
+            "target_date": "2025-11-14",
+            "accuracy": 87.67160047111653
+          },
+          {
+            "pair_id": "C035->C036",
+            "target_date": "2025-11-21",
+            "accuracy": 87.99088126913361
+          },
+          {
+            "pair_id": "C037->C038",
+            "target_date": "2026-01-16",
+            "accuracy": 75.31715345367172
+          },
+          {
+            "pair_id": "C040->C041",
+            "target_date": "2026-02-13",
+            "accuracy": 89.54647525873416
+          },
+          {
+            "pair_id": "C041->C042",
+            "target_date": "2026-02-27",
+            "accuracy": 84.94093944824725
+          },
+          {
+            "pair_id": "C043->C044",
+            "target_date": "2026-03-14",
+            "accuracy": 84.43154248931947
+          },
+          {
+            "pair_id": "C044->C045",
+            "target_date": "2026-03-20",
+            "accuracy": 89.08403075788918
+          },
+          {
+            "pair_id": "C045->C046",
+            "target_date": "2026-03-28",
+            "accuracy": 88.09671631030017
+          },
+          {
+            "pair_id": "C046->C047",
+            "target_date": "2026-04-03",
+            "accuracy": 89.3359337630232
+          },
+          {
+            "pair_id": "C048->C049",
+            "target_date": "2026-05-08",
+            "accuracy": 76.25845908877066
+          },
+          {
+            "pair_id": "C049->C050",
+            "target_date": "2026-05-16",
+            "accuracy": 86.07541150336262
+          },
+          {
+            "pair_id": "C050->C051",
+            "target_date": "2026-05-23",
+            "accuracy": 84.8920407702577
+          },
+          {
+            "pair_id": "C051->C052",
+            "target_date": "2026-05-29",
+            "accuracy": 82.92617999307991
+          },
+          {
+            "pair_id": "C053->C054",
+            "target_date": "2026-06-12",
+            "accuracy": 81.98694282036693
+          }
+        ]
+      },
+      "shrink_gap_age": {
+        "pair_count": 36,
+        "mean_accuracy": 84.01833892029613,
+        "median_accuracy": 84.56244374329285,
+        "rows": [
+          {
+            "pair_id": "C004->C005",
+            "target_date": "2024-10-19",
+            "accuracy": 90.04278003204372
+          },
+          {
+            "pair_id": "C005->C006",
+            "target_date": "2024-11-02",
+            "accuracy": 88.3693366179888
+          },
+          {
+            "pair_id": "C009->C010",
+            "target_date": "2024-11-30",
+            "accuracy": 85.2678909166173
+          },
+          {
+            "pair_id": "C010->C011",
+            "target_date": "2024-12-07",
+            "accuracy": 79.9525302218071
+          },
+          {
+            "pair_id": "C011->C012",
+            "target_date": "2024-12-13",
+            "accuracy": 83.61646401146577
+          },
+          {
+            "pair_id": "C012->C013",
+            "target_date": "2025-01-18",
+            "accuracy": 87.13311017315884
+          },
+          {
+            "pair_id": "C013->C014",
+            "target_date": "2025-01-24",
+            "accuracy": 86.84702564168137
+          },
+          {
+            "pair_id": "C015->C016",
+            "target_date": "2025-02-15",
+            "accuracy": 77.11727950012016
+          },
+          {
+            "pair_id": "C016->C017",
+            "target_date": "2025-02-21",
+            "accuracy": 84.07855389407585
+          },
+          {
+            "pair_id": "C017->C018",
+            "target_date": "2025-03-07",
+            "accuracy": 81.2955153856624
+          },
+          {
+            "pair_id": "C018->C019",
+            "target_date": "2025-03-22",
+            "accuracy": 84.14379493971154
+          },
+          {
+            "pair_id": "C019->C020",
+            "target_date": "2025-03-29",
+            "accuracy": 82.79422655261415
+          },
+          {
+            "pair_id": "C021->C022",
+            "target_date": "2025-04-19",
+            "accuracy": 78.86621315192744
+          },
+          {
+            "pair_id": "C022->C023",
+            "target_date": "2025-04-26",
+            "accuracy": 83.34831393803609
+          },
+          {
+            "pair_id": "C023->C024",
+            "target_date": "2025-05-02",
+            "accuracy": 70.51534953863748
+          },
+          {
+            "pair_id": "C024->C025",
+            "target_date": "2025-05-17",
+            "accuracy": 83.7500069185346
+          },
+          {
+            "pair_id": "C025->C026",
+            "target_date": "2025-05-23",
+            "accuracy": 89.6812701200119
+          },
+          {
+            "pair_id": "C026->C027",
+            "target_date": "2025-05-31",
+            "accuracy": 84.69334499726622
+          },
+          {
+            "pair_id": "C029->C030",
+            "target_date": "2025-09-13",
+            "accuracy": 76.55578296114078
+          },
+          {
+            "pair_id": "C030->C031",
+            "target_date": "2025-09-19",
+            "accuracy": 88.69553868578298
+          },
+          {
+            "pair_id": "C032->C033",
+            "target_date": "2025-10-25",
+            "accuracy": 83.51585510461692
+          },
+          {
+            "pair_id": "C033->C034",
+            "target_date": "2025-11-01",
+            "accuracy": 85.82474607306915
+          },
+          {
+            "pair_id": "C034->C035",
+            "target_date": "2025-11-14",
+            "accuracy": 87.67067303473856
+          },
+          {
+            "pair_id": "C035->C036",
+            "target_date": "2025-11-21",
+            "accuracy": 87.99208362588742
+          },
+          {
+            "pair_id": "C037->C038",
+            "target_date": "2026-01-16",
+            "accuracy": 75.31715345367172
+          },
+          {
+            "pair_id": "C040->C041",
+            "target_date": "2026-02-13",
+            "accuracy": 89.54518237519757
+          },
+          {
+            "pair_id": "C041->C042",
+            "target_date": "2026-02-27",
+            "accuracy": 84.93751502896068
+          },
+          {
+            "pair_id": "C043->C044",
+            "target_date": "2026-03-14",
+            "accuracy": 84.43154248931947
+          },
+          {
+            "pair_id": "C044->C045",
+            "target_date": "2026-03-20",
+            "accuracy": 89.07983737623542
+          },
+          {
+            "pair_id": "C045->C046",
+            "target_date": "2026-03-28",
+            "accuracy": 88.09996129573217
+          },
+          {
+            "pair_id": "C046->C047",
+            "target_date": "2026-04-03",
+            "accuracy": 89.33960568893168
+          },
+          {
+            "pair_id": "C048->C049",
+            "target_date": "2026-05-08",
+            "accuracy": 76.25845908877066
+          },
+          {
+            "pair_id": "C049->C050",
+            "target_date": "2026-05-16",
+            "accuracy": 86.07538300266086
+          },
+          {
+            "pair_id": "C050->C051",
+            "target_date": "2026-05-23",
+            "accuracy": 84.89179919309612
+          },
+          {
+            "pair_id": "C051->C052",
+            "target_date": "2026-05-29",
+            "accuracy": 82.92913328112093
+          },
+          {
+            "pair_id": "C053->C054",
+            "target_date": "2026-06-12",
+            "accuracy": 81.98694282036693
+          }
+        ]
+      },
+      "momentum": {
+        "pair_count": 25,
+        "mean_accuracy": 85.08844877012655,
+        "median_accuracy": 85.79497278119872,
+        "rows": [
+          {
+            "pair_id": "C005->C006",
+            "target_date": "2024-11-02",
+            "accuracy": 88.02818737884121
+          },
+          {
+            "pair_id": "C010->C011",
+            "target_date": "2024-12-07",
+            "accuracy": 80.08900462071139
+          },
+          {
+            "pair_id": "C011->C012",
+            "target_date": "2024-12-13",
+            "accuracy": 83.82822462898748
+          },
+          {
+            "pair_id": "C012->C013",
+            "target_date": "2025-01-18",
+            "accuracy": 86.40913139479599
+          },
+          {
+            "pair_id": "C013->C014",
+            "target_date": "2025-01-24",
+            "accuracy": 86.90873944339965
+          },
+          {
+            "pair_id": "C016->C017",
+            "target_date": "2025-02-21",
+            "accuracy": 84.19744304295247
+          },
+          {
+            "pair_id": "C017->C018",
+            "target_date": "2025-03-07",
+            "accuracy": 80.6479201729488
+          },
+          {
+            "pair_id": "C018->C019",
+            "target_date": "2025-03-22",
+            "accuracy": 84.15340649701665
+          },
+          {
+            "pair_id": "C019->C020",
+            "target_date": "2025-03-29",
+            "accuracy": 82.6195251597623
+          },
+          {
+            "pair_id": "C022->C023",
+            "target_date": "2025-04-26",
+            "accuracy": 83.41981879249343
+          },
+          {
+            "pair_id": "C023->C024",
+            "target_date": "2025-05-02",
+            "accuracy": 70.62166141920625
+          },
+          {
+            "pair_id": "C024->C025",
+            "target_date": "2025-05-17",
+            "accuracy": 83.67856835533539
+          },
+          {
+            "pair_id": "C025->C026",
+            "target_date": "2025-05-23",
+            "accuracy": 90.4653834669458
+          },
+          {
+            "pair_id": "C026->C027",
+            "target_date": "2025-05-31",
+            "accuracy": 85.79497278119872
+          },
+          {
+            "pair_id": "C030->C031",
+            "target_date": "2025-09-19",
+            "accuracy": 89.12297692086189
+          },
+          {
+            "pair_id": "C033->C034",
+            "target_date": "2025-11-01",
+            "accuracy": 86.13134592053164
+          },
+          {
+            "pair_id": "C034->C035",
+            "target_date": "2025-11-14",
+            "accuracy": 87.4842302207576
+          },
+          {
+            "pair_id": "C035->C036",
+            "target_date": "2025-11-21",
+            "accuracy": 88.27358655518766
+          },
+          {
+            "pair_id": "C041->C042",
+            "target_date": "2026-02-27",
+            "accuracy": 85.07793303108733
+          },
+          {
+            "pair_id": "C044->C045",
+            "target_date": "2026-03-20",
+            "accuracy": 88.89627103647068
+          },
+          {
+            "pair_id": "C045->C046",
+            "target_date": "2026-03-28",
+            "accuracy": 88.05634434121134
+          },
+          {
+            "pair_id": "C046->C047",
+            "target_date": "2026-04-03",
+            "accuracy": 89.54536854576165
+          },
+          {
+            "pair_id": "C049->C050",
+            "target_date": "2026-05-16",
+            "accuracy": 86.06814379415171
+          },
+          {
+            "pair_id": "C050->C051",
+            "target_date": "2026-05-23",
+            "accuracy": 84.89441227870469
+          },
+          {
+            "pair_id": "C051->C052",
+            "target_date": "2026-05-29",
+            "accuracy": 82.79861945384175
+          }
+        ]
+      },
+      "combined": {
+        "pair_count": 25,
+        "mean_accuracy": 85.0869419842379,
+        "median_accuracy": 85.50308693532477,
+        "rows": [
+          {
+            "pair_id": "C005->C006",
+            "target_date": "2024-11-02",
+            "accuracy": 88.13751829159439
+          },
+          {
+            "pair_id": "C010->C011",
+            "target_date": "2024-12-07",
+            "accuracy": 80.07672004907252
+          },
+          {
+            "pair_id": "C011->C012",
+            "target_date": "2024-12-13",
+            "accuracy": 83.82296760922729
+          },
+          {
+            "pair_id": "C012->C013",
+            "target_date": "2025-01-18",
+            "accuracy": 86.57539841179181
+          },
+          {
+            "pair_id": "C013->C014",
+            "target_date": "2025-01-24",
+            "accuracy": 86.91299784453692
+          },
+          {
+            "pair_id": "C016->C017",
+            "target_date": "2025-02-21",
+            "accuracy": 84.19198101823464
+          },
+          {
+            "pair_id": "C017->C018",
+            "target_date": "2025-03-07",
+            "accuracy": 80.79857786320613
+          },
+          {
+            "pair_id": "C018->C019",
+            "target_date": "2025-03-22",
+            "accuracy": 84.19225357053838
+          },
+          {
+            "pair_id": "C019->C020",
+            "target_date": "2025-03-29",
+            "accuracy": 82.771757576413
+          },
+          {
+            "pair_id": "C022->C023",
+            "target_date": "2025-04-26",
+            "accuracy": 83.4138289924991
+          },
+          {
+            "pair_id": "C023->C024",
+            "target_date": "2025-05-02",
+            "accuracy": 70.51821408189473
+          },
+          {
+            "pair_id": "C024->C025",
+            "target_date": "2025-05-17",
+            "accuracy": 83.72208492805893
+          },
+          {
+            "pair_id": "C025->C026",
+            "target_date": "2025-05-23",
+            "accuracy": 90.28342203735134
+          },
+          {
+            "pair_id": "C026->C027",
+            "target_date": "2025-05-31",
+            "accuracy": 85.50308693532477
+          },
+          {
+            "pair_id": "C030->C031",
+            "target_date": "2025-09-19",
+            "accuracy": 89.09191483900346
+          },
+          {
+            "pair_id": "C033->C034",
+            "target_date": "2025-11-01",
+            "accuracy": 86.10398586338898
+          },
+          {
+            "pair_id": "C034->C035",
+            "target_date": "2025-11-14",
+            "accuracy": 87.51689464260599
+          },
+          {
+            "pair_id": "C035->C036",
+            "target_date": "2025-11-21",
+            "accuracy": 88.1070641628807
+          },
+          {
+            "pair_id": "C041->C042",
+            "target_date": "2026-02-27",
+            "accuracy": 85.08217234573068
+          },
+          {
+            "pair_id": "C044->C045",
+            "target_date": "2026-03-20",
+            "accuracy": 88.91208024061396
+          },
+          {
+            "pair_id": "C045->C046",
+            "target_date": "2026-03-28",
+            "accuracy": 88.11196681706022
+          },
+          {
+            "pair_id": "C046->C047",
+            "target_date": "2026-04-03",
+            "accuracy": 89.5527240193009
+          },
+          {
+            "pair_id": "C049->C050",
+            "target_date": "2026-05-16",
+            "accuracy": 86.06878305207671
+          },
+          {
+            "pair_id": "C050->C051",
+            "target_date": "2026-05-23",
+            "accuracy": 84.93381817688778
+          },
+          {
+            "pair_id": "C051->C052",
+            "target_date": "2026-05-29",
+            "accuracy": 82.77133623665375
+          }
+        ]
+      }
+    },
+    "persistence": {
+      "pair_count": 36,
+      "mean_accuracy": 83.88547219566745,
+      "median_accuracy": 84.57185002791341
+    },
+    "format_mean": {
+      "pair_count": 36,
+      "mean_accuracy": 81.48296586033776,
+      "median_accuracy": 82.42102047641853
+    },
+    "persistence_on_momentum_subset": {
+      "pair_count": 25,
+      "mean_accuracy": 84.8916519038797,
+      "median_accuracy": 85.26101201310522
+    }
+  },
+  "fixed_chronological_holdout": {
+    "train_pair_count": 25,
+    "test_pair_count": 11,
+    "train_end_target_date": "2026-01-16",
+    "test_start_target_date": "2026-02-13",
+    "persistence": {
+      "pair_count": 11,
+      "mean_accuracy": 85.13678696943735,
+      "median_accuracy": 84.76118652589241
+    },
+    "format_mean": {
+      "pair_count": 11,
+      "mean_accuracy": 83.62651564466783,
+      "median_accuracy": 83.89250819809745
+    },
+    "models": {
+      "shrink_constant": {
+        "fit": {
+          "coef": [
+            0.8534593411814119
+          ],
+          "n": 2446,
+          "sse": 0.18753515364392095,
+          "r2": 0.27466137950987435,
+          "model": "shrink_constant",
+          "gap_center": 6,
+          "age_center": 35.5
+        },
+        "test": {
+          "pair_count": 11,
+          "mean_accuracy": 85.23279936661828,
+          "median_accuracy": 84.92456173218274,
+          "rows": [
+            {
+              "pair_id": "C040->C041",
+              "target_date": "2026-02-13",
+              "accuracy": 89.55057645486959
+            },
+            {
+              "pair_id": "C041->C042",
+              "target_date": "2026-02-27",
+              "accuracy": 84.92456173218274
+            },
+            {
+              "pair_id": "C043->C044",
+              "target_date": "2026-03-14",
+              "accuracy": 84.43154248931947
+            },
+            {
+              "pair_id": "C044->C045",
+              "target_date": "2026-03-20",
+              "accuracy": 89.06498980952453
+            },
+            {
+              "pair_id": "C045->C046",
+              "target_date": "2026-03-28",
+              "accuracy": 88.10874949468085
+            },
+            {
+              "pair_id": "C046->C047",
+              "target_date": "2026-04-03",
+              "accuracy": 89.37379437376526
+            },
+            {
+              "pair_id": "C048->C049",
+              "target_date": "2026-05-08",
+              "accuracy": 76.25845908877066
+            },
+            {
+              "pair_id": "C049->C050",
+              "target_date": "2026-05-16",
+              "accuracy": 86.07496607386896
+            },
+            {
+              "pair_id": "C050->C051",
+              "target_date": "2026-05-23",
+              "accuracy": 84.89825773878236
+            },
+            {
+              "pair_id": "C051->C052",
+              "target_date": "2026-05-29",
+              "accuracy": 82.88795295666968
+            },
+            {
+              "pair_id": "C053->C054",
+              "target_date": "2026-06-12",
+              "accuracy": 81.98694282036693
+            }
+          ]
+        }
+      },
+      "shrink_gap": {
+        "fit": {
+          "coef": [
+            0.8598363762507145,
+            -0.0021604335961874573
+          ],
+          "n": 2446,
+          "sse": 0.18751867742921416,
+          "r2": 0.2747251053480124,
+          "model": "shrink_gap",
+          "gap_center": 6,
+          "age_center": 35.5
+        },
+        "test": {
+          "pair_count": 11,
+          "mean_accuracy": 85.23269437761856,
+          "median_accuracy": 84.9307741281698,
+          "rows": [
+            {
+              "pair_id": "C040->C041",
+              "target_date": "2026-02-13",
+              "accuracy": 89.5466431751074
+            },
+            {
+              "pair_id": "C041->C042",
+              "target_date": "2026-02-27",
+              "accuracy": 84.9307741281698
+            },
+            {
+              "pair_id": "C043->C044",
+              "target_date": "2026-03-14",
+              "accuracy": 84.43154248931947
+            },
+            {
+              "pair_id": "C044->C045",
+              "target_date": "2026-03-20",
+              "accuracy": 89.0832511592338
+            },
+            {
+              "pair_id": "C045->C046",
+              "target_date": "2026-03-28",
+              "accuracy": 88.09384935737327
+            },
+            {
+              "pair_id": "C046->C047",
+              "target_date": "2026-04-03",
+              "accuracy": 89.33748390016245
+            },
+            {
+              "pair_id": "C048->C049",
+              "target_date": "2026-05-08",
+              "accuracy": 76.25845908877066
+            },
+            {
+              "pair_id": "C049->C050",
+              "target_date": "2026-05-16",
+              "accuracy": 86.07551762866996
+            },
+            {
+              "pair_id": "C050->C051",
+              "target_date": "2026-05-23",
+              "accuracy": 84.89055955335414
+            },
+            {
+              "pair_id": "C051->C052",
+              "target_date": "2026-05-29",
+              "accuracy": 82.92461485327627
+            },
+            {
+              "pair_id": "C053->C054",
+              "target_date": "2026-06-12",
+              "accuracy": 81.98694282036693
+            }
+          ]
+        }
+      },
+      "shrink_gap_age": {
+        "fit": {
+          "coef": [
+            0.8491644837718353,
+            -0.004287567155029041,
+            0.004264799419264163
+          ],
+          "n": 2446,
+          "sse": 0.187216953416808,
+          "r2": 0.2758920976407907,
+          "model": "shrink_gap_age",
+          "gap_center": 6,
+          "age_center": 35.5
+        },
+        "test": {
+          "pair_count": 11,
+          "mean_accuracy": 85.18965671447508,
+          "median_accuracy": 84.86482974057719,
+          "rows": [
+            {
+              "pair_id": "C040->C041",
+              "target_date": "2026-02-13",
+              "accuracy": 89.07964973423658
+            },
+            {
+              "pair_id": "C041->C042",
+              "target_date": "2026-02-27",
+              "accuracy": 84.64577406757806
+            },
+            {
+              "pair_id": "C043->C044",
+              "target_date": "2026-03-14",
+              "accuracy": 84.43154248931947
+            },
+            {
+              "pair_id": "C044->C045",
+              "target_date": "2026-03-20",
+              "accuracy": 88.86884566438577
+            },
+            {
+              "pair_id": "C045->C046",
+              "target_date": "2026-03-28",
+              "accuracy": 88.23944498653204
+            },
+            {
+              "pair_id": "C046->C047",
+              "target_date": "2026-04-03",
+              "accuracy": 89.50079488904902
+            },
+            {
+              "pair_id": "C048->C049",
+              "target_date": "2026-05-08",
+              "accuracy": 76.25845908877066
+            },
+            {
+              "pair_id": "C049->C050",
+              "target_date": "2026-05-16",
+              "accuracy": 86.07477904119416
+            },
+            {
+              "pair_id": "C050->C051",
+              "target_date": "2026-05-23",
+              "accuracy": 84.86482974057719
+            },
+            {
+              "pair_id": "C051->C052",
+              "target_date": "2026-05-29",
+              "accuracy": 83.13516133721595
+            },
+            {
+              "pair_id": "C053->C054",
+              "target_date": "2026-06-12",
+              "accuracy": 81.98694282036693
+            }
+          ]
+        }
+      },
+      "momentum": {
+        "fit": {
+          "coef": [
+            -0.14679652827181447
+          ],
+          "n": 1719,
+          "sse": 0.10515496099025758,
+          "r2": 0.029103266016225926,
+          "model": "momentum",
+          "gap_center": 6,
+          "age_center": 35.5
+        },
+        "test": {
+          "pair_count": 7,
+          "mean_accuracy": 86.47881263296237,
+          "median_accuracy": 86.05473025131751,
+          "rows": [
+            {
+              "pair_id": "C041->C042",
+              "target_date": "2026-02-27",
+              "accuracy": 85.1722063595226
+            },
+            {
+              "pair_id": "C044->C045",
+              "target_date": "2026-03-20",
+              "accuracy": 88.74242566094098
+            },
+            {
+              "pair_id": "C045->C046",
+              "target_date": "2026-03-28",
+              "accuracy": 88.11396407587458
+            },
+            {
+              "pair_id": "C046->C047",
+              "target_date": "2026-04-03",
+              "accuracy": 89.78574713025391
+            },
+            {
+              "pair_id": "C049->C050",
+              "target_date": "2026-05-16",
+              "accuracy": 86.05473025131751
+            },
+            {
+              "pair_id": "C050->C051",
+              "target_date": "2026-05-23",
+              "accuracy": 84.90132623887486
+            },
+            {
+              "pair_id": "C051->C052",
+              "target_date": "2026-05-29",
+              "accuracy": 82.58128871395223
+            }
+          ]
+        }
+      },
+      "combined": {
+        "fit": {
+          "coef": [
+            1.026550394735382,
+            -0.1623704238905279
+          ],
+          "n": 1823,
+          "sse": 0.10512729286024812,
+          "r2": 0.3985150498869552,
+          "model": "combined",
+          "gap_center": 6,
+          "age_center": 35.5
+        },
+        "test": {
+          "pair_count": 7,
+          "mean_accuracy": 86.46086095567334,
+          "median_accuracy": 86.05304793883015,
+          "rows": [
+            {
+              "pair_id": "C041->C042",
+              "target_date": "2026-02-27",
+              "accuracy": 85.14531270955487
+            },
+            {
+              "pair_id": "C044->C045",
+              "target_date": "2026-03-20",
+              "accuracy": 88.72958433511396
+            },
+            {
+              "pair_id": "C045->C046",
+              "target_date": "2026-03-28",
+              "accuracy": 88.0743202255458
+            },
+            {
+              "pair_id": "C046->C047",
+              "target_date": "2026-04-03",
+              "accuracy": 89.78756976713503
+            },
+            {
+              "pair_id": "C049->C050",
+              "target_date": "2026-05-16",
+              "accuracy": 86.05304793883015
+            },
+            {
+              "pair_id": "C050->C051",
+              "target_date": "2026-05-23",
+              "accuracy": 84.85932363786685
+            },
+            {
+              "pair_id": "C051->C052",
+              "target_date": "2026-05-29",
+              "accuracy": 82.57686807566674
+            }
+          ]
+        }
+      }
+    },
+    "persistence_on_momentum_subset": {
+      "pair_count": 7,
+      "mean_accuracy": 86.37694575720467,
+      "median_accuracy": 86.07236683098722
+    }
+  },
+  "expanding_walkforward": {
+    "min_training_pairs": 15,
+    "rows": [
+      {
+        "pair_id": "C024->C025",
+        "target_date": "2025-05-17",
+        "format": "SVI-JTG",
+        "gap_days": 13,
+        "persistence": 82.8301672487719,
+        "format_mean": 76.3939232608979,
+        "shrink_constant": 83.79262254618098,
+        "shrink_gap": 83.71580619311942,
+        "shrink_gap_age": 83.71438625221414,
+        "momentum": 83.57171993862018,
+        "combined": 83.71658072426492
+      },
+      {
+        "pair_id": "C025->C026",
+        "target_date": "2025-05-23",
+        "format": "SVI-JTG",
+        "gap_days": 5,
+        "persistence": 90.75816928645808,
+        "format_mean": 76.31804588253118,
+        "shrink_constant": 88.79922707687413,
+        "shrink_gap": 88.55640700329917,
+        "shrink_gap_age": 88.63626374009523,
+        "momentum": 90.30608071211248,
+        "combined": 89.4534483757835
+      },
+      {
+        "pair_id": "C026->C027",
+        "target_date": "2025-05-31",
+        "format": "SVI-JTG",
+        "gap_days": 6,
+        "persistence": 85.26101201310522,
+        "format_mean": 75.60550969667408,
+        "shrink_constant": 84.42901231974342,
+        "shrink_gap": 84.43652249426454,
+        "shrink_gap_age": 84.62589890535325,
+        "momentum": 85.90103168517045,
+        "combined": 85.38044543685912
+      },
+      {
+        "pair_id": "C029->C030",
+        "target_date": "2025-09-13",
+        "format": "SVI-BLK/WHT",
+        "gap_days": 27,
+        "persistence": 76.55578296114078,
+        "format_mean": 76.55578296114078,
+        "shrink_constant": 76.55578296114078,
+        "shrink_gap": 76.55578296114078,
+        "shrink_gap_age": 76.55578296114078,
+        "momentum": null,
+        "combined": null
+      },
+      {
+        "pair_id": "C030->C031",
+        "target_date": "2025-09-19",
+        "format": "SVI-BLK/WHT",
+        "gap_days": 5,
+        "persistence": 87.64123990612424,
+        "format_mean": 85.68752299535178,
+        "shrink_constant": 88.72362394105073,
+        "shrink_gap": 88.62776509653439,
+        "shrink_gap_age": 88.18161768222194,
+        "momentum": 89.03559112610141,
+        "combined": 89.03327073105524
+      },
+      {
+        "pair_id": "C032->C033",
+        "target_date": "2025-10-25",
+        "format": "SVI-MEG",
+        "gap_days": 13,
+        "persistence": 83.51585510461692,
+        "format_mean": 83.51585510461692,
+        "shrink_constant": 83.51585510461692,
+        "shrink_gap": 83.51585510461692,
+        "shrink_gap_age": 83.51585510461692,
+        "momentum": null,
+        "combined": null
+      },
+      {
+        "pair_id": "C033->C034",
+        "target_date": "2025-11-01",
+        "format": "SVI-MEG",
+        "gap_days": 6,
+        "persistence": 85.29490805430933,
+        "format_mean": 87.55355244557587,
+        "shrink_constant": 85.88048369322439,
+        "shrink_gap": 85.85811767815905,
+        "shrink_gap_age": 86.06233450481496,
+        "momentum": 86.42949600771263,
+        "combined": 86.4343363613075
+      },
+      {
+        "pair_id": "C034->C035",
+        "target_date": "2025-11-14",
+        "format": "SVI-MEG",
+        "gap_days": 12,
+        "persistence": 87.89167186223288,
+        "format_mean": 85.48845309362203,
+        "shrink_constant": 87.66713818286621,
+        "shrink_gap": 87.66119898469601,
+        "shrink_gap_age": 87.62404936067402,
+        "momentum": 87.28255535055693,
+        "combined": 87.27575058505147
+      },
+      {
+        "pair_id": "C035->C036",
+        "target_date": "2025-11-21",
+        "format": "SVI-MEG",
+        "gap_days": 5,
+        "persistence": 88.99037413137196,
+        "format_mean": 80.65231407433852,
+        "shrink_constant": 87.82083914687944,
+        "shrink_gap": 87.84267137278411,
+        "shrink_gap_age": 87.98371606105229,
+        "momentum": 87.95106806174729,
+        "combined": 87.99558346231737
+      },
+      {
+        "pair_id": "C037->C038",
+        "target_date": "2026-01-16",
+        "format": "SVI-PFL",
+        "gap_days": 47,
+        "persistence": 75.31715345367172,
+        "format_mean": 75.31715345367172,
+        "shrink_constant": 75.31715345367172,
+        "shrink_gap": 75.31715345367172,
+        "shrink_gap_age": 75.31715345367172,
+        "momentum": null,
+        "combined": null
+      },
+      {
+        "pair_id": "C040->C041",
+        "target_date": "2026-02-13",
+        "format": "SVI-PFL",
+        "gap_days": 5,
+        "persistence": 89.1890919649212,
+        "format_mean": 87.20408628043972,
+        "shrink_constant": 89.55057645486959,
+        "shrink_gap": 89.5466431751074,
+        "shrink_gap_age": 89.07964973423658,
+        "momentum": null,
+        "combined": null
+      },
+      {
+        "pair_id": "C041->C042",
+        "target_date": "2026-02-27",
+        "format": "SVI-PFL",
+        "gap_days": 12,
+        "persistence": 84.76118652589241,
+        "format_mean": 83.89250819809745,
+        "shrink_constant": 84.9309038915679,
+        "shrink_gap": 84.9351444820303,
+        "shrink_gap_age": 84.84479949897764,
+        "momentum": 85.1722063595226,
+        "combined": 85.14531270955487
+      },
+      {
+        "pair_id": "C043->C044",
+        "target_date": "2026-03-14",
+        "format": "SVI-ASC",
+        "gap_days": 6,
+        "persistence": 84.43154248931947,
+        "format_mean": 84.43154248931947,
+        "shrink_constant": 84.43154248931947,
+        "shrink_gap": 84.43154248931947,
+        "shrink_gap_age": 84.43154248931947,
+        "momentum": null,
+        "combined": null
+      },
+      {
+        "pair_id": "C044->C045",
+        "target_date": "2026-03-20",
+        "format": "SVI-ASC",
+        "gap_days": 5,
+        "persistence": 89.3773679548341,
+        "format_mean": 86.52685179995004,
+        "shrink_constant": 89.02745036484148,
+        "shrink_gap": 89.04700945194544,
+        "shrink_gap_age": 89.0657935204715,
+        "momentum": 88.71421497174269,
+        "combined": 88.712642847299
+      },
+      {
+        "pair_id": "C045->C046",
+        "target_date": "2026-03-28",
+        "format": "SVI-ASC",
+        "gap_days": 6,
+        "persistence": 87.5391797073351,
+        "format_mean": 87.51864250715454,
+        "shrink_constant": 88.14111676797957,
+        "shrink_gap": 88.12283848887557,
+        "shrink_gap_age": 88.09355098065886,
+        "momentum": 88.111183666697,
+        "combined": 88.10905118632404
+      },
+      {
+        "pair_id": "C046->C047",
+        "target_date": "2026-04-03",
+        "format": "SVI-ASC",
+        "gap_days": 5,
+        "persistence": 88.72854780670446,
+        "format_mean": 90.32503735604281,
+        "shrink_constant": 89.44942036651673,
+        "shrink_gap": 89.4100115511286,
+        "shrink_gap_age": 89.39107677465682,
+        "momentum": 89.78099900602868,
+        "combined": 89.78208102308723
+      },
+      {
+        "pair_id": "C048->C049",
+        "target_date": "2026-05-08",
+        "format": "TEF-POR",
+        "gap_days": 12,
+        "persistence": 76.25845908877066,
+        "format_mean": 76.25845908877066,
+        "shrink_constant": 76.25845908877066,
+        "shrink_gap": 76.25845908877066,
+        "shrink_gap_age": 76.25845908877066,
+        "momentum": null,
+        "combined": null
+      },
+      {
+        "pair_id": "C049->C050",
+        "target_date": "2026-05-16",
+        "format": "TEF-POR",
+        "gap_days": 6,
+        "persistence": 86.07236683098722,
+        "format_mean": 83.11517219477832,
+        "shrink_constant": 86.0730641768767,
+        "shrink_gap": 86.07353237415968,
+        "shrink_gap_age": 86.0736070526217,
+        "momentum": 86.0521450792186,
+        "combined": 86.05271761896043
+      },
+      {
+        "pair_id": "C050->C051",
+        "target_date": "2026-05-23",
+        "format": "TEF-POR",
+        "gap_days": 6,
+        "persistence": 84.71215756650736,
+        "format_mean": 82.24284408156817,
+        "shrink_constant": 84.91265882221359,
+        "shrink_gap": 84.90370587558438,
+        "shrink_gap_age": 84.90506459232093,
+        "momentum": 84.89942659405537,
+        "combined": 84.91226123129513
+      },
+      {
+        "pair_id": "C051->C052",
+        "target_date": "2026-05-29",
+        "format": "TEF-POR",
+        "gap_days": 5,
+        "persistence": 83.44781390817197,
+        "format_mean": 76.38958527485798,
+        "shrink_constant": 82.80876586528633,
+        "shrink_gap": 82.84319516683611,
+        "shrink_gap_age": 82.8252181132829,
+        "momentum": 82.65868693339156,
+        "combined": 82.6407530931983
+      },
+      {
+        "pair_id": "C053->C054",
+        "target_date": "2026-06-12",
+        "format": "TEF-CRI",
+        "gap_days": 5,
+        "persistence": 81.98694282036693,
+        "format_mean": 81.98694282036693,
+        "shrink_constant": 81.98694282036693,
+        "shrink_gap": 81.98694282036693,
+        "shrink_gap_age": 81.98694282036693,
+        "momentum": null,
+        "combined": null
+      }
+    ],
+    "persistence": {
+      "pair_count": 21,
+      "mean_accuracy": 84.78861860407685,
+      "median_accuracy": 85.26101201310522
+    },
+    "format_mean": {
+      "pair_count": 21,
+      "mean_accuracy": 82.04665643141747,
+      "median_accuracy": 83.11517219477832
+    },
+    "shrink_constant": {
+      "pair_count": 21,
+      "mean_accuracy": 84.76536378737417,
+      "median_accuracy": 84.9309038915679
+    },
+    "shrink_gap": {
+      "pair_count": 21,
+      "mean_accuracy": 84.74506215744812,
+      "median_accuracy": 84.9351444820303
+    },
+    "shrink_gap_age": {
+      "pair_count": 21,
+      "mean_accuracy": 84.72251250912092,
+      "median_accuracy": 84.90506459232093
+    },
+    "momentum": {
+      "pair_count": 14,
+      "mean_accuracy": 86.84760039233413,
+      "median_accuracy": 86.85602567913477
+    },
+    "combined": {
+      "pair_count": 14,
+      "mean_accuracy": 86.760302527597,
+      "median_accuracy": 86.85504347317948
+    },
+    "persistence_on_momentum_subset": {
+      "pair_count": 14,
+      "mean_accuracy": 86.66472591448617,
+      "median_accuracy": 86.80577326916116
+    }
+  },
+  "interpretation_boundary": "IRL-to-IRL regression measures persistence of IRL fields. Its coefficients are not IRL-vs-Online blend weights. Full-sample fits are in-sample; chronological holdout/walk-forward are the stronger prediction checks."
+}

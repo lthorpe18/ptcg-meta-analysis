@@ -1,0 +1,169 @@
+{
+  "purpose": "Test whether the negative IRL-to-IRL gap slope is robust to sparse long-gap leverage and to the recent-year era.",
+  "latest_target_date": "2026-06-12",
+  "recent_365_start": "2025-06-12",
+  "subsets": [
+    {
+      "label": "Full eligible sample",
+      "pair_count": 36,
+      "format_count": 10,
+      "gap_min": 5,
+      "gap_max": 47,
+      "mean_accuracy": 83.88547219566745,
+      "overall": {
+        "intercept": 85.51123364049933,
+        "slope": -0.16915436998250769,
+        "r2": 0.11082115718357899,
+        "n": 36
+      },
+      "within_format": {
+        "slope": -0.19984236100248212,
+        "n": 35,
+        "format_count": 9
+      },
+      "overall_cluster_bootstrap": null,
+      "within_format_cluster_bootstrap": null
+    },
+    {
+      "label": "Exclude single longest-gap pair",
+      "pair_count": 35,
+      "format_count": 10,
+      "gap_min": 5,
+      "gap_max": 34,
+      "mean_accuracy": 84.13028130258162,
+      "overall": {
+        "intercept": 85.02956646516935,
+        "slope": -0.1052674939483966,
+        "r2": 0.023224143915973716,
+        "n": 35
+      },
+      "within_format": {
+        "slope": -0.10961038205879922,
+        "n": 34,
+        "format_count": 9
+      },
+      "overall_cluster_bootstrap": {
+        "bootstrap_count": 3000,
+        "ci95": [
+          -0.4434184826930492,
+          0.08852265744795089
+        ],
+        "median": -0.11026689465778663
+      },
+      "within_format_cluster_bootstrap": {
+        "bootstrap_count": 3000,
+        "ci95": [
+          -0.5288828310532158,
+          0.06484742760032387
+        ],
+        "median": -0.11736543577425018
+      }
+    },
+    {
+      "label": "Gaps <=14 days",
+      "pair_count": 33,
+      "format_count": 10,
+      "gap_min": 5,
+      "gap_max": 13,
+      "mean_accuracy": 84.29760469388167,
+      "overall": {
+        "intercept": 85.42133040824605,
+        "slope": -0.15581070829422064,
+        "r2": 0.012661411007125922,
+        "n": 33
+      },
+      "within_format": {
+        "slope": -0.24244577337393283,
+        "n": 31,
+        "format_count": 8
+      },
+      "overall_cluster_bootstrap": {
+        "bootstrap_count": 3000,
+        "ci95": [
+          -0.6126786459699723,
+          0.13889901307759062
+        ],
+        "median": -0.14762094280961036
+      },
+      "within_format_cluster_bootstrap": {
+        "bootstrap_count": 3000,
+        "ci95": [
+          -0.7870926105084265,
+          0.07605018199325646
+        ],
+        "median": -0.24114758676006848
+      }
+    },
+    {
+      "label": "Latest 365 days",
+      "pair_count": 18,
+      "format_count": 6,
+      "gap_min": 5,
+      "gap_max": 47,
+      "mean_accuracy": 84.53953567429326,
+      "overall": {
+        "intercept": 87.77911419147007,
+        "slope": -0.3101724112190562,
+        "r2": 0.5440474931927164,
+        "n": 18
+      },
+      "within_format": {
+        "slope": -0.36878114485520147,
+        "n": 17,
+        "format_count": 5
+      },
+      "overall_cluster_bootstrap": {
+        "bootstrap_count": 3000,
+        "ci95": [
+          -0.6407509577221252,
+          -0.2358975282753468
+        ],
+        "median": -0.3169777789756262
+      },
+      "within_format_cluster_bootstrap": {
+        "bootstrap_count": 3000,
+        "ci95": [
+          -0.865762911764956,
+          -0.3107329243758632
+        ],
+        "median": -0.3707990766672173
+      }
+    },
+    {
+      "label": "Latest 365 days, gaps <=14",
+      "pair_count": 16,
+      "format_count": 6,
+      "gap_min": 5,
+      "gap_max": 13,
+      "mean_accuracy": 85.61491910765415,
+      "overall": {
+        "intercept": 89.20101372911918,
+        "slope": -0.5033115258196534,
+        "r2": 0.20919167131731053,
+        "n": 16
+      },
+      "within_format": {
+        "slope": -0.6746692387848169,
+        "n": 14,
+        "format_count": 4
+      },
+      "overall_cluster_bootstrap": {
+        "bootstrap_count": 2996,
+        "ci95": [
+          -1.4890917189178114,
+          -0.11697008175470422
+        ],
+        "median": -0.47842837475537275
+      },
+      "within_format_cluster_bootstrap": {
+        "bootstrap_count": 2992,
+        "ci95": [
+          -1.3784961735413277,
+          -0.3006023233919907
+        ],
+        "median": -0.6746692387848169
+      }
+    }
+  ],
+  "interpretation_boundary": "Sensitivity analyses are descriptive. Small subsets and few independent formats make slope estimates imprecise."
+}
