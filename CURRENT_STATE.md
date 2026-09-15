@@ -1,6 +1,6 @@
 # PTCG Meta Analysis — current state
 
-Audit: 14 September 2026; documentation state re-verified 15 September 2026. **Read this before assuming main contains the analysis.**
+Audit: 14 September 2026; documentation state re-verified and consolidated on main 15 September 2026. **Read this before assuming main contains the analysis.**
 
 ## Purpose and boundary
 
@@ -10,13 +10,13 @@ Audit: 14 September 2026; documentation state re-verified 15 September 2026. **R
 
 | State | Verified reference | Meaning |
 |---|---|---|
-| Main research implementation baseline | [74cde68ad5f8d4663e36c269e81e8692140f1c18](https://github.com/lthorpe18/ptcg-meta-analysis/commit/74cde68ad5f8d4663e36c269e81e8692140f1c18) | Collector/chunk-runner foundation and compact 10–13 September smoke data. Documentation consolidation PR #6 adds only recovery/state documentation on top of this implementation baseline; it does not merge the completed research. |
+| Main research implementation baseline | [74cde68ad5f8d4663e36c269e81e8692140f1c18](https://github.com/lthorpe18/ptcg-meta-analysis/commit/74cde68ad5f8d4663e36c269e81e8692140f1c18) | Collector/chunk-runner foundation and compact 10–13 September smoke data. Documentation consolidation does not merge the completed research. |
+| Current main documentation state | [PR #6 merge `047d288`](https://github.com/lthorpe18/ptcg-meta-analysis/commit/047d288a420bff3efe75457a0c77bf8bcb0f4892) | Documentation-only consolidation merged 15 September 2026. No code, workflows, models, datasets or generated analysis outputs were included. |
 | Active research | `historical-online-chunked` at [67310cbab568a2632cec96cedfce1b8118d25d3c](https://github.com/lthorpe18/ptcg-meta-analysis/commit/67310cbab568a2632cec96cedfce1b8118d25d3c) | Historical archive, audits, format tags, windows, models, experiments and website |
-| Open research PR | [#5](https://github.com/lthorpe18/ptcg-meta-analysis/pull/5) | Still titled “Backfill historical Online data in resumable monthly chunks”; title/body understate its actual scope. It remains separate from documentation PR #6 and is not authorised for merge by the documentation review. |
-| Documentation consolidation | [#6](https://github.com/lthorpe18/ptcg-meta-analysis/pull/6) | Recovery/state documentation only. Re-verified 15 September against current main and #5 research head before merge. |
+| Open research PR | [#5](https://github.com/lthorpe18/ptcg-meta-analysis/pull/5) | Still titled “Backfill historical Online data in resumable monthly chunks”; title/body understate its actual scope. It remains open and unmerged at `67310cb`. After #6 merged, GitHub reports it non-mergeable against current main; resolving that is a separate future task and is not authorised here. |
 | Deployed research site | [Website](https://lthorpe18.github.io/ptcg-meta-analysis/), [successful run 34871503993](https://github.com/lthorpe18/ptcg-meta-analysis/actions/runs/34871503993) | Workflow checked out the research branch, generated/committed `67310cb`, then deployed dashboard; not a deployment of main |
 
-The 15 September re-check confirmed the implementation relationship recorded by the audit: pre-documentation main `74cde68` is 2 commits ahead of the research branch at their divergence, while `historical-online-chunked` is 161 commits ahead of main. Documentation PR #6 does not alter that analytical split.
+The 15 September pre-merge re-check confirmed the implementation relationship recorded by the audit: pre-documentation main `74cde68` was 2 commits ahead of the research branch at their divergence, while `historical-online-chunked` was 161 commits ahead of main. PR #6 changed documentation only and therefore did not alter that analytical split.
 
 ## Work demonstrably completed on the research branch
 
@@ -35,11 +35,11 @@ See [research handoff](handoffs/historical-field-prediction.md) for sources, sco
 
 **Verified latest research activity:** building the current archetype forecast, then converting deck shares to a mobile comparison table; last authored correction `ec73038`, deploy trigger `aa3e063`, generated output `67310cb`. Backfill itself is complete.
 
-**Verified current operational action:** documentation consolidation only. PR #6 was re-checked on 15 September against current main and `historical-online-chunked`; its intended merge does not authorise merging research PR #5 or beginning a new experiment.
+**Verified operational state:** documentation PR #6 merged to main at `047d288` on 15 September after confirming its five changed files were Markdown documentation only. Research PR #5 was not merged and no new analysis was started.
 
-**Exact next research action after documentation consolidation:** none is authorised. Stop after the documentation merge. A future research session must first recover or obtain the owner's next explicit analytical question before changing models, collecting more data or extending the website.
+**Exact next research action:** none is authorised. A future research session must first recover or obtain the owner's next explicit analytical question before changing models, collecting more data, resolving #5 for merge, or extending the website.
 
-**Unknown:** precise next analytical question after the mobile table, owner acceptance of the fitted rule, named upcoming target tournament, and intended merge timing for #5. Online recency/half-life and transition investigations remain supported research possibilities, not an authorised next experiment or app roadmap.
+**Unknown:** precise next analytical question after the mobile table, owner acceptance of the fitted rule, named upcoming target tournament, and intended merge timing/strategy for #5. Online recency/half-life and transition investigations remain supported research possibilities, not an authorised next experiment or app roadmap.
 
 ## Risks and authority
 
