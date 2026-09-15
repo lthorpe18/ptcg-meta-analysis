@@ -1,0 +1,44 @@
+name: Run IRL performance Phase 2
+
+on:
+  push:
+    branches:
+      - research/irl-performance-signal
+    paths:
+      - "scripts/analyse_irl_performance_to_next_share.py"
+      - ".github/workflows/run-irl-performance-phase2.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "irl-performance-phase2-research"
+  cancel-in-progress: true
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scoped research branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/irl-performance-signal
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Analyse prior IRL performance against next IRL share
+        run: python scripts/analyse_irl_performance_to_next_share.py
+
+      - name: Commit generated Phase 2 outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/irl-performance/phase2-summary.json data/processed/irl-performance/phase2-pairs.csv results/irl-performance/PHASE2.md
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: record IRL performance next-share results"
+            git push origin HEAD:research/irl-performance-signal
+          fi
