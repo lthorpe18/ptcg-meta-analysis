@@ -1,0 +1,31 @@
+name: Run forecast score distribution diagnostic
+on:
+  push:
+    branches: [research/concentration-corrected-blend]
+    paths:
+      - 'scripts/analyse_forecast_score_distribution.py'
+      - '.github/workflows/run-forecast-score-distribution.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/concentration-corrected-blend
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run score distribution diagnostic
+        run: python scripts/analyse_forecast_score_distribution.py
+      - name: Commit generated outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/concentration-corrected-blend/score-distribution.json results/concentration-corrected-blend/SCORE_DISTRIBUTION.md
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: record forecast score distribution"
+            git push origin HEAD:research/concentration-corrected-blend
+          fi
