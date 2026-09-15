@@ -9,6 +9,7 @@ on:
       - "scripts/analyse_requested_weight_grid.py"
       - "scripts/analyse_flat_and_online_recency.py"
       - "scripts/analyse_latest_online_snapshot.py"
+      - "scripts/analyse_snapshot_matched_sensitivity.py"
       - ".github/workflows/run-last-year-weighting.yml"
   workflow_dispatch:
 
@@ -44,6 +45,9 @@ jobs:
 
       - name: Run latest Online snapshot analysis
         run: python scripts/analyse_latest_online_snapshot.py
+
+      - name: Run matched snapshot sensitivity
+        run: python scripts/analyse_snapshot_matched_sensitivity.py
 
       - name: Commit generated research outputs
         run: |
