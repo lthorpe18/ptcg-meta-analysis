@@ -1,0 +1,163 @@
+{
+  "fixed_holdout": {
+    "best_target": {
+      "accuracy": 84.65853533461782,
+      "format": "TEF-CRI",
+      "improvement_pp": 2.6715925142508894,
+      "pair_id": "C053->C054",
+      "persistence_accuracy": 81.98694282036693,
+      "target_start_date": "2026-06-12",
+      "validation": "fixed_holdout"
+    },
+    "by_format": {
+      "SVI-ASC": {
+        "losses": 2,
+        "mean_improvement_pp": -0.36376393870275336,
+        "median_improvement_pp": -0.17909442005728238,
+        "pair_count": 4,
+        "wins": 2
+      },
+      "SVI-PFL": {
+        "losses": 1,
+        "mean_improvement_pp": -0.025443447926448926,
+        "median_improvement_pp": -0.025443447926448926,
+        "pair_count": 2,
+        "wins": 1
+      },
+      "TEF-CRI": {
+        "losses": 0,
+        "mean_improvement_pp": 2.6715925142508894,
+        "median_improvement_pp": 2.6715925142508894,
+        "pair_count": 1,
+        "wins": 1
+      },
+      "TEF-POR": {
+        "losses": 2,
+        "mean_improvement_pp": 0.027773048209184026,
+        "median_improvement_pp": 0.08190135277119737,
+        "pair_count": 4,
+        "wins": 2
+      }
+    },
+    "format_cluster_bootstrap": {
+      "ci95_mean_improvement_pp": [
+        -0.265879691974769,
+        1.1608385336556293
+      ],
+      "format_count": 4,
+      "iterations": 5000,
+      "median_mean_improvement_pp": 0.1160674596748831
+    },
+    "leave_one_target_out_mean_range_pp": [
+      -0.13948504578271753,
+      0.2542524413035906
+    ],
+    "losses": 5,
+    "mean_improvement_pp": 0.1160674596748831,
+    "mean_without_best_target_pp": -0.13948504578271753,
+    "mean_without_worst_target_pp": 0.2542524413035906,
+    "median_improvement_pp": 0.03318797207802504,
+    "pair_count": 11,
+    "wins": 6,
+    "worst_target": {
+      "accuracy": 83.16576013270728,
+      "format": "SVI-ASC",
+      "improvement_pp": -1.265782356612192,
+      "pair_id": "C043->C044",
+      "persistence_accuracy": 84.43154248931947,
+      "target_start_date": "2026-03-14",
+      "validation": "fixed_holdout"
+    }
+  },
+  "walk_forward": {
+    "best_target": {
+      "accuracy": 84.36525009505773,
+      "format": "TEF-CRI",
+      "improvement_pp": 2.3783072746907976,
+      "pair_id": "C053->C054",
+      "persistence_accuracy": 81.98694282036693,
+      "target_start_date": "2026-06-12",
+      "validation": "walk_forward"
+    },
+    "by_format": {
+      "SVI-ASC": {
+        "losses": 2,
+        "mean_improvement_pp": -0.31127279650934625,
+        "median_improvement_pp": -0.10503395147448202,
+        "pair_count": 4,
+        "wins": 2
+      },
+      "SVI-BLK/WHT": {
+        "losses": 0,
+        "mean_improvement_pp": 0.5562665193338105,
+        "median_improvement_pp": 0.5562665193338105,
+        "pair_count": 2,
+        "wins": 2
+      },
+      "SVI-JTG": {
+        "losses": 1,
+        "mean_improvement_pp": -0.0040355347691019006,
+        "median_improvement_pp": 0.386145447465168,
+        "pair_count": 3,
+        "wins": 2
+      },
+      "SVI-MEG": {
+        "losses": 0,
+        "mean_improvement_pp": 0.7763922177366887,
+        "median_improvement_pp": 0.8259362271631616,
+        "pair_count": 4,
+        "wins": 4
+      },
+      "SVI-PFL": {
+        "losses": 1,
+        "mean_improvement_pp": 0.17580882376076565,
+        "median_improvement_pp": 0.5847419035009835,
+        "pair_count": 3,
+        "wins": 2
+      },
+      "TEF-CRI": {
+        "losses": 0,
+        "mean_improvement_pp": 2.3783072746907976,
+        "median_improvement_pp": 2.3783072746907976,
+        "pair_count": 1,
+        "wins": 1
+      },
+      "TEF-POR": {
+        "losses": 2,
+        "mean_improvement_pp": 0.08750397062326698,
+        "median_improvement_pp": 0.10973113618198482,
+        "pair_count": 4,
+        "wins": 2
+      }
+    },
+    "format_cluster_bootstrap": {
+      "ci95_mean_improvement_pp": [
+        -0.0278767134476053,
+        0.7574400119576836
+      ],
+      "format_count": 7,
+      "iterations": 5000,
+      "median_mean_improvement_pp": 0.2927265630467737
+    },
+    "leave_one_target_out_mean_range_pp": [
+      0.1919173236522525,
+      0.37430929174468586
+    ],
+    "losses": 6,
+    "mean_improvement_pp": 0.29603113084456417,
+    "mean_without_best_target_pp": 0.1919173236522525,
+    "mean_without_worst_target_pp": 0.37430929174468586,
+    "median_improvement_pp": 0.386145447465168,
+    "pair_count": 21,
+    "wins": 15,
+    "worst_target": {
+      "accuracy": 83.1620104021616,
+      "format": "SVI-ASC",
+      "improvement_pp": -1.2695320871578701,
+      "pair_id": "C043->C044",
+      "persistence_accuracy": 84.43154248931947,
+      "target_start_date": "2026-03-14",
+      "validation": "walk_forward"
+    }
+  }
+}
