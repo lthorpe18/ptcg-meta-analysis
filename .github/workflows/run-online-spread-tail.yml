@@ -1,0 +1,44 @@
+name: Run Online spread tail diagnostic
+
+on:
+  push:
+    branches:
+      - research/online-spread-tail
+    paths:
+      - "scripts/analyse_online_spread_tail.py"
+      - ".github/workflows/run-online-spread-tail.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "online-spread-tail-research"
+  cancel-in-progress: true
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scoped research branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/online-spread-tail
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Online spread tail diagnostic
+        run: python scripts/analyse_online_spread_tail.py
+
+      - name: Commit generated research outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/online-spread-tail results/online-spread-tail
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: record Online spread tail results"
+            git push origin HEAD:research/online-spread-tail
+          fi
