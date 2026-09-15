@@ -1,10 +1,12 @@
 # Historical field prediction and research website
 
-Audit: 14 September 2026. Repository: `lthorpe18/ptcg-meta-analysis`. Substantial active workstream: historical evidence → model comparison → current field-share illustration.
+Audit: 14 September 2026; documentation state re-verified 15 September 2026. Repository: `lthorpe18/ptcg-meta-analysis`. Substantial research workstream: historical evidence → model comparison → current field-share illustration.
 
 ## Recovery instructions and scope
 
-Read [CURRENT_STATE](../CURRENT_STATE.md), then inspect [PR #5](https://github.com/lthorpe18/ptcg-meta-analysis/pull/5) / `historical-online-chunked` at `67310cbab568a2632cec96cedfce1b8118d25d3c`. Main baseline is `74cde68ad5f8d4663e36c269e81e8692140f1c18`. All source/result links below are pinned to the audited research commit because these files mostly do **not** exist on main.
+Read [CURRENT_STATE](../CURRENT_STATE.md), then inspect [PR #5](https://github.com/lthorpe18/ptcg-meta-analysis/pull/5) / `historical-online-chunked` at `67310cbab568a2632cec96cedfce1b8118d25d3c`. The main **research implementation** baseline before documentation consolidation is `74cde68ad5f8d4663e36c269e81e8692140f1c18`; documentation PR #6 adds recovery/state documentation only and does not bring #5's analysis/data onto main. All source/result links below are pinned to the audited research commit because these files mostly do **not** exist in main's research implementation.
+
+**Verified 15 September state:** main's pre-documentation implementation remains `74cde68`; research PR #5 remains open at `67310cb`; the branches remain diverged by 2 main-only and 161 research-only commits. PR #6 was reviewed only to consolidate documentation. Its merge does **not** authorise merging #5 or starting new analysis.
 
 **Verified original objective:** reconstruct information available before historical IRL majors, compare candidate field predictions with actual Day-1 shares, investigate interpretable weights and chronological validation. No production app formula is changed here. **Verified implemented scope** is substantially beyond the still-open “backfill” PR description.
 
@@ -76,8 +78,10 @@ Hazards to review before a later code change:
 
 ## Exact next step / unresolved decisions
 
-**Recommended continuation, not recovered user approval:** inspect #5's full accumulated scope and current mobile table, then ask which research question should follow. Decide whether #5 should merge as one accumulated change or be reviewed in parts, and designate one future dashboard-generation/deployment path before resuming modifications. Preserve all data and history meanwhile.
+**Verified current instruction:** complete documentation consolidation PR #6 only. Do not merge research PR #5 and do not start a new analytical experiment in this session.
 
-**Unknown:** exact next user-requested analytical question after the table; acceptance of the exploratory current formula; next named forecast tournament; whether the next experiment should be recency, transition rules, taxonomy/availability sensitivity or something else. The scaffold supports later Online recency/half-life and chronological validation, but does not establish that these were the final agreed next task.
+**Exact next research action after #6:** none is authorised. On the next research session, recover or obtain the owner's explicit next analytical question before modifying models, data collection or presentation. Review of #5's accumulated scope and deployment path may be needed operationally, but it is not itself an authorised research experiment or merge decision.
 
-This handoff is reconstructed from code, commits and generated outputs (**Verified**); risk interpretation and next-review recommendation are **Inferred**. No missing intent has been filled from the main product roadmap.
+**Unknown:** exact next user-requested analytical question after the table; acceptance of the exploratory current formula; next named forecast tournament; whether the next experiment should be recency, transition rules, taxonomy/availability sensitivity or something else; and whether/how #5 should eventually merge. The scaffold supports later Online recency/half-life and chronological validation, but does not establish that these are the final agreed next task.
+
+This handoff is reconstructed from code, commits and generated outputs (**Verified**); risk interpretation is **Inferred**. No missing intent has been filled from the main product roadmap.
