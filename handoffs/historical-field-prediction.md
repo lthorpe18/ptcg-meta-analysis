@@ -1,12 +1,12 @@
 # Historical field prediction and research website
 
-Audit: 14 September 2026; documentation state re-verified 15 September 2026. Repository: `lthorpe18/ptcg-meta-analysis`. Substantial research workstream: historical evidence → model comparison → current field-share illustration.
+Audit: 14 September 2026; documentation state re-verified and consolidated on main 15 September 2026. Repository: `lthorpe18/ptcg-meta-analysis`. Substantial research workstream: historical evidence → model comparison → current field-share illustration.
 
 ## Recovery instructions and scope
 
-Read [CURRENT_STATE](../CURRENT_STATE.md), then inspect [PR #5](https://github.com/lthorpe18/ptcg-meta-analysis/pull/5) / `historical-online-chunked` at `67310cbab568a2632cec96cedfce1b8118d25d3c`. The main **research implementation** baseline before documentation consolidation is `74cde68ad5f8d4663e36c269e81e8692140f1c18`; documentation PR #6 adds recovery/state documentation only and does not bring #5's analysis/data onto main. All source/result links below are pinned to the audited research commit because these files mostly do **not** exist in main's research implementation.
+Read [CURRENT_STATE](../CURRENT_STATE.md), then inspect [PR #5](https://github.com/lthorpe18/ptcg-meta-analysis/pull/5) / `historical-online-chunked` at `67310cbab568a2632cec96cedfce1b8118d25d3c`. The main **research implementation** baseline before documentation consolidation is `74cde68ad5f8d4663e36c269e81e8692140f1c18`; documentation PR #6 merged at `047d288a420bff3efe75457a0c77bf8bcb0f4892` and added recovery/state documentation only. It did not bring #5's analysis/data onto main. All source/result links below are pinned to the audited research commit because these files mostly do **not** exist in main's research implementation.
 
-**Verified 15 September state:** main's pre-documentation implementation remains `74cde68`; research PR #5 remains open at `67310cb`; the branches remain diverged by 2 main-only and 161 research-only commits. PR #6 was reviewed only to consolidate documentation. Its merge does **not** authorise merging #5 or starting new analysis.
+**Verified 15 September state:** PR #6 changed exactly five Markdown documentation files and merged successfully. Research PR #5 remains open and unmerged at `67310cb`; GitHub reports it non-mergeable against current main after the documentation merge. No research merge or new analytical work was authorised.
 
 **Verified original objective:** reconstruct information available before historical IRL majors, compare candidate field predictions with actual Day-1 shares, investigate interpretable weights and chronological validation. No production app formula is changed here. **Verified implemented scope** is substantially beyond the still-open “backfill” PR description.
 
@@ -78,9 +78,9 @@ Hazards to review before a later code change:
 
 ## Exact next step / unresolved decisions
 
-**Verified current instruction:** complete documentation consolidation PR #6 only. Do not merge research PR #5 and do not start a new analytical experiment in this session.
+**Verified completed operational action:** documentation consolidation PR #6 was reviewed against current main and `historical-online-chunked`, updated for stale state references, verified as documentation-only, and merged at `047d288`. Research PR #5 was not merged and no analysis was started.
 
-**Exact next research action after #6:** none is authorised. On the next research session, recover or obtain the owner's explicit next analytical question before modifying models, data collection or presentation. Review of #5's accumulated scope and deployment path may be needed operationally, but it is not itself an authorised research experiment or merge decision.
+**Exact next research action:** none is authorised. On the next research session, recover or obtain the owner's explicit next analytical question before modifying models, data collection or presentation. Resolving #5's new merge conflict/non-mergeable state is a separate operational task requiring explicit instruction; it is not authorised by this handoff update.
 
 **Unknown:** exact next user-requested analytical question after the table; acceptance of the exploratory current formula; next named forecast tournament; whether the next experiment should be recency, transition rules, taxonomy/availability sensitivity or something else; and whether/how #5 should eventually merge. The scaffold supports later Online recency/half-life and chronological validation, but does not establish that these are the final agreed next task.
 
