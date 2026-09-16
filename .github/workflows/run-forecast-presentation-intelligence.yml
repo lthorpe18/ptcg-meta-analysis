@@ -1,0 +1,34 @@
+name: Run forecast presentation intelligence analysis
+
+on:
+  push:
+    branches: [research/forecast-presentation-intelligence]
+    paths:
+      - 'scripts/analyse_forecast_presentation_intelligence.py'
+      - '.github/workflows/run-forecast-presentation-intelligence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/forecast-presentation-intelligence
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run presentation intelligence analysis
+        run: python scripts/analyse_forecast_presentation_intelligence.py
+      - name: Commit generated outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/forecast-presentation-intelligence/summary.json results/forecast-presentation-intelligence/README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: record forecast presentation intelligence"
+            git push origin HEAD:research/forecast-presentation-intelligence
+          fi
