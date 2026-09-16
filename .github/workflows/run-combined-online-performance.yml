@@ -1,0 +1,34 @@
+name: Run combined Online performance analysis
+
+on:
+  push:
+    branches: [research/combined-online-performance]
+    paths:
+      - 'scripts/analyse_combined_online_performance.py'
+      - '.github/workflows/run-combined-online-performance.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/combined-online-performance
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run combined analysis
+        run: python scripts/analyse_combined_online_performance.py
+      - name: Commit generated outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/combined-online-performance/summary.json results/combined-online-performance/README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: record combined Online performance results"
+            git push origin HEAD:research/combined-online-performance
+          fi
