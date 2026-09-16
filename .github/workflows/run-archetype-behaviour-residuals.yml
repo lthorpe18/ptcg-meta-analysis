@@ -1,0 +1,34 @@
+name: Run archetype behaviour residual analysis
+
+on:
+  push:
+    branches: [research/archetype-behaviour-residuals]
+    paths:
+      - 'scripts/analyse_archetype_behaviour_residuals.py'
+      - '.github/workflows/run-archetype-behaviour-residuals.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/archetype-behaviour-residuals
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run analysis
+        run: python scripts/analyse_archetype_behaviour_residuals.py
+      - name: Commit generated outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/archetype-behaviour-residuals results/archetype-behaviour-residuals
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: record archetype behaviour residual results"
+            git push origin HEAD:research/archetype-behaviour-residuals
+          fi
