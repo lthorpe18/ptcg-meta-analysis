@@ -32,3 +32,4 @@ jobs:
             git commit -m "analysis: record archetype responsiveness results"
             git push origin HEAD:research/archetype-behaviour-residuals
           fi
+# trigger: 2026-09-16
