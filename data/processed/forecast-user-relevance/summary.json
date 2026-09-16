@@ -1,0 +1,136 @@
+{
+  "question": "How accurate is the current combined chronological forecast for the individual decks users actually care about?",
+  "model": "PR15 combined forecast; expanding chronological replay with >=10 prior matched cohorts; no retuning in this diagnostic.",
+  "sample": {
+    "events": 18,
+    "independent_cohorts": 13,
+    "deck_event_rows": 1820
+  },
+  "predicted_share_bands": [
+    {
+      "band": "10%+",
+      "observations": 40,
+      "cohorts_with_band": 12,
+      "mean_predicted_pct": 12.666974263926548,
+      "mean_actual_pct": 12.006255319773626,
+      "cohort_weighted_mae_pp": 2.3927377108277956,
+      "cohort_weighted_bias_pp": 0.20878761810265845,
+      "cohort_weighted_within_1pp": 0.2546296296296296,
+      "cohort_weighted_within_2pp": 0.5162037037037037,
+      "pooled_abs_error_p50_pp": 1.836107287472804,
+      "pooled_abs_error_p80_pp": 3.1709070175005083,
+      "pooled_abs_error_p90_pp": 4.977782134162805
+    },
+    {
+      "band": "5-10%",
+      "observations": 81,
+      "cohorts_with_band": 13,
+      "mean_predicted_pct": 6.791311109723537,
+      "mean_actual_pct": 6.839881163117271,
+      "cohort_weighted_mae_pp": 1.3812989008352217,
+      "cohort_weighted_bias_pp": -0.0482145458584452,
+      "cohort_weighted_within_1pp": 0.5006410256410256,
+      "cohort_weighted_within_2pp": 0.7203296703296703,
+      "pooled_abs_error_p50_pp": 0.9619897429858835,
+      "pooled_abs_error_p80_pp": 2.1133839746931855,
+      "pooled_abs_error_p90_pp": 2.804144059373356
+    },
+    {
+      "band": "2-5%",
+      "observations": 95,
+      "cohorts_with_band": 13,
+      "mean_predicted_pct": 3.4530555948889656,
+      "mean_actual_pct": 3.3883889874546655,
+      "cohort_weighted_mae_pp": 1.1657118365510162,
+      "cohort_weighted_bias_pp": 0.08985637301863882,
+      "cohort_weighted_within_1pp": 0.553957153957154,
+      "cohort_weighted_within_2pp": 0.8424603174603175,
+      "pooled_abs_error_p50_pp": 0.9251340433044506,
+      "pooled_abs_error_p80_pp": 1.8131330237373853,
+      "pooled_abs_error_p90_pp": 2.3579461432762807
+    },
+    {
+      "band": "1-2%",
+      "observations": 125,
+      "cohorts_with_band": 13,
+      "mean_predicted_pct": 1.399766826698374,
+      "mean_actual_pct": 1.5693007277553006,
+      "cohort_weighted_mae_pp": 0.6267278337729401,
+      "cohort_weighted_bias_pp": -0.25664259015498153,
+      "cohort_weighted_within_1pp": 0.8779248529248529,
+      "cohort_weighted_within_2pp": 0.9560439560439561,
+      "pooled_abs_error_p50_pp": 0.41114802853112886,
+      "pooled_abs_error_p80_pp": 0.848052973544146,
+      "pooled_abs_error_p90_pp": 1.146394983856098
+    },
+    {
+      "band": "<1%",
+      "observations": 1479,
+      "cohorts_with_band": 13,
+      "mean_predicted_pct": 0.16241629121269985,
+      "mean_actual_pct": 0.1674508912907033,
+      "cohort_weighted_mae_pp": 0.11061504275560075,
+      "cohort_weighted_bias_pp": -0.00018718433533705285,
+      "cohort_weighted_within_1pp": 0.9933999619933934,
+      "cohort_weighted_within_2pp": 0.9977935345430797,
+      "pooled_abs_error_p50_pp": 0.05464622926826787,
+      "pooled_abs_error_p80_pp": 0.15424438420132008,
+      "pooled_abs_error_p90_pp": 0.25629262028832833
+    }
+  ],
+  "top_n": {
+    "top5": {
+      "n": 5,
+      "events": 18,
+      "cohorts": 13,
+      "mean_identity_overlap": 0.8769230769230769,
+      "mean_actual_field_share_captured_pct": 48.68841061592964,
+      "mean_predicted_topn_mass_pct": 48.71811731874735,
+      "mean_actual_own_topn_mass_pct": 49.85034284060889,
+      "mean_same_keys_mass_bias_pp": 0.0297067028177077
+    },
+    "top10": {
+      "n": 10,
+      "events": 18,
+      "cohorts": 13,
+      "mean_identity_overlap": 0.885897435897436,
+      "mean_actual_field_share_captured_pct": 69.09113114851722,
+      "mean_predicted_topn_mass_pct": 70.97844197138117,
+      "mean_actual_own_topn_mass_pct": 71.75779460348362,
+      "mean_same_keys_mass_bias_pp": 1.8873108228639532
+    }
+  },
+  "threshold_detection": [
+    {
+      "threshold_pct": 1.0,
+      "cohorts": 13,
+      "mean_precision": 0.9022159821702155,
+      "mean_recall": 0.8971316223722335,
+      "mean_predicted_count": 19.307692307692307,
+      "mean_actual_count": 19.333333333333336,
+      "mean_false_positives": 1.987179487179487,
+      "mean_missed": 2.0128205128205128
+    },
+    {
+      "threshold_pct": 2.0,
+      "cohorts": 13,
+      "mean_precision": 0.9021472117625964,
+      "mean_recall": 0.8720951057489519,
+      "mean_predicted_count": 12.23076923076923,
+      "mean_actual_count": 12.666666666666666,
+      "mean_false_positives": 1.2564102564102564,
+      "mean_missed": 1.6923076923076923
+    },
+    {
+      "threshold_pct": 5.0,
+      "cohorts": 13,
+      "mean_precision": 0.8472527472527472,
+      "mean_recall": 0.8607600732600733,
+      "mean_predicted_count": 6.461538461538462,
+      "mean_actual_count": 6.371794871794871,
+      "mean_false_positives": 1.0897435897435896,
+      "mean_missed": 1.0
+    }
+  ],
+  "interpretation_boundary": "Bands use predicted share, so grouping is available before the event. Pooled p50/p80/p90 errors are descriptive across correlated deck-event observations; cohort-weighted MAE/coverage are the primary summaries. This analysis does not select model parameters."
+}
