@@ -1,0 +1,91 @@
+{
+  "question": "How should the validated next-IRL forecast be presented so users see the estimate, anchor, movement evidence, performance explanation and realistic uncertainty?",
+  "model": "PR15 combined model primary expanding chronological replay; no retuning.",
+  "sample": {
+    "events": 18,
+    "cohorts": 13,
+    "deck_event_rows": 1820
+  },
+  "uncertainty_by_predicted_share": [
+    {
+      "band": "10%+",
+      "observations": 40,
+      "cohorts": 12,
+      "mae_pp": 2.3927377108277956,
+      "p50_abs_error_pp": 1.836107287472804,
+      "p80_abs_error_pp": 3.1709070175005083,
+      "p90_abs_error_pp": 4.977782134162805
+    },
+    {
+      "band": "5-10%",
+      "observations": 81,
+      "cohorts": 13,
+      "mae_pp": 1.3812989008352217,
+      "p50_abs_error_pp": 0.9619897429858835,
+      "p80_abs_error_pp": 2.1133839746931855,
+      "p90_abs_error_pp": 2.804144059373356
+    },
+    {
+      "band": "2-5%",
+      "observations": 95,
+      "cohorts": 13,
+      "mae_pp": 1.1657118365510162,
+      "p50_abs_error_pp": 0.9251340433044506,
+      "p80_abs_error_pp": 1.8131330237373853,
+      "p90_abs_error_pp": 2.3579461432762807
+    },
+    {
+      "band": "1-2%",
+      "observations": 125,
+      "cohorts": 13,
+      "mae_pp": 0.6267278337729401,
+      "p50_abs_error_pp": 0.41114802853112886,
+      "p80_abs_error_pp": 0.848052973544146,
+      "p90_abs_error_pp": 1.146394983856098
+    }
+  ],
+  "explanation_diagnostic": {
+    "relevant_observations": 382,
+    "material_performance_threshold_pp": 0.25,
+    "material_performance_share": 0.387434554973822,
+    "material_performance_abs_delta_median_pp": 0.453499515588045,
+    "signal_agreement": {
+      "observations": 72,
+      "cohorts": 13,
+      "mae_pp": 1.0086928863767288,
+      "movement_direction_correct": 0.8884615384615385
+    },
+    "signal_disagreement": {
+      "observations": 75,
+      "cohorts": 13,
+      "mae_pp": 1.5417200354674943,
+      "movement_direction_correct": 0.584375
+    },
+    "performance_adjustment_abs_p50_pp": 0.14584969129988423,
+    "performance_adjustment_abs_p80_pp": 0.43872328375907915,
+    "online_movement_abs_p50_pp": 1.1726172193395532,
+    "online_movement_abs_p80_pp": 2.656068933259686
+  },
+  "movement_diagnostic": [
+    {
+      "forecast_move_threshold_pp": 0.5,
+      "observations": 148,
+      "cohorts": 13,
+      "direction_correct": 0.8192409442409443,
+      "forecast_beats_last_irl": 0.7458333333333333,
+      "mean_abs_forecast_move_pp": 1.0477527691917465,
+      "mean_abs_actual_move_pp": 2.0526073874806006
+    },
+    {
+      "forecast_move_threshold_pp": 1.0,
+      "observations": 53,
+      "cohorts": 13,
+      "direction_correct": 0.9076923076923078,
+      "forecast_beats_last_irl": 0.8115384615384615,
+      "mean_abs_forecast_move_pp": 1.649786781760171,
+      "mean_abs_actual_move_pp": 2.9214935809280913
+    }
+  ],
+  "prior_archetype_volatility_evidence": "PR14 independently found prior residual SD predicts next absolute error (r=0.236; low-volatility 0.68pp vs high-volatility 1.28pp). Not recomputed here because PR14 is a sibling research branch.",
+  "boundary": "Empirical P80/P90 values are historical replay error ranges, not formal probabilistic confidence intervals. Signal explanation diagnostics are descriptive and do not tune the forecast."
+}
